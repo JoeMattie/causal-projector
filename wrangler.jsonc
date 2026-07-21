@@ -18,6 +18,10 @@
 {
   "name": "causal-projector",
   "compatibility_date": "2026-06-01",
+
+  // Custom domain. Cloudflare must already be authoritative for this
+  // zone; the workers.dev address keeps working alongside it.
+  "routes": [{ "pattern": "causal-projector.joemattie.com", "custom_domain": true }],
   "assets": {
     "directory": "./_site"
   }
