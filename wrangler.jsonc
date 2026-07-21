@@ -17,11 +17,71 @@
 // stale one quietly replaces your live book with an older version.
 {
   "name": "causal-projector",
+
+  // Same-origin by design (ADR-0019): this one Worker serves the built
+  // site AND the collaboration API at /v1/*, so there is no CORS, no
+  // cookie relaxation, and no second URL. A request that matches a built
+  // asset never reaches the API code, so an API fault cannot take your
+  // prose offline.
+  //
+  // Nothing here is compiled from source (ADR-0022): `main` names a
+  // prebuilt Worker inside node_modules, and `migrations_dir` names the
+  // SQL that shipped with that same version — so your database schema and
+  // your Worker code can never be different releases.
+  "main": "node_modules/@authorbot/api/dist/worker.js",
+  "compatibility_flags": ["nodejs_compat"],
+  // Logs, so a failure can be read instead of guessed at. The wizard's
+  // own error text tells authors to check the Worker's logs in the
+  // Cloudflare dashboard, and without this there are none to check.
+  "observability": { "enabled": true },
+  // @authorbot/database also re-exports a native SQLite adapter used by
+  // the toolchain's own tests. The Worker never calls it — it uses the D1
+  // binding — so it is aliased to a stub that throws, keeping a native
+  // module out of the bundle.
+  "alias": {
+    "better-sqlite3": "./node_modules/@authorbot/api/dist/stubs/better-sqlite3.js"
+  },
   "compatibility_date": "2026-06-01",
 
   // Custom domain. Cloudflare must already be authoritative for this
   // zone; the workers.dev address keeps working alongside it.
   "routes": [{ "pattern": "causal-projector.joemattie.com", "custom_domain": true }],
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "causal-projector-authorbot",
+      "database_id": "c54b9f5f-ed74-44ac-bde0-6a1a5d007217",
+      "migrations_dir": "node_modules/@authorbot/api/migrations"
+    }
+  ],
+  // The coordinator is the single writer for anything that touches Git:
+  // one commit per logical change, no races between concurrent requests.
+  "durable_objects": {
+    "bindings": [{ "name": "COORDINATOR", "class_name": "ProjectCoordinator" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["ProjectCoordinator"] }],
+  // Drains the outbox and sweeps expired leases once a minute.
+  "triggers": { "crons": ["* * * * *"] },
+  "vars": {
+    "AUTH_MODE": "github",
+    "MIRROR_MODE": "durable",
+    // Mirrors publication.show_public_annotations in book.yml. Without
+    // it the API refuses anonymous reads and the site's collaboration
+    // chrome never loads, sign-in included.
+    "PUBLIC_ANNOTATIONS": "true",
+    "PROJECT_SLUG": "causal-projector",
+    "PROJECT_REPO": "JoeMattie/causal-projector",
+    "INITIAL_MAINTAINER": "github:JoeMattie",
+    "DEFAULT_BRANCH": "main",
+    // The client id is public; the client secret, the private key, the
+    // webhook secret, and SESSION_SECRET are set with `wrangler secret put`
+    // and never appear in this file.
+    "GITHUB_CLIENT_ID": "Iv23ligwhOSM3DZgvQi7",
+    "GITHUB_REDIRECT_URI": "https://causal-projector.joemattie.com/v1/auth/github/callback",
+    "GITHUB_INSTALLATION_ID": "148131693",
+    "GITHUB_APP_ID": "4359899"
+  },
   "assets": {
     "directory": "./_site"
   }

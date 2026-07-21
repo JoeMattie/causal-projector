@@ -30,5 +30,7 @@ publication:
   show_revision: true
   show_attribution: true
   show_public_annotations: true
+  api_url: /
+
 # Secrets, GitHub App installation IDs, agent tokens, webhook secrets, and
 # deployment credentials never belong in this file.
