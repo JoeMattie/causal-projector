@@ -1,0 +1,99 @@
+# Authorbot validation workflow (design §17.1).
+#
+# Runs on pull requests and pushes that touch book content or collaboration
+# records and fails on any validation error. Annotation traffic runs
+# validation only — it never rebuilds the book (design §7.4); publication is
+# publish.yml's job.
+#
+# What validation covers:
+#   - book.yml and all frontmatter schemas
+#   - unique chapter IDs, slugs, order values, and chapter routes
+#   - block ID presence, uniqueness, and UUIDv7 format
+#   - annotation selectors and cross-references (story graph, timeline,
+#     characters, work items, decisions, releases, attribution)
+#   - raw HTML and unsafe URL schemes in prose
+#   - work-item original-text delimiter integrity
+#
+# After validating, the site is built to a throwaway directory (design
+# §17.1: the validation workflow also builds the site) so a change that
+# validates but cannot build — or would emit colliding routes — fails here,
+# on the pull request, instead of on main after merge. Nothing is deployed;
+# link and accessibility checks over real output run in the Authorbot
+# toolchain's own e2e suite.
+#
+# Nothing is deployed from here under any circumstance. Deployment is
+# publish.yml's job, and its only target is Cloudflare (ADR-0020).
+#
+# NO CLONE, NO COMPILE (ADR-0022). Like publish.yml, this installs the
+# published `@authorbot/cli` package from package-lock.json and runs its
+# binary. Because both workflows install from that same lockfile, the
+# toolchain that validates a pull request is by construction the toolchain
+# that will publish it — they cannot drift, and there is no AUTHORBOT_REF
+# repository variable to keep in sync any more.
+#
+# If the book is served under a base path, the AUTHORBOT_BASE_URL repository
+# variable is read here too, so the smoke build exercises the same prefixing
+# publish.yml will apply (ADR-0019 §6).
+
+name: validate
+
+on:
+  # Manual re-run (e.g. after a GitHub Actions incident).
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "book.yml"
+      - "chapters/**"
+      - "story/**"
+      - ".authorbot/**"
+      - "package.json"
+      - "package-lock.json"
+  pull_request:
+    paths:
+      - "book.yml"
+      - "chapters/**"
+      - "story/**"
+      - ".authorbot/**"
+      - "package.json"
+      - "package-lock.json"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the book repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install the pinned Authorbot toolchain
+        run: |
+          if [ ! -f package-lock.json ]; then
+            echo "::error::package-lock.json is missing. Run 'npm install' locally and commit the lockfile — it is what pins your toolchain version."
+            exit 1
+          fi
+          npm ci --no-audit --no-fund
+
+      - name: Validate the book repository
+        run: npx authorbot validate .
+
+      # Build smoke test (design §17.1): catches anything that validates but
+      # cannot publish before it lands on main. Nothing is deployed. The
+      # --base-url handling mirrors publish.yml exactly so the two builds
+      # cannot disagree.
+      - name: Build the site (dry run)
+        env:
+          BASE_URL: ${{ vars.AUTHORBOT_BASE_URL }}
+        run: |
+          if [ -n "$BASE_URL" ]; then
+            npx authorbot build . --out "$RUNNER_TEMP/site" --base-url "$BASE_URL"
+          else
+            npx authorbot build . --out "$RUNNER_TEMP/site"
+          fi

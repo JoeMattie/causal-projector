@@ -1,0 +1,19 @@
+{
+  "name": "causal-projector",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An Authorbot book. This file exists only to pin the toolchain; the book itself is the Markdown and YAML around it.",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "authorbot validate .",
+    "build": "authorbot build . --out _site",
+    "upgrade": "authorbot upgrade"
+  },
+  "devDependencies": {
+    "@authorbot/cli": "0.1.22",
+    "wrangler": "^4.0.0"
+  }
+}
