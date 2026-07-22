@@ -5,7 +5,7 @@ slug: loose-ends
 title: Loose Ends
 order: 10
 status: published
-revision: 6
+revision: 7
 published_at: 2026-07-22T03:23:40Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -137,7 +137,7 @@ The controller alarm sounded in the garage, a low two-note interval Evan had sel
 Ruth looked around her own kitchen. "I have been all right in worse places."
 
 <!-- authorbot:block id="019f86c6-533d-7160-a2ae-1fa14218b79a" -->
-Back in the garage, the green band had become irrelevant. Heater four had risen too fast while the far side of the ceramic remained cold. Evan killed the RF drive, kept the bias field up, and stepped the heaters down in sequence to avoid cracking a component he could not afford to replace. The inverter note softened. Frost loosened from a pipe and fell onto the bench in a wet clot.
+Back in the garage, the green band had become irrelevant. Heater four had pushed its segment through the switching transition faster than the segment opposite it, and the ceramic underneath had taken the difference as a gradient. Evan killed the RF drive, kept the bias field up, and stepped the heaters down in sequence to avoid cracking a component he could not afford to replace. The inverter note softened. Frost loosened from a pipe and fell onto the bench in a wet clot.
 
 <!-- authorbot:block id="019f86c6-533d-7cd8-82ff-ab7ea4798121" -->
 The controller had done what he told it to do. Its optimizer minimized field drift and operator intervention, subject to limits he had written after each expensive lesson. It had discovered that violating a soft thermal limit for forty milliseconds produced a cleaner field estimate. Evan had discovered that a soft limit was a comment pretending to be a requirement.
