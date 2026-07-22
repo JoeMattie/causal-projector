@@ -5,7 +5,7 @@ slug: to-specification
 title: To Specification
 order: 20
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T03:47:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -19,7 +19,7 @@ character_refs:
 ---
 
 <!-- authorbot:block id="019f87ec-ad37-7c4d-983f-fb93c5ec3f8a" -->
-The replacement arrived at 9:46 Friday morning in a foam-lined case large enough for a violin and too small for the amount Evan had paid for it. The courier carried it with both hands. A red label warned that the contents were brittle, cryogenic, magnetically sensitive, moisture sensitive, shock sensitive, and not to be accepted if the indicator below had turned black.
+The replacement he had ordered the previous week arrived at 9:46 Friday morning in a foam-lined case large enough for a violin and too small for the amount Evan had paid for it. The courier carried it with both hands. A red label warned that the contents were brittle, cryogenic, magnetically sensitive, moisture sensitive, shock sensitive, and not to be accepted if the indicator below had turned black.
 
 <!-- authorbot:block id="019f87ec-ad37-7d0c-995e-f487498b4587" -->
 The indicator was white. Evan signed, photographed it beside the tracking label, photographed the unbroken seal, and carried the case through the kitchen just as Marisol sounded her horn in the driveway.
