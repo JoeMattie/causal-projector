@@ -4,8 +4,9 @@ id: 019f87f8-8b1b-71ae-9a45-8a28de5001e7
 slug: phase-portrait
 title: Phase Portrait
 order: 100
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T04:02:21Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Masked and blinded, Evan reports a nested figure that tracks the phase steps the hardware acts on and ignores the ones written to a shadow register.
