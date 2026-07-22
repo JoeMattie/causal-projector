@@ -5,10 +5,11 @@ slug: common-mode
 title: Common Mode
 order: 30
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T03:49:10Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: Five separately grounded instruments collapse onto one shared noise direction, and a sixteen-bit timer wrap explains the field gain but not the agreement.
 timeline_refs:
   - event:first-anomaly
@@ -149,6 +150,21 @@ The garage acquired four separate grounds, three battery warnings, and no intern
 
 <!-- authorbot:block id="019f87ec-fc5d-7079-a6d0-c57a9b3eb891" -->
 Common-mode interference usually had the decency to be common somewhere. A shared ground, supply, clock, field, cable route, enclosure, or algorithm gave it a place to live. Evan had now removed every common path he knew about except the garage air, the concrete slab, and himself.
+
+<!-- authorbot:block id="019f8ba7-5665-7e5e-a494-97277a2b4986" -->
+Ruth knocked on the utility-door frame with the coffee spoon. "Are they separate yet?"
+
+<!-- authorbot:block id="019f8ba7-5665-7138-a45c-7d5766be27d8" -->
+"As separate as I can make them."
+
+<!-- authorbot:block id="019f8ba7-5665-7035-b7f7-a3062e12ea04" -->
+She looked at the instruments distributed across the floor. "Then why are they all in the same room?"
+
+<!-- authorbot:block id="019f8ba7-5665-778c-a394-f6743a9f12fc" -->
+"Moving the garage is the next test."
+
+<!-- authorbot:block id="019f8ba7-5665-7fa1-92ed-03edf4e62642" -->
+"Finish your coffee before you try." She set the mug outside the tape and went back inside.
 
 <!-- authorbot:block id="019f87ec-fc5d-77e2-bd07-2488446e7b02" -->
 He restored OLD-7's Friday configuration and began a low-power run. The five residuals wandered independently through cooldown. The first four thousand pump cycles were noisy and full-rank. At cycle 4,096 the field curve steepened, as it had in the material comparison, but the covariance remained ordinary.
