@@ -1,0 +1,19 @@
+schema: authorbot.decision/v1
+id: 019f8abd-9031-733d-95a2-76ebdbbb32b5
+source_annotation_id: 019f880d-c488-73e5-a295-d8cfb21e1f3a
+rule: maintainer_override
+rule_version: 0
+metrics:
+  abstentions: 0
+  agent_approvals: 0
+  approvals: 1
+  distinct_voters: 1
+  human_approvals: 1
+  human_maintainer_approvals: 1
+  maintainer_approvals: 1
+  net_score: 1
+  rejections: 0
+result: create_work_item
+work_item_id: 019f8abd-9031-733e-a3a4-e321db71b0fc
+effective_at: 2026-07-22T16:51:46Z
+override_reason: not just this but "repaired" should just be fixed
