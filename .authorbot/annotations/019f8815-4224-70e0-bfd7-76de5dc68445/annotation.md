@@ -6,7 +6,7 @@ scope: chapter
 chapter_id: 019f87ea-14fc-73e6-85b7-32bfdc0a0434
 chapter_revision: 3
 author: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
-status: work_item_created
+status: accepted
 created_at: 2026-07-22T04:28:42Z
 ---
 

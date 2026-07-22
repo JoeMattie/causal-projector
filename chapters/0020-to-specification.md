@@ -5,10 +5,11 @@ slug: to-specification
 title: To Specification
 order: 20
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T03:47:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: A flawless replacement ceramic meets every specification and erases the anomalous gain, leaving Evan to defend the damaged ring that works.
 timeline_refs:
   - event:material-accident
@@ -53,8 +54,8 @@ Evan checked that Ruth had her phone, the card with his number, and the midday t
 <!-- authorbot:block id="019f87ec-ad37-7a7b-9669-1326d981461b" -->
 The house became quiet in a way Evan no longer trusted. He put Ruth's coat over the chair where she had left it, moved the shipping case to the garage, and cleared a rectangle on the bench by transferring everything inside it to a second, less defensible pile.
 
-<!-- authorbot:block id="019f87ec-ad37-7d4c-8d7f-55d0b1cc160a" -->
-The case contained an inspection certificate, a thermal map, three magnetic characterization plots, two pairs of gloves, and a YBCO annulus wrapped in aluminized film. The new ring was the same nominal size as the old one: eighty millimeters across, twenty through the bore, twelve thick. Its faces were flat. Its edges had clean radii. A laser-marked serial number occupied the exact center of the outer circumference as if the material had grown around it.
+<!-- authorbot:block id="019f8ba5-86e6-7921-bdb5-86ce1e0f4f8d" -->
+The case contained an inspection certificate, a thermal map, three magnetic characterization plots, two pairs of gloves, and a YBCO annulus wrapped in aluminized film. The new ring matched the old one's nominal dimensions. Its faces were flat. Its edges had clean radii. A laser-marked serial number occupied the exact center of the outer circumference as if the material had grown around it.
 
 <!-- authorbot:block id="019f87ec-ad37-7f4f-b5a3-4faa58e8c617" -->
 The certificate described oxygenation uniformity, critical current density, trapped-field symmetry, and the absence of visible cracks. Each property sat inside its tolerance. The supplier had made the part Evan thought he already owned.
@@ -65,8 +66,8 @@ His original annulus had come from a surplus lot labeled EDUCATIONAL DEMONSTRATI
 <!-- authorbot:block id="019f87ec-ad37-739d-8d11-364f403697e6" -->
 OLD-7 also ran hot. Its upper thermometers crossed the superconducting transition together while the lower pair followed late and disagreed on the way down. That asymmetry caused the gradient alarm the previous night. It was the reason for the replacement, the scorched connector, and several small burns on Evan's left forearm acquired while proving that a surface was no longer cold.
 
-<!-- authorbot:block id="019f87ec-ad37-79f0-b2dd-694cf786b45a" -->
-Before opening the chamber, he finished the logging fix. He captured the command source and monotonic timestamp in the same interrupt that queued the hardware transition, then made the checkpoint task wait on an explicit acknowledgment instead of an observed state change. The tests passed ten thousand synthetic shutdowns without inventing an operator.
+<!-- authorbot:block id="019f8ba5-86e6-7dbe-9f1d-01cc6c403b2a" -->
+Before opening the chamber, he finished the logging fix. He captured the command source and timestamp in the same interrupt that queued the hardware transition, then required an explicit acknowledgment before the output dropped. Repeated synthetic shutdowns stopped inventing an operator.
 
 <!-- authorbot:block id="019f87ec-ad37-70e6-8325-694c281b24db" -->
 The impossible override from Thursday remained impossible only in the old log. Evan attached it to the issue, wrote likely pre-fix source/timestamp race, and closed the issue. A closed issue was not a solved mystery, but it stopped appearing in the list of unsolved ones.
@@ -95,44 +96,44 @@ Abort:
 <!-- authorbot:block id="019f87ec-ad37-73fc-ae0f-e886894dab2c" -->
 The final abort criterion was scientifically ugly and physically necessary. Evan was the only component in the system authorized to smell burning insulation.
 
-<!-- authorbot:block id="019f87ec-ad37-711e-8cbd-54b40a2b6c98" -->
-Removing OLD-7 took an hour. The silver epoxy had crept against the edge of the mount and formed a ridge that caught on the thermal layer. Evan warmed it, loosened the clamps in quarter turns, and lifted the annulus with both hands. The pale line on its lower face reached farther toward the bore than he remembered. He photographed it against a scale and placed it in the foam cavity intended for its replacement.
+<!-- authorbot:block id="019f8ba5-86e6-74d7-b61c-714456524850" -->
+Removing OLD-7 took most of the morning. The silver epoxy had crept against the edge of the mount and formed a ridge that caught on the thermal layer. Evan warmed it, worked the clamps loose, and lifted the annulus with both hands. The pale line on its lower face reached farther toward the bore than he remembered. He photographed it against a scale and placed it in the foam cavity intended for its replacement.
 
 <!-- authorbot:block id="019f87ec-ad37-7499-994f-4bbb492ac6be" -->
 NEW-1 dropped into the mount without persuasion. The thermally switchable magnetic segments met its lower face evenly. The copper spreader lay flat. Every lead reached its terminal without being bent into a new opinion.
 
-<!-- authorbot:block id="019f87ec-ad37-7bfb-8bb7-4cd6487de6e7" -->
-By noon the chamber was under vacuum. Evan started the nitrogen transfer and watched six temperature traces descend in formation. Channel three entered the green band with the others. The maximum gradient remained below two and a half kelvin. There were no alarms, no overrides, and no reason for him to keep one hand above the stop control.
+<!-- authorbot:block id="019f8ba5-86e6-727c-b347-942bfd83d976" -->
+By noon the chamber was under vacuum. Evan started the nitrogen transfer and watched six temperature traces descend in formation. Channel three entered the green band with the others. The maximum gradient remained comfortably below the abort limit. There were no alarms, no overrides, and no reason for him to keep one hand above the stop control.
 
-<!-- authorbot:block id="019f87ec-ad37-7fa3-a301-59fa47bc7ebf" -->
-The new part was so well behaved that he distrusted it for ten minutes, then began to enjoy himself.
+<!-- authorbot:block id="019f8ba5-86e6-7fe8-880a-0f0b649fb39e" -->
+The new part was so well behaved that he distrusted it for a while, then began to enjoy himself.
+
+<!-- authorbot:block id="019f8ba5-86e6-77af-98a8-9026a43bab2e" -->
+Before the first full run, Marisol sent a photograph of Ruth standing behind a stack of books with one hand raised against the camera. The message below it said SHE SAYS THIS IS EVIDENCE OF COERCION. Evan replied with a photograph of the clean temperature traces. Marisol sent back a question mark.
 
 <!-- authorbot:block id="019f87ec-ad37-7ef0-8c0e-ed715c8a55eb" -->
 The RF stator established its rotating field. The microheaters sent a thermal front around the annulus, each segment warming just enough to change the response of the magnetic layer beneath it. The forward half of the cycle drove vortices inward. The return half did not quite undo the work. A little persistent current remained, then a little more. No energy appeared from nowhere. The amplifiers heated the garage, the cryogen boiled, and the resistor bank waited to receive what the ceramic stored.
 
-<!-- authorbot:block id="019f87ec-ad37-7bcc-bddb-90cd70da73e6" -->
-At cycle 4,096, the field curve began to flatten.
+<!-- authorbot:block id="019f8ba5-86e6-7244-a948-fb44bef496e2" -->
+Well before the endpoint, the field curve began to flatten.
 
 <!-- authorbot:block id="019f87ec-ad37-7b86-b59b-8611f990e797" -->
 Evan checked the optimizer. It had not stalled. It was walking the heater phase exactly as it had on OLD-7, accepting small changes that reduced drift and rejecting those that increased operator intervention. The loss function improved. The field did not.
 
-<!-- authorbot:block id="019f87ec-ad37-7a1b-b35f-458f9f600eca" -->
-At cycle 16,384, NEW-1 held 53.9 millitesla above the bias field. Evan's model predicted 53.6. OLD-7's last eight completed runs averaged 71.8.
+<!-- authorbot:block id="019f8ba5-86e6-7398-b76f-11f2d60e6d00" -->
+At the endpoint, NEW-1 held 53.9 millitesla above the bias field. Evan's model predicted 53.6. OLD-7's last eight completed runs averaged 71.8.
 
 <!-- authorbot:block id="019f87ec-ad37-74c2-a3ce-b7f1ffab14fb" -->
 He recalibrated both Hall probes against the reference coil. Their disagreement was smaller than before. He integrated the pickup-coil voltage over the full pump sequence and obtained the same missing field by a second method. He measured the stator current at the amplifier and the heater power at the feedthrough. NEW-1 was not starving. It was converting the supplied cycle into precisely the amount of trapped field the ordinary model allowed.
 
-<!-- authorbot:block id="019f87ec-ad37-7b10-b588-89071da29eac" -->
-Evan ate two crackers over the keyboard and ran the test again with the optimizer disabled. The fixed waveform produced 51.2 millitesla. He enabled the optimizer with a new seed. It found 54.0. He widened the phase bounds until the thermal front nearly lost direction and obtained 54.3 at the cost of twice the heat.
+<!-- authorbot:block id="019f8ba5-86e6-7515-bafc-e91612196f9f" -->
+Evan ate two crackers over the keyboard and ran the test again with the optimizer disabled. The fixed waveform fell short by a little more. A new seed recovered the previous result. Widening the phase bounds until the thermal front nearly lost direction bought almost nothing at the cost of twice the heat.
 
 <!-- authorbot:block id="019f87ec-ad37-7caa-a6e3-24a5ca6aaf35" -->
 The supplier's ring was reproducible, symmetrical, safe, and useless to him.
 
-<!-- authorbot:block id="019f87ec-ad37-7aef-b70c-a47bd5bf0a8a" -->
-At 1:37, Marisol sent a photograph of Ruth standing behind a stack of books with one hand raised against the camera. The message below it said SHE SAYS THIS IS EVIDENCE OF COERCION. Evan replied with a photograph of the clean temperature traces. Marisol sent back a question mark.
-
-<!-- authorbot:block id="019f87ec-ad37-7f2f-acd6-23833db14266" -->
-He checked the mount dimensions against the scan he had taken before disassembly. NEW-1 sat three tenths of a millimeter higher. He shimmed the stator. The result did not change. He reversed the pickup coil, swapped the Hall channels, restored the previous controller build, and repeated the run at the same nitrogen level as Thursday. The field remained within the uncertainty band around the model.
+<!-- authorbot:block id="019f8ba5-86e6-7040-b260-f2dc41644721" -->
+He checked the mount dimensions against the scan he had taken before disassembly. NEW-1 sat slightly higher. He shimmed the stator. The result did not change. He reversed the pickup coil, swapped the Hall channels, restored the previous controller build, and repeated the run under Thursday's conditions. The field remained within the uncertainty band around the model.
 
 <!-- authorbot:block id="019f87ec-ad37-7265-9025-f31358c52770" -->
 By four, the controlled experiment had become an argument. NEW-1 continued winning it.
@@ -143,17 +144,17 @@ Evan let the chamber warm enough to open, removed the part that worked, and exam
 <!-- authorbot:block id="019f87ec-ad37-7ce4-96e7-d1f0de333bfa" -->
 A professional lab would have rejected the annulus before machining the bore. Evan had bought it because someone had.
 
-<!-- authorbot:block id="019f87ec-ad37-7461-be84-cf2dfd5e6084" -->
-He remounted OLD-7, matching the photographs to within a tenth of a millimeter. The ridge of epoxy caught again. One lower thermocouple had to be pressed into place with a strip of copper foil. The assembly looked like the before photograph in a repair manual.
+<!-- authorbot:block id="019f8ba5-86e6-7451-b872-4a8f88ef6e37" -->
+He remounted OLD-7, matching the photographs as closely as he could. The ridge of epoxy caught again. One lower thermocouple had to be pressed into place with a strip of copper foil. The assembly looked like the before photograph in a repair manual.
 
-<!-- authorbot:block id="019f87ec-ad37-7faa-8c50-43c3e695f59b" -->
-The old gradient returned during cooldown. So did the alarms. Evan acknowledged the first two and raised the abort limit from eleven kelvin to eleven point five, then wrote the change into the run notes before he could pretend he had not made it.
+<!-- authorbot:block id="019f8ba5-86e6-7bb2-8034-1faf8308a9d0" -->
+The old gradient returned during cooldown. So did the alarms. Evan acknowledged the first two and nudged the abort limit upward, then wrote the change into the run notes before he could pretend he had not made it.
 
-<!-- authorbot:block id="019f87ec-ad37-70eb-a3e1-3799589cb482" -->
-At cycle 4,096, the field curve passed NEW-1's plateau.
+<!-- authorbot:block id="019f8ba5-86e6-79cb-aa43-e67012fca4ca" -->
+Before the endpoint, the field curve passed NEW-1's plateau.
 
-<!-- authorbot:block id="019f87ec-ad37-7279-b77b-1cea92addf96" -->
-At cycle 16,384, OLD-7 held 72.1 millitesla above bias.
+<!-- authorbot:block id="019f8ba5-86e6-7c19-9cb6-beb07adfdac4" -->
+At the endpoint, OLD-7 held 72.1 millitesla above bias.
 
 <!-- authorbot:block id="019f87ec-ad37-7aa3-bc18-107f4e3bea8e" -->
 Evan sat back and listened to the vacuum pump. The result was not free energy. OLD-7 consumed more RF power, shed more heat, and lost more field after shutdown. Its energy account was untidy but solvent. What it should not have done was convert its extra loss into a larger directed increment than the coupled thermal and magnetic model permitted.
