@@ -4,8 +4,9 @@ id: 019f87fc-a6e9-7456-be34-ae7e19e11eb0
 slug: the-version-who-stopped
 title: The Version Who Stopped
 order: 120
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T04:03:28Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: The peripheral form resolves into a family of Evans who abandoned the experiment, and Evan reports a depth he no longer sees in order to keep the run alive.
