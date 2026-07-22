@@ -5,7 +5,7 @@ slug: a-valid-path
 title: A Valid Path
 order: 60
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T03:52:26Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -53,14 +53,14 @@ Ruth poured cereal into a bowl and stopped before adding milk. "Will the machine
 <!-- authorbot:block id="019f87ee-29a7-7b22-97c4-1085f1ed82c4" -->
 She added the milk. By the time she had finished breakfast, Evan knew the target could not involve the agency, his job, money, weather, illness, or another person. It had to be useless enough that success could not disguise itself as judgment.
 
-<!-- authorbot:block id="019f87ee-29a7-755c-842f-5514eef07131" -->
-In the garage he opened a storage bin labeled BEARINGS and removed a clear polycarbonate drum left over from the flywheel project. He mounted it on two rollers, added six low paddles, and fitted a trapdoor at the bottom. A geared motor rotated the drum through seven uneven turns, stopped, and released one casino die into a felt-lined tray. A camera above the tray read the upper face. The die then dropped through a return chute for the next throw.
+<!-- authorbot:block id="019f881b-dd5b-727a-afc7-9c6b05773a32" -->
+In the garage he took a clear polycarbonate drum from a bin labeled BEARINGS, mounted it on two rollers, added six low paddles, and fitted a trapdoor at the bottom. A geared motor turned the drum through seven uneven rotations and released one casino die into a felt-lined tray. A camera above the tray read the upper face. The die dropped through a return chute for the next throw.
 
-<!-- authorbot:block id="019f87ee-29a7-7419-bc8e-ed0e08d58f59" -->
-The tumbler had its own battery and controller. It sat in the garden shed with no electrical connection to the garage. An optical fiber carried settled face values in one direction. A second camera wrote every throw to local storage. Evan named it TUMBLER-1 because giving a device a descriptive name made it feel less like an accomplice.
+<!-- authorbot:block id="019f881b-dd5b-7a01-b300-b543c3fdb3ce" -->
+The tumbler ran on its own battery in the garden shed, with no electrical connection to the garage and one optical fiber carrying settled faces in a single direction. A second camera wrote every throw to local storage. Evan named it TUMBLER-1 because giving a device a descriptive name made it feel less like an accomplice.
 
-<!-- authorbot:block id="019f87ee-29a7-7701-84b4-917c41a5fb53" -->
-He ran six thousand baseline throws while he worked. Each face remained within two tenths of a percent of expectation. Transition frequencies were dull. Replacing the die changed nothing. Running the RF stator into a dummy load changed nothing. He photographed the drum, weighed both dice, sealed the controller box, and saved its firmware hash.
+<!-- authorbot:block id="019f881b-dd5b-7680-96a7-b09f8cf5657f" -->
+He ran six thousand baseline throws while he worked. Every face landed within two tenths of a percent of expectation, and nothing he did to the garage changed that. He photographed the drum, weighed both dice, sealed the controller box, and saved its firmware hash.
 
 <!-- authorbot:block id="019f87ee-29a7-72c0-99a3-7cd54ca1ff86" -->
 Ten throws gave 60,466,176 possible sequences. Evan selected one before opening the live protocol.
@@ -88,17 +88,17 @@ consumer:
 <!-- authorbot:block id="019f87ee-29a7-7bea-8a2b-333a677cf5f7" -->
 The target was not a prediction. The numbers had no pattern he valued and no consequence outside the protocol. Their only distinction was that he had written them down.
 
-<!-- authorbot:block id="019f87ee-29a7-79bc-af86-c0dac6683dce" -->
-He generated a random nonce, hashed the target file with it, and submitted the digest to a public timestamp service. The receipt established that a particular hidden document existed at 11:18. After the run, anyone could combine the revealed file and nonce, reproduce the digest, and verify that he had not chosen the sequence after seeing the die.
+<!-- authorbot:block id="019f881b-dd5b-70a9-ba9a-aba1435b0caf" -->
+He hashed the target file with a random nonce and submitted the digest to a public timestamp service. The receipt established that a particular hidden document existed at 11:18, and let anyone afterward confirm that he had not chosen the sequence after seeing the die.
 
-<!-- authorbot:block id="019f87ee-29a7-7412-a34b-28afb6092b0e" -->
-He performed the same procedure for two controls. In the first, ten prerecorded throws entered the comparator while the apparatus followed the anomalous phase walk. In the second, fresh throws arrived but the MATCH value was written to a log no task consumed. Neither control produced the target. They were not expected to. One miss said almost nothing.
+<!-- authorbot:block id="019f881b-dd5b-7e7d-b32d-1430560bf5f1" -->
+He ran two controls the same way. Prerecorded throws entered the comparator while the apparatus followed the anomalous phase walk. Fresh throws arrived with the MATCH value written to a log no task consumed. Neither produced the target, and neither was expected to. One miss said almost nothing.
 
 <!-- authorbot:block id="019f87ee-29a7-772d-892f-1e555e894364" -->
 At 2:07, Evan armed LIVE.
 
-<!-- authorbot:block id="019f87ee-29a7-7bb5-90ed-df04c4931e30" -->
-OLD-7 cooled through its uneven transition. The bias coil established the background field. The RF phases separated into quadrature, and the microheaters began moving a thermal front around the annulus. On the covariance display, five independent noise channels gradually surrendered four dimensions.
+<!-- authorbot:block id="019f881b-dd5b-7c64-bee5-ab8919ea23a8" -->
+OLD-7 cooled through its uneven transition. The RF phases separated into quadrature, and on the covariance display five independent noise channels surrendered four dimensions.
 
 <!-- authorbot:block id="019f87ee-29a7-7b00-93aa-507ceb3706e8" -->
 The controller reached the narrow phase relation at 2:43. OUTCOME-01 opened its observation gate. In the shed, the drum began to turn.
@@ -106,11 +106,14 @@ The controller reached the narrow phase relation at 2:43. OUTCOME-01 opened its 
 <!-- authorbot:block id="019f87ee-29a7-7587-bd6f-fb480cb29b43" -->
 The first throw was six.
 
-<!-- authorbot:block id="019f87ee-29a7-78a8-8203-0aadbc98eb24" -->
-Evan watched the camera image settle on four red pips and two white intervals. He had expected the first mismatch to release him. A one-in-six agreement did not require an explanation.
+<!-- authorbot:block id="019f881b-dd5b-7635-aee6-9f0f711e0f71" -->
+Evan watched the camera image settle on four red pips and two white intervals. He had expected the first mismatch to release him. A one-in-six agreement did not require an explanation, and he was already assembling the sentence in which it had meant nothing.
 
 <!-- authorbot:block id="019f87ee-29a7-7fe9-bd62-a81ec8010b54" -->
 The second throw was one.
+
+<!-- authorbot:block id="019f881b-dd5b-7edb-bfd7-e1d629ca297b" -->
+The drum took eleven seconds to reload. He had chosen seven uneven rotations to keep the tumbling from settling into a pattern, and during the baseline the interval had seemed short. It was not short now.
 
 <!-- authorbot:block id="019f87ee-29a7-70a8-a5b2-f04100b2e8e8" -->
 The third was four.
@@ -124,17 +127,26 @@ The fifth throw was five.
 <!-- authorbot:block id="019f87ee-29a7-7cdc-a7dd-48b8bce22431" -->
 The quiet arrived. It did not announce itself as pleasure. The garage simply ceased proposing ways the experiment might fail. Camera latency, an uneven die, a duplicated frame, a bug in the comparator, a false timestamp, an unremembered edit: each remained testable, but none competed for his attention. There was one sequence and the apparatus was traversing it.
 
-<!-- authorbot:block id="019f87ee-29a7-72ce-bb94-4a2294ac1a3c" -->
-Three. Two. Six.
+<!-- authorbot:block id="019f881b-dd5b-70f6-b19f-70c124880f47" -->
+Three. Two.
 
-<!-- authorbot:block id="019f87ee-29a7-7fbc-9711-da92dda633df" -->
-On the ninth throw, the die struck the tray wall, rolled onto an edge, and balanced there longer than any throw in the baseline. The vision system waited. Evan could see five pips on one face and one on the other. Either result had an ordinary path through gravity and felt and the exact compressions of the die's corners.
+<!-- authorbot:block id="019f881b-dd5b-713d-bd6c-332164176227" -->
+Evan found that he had put both hands flat on the bench. He did not remember doing it. The vacuum pump went on complaining underneath, the fan clicked once per revolution, and the resistor bank waited to receive whatever the ceramic was holding. Every instrument in the garage was behaving exactly as designed. Nothing in the room was doing anything remarkable except agreeing with a piece of paper he had printed before lunch.
+
+<!-- authorbot:block id="019f881b-dd5b-75e1-a65b-5ff4efe13c36" -->
+Six.
+
+<!-- authorbot:block id="019f881b-dd5b-77dc-ab54-0fc7421c72e8" -->
+On the ninth throw, the die struck the tray wall, rolled onto an edge, and balanced there longer than any throw in the baseline. The vision system waited. Evan could see five pips on one face and one on the other. Either result had an ordinary path through gravity and felt and the exact compressions of the die's corners. Nothing had to be suspended. Nothing had to reach in. The die only had to fall the way a die falls.
 
 <!-- authorbot:block id="019f87ee-29a7-7d2d-9d56-ffca8e1b3138" -->
 It fell to one.
 
-<!-- authorbot:block id="019f87ee-29a7-7f5f-80f8-593a00abdf42" -->
-The drum turned for the final throw. A lawn sprinkler clicked two gardens away. A delivery van stopped in the street and continued. Nothing in the world appeared to care which face landed upward.
+<!-- authorbot:block id="019f881b-dd5b-707c-b22f-8e4a57b0f9e6" -->
+The drum turned for the final throw. A lawn sprinkler clicked two gardens away. A delivery van stopped in the street and continued. In the kitchen, the agency forms lay where Ruth had left them. Nothing in the world appeared to care which face landed upward.
+
+<!-- authorbot:block id="019f881b-dd5b-7e19-86ba-def4ffd295da" -->
+He did not look away.
 
 <!-- authorbot:block id="019f87ee-29a7-796a-961c-d61c6c1afa29" -->
 The die entered the tray, struck twice, and showed four.
@@ -148,8 +160,8 @@ Evan remained seated until the current reached zero. His pulse was sixty-one. Th
 <!-- authorbot:block id="019f87ee-29a7-7d61-ba3e-0413386c15f2" -->
 He copied the files before touching the analysis. He retrieved the timestamp receipt, revealed the target and nonce, and reproduced the digest. Then he rebuilt the comparison from the raw frames. Six, one, four, two, five, three, two, six, one, four.
 
-<!-- authorbot:block id="019f87ee-29a7-717f-8a9d-4856c948593c" -->
-The probability under independent fair throws was 0.00000165 percent.
+<!-- authorbot:block id="019f881b-dd5b-7428-b5b6-c0c4e312fce5" -->
+The chance of it under independent fair throws was one in sixty million.
 
 <!-- authorbot:block id="019f87ee-29a7-7413-80d0-341ccf784060" -->
 That number was not the disturbing part. Rare sequences occurred whenever dice were thrown. The disturbing part was that this rare sequence had been distinguished from the other sixty million before it existed, and the distinction had determined whether the apparatus continued.
