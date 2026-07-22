@@ -4,8 +4,9 @@ id: 019f87ee-0300-748a-8cb1-b6514662be27
 slug: a-valid-path
 title: A Valid Path
 order: 60
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T03:52:26Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Evan commits to ten die throws before they are thrown and gets all ten, then asks the apparatus for a state its own steel shutter forbids.
