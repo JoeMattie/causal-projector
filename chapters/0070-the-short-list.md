@@ -4,8 +4,9 @@ id: 019f87ef-3b84-7231-b71a-a52227d10d8e
 slug: the-short-list
 title: The Short List
 order: 70
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T03:51:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Eighteen-minute exposures clear Evan's backlog at work and at home, and the accumulating good fortune convinces him to call in Lena Varga.
