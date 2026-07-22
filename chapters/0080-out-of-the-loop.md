@@ -4,8 +4,9 @@ id: 019f87ef-a5e1-7750-bd3d-38bbeff1cf94
 slug: out-of-the-loop
 title: Out of the Loop
 order: 80
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T03:51:07Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Lena rebuilds the experiment with her own instruments and a hidden mapping, reproduces the effect with Evan six kilometers away, and halts the operator runs.
