@@ -5,10 +5,11 @@ slug: exactly-one
 title: Exactly One
 order: 40
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T03:53:11Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: Running the faulty build by hand, Evan falls into a state where each observation has exactly one successor, and solves a motor defect that had resisted him for weeks.
 timeline_refs:
   - event:first-dose
@@ -156,6 +157,24 @@ Ruth and Marisol came in through the utility door carrying dirty gloves and an e
 
 <!-- authorbot:block id="019f87ed-3f3a-77d1-a21e-200191eef535" -->
 Evan looked past her toward the apparatus. Frost had softened the edges of the chamber, and the five residual plots had returned to their independent colors. "I don't know yet."
+
+<!-- authorbot:block id="019f8ba8-e720-79af-a091-5b166cbd2e59" -->
+Marisol set the tray on the bench. "How did you know what to change?"
+
+<!-- authorbot:block id="019f8ba8-e720-7689-90f7-1ef444a61b12" -->
+"I didn't have to decide."
+
+<!-- authorbot:block id="019f8ba8-e720-7bcd-95f5-c5da803a705b" -->
+Ruth pulled off one dirty glove. "You always decide."
+
+<!-- authorbot:block id="019f8ba8-e720-7dc5-b3b4-df5bcfe161cc" -->
+"Not for seventeen minutes."
+
+<!-- authorbot:block id="019f8ba8-e720-7bd0-b945-0bcccc9b333a" -->
+"That sounds efficient."
+
+<!-- authorbot:block id="019f8ba8-e720-7b4d-807c-6c0c9f00fdd1" -->
+"It was."
 
 <!-- authorbot:block id="019f87ed-3f3a-7d40-adb9-865fa6ea4bc5" -->
 He ate lunch at the kitchen table while Ruth described the garden as if it had been an administrative victory. Two labels remained unmatched to plants. Marisol said she would return when something flowered and resolve the matter by color. Ruth said this was not how classification worked.
