@@ -6,7 +6,7 @@ scope: range
 chapter_id: 019f86c6-4561-744d-814c-86ff0ec18196
 chapter_revision: 8
 author: github:JoeMattie
-status: work_item_created
+status: accepted
 created_at: 2026-07-22T17:37:58Z
 target:
   blockId: 019f86c6-533d-706f-ad90-17c443e25e97
