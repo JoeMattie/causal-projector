@@ -5,10 +5,11 @@ slug: loose-ends
 title: Loose Ends
 order: 10
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T03:23:40Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: Evan Hale tends an unruly garage experiment alongside the careful evening routines that help his mother Ruth remain at home.
 character_refs:
   - character:protagonist
@@ -16,7 +17,7 @@ character_refs:
 ---
 
 <!-- authorbot:block id="019f86c6-533d-7d9f-909a-adb791ff6e94" -->
-At 7:12 on Thursday evening, three timers expired in Evan Hale's house. One chimed from the kitchen to announce his mother's tablets. One vibrated against his wrist to tell him the same thing. The third sounded in the garage, where it meant that a ceramic ring had been cold enough for long enough and he could begin wasting electricity in earnest.
+At 7:12 on Thursday evening, three timers expired in Evan Hale's house. One chimed from the kitchen to announce his mother's evening tablets, four of them in a compartment the size of a thimble. One vibrated against his wrist to tell him the same thing. The third sounded in the garage, where it meant that a ceramic ring had been cold enough for long enough and he could begin wasting electricity in earnest.
 
 <!-- authorbot:block id="019f86c6-533d-7e4a-afd5-d5811aec3489" -->
 The garage timer won by half a second. Evan reached across the bench and silenced it before the kitchen chime came through the open utility door. A fan pushed warm air past his left ear. The vacuum pump under the bench contributed a steady mechanical complaint. On the monitor, six temperature traces descended toward a band he had shaded green, although only four of them agreed about having arrived.
