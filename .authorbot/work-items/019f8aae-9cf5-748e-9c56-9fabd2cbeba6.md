@@ -2,12 +2,12 @@
 schema: authorbot.work-item/v1
 id: 019f8aae-9cf5-748e-9c56-9fabd2cbeba6
 type: revise_block
-status: ready
+status: completed
 source_annotation_id: 019f8aae-1aa0-7552-8297-fc0b6fda7d4b
 chapter_id: 019f86c6-4561-744d-814c-86ff0ec18196
 base_revision: 2
 priority: normal
-created_by: github:JoeMattie
+created_by: system:rule-engine
 created_at: 2026-07-22T16:35:27Z
 ---
 
@@ -34,3 +34,10 @@ Apply the change proposed in suggestion 019f8aae-1aa0-7552-8297-fc0b6fda7d4b (se
 ## Submission contract
 
 Submit a `block_replacement` against chapter revision 2 while holding the current lease.
+
+## Completion
+
+- Submission: 019f8ac7-2607-77d9-ade7-e9e4c7a8e47f
+- Applied revision: 4
+- Completed at: 2026-07-22T17:02:19Z
+- Completed by: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f

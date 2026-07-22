@@ -5,7 +5,7 @@ slug: loose-ends
 title: Loose Ends
 order: 10
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T03:23:40Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -20,7 +20,7 @@ character_refs:
 At 7:12 on Thursday evening, three timers expired in Evan Hale's house. One chimed from the kitchen to announce his mother's evening tablets, four of them in a compartment the size of a thimble. One vibrated against his wrist to tell him the same thing. The third sounded in the garage, where it meant that a ceramic ring had been cold enough for long enough and he could begin wasting electricity in earnest.
 
 <!-- authorbot:block id="019f86c6-533d-7e4a-afd5-d5811aec3489" -->
-The garage timer won by half a second. Evan reached across the bench and silenced it before the kitchen chime came through the open utility door. A fan pushed warm air past his left ear. The vacuum pump under the bench contributed a steady mechanical complaint. On the monitor, six temperature traces descended toward a band he had shaded green, although only four of them agreed about having arrived.
+The garage timer won by half a second. Evan reached across the bench and silenced it before the kitchen chime came through the open utility door. He was a big man who had learned to move carefully around small equipment, still in the fleece and work trousers he had worn to the office, with his hair at the length where he had stopped noticing it and other people had started to. A fan pushed warm air past his left ear. The vacuum pump under the bench contributed a steady mechanical complaint. On the monitor, six temperature traces descended toward a band he had shaded green, although only four of them agreed about having arrived.
 
 <!-- authorbot:block id="019f86c6-533d-7d39-a48e-f85bafe622ee" -->
 The apparatus occupied the space where a car had once leaked oil. It had started as a plywood base and a printed coil former. It now included a stainless vacuum chamber bought from a closing dental laboratory, a liquid-nitrogen dewar with someone else's university inventory number ground off, two RF amplifiers, a field-programmable gate array, sixteen heater leads, and a small forest of sensors mounted wherever a previous failure had made a new measurement seem indispensable.
