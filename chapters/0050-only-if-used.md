@@ -4,8 +4,9 @@ id: 019f87ed-5c7e-75a8-ba9e-dff6bdb5219b
 slug: only-if-used
 title: Only If Used
 order: 50
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T03:52:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: An isolated noise generator stays fair when recorded, read, or replayed, and biases only once its bits are allowed to select a live physical branch.

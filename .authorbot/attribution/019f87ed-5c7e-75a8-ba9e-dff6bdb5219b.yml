@@ -3,3 +3,5 @@ chapter_id: 019f87ed-5c7e-75a8-ba9e-dff6bdb5219b
 entries:
   - revision: 1
     actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+  - revision: 2
+    actor: github:JoeMattie
