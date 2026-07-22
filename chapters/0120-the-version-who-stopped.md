@@ -10,6 +10,12 @@ published_at: 2026-07-22T04:03:28Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: The peripheral form resolves into a family of Evans who abandoned the experiment, and Evan reports a depth he no longer sees in order to keep the run alive.
+timeline_refs:
+  - event:quitter-recognition
+character_refs:
+  - character:protagonist
+  - character:skeptical-collaborator
+  - character:the-quitter
 ---
 
 <!-- authorbot:block id="019f87fc-e8cc-7d53-a0d9-d8ec78938fef" -->

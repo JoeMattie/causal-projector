@@ -10,6 +10,13 @@ published_at: 2026-07-22T04:02:21Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Masked and blinded, Evan reports a nested figure that tracks the phase steps the hardware acts on and ignores the ones written to a shadow register.
+timeline_refs:
+  - event:structured-entity-observation
+character_refs:
+  - character:protagonist
+  - character:loved-one
+  - character:skeptical-collaborator
+  - character:the-guide
 ---
 
 <!-- authorbot:block id="019f87f8-c552-7c5f-867c-d8e4fab4b0cf" -->

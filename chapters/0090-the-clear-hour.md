@@ -10,6 +10,12 @@ published_at: 2026-07-22T03:50:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Ruth requests six minutes of reduced exposure and returns oriented and articulate, remembering a daughter who appears in no record Evan can find.
+timeline_refs:
+  - event:treatment-run
+character_refs:
+  - character:protagonist
+  - character:loved-one
+  - character:skeptical-collaborator
 ---
 
 <!-- authorbot:block id="019f87f0-62e3-7fb6-99de-855e17799ec8" -->

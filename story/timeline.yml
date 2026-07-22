@@ -1,33 +1,153 @@
 # Timeline (schema: authorbot.timeline/v1).
 #
-# `sort_key` is the sortable value; `display_time` is the human label. This
-# keeps custom calendars and relative time sortable without parsing labels.
-#
-# This template ships EMPTY. The calendar below is a neutral default: story
-# time is measured relative to whatever you decide the beginning is. Change
-# `type` to `absolute` for real-world dates, or to a label of your own for a
-# custom calendar — nothing parses this value; it tells collaborators and
-# agents how to read `display_time`.
-#
-# Add events as the story takes shape, for example:
-#
-#   events:
-#     - id: event:opening-event
-#       sort_key: 100
-#       display_time: Day 0
-#       title: The story begins
-#       participants:
-#         - character:protagonist
-#       chapter_refs:
-#         - <the chapter's UUIDv7, from its frontmatter `id`>
-#       facts:
-#         - Continuity facts live here as short declarative sentences.
-#
-# `participants` must name characters that exist in story/characters/, and
-# `chapter_refs` must name real chapter IDs — `authorbot validate` checks both.
-#
-# A filled-in example lives in examples/book-repo/story/timeline.yml.
+# Deliberately sparse: the development brief pins a sequence of concrete story
+# moments (§6 discovery path, §10 sequence spine) but no dates. The calendar
+# is relative to Run 0, the first anomalous run in the garage. Sort keys are
+# spaced by 100 so events can be inserted between them as chapters are
+# written. Facts are taken from the brief.
 schema: authorbot.timeline/v1
 calendar:
   type: relative
-events: []
+  epoch_label: Run 0 — the first anomalous run
+events:
+  - id: event:material-accident
+    sort_key: 100
+    display_time: Before Run 0
+    title: The material accident
+    participants:
+      - character:protagonist
+    facts:
+      - The YBCO component is imperfect in exactly the way a professional lab would reject, creating a coherent upper region and a lossy lower region.
+      - A replacement made to specification fails.
+  - id: event:first-anomaly
+    sort_key: 200
+    display_time: Run 0
+    title: "The first anomaly: loss of sensor rank"
+    participants:
+      - character:protagonist
+    facts:
+      - Principal-component analysis of nominally independent channels shows that their covariance matrix is losing dimensions.
+      - The strongest correlation is not with field strength but with the sequence of control decisions, especially manual corrections made by the protagonist.
+  - id: event:first-dose
+    sort_key: 300
+    display_time: Early repeat runs
+    title: The first dose
+    participants:
+      - character:protagonist
+    facts:
+      - During a long manual stabilization run, internal noise abruptly disappears; each thought has exactly one correct successor.
+      - The clarity returns after sleep, ventilation, and conventional controls are tested.
+  - id: event:fresh-randomness-test
+    sort_key: 400
+    display_time: Validation series
+    title: The fresh-randomness test
+    participants:
+      - character:protagonist
+    facts:
+      - A battery-powered hardware RNG behaves normally when its bits are merely recorded, and becomes biased when its fresh bits determine the next heater phase or whether a run continues.
+      - Pre-recorded random bits are unaffected; the anomaly depends on a contingency being inside a live feedback loop.
+  - id: event:first-deliberate-outcome
+    sort_key: 500
+    display_time: First deliberate use
+    title: One small, precommitted outcome
+    participants:
+      - character:protagonist
+    facts:
+      - The result is statistically impossible but causally ordinary.
+      - He crosses from investigation into use.
+  - id: event:independent-replication
+    sort_key: 550
+    display_time: Independent replication
+    title: The anomaly follows another operator
+    participants:
+      - character:protagonist
+      - character:skeptical-collaborator
+    facts:
+      - Lena reproduces rank collapse, fresh-bit action bias, and the low-ambiguity cognitive state while Evan is physically absent.
+      - The raw bias reverses with an action mapping known only to Lena, excluding Evan's expectation as the active cause.
+      - Lena validates the phenomenon and imposes a joint hold on further human exposure.
+  - id: event:treatment-run
+    sort_key: 600
+    display_time: The reduced protocol
+    title: Lucidity from an incompatible history
+    participants:
+      - character:protagonist
+      - character:loved-one
+    facts:
+      - Lucidity returns, but so do memories from an incompatible family history.
+      - A coherent implementation has been selected, not restored.
+  - id: event:structured-entity-observation
+    sort_key: 650
+    display_time: Controlled altered-state observation
+    title: A structured percept responds to the apparatus
+    participants:
+      - character:protagonist
+      - character:skeptical-collaborator
+      - character:the-guide
+    facts:
+      - During a blinded machine-induced state, Evan's geometric reports track hidden physical phase changes but not causally inert decoy writes.
+      - A persistent nested figure presents a timing relation that matches an overlooked control edge and yields a useful but anomaly-strengthening change.
+      - No new psychedelic drug session is used; Evan recognizes the phenomenology from one licensed DMT study eleven years earlier.
+  - id: event:finite-history-model
+    sort_key: 675
+    display_time: Model-building series
+    title: The finite-history model
+    participants:
+      - character:protagonist
+      - character:loved-one
+      - character:skeptical-collaborator
+      - character:the-guide
+    facts:
+      - Evan and Lena model the apparatus as projection and renormalization over finite effective history support.
+      - Identity behaves as a redundant family of nearby implementations, making moderate pruning clarifying and deeper pruning destructive.
+      - Entity recursion depth decreases with cumulative anomalous cycles rather than elapsed time or field power, supporting the residual-family interpretation.
+  - id: event:quitter-recognition
+    sort_key: 700
+    display_time: Midpoint
+    title: Recognizing the Quitter
+    participants:
+      - character:protagonist
+      - character:skeptical-collaborator
+      - character:the-quitter
+    facts:
+      - A private hand gesture, shutdown callback, and childhood room with different parents identify the unstable residual as a family of Evan's stopped versions.
+      - The family contains ordinary divergent lives whose people retain futures independent of Evan, and it asks him to shut down the apparatus.
+      - Its recursion depth falls from four to three; Evan twice reports four to defeat the automatic abort before Lena manually stops the run.
+  - id: event:failed-shutdown
+    sort_key: 800
+    display_time: The shutdown attempt
+    title: Shutdown selected against
+    participants:
+      - character:protagonist
+      - character:skeptical-collaborator
+    facts:
+      - The collaborator demands shutdown; the protagonist agrees.
+      - A chain of mundane failures preserves the apparatus or its essential software.
+  - id: event:hardware-destroyed
+    sort_key: 900
+    display_time: After the original hardware is destroyed
+    title: The topology escapes the machine
+    participants:
+      - character:protagonist
+    facts:
+      - Destroying hardware does not destroy the causal pattern.
+      - The topology appears outside the original machine.
+  - id: event:rupture
+    sort_key: 1000
+    display_time: Terminal collapse
+    title: The rupture and factorization
+    participants:
+      - character:protagonist
+    facts:
+      - The valid-state manifold reaches local rank zero around the projector.
+      - He attempts to steer completely orthogonal to valid state space, intending to erase himself; the code factorizes instead.
+      - The parent universe’s consumed counterfactual capacity becomes the initial condition of a child cosmos.
+  - id: event:epilogue-encounter
+    sort_key: 1100
+    display_time: Billions of years later, in the child universe
+    title: Someone else’s impossible drug story
+    participants:
+      - character:the-future-witness
+      - character:protagonist
+    facts:
+      - A person undergoing a DMT experience encounters a fractal entity that still believes it is a software engineer standing beside a failing superconducting machine.

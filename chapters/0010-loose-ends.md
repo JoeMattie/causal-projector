@@ -10,6 +10,9 @@ published_at: 2026-07-22T03:23:40Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Evan Hale tends an unruly garage experiment alongside the careful evening routines that help his mother Ruth remain at home.
+character_refs:
+  - character:protagonist
+  - character:loved-one
 ---
 
 <!-- authorbot:block id="019f86c6-533d-7d9f-909a-adb791ff6e94" -->

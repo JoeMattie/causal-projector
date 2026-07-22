@@ -10,6 +10,13 @@ published_at: 2026-07-22T04:02:44Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Evan and Lena assemble a finite-history model on index cards, and the peripheral forms lose recursion depth in proportion to the cycles already run.
+timeline_refs:
+  - event:finite-history-model
+character_refs:
+  - character:protagonist
+  - character:loved-one
+  - character:skeptical-collaborator
+  - character:the-guide
 ---
 
 <!-- authorbot:block id="019f87fa-2bf8-7b19-9d34-b3fc97725280" -->

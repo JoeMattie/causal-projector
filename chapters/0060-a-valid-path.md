@@ -10,6 +10,11 @@ published_at: 2026-07-22T03:52:26Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Evan commits to ten die throws before they are thrown and gets all ten, then asks the apparatus for a state its own steel shutter forbids.
+timeline_refs:
+  - event:first-deliberate-outcome
+character_refs:
+  - character:protagonist
+  - character:loved-one
 ---
 
 <!-- authorbot:block id="019f87ee-29a7-7598-b0f8-4040c72423ed" -->
