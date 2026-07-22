@@ -10,6 +10,11 @@ published_at: 2026-07-22T03:53:11Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Running the faulty build by hand, Evan falls into a state where each observation has exactly one successor, and solves a motor defect that had resisted him for weeks.
+timeline_refs:
+  - event:first-dose
+character_refs:
+  - character:protagonist
+  - character:loved-one
 ---
 
 <!-- authorbot:block id="019f87ed-3f3a-77b0-9161-efe47a48c42c" -->

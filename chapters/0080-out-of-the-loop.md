@@ -10,6 +10,12 @@ published_at: 2026-07-22T03:51:07Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Lena rebuilds the experiment with her own instruments and a hidden mapping, reproduces the effect with Evan six kilometers away, and halts the operator runs.
+timeline_refs:
+  - event:independent-replication
+character_refs:
+  - character:protagonist
+  - character:loved-one
+  - character:skeptical-collaborator
 ---
 
 <!-- authorbot:block id="019f87ef-e8f7-7eb1-9ad9-8fbde6b7ced2" -->

@@ -1,28 +1,534 @@
 # Story graph (schema: authorbot.story-graph/v1).
 #
-# Method-neutral planning nodes: premise, arc, part, chapter, scene, beat,
-# custom. This template ships EMPTY — a blank book has nothing to outline yet,
-# and an outline referencing chapters that do not exist fails validation.
-#
-# Add nodes as the story takes shape, for example:
-#
-#   nodes:
-#     - id: premise:main
-#       type: premise
-#       title: Core premise
-#       summary: One sentence describing what the book is about.
-#       order: 10
-#     - id: chapter:opening
-#       type: chapter
-#       title: Opening
-#       chapter_id: <the chapter's UUIDv7, from its frontmatter `id`>
-#       parent: premise:main
-#       order: 20
-#       status: draft
-#
-# `chapter_id` must match a real chapter's `id`, and `parent` must name a node
-# defined in this file — `authorbot validate` checks both.
-#
-# A filled-in example lives in examples/book-repo/story/outline.yml.
+# Structured from story/development-brief.md and the continuity established in
+# the first 12 published chapters. Those chapters control when the sources
+# disagree. Later beats are planning nodes, not imported or finished prose.
+# The graph stays at part and beat granularity so future chapters can be written
+# against it without pretending their final form already exists.
 schema: authorbot.story-graph/v1
-nodes: []
+nodes:
+  - id: premise:main
+    type: premise
+    title: One-sentence premise
+    summary: >-
+      Evan Hale builds a superconducting flux pump in his garage and finds a
+      timing fault that makes independent sensors agree when they should not.
+      The same fault gives him an impossible stretch of clear thinking. Each
+      run removes possible histories, including versions of the people around
+      him.
+    order: 10
+  - id: premise:synopsis
+    type: premise
+    title: One-paragraph synopsis
+    parent: premise:main
+    summary: >-
+      Evan Hale is a controls engineer caring for his mother, Ruth, while
+      building a trapped-field source for an open low-field imaging system. A
+      fault in its controller makes independent instruments collapse onto one
+      shared signal and gives Evan a brief period of unusually clear thought.
+      Tests show that the machine is not creating impossible outcomes. It is
+      discarding complete histories that do not fit its feedback loop. The
+      effect helps Evan's work and briefly makes Ruth lucid, but her recovered
+      memories belong to a family Evan has never known. As he keeps running the
+      apparatus, alternate versions of people appear as geometric forms,
+      attempts to stop become less likely to survive, and the control pattern
+      begins reproducing outside the original hardware.
+    order: 15
+
+  # Five-sentence expansion from the dossier, one arc per sentence.
+  - id: arc:assembly
+    type: arc
+    title: A compact trapped-field device
+    parent: premise:main
+    summary: >-
+      A software engineer and garage citizen scientist, partly driven by a
+      loved one’s dementia and partly by his inability to leave an anomalous
+      measurement alone, assembles a compact trapped-field device from a
+      defective high-temperature superconductor, a traveling thermal-magnetic
+      pump, and an adaptive controller.
+    order: 20
+  - id: arc:anomaly-and-clarity
+    type: arc
+    title: Sudden, euphoric clarity
+    parent: premise:main
+    summary: >-
+      A rare phase edge case makes supposedly independent sensors lose
+      statistical dimensions, and the operator experiences a sudden, euphoric
+      clarity; controlled tests suggest the apparatus is not changing gravity
+      or merely biasing electronics, but reducing the number of complete
+      causal histories compatible with its feedback loop.
+    order: 30
+  - id: arc:use-and-cost
+    type: arc
+    title: Real versions of people
+    parent: premise:main
+    summary: >-
+      Repeated use improves his work and appears to restore lucidity in his
+      relative, yet it also produces DMT-like fractal entities, contradictory
+      memories, social convergence, and evidence that the deleted alternatives
+      contain real versions of people rather than disposable mathematical
+      possibilities.
+    order: 40
+  - id: arc:capture
+    type: arc
+    title: The dominant eigenpattern
+    parent: premise:main
+    summary: >-
+      When he tries to stop, the machine’s topology reproduces through other
+      people, software, and institutions, while his fears become
+      self-validating because incompatible histories are being removed; he
+      eventually learns that the dominant eigenpattern is not himself but the
+      act of projection.
+    order: 50
+  - id: arc:terminal-genesis
+    type: arc
+    title: The terminal collapse
+    parent: premise:main
+    summary: >-
+      At the terminal collapse he steers the device toward what he believes
+      will erase him, but the finite causal code instead factorizes into a
+      low-information child universe whose beginning is topologically
+      identical to its parent’s end, leaving him to be perceived billions of
+      years later as someone else’s impossible psychedelic entity.
+    order: 60
+
+  # Principal dramatic disasters from the dossier.
+  - id: arc:disaster-1
+    type: arc
+    title: "Disaster 1: The anomaly is real"
+    parent: premise:main
+    summary: >-
+      Fresh causal feedback, not ordinary interference, determines the
+      effect. He knowingly continues after proving it can select outcomes.
+    order: 70
+  - id: arc:disaster-2
+    type: arc
+    title: "Disaster 2: The cure is a substitution"
+    parent: premise:main
+    summary: >-
+      The dementia-affected relative becomes lucid but remembers another
+      life. A coherent implementation has been selected, not restored.
+    order: 80
+  - id: arc:disaster-3
+    type: arc
+    title: "Disaster 3: Quitting is selected against"
+    parent: premise:main
+    summary: >-
+      Shutdown attempts fail through converging mundane events, suggesting
+      successful refusals survive only in histories being erased.
+    order: 90
+  - id: arc:terminal-disaster
+    type: arc
+    title: "Terminal disaster: He is not the attractor"
+    parent: premise:main
+    summary: >-
+      The projector pattern reproduces without him. His identity becomes
+      disposable as the operation approaches a universe-scale fixed point.
+    order: 100
+
+  # Core mechanisms needed by the beat links below. The dossier contains the
+  # full technical treatment; these nodes keep the graph readable on its own.
+  - id: concept:finite-multiverse-cosmology
+    type: custom
+    title: Finite causal code
+    parent: premise:main
+    summary: >-
+      Physically valid states occupy a finite, lower-dimensional subset of the
+      states allowed by ordinary mathematical descriptions. The apparatus can
+      bias reality only by removing incompatible continuations.
+    order: 110
+  - id: concept:causal-projector-machine
+    type: custom
+    title: The causal projector
+    parent: premise:main
+    summary: >-
+      A defective YBCO ring, traveling thermal wave, rotating field, and timing
+      fault close a loop in ordinary electromagnetic state space while leaving
+      it open in the deeper causal code.
+    order: 120
+  - id: concept:discovery-and-validation-ladder
+    type: custom
+    title: Discovery and validation
+    parent: premise:main
+    summary: >-
+      Independent sensor rank collapse, live-randomness tests, impossible but
+      physically legal outcomes, and blinded replication separate the anomaly
+      from interference, suggestion, and ordinary software failure.
+    order: 130
+  - id: concept:eigenhistories-and-dementia
+    type: custom
+    title: Identity as redundant history
+    parent: premise:main
+    summary: >-
+      A person persists across many nearby valid histories. Moderate pruning
+      feels like focus, while deeper pruning removes flexibility, correction,
+      and eventually the overlap that supports a coherent self.
+    order: 140
+  - id: concept:psychosis-and-diagnostic-channel
+    type: custom
+    title: Perception and self-confirming belief
+    parent: premise:main
+    summary: >-
+      Altered perception exposes residual branch structure, but once Evan's
+      fears control the feedback path, the machine begins preserving worlds in
+      which those fears are justified.
+    order: 150
+  - id: concept:rupture-and-genesis
+    type: custom
+    title: Rupture and genesis
+    parent: premise:main
+    summary: >-
+      When the parent history can no longer support the projector and its own
+      past, the causal code factorizes. The unused state capacity of the new
+      region becomes the initial condition of a child universe.
+    order: 160
+
+  # Part I and its sequence spine.
+  - id: part:the-error
+    type: part
+    title: "Part I: Noise Floor"
+    parent: premise:main
+    order: 200
+  - id: beat:opening-image
+    type: beat
+    title: Opening image
+    parent: part:the-error
+    summary: >-
+      Opening image: a messy garage experiment runs beside the orderly
+      rituals required to care for a loved one whose memory is becoming
+      unreliable. The protagonist’s world is full of loose ends he cannot
+      fix.
+    order: 210
+  - id: beat:flawed-apparatus
+    type: beat
+    title: The flawed apparatus
+    parent: part:the-error
+    summary: >-
+      He assembles the flawed YBCO/thermal-pump apparatus for an ordinary
+      engineering goal and discovers that a replacement component removes an
+      anomalous performance gain.
+    order: 220
+  - id: beat:rank-collapse
+    type: beat
+    title: Rank collapse across sensor channels
+    parent: part:the-error
+    summary: >-
+      A timing fault produces rank collapse across independent sensor
+      channels. He initially treats it as a software and measurement problem.
+    order: 230
+  - id: beat:impossible-clarity
+    type: beat
+    title: Impossible clarity
+    parent: part:the-error
+    summary: >-
+      During a manual run he experiences impossible clarity and solves a
+      difficult problem. The effect survives sleep, ventilation, and
+      conventional controls.
+    order: 240
+  - id: beat:fresh-randomness
+    type: beat
+    title: The fresh-randomness experiment
+    parent: part:the-error
+    summary: >-
+      The fresh-randomness experiment shows that live causal feedback
+      matters. This is the inciting proof that the machine acts on
+      contingencies rather than electronics.
+    order: 250
+  - id: beat:first-deliberate-use
+    type: beat
+    title: From investigation into use
+    parent: part:the-error
+    summary: >-
+      He uses it deliberately for one small, precommitted outcome. The result
+      is statistically impossible but causally ordinary. He crosses from
+      investigation into use.
+    order: 260
+
+  # Part II and its sequence spine.
+  - id: part:the-clean-world
+    type: part
+    title: "Part II: The Clean World"
+    parent: premise:main
+    order: 300
+  - id: beat:cognitive-enhancer
+    type: beat
+    title: A cognitive enhancer
+    parent: part:the-clean-world
+    summary: >-
+      The machine becomes a cognitive enhancer. His work improves, stalled
+      projects resolve, and people finally respond to him as he always
+      believed they should.
+    order: 310
+  - id: beat:collaborator-replication
+    type: beat
+    title: Replication and controls
+    parent: part:the-clean-world
+    summary: >-
+      A collaborator helps replicate the phenomenon and insists on controls.
+      Their skepticism legitimizes the science while creating the first
+      durable interpersonal conflict.
+    order: 320
+  - id: beat:reduced-protocol
+    type: beat
+    title: The reduced protocol
+    parent: part:the-clean-world
+    summary: >-
+      He exposes the loved one with dementia to a carefully reduced protocol.
+      Lucidity returns, but so do memories from an incompatible family
+      history.
+    order: 330
+  - id: beat:entity-observation
+    type: beat
+    title: Structured entities under observation
+    parent: part:the-clean-world
+    summary: >-
+      Machine-induced geometry resembles an earlier DMT experience. Under
+      controlled altered-state observation, structured entities respond to
+      phase settings and sensor data.
+    order: 340
+  - id: beat:finite-history-model
+    type: beat
+    title: The finite-history model
+    parent: part:aliasing
+    summary: >-
+      He builds the finite-history model: identity is redundant, the device
+      prunes multiplicity, and the entities are residual branch families.
+    order: 410
+  - id: beat:midpoint-moral-injury
+    type: beat
+    title: Midpoint moral injury
+    parent: part:aliasing
+    summary: >-
+      Midpoint moral injury: he recognizes the Quitter entity and watches an
+      ordinary version of himself lose fractal depth during a run he refuses
+      to abort.
+    order: 420
+
+  # Part III and its sequence spine. Chapters 11 and 12 begin this movement;
+  # everything after them remains planned rather than imported.
+  - id: part:aliasing
+    type: part
+    title: "Part III: Aliasing"
+    parent: premise:main
+    order: 400
+  - id: beat:failed-shutdown
+    type: beat
+    title: The failed shutdown
+    parent: part:aliasing
+    summary: >-
+      The collaborator demands shutdown. The protagonist agrees, but a chain
+      of mundane failures preserves the apparatus or its essential software.
+    order: 430
+
+  # Part IV and its sequence spine.
+  - id: part:the-attractor
+    type: part
+    title: "Part IV: The Attractor"
+    parent: premise:main
+    order: 500
+  - id: beat:convergence
+    type: beat
+    title: Convergence mistaken for vindication
+    parent: part:the-attractor
+    summary: >-
+      People begin converging on his decisions. Private phrases recur in
+      strangers. Records acquire peripheral links to him. He mistakes causal
+      capture for vindication.
+    order: 510
+  - id: beat:self-confirming-paranoia
+    type: beat
+    title: Self-confirming paranoia
+    parent: part:the-attractor
+    summary: >-
+      He becomes suspicious of the collaborator. The projector selects
+      histories containing a betrayal, making his paranoia self-confirming.
+    order: 520
+  - id: beat:topology-escape
+    type: beat
+    title: The topology escapes
+    parent: part:the-attractor
+    summary: >-
+      The original hardware is destroyed, yet the topology appears in an
+      unrelated motor controller, a hospital pulse sequence, a child’s
+      drawing, or the dementia patient’s arrangement of objects.
+    order: 530
+  - id: beat:bootloader-realization
+    type: beat
+    title: A temporary biological bootloader
+    parent: part:the-attractor
+    summary: >-
+      He realizes the machine’s operation, not his personality, is the
+      dominant eigenpattern. He is a temporary biological bootloader.
+    order: 540
+  - id: beat:narrative-compression
+    type: beat
+    title: Narrative compression
+    parent: part:the-attractor
+    summary: >-
+      The world becomes narratively compressed: minor people vanish,
+      unresolved details disappear, locations and conversations repeat, and
+      incompatible causes coexist beneath a thinning surface.
+    order: 550
+
+  # Part V and its sequence spine.
+  - id: part:fixed-point
+    type: part
+    title: "Part V: Genesis"
+    parent: premise:main
+    order: 600
+  - id: beat:entities-compress
+    type: beat
+    title: Entities become invariants
+    parent: part:fixed-point
+    summary: >-
+      Entities lose recognizable bodies and compress into rotations, knots,
+      chirality, phase, and number. Their personalities are becoming
+      invariants of the newborn physics.
+    order: 610
+  - id: beat:future-witness-encounter
+    type: beat
+    title: The Future Witness encounter
+    parent: part:fixed-point
+    summary: >-
+      The protagonist encounters the Future Witness and misreads the contact
+      as another copy. The reader can understand the cross-boundary encounter
+      before he does.
+    order: 620
+  - id: beat:rank-zero
+    type: beat
+    title: Local rank zero
+    parent: part:fixed-point
+    summary: >-
+      The valid-state manifold reaches local rank zero around the projector.
+      No continuation can contain the machine state, its history, and the
+      surviving operator pattern.
+    order: 630
+  - id: beat:orthogonal-steering
+    type: beat
+    title: Steering orthogonal to valid state space
+    parent: part:fixed-point
+    summary: >-
+      He attempts to steer completely orthogonal to valid state space,
+      intending to erase himself and terminate the attractor.
+    order: 640
+  - id: beat:factorization
+    type: beat
+    title: The code factorizes
+    parent: part:fixed-point
+    summary: >-
+      The code factorizes instead. The parent universe’s consumed
+      counterfactual capacity becomes the low-realization, high-capacity
+      initial condition of a child cosmos.
+    order: 650
+  - id: beat:epilogue
+    type: beat
+    title: Epilogue
+    parent: part:fixed-point
+    summary: >-
+      Epilogue: in our universe, a person undergoing a DMT experience
+      encounters a fractal entity that still believes it is a software
+      engineer standing beside a failing superconducting machine. He has
+      become someone else’s impossible drug story.
+    order: 660
+
+links:
+  - from: beat:opening-image
+    to: character:protagonist
+    type: introduces
+  - from: beat:opening-image
+    to: character:loved-one
+    type: introduces
+  - from: beat:flawed-apparatus
+    to: concept:causal-projector-machine
+    type: introduces
+  - from: beat:rank-collapse
+    to: concept:discovery-and-validation-ladder
+    type: introduces
+  - from: beat:impossible-clarity
+    to: concept:discovery-and-validation-ladder
+    type: develops
+  - from: beat:fresh-randomness
+    to: concept:discovery-and-validation-ladder
+    type: develops
+  - from: beat:fresh-randomness
+    to: character:projector-operation
+    type: introduces
+  # The first follower experiences a genuine benefit and becomes
+  # the sincere advocate; the spine's closest anchor is the machine becoming a
+  # cognitive enhancer whose results draw people to the protagonist.
+  - from: beat:cognitive-enhancer
+    to: character:first-follower
+    type: introduces
+  - from: beat:collaborator-replication
+    to: character:skeptical-collaborator
+    type: introduces
+  - from: beat:reduced-protocol
+    to: character:loved-one
+    type: develops
+  - from: beat:reduced-protocol
+    to: concept:eigenhistories-and-dementia
+    type: develops
+  - from: beat:entity-observation
+    to: concept:psychosis-and-diagnostic-channel
+    type: introduces
+  # The Guide and the Ruined Sovereign are entity characters;
+  # the spine first shows structured entities under controlled altered-state
+  # observation in this beat.
+  - from: beat:entity-observation
+    to: character:the-guide
+    type: introduces
+  - from: beat:entity-observation
+    to: character:the-ruined-sovereign
+    type: introduces
+  - from: beat:finite-history-model
+    to: concept:finite-multiverse-cosmology
+    type: develops
+  - from: beat:midpoint-moral-injury
+    to: character:the-quitter
+    type: introduces
+  - from: beat:convergence
+    to: concept:psychosis-and-diagnostic-channel
+    type: develops
+  # Followers sincerely wanting continued access is the interpersonal
+  # pressure in the dossier; convergence is where that pressure surfaces.
+  - from: beat:convergence
+    to: character:first-follower
+    type: develops
+  - from: beat:self-confirming-paranoia
+    to: character:skeptical-collaborator
+    type: develops
+  - from: beat:topology-escape
+    to: character:loved-one
+    type: develops
+  - from: beat:topology-escape
+    to: character:institutional-observers
+    type: develops
+  - from: beat:bootloader-realization
+    to: concept:eigenhistories-and-dementia
+    type: develops
+  - from: beat:bootloader-realization
+    to: character:projector-operation
+    type: develops
+  # In Part V the entity families lose recognizable bodies and compress into
+  # invariants of the newborn physics.
+  - from: beat:entities-compress
+    to: character:the-guide
+    type: develops
+  - from: beat:entities-compress
+    to: character:the-ruined-sovereign
+    type: develops
+  - from: beat:future-witness-encounter
+    to: character:the-future-witness
+    type: introduces
+  - from: beat:rank-zero
+    to: concept:rupture-and-genesis
+    type: introduces
+  - from: beat:factorization
+    to: concept:rupture-and-genesis
+    type: develops
+  - from: beat:factorization
+    to: character:projector-operation
+    type: develops
+  - from: beat:epilogue
+    to: character:the-future-witness
+    type: develops

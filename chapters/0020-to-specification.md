@@ -1,7 +1,7 @@
 ---
 schema: authorbot.chapter/v1
 id: 019f87ea-14fc-73e6-85b7-32bfdc0a0434
-slug: x
+slug: to-specification
 title: To Specification
 order: 20
 status: published
@@ -10,6 +10,11 @@ published_at: 2026-07-22T03:47:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: A flawless replacement ceramic meets every specification and erases the anomalous gain, leaving Evan to defend the damaged ring that works.
+timeline_refs:
+  - event:material-accident
+character_refs:
+  - character:protagonist
+  - character:loved-one
 ---
 
 <!-- authorbot:block id="019f87ec-ad37-7c4d-983f-fb93c5ec3f8a" -->

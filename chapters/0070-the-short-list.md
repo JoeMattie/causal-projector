@@ -10,6 +10,9 @@ published_at: 2026-07-22T03:51:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Eighteen-minute exposures clear Evan's backlog at work and at home, and the accumulating good fortune convinces him to call in Lena Varga.
+character_refs:
+  - character:protagonist
+  - character:loved-one
 ---
 
 <!-- authorbot:block id="019f87ef-6992-72fc-ba02-a490d883bcbb" -->

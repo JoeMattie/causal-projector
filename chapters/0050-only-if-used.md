@@ -10,6 +10,11 @@ published_at: 2026-07-22T03:52:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: An isolated noise generator stays fair when recorded, read, or replayed, and biases only once its bits are allowed to select a live physical branch.
+timeline_refs:
+  - event:fresh-randomness-test
+character_refs:
+  - character:protagonist
+  - character:loved-one
 ---
 
 <!-- authorbot:block id="019f87ed-e6ed-7b7a-969a-1dc12e4cde71" -->

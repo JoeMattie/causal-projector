@@ -10,6 +10,11 @@ published_at: 2026-07-22T03:49:10Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Five separately grounded instruments collapse onto one shared noise direction, and a sixteen-bit timer wrap explains the field gain but not the agreement.
+timeline_refs:
+  - event:first-anomaly
+character_refs:
+  - character:protagonist
+  - character:loved-one
 ---
 
 <!-- authorbot:block id="019f87ec-fc5d-75f8-9b43-c8b95800702e" -->
