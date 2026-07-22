@@ -5,10 +5,11 @@ slug: finite-support
 title: Finite Support
 order: 110
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T04:02:44Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: Evan and Lena assemble a finite-history model on index cards, and the peripheral forms lose recursion depth in proportion to the cycles already run.
 timeline_refs:
   - event:finite-history-model
@@ -45,6 +46,9 @@ GLOBAL CONSISTENCY ACTS LIKE PROJECTION began yellow and moved to red when Evan 
 
 <!-- authorbot:block id="019f87fa-2bf8-7f14-8bd2-5921ee4fb3f3" -->
 They covered the garage wall behind the broken drill press. The cards did not make the evidence less strange. They made each unsupported bridge visible.
+
+<!-- authorbot:block id="019f8baf-9eec-73d1-9a1c-65aa78021659" -->
+Ruth brought them tea and stopped to read the colors. "You have made the wall into a traffic signal," she said. Lena moved a red card out of the way of Ruth's mug. Twenty minutes later Ruth returned with the kettle and asked whether either of them wanted tea. Evan said they had some. Ruth looked at the two mugs, accepted the evidence, and carried the kettle back to the kitchen.
 
 <!-- authorbot:block id="019f87fa-2bf8-70a0-a2ae-1692611a9426" -->
 Evan began with a toy system small enough to enumerate. Sixteen binary events formed a directed causal graph. Local transition rules admitted 65,536 raw assignments. Conservation, ordering, and compatibility constraints reduced them to 1,184 complete histories. A controller chose between two valid local operations according to a loss function.
@@ -124,6 +128,12 @@ They asked Ruth how the report should describe Celia. Ruth read the paragraph sl
 
 <!-- authorbot:block id="019f87fa-2bf8-7f3d-9d87-f36fe20e2465" -->
 Evan made the change.
+
+<!-- authorbot:block id="019f8baf-9eec-7058-9b1d-8df3f9d21120" -->
+Ten minutes later Ruth passed through the garage again, stopped beneath the amended card, and asked why Celia's name was on their wall. Evan said they had been discussing her. Ruth read the sentence a second time.
+
+<!-- authorbot:block id="019f8baf-9eec-7b00-b3dd-a9d40c4550ca" -->
+"Then at least you wrote down what you know," she said.
 
 <!-- authorbot:block id="019f87fa-2bf8-7505-b5f0-6250f764f9c7" -->
 The entity cards remained red.
