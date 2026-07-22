@@ -4,8 +4,9 @@ id: 019f87f9-eba1-7271-9903-2485ce204489
 slug: finite-support
 title: Finite Support
 order: 110
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T04:02:44Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Evan and Lena assemble a finite-history model on index cards, and the peripheral forms lose recursion depth in proportion to the cycles already run.
