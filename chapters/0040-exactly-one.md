@@ -5,7 +5,7 @@ slug: exactly-one
 title: Exactly One
 order: 40
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T03:53:11Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -138,7 +138,7 @@ The motor patch could be tested.
 Evan opened the work laptop at 12:07. He added a second estimator state, carried the antipodal hypothesis through the low-observability band, and wrote the rejoin test. The implementation took forty-three minutes. It matched the three function names on the protocol. He did not need the refactor he had imagined after the episode ended.
 
 <!-- authorbot:block id="019f87ed-3f3a-7ccf-9c69-2fbf522e17b5" -->
-The simulation completed ten thousand commanded reversals without one false torque spike. He seeded it with the captured noise that had broken every previous patch. The two hypotheses separated near zero speed, crossed the blind interval, and merged when the signal returned. The controller no longer lied in order to remain decisive.
+The simulation completed ten thousand commanded reversals without one false torque spike. He seeded it with the captured noise that had broken every previous patch. The two hypotheses separated near zero speed, crossed the blind interval, and merged when the signal returned. The controller no longer needed a lie to remain decisive.
 
 <!-- authorbot:block id="019f87ed-3f3a-7dfd-973f-9278ebca2c8a" -->
 He sent the patch for review at 1:03 with no explanation of where it had come from.
