@@ -5,7 +5,7 @@ slug: common-mode
 title: Common Mode
 order: 30
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T03:49:10Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -80,7 +80,7 @@ Evan stared at the result until the labels began to look accusatory. Then he lau
 He added a causal lag. The dominant mode was strongest 640 milliseconds before each correction.
 
 <!-- authorbot:block id="019f87ec-fc5d-76cc-b830-8e34c2d9104a" -->
-That was still ordinary. The display updated at ten hertz, his eyes and hand added delay, and the encoder event arrived after he had decided to move it. A machine did not need to predict him in order to change before he reacted.
+That was still ordinary. The display updated at ten hertz, his eyes and hand added delay, and the encoder event arrived after he had decided to move it. A machine did not need to predict him just to change before he reacted.
 
 <!-- authorbot:block id="019f87ec-fc5d-76f2-86b6-9c339ad7d673" -->
 The utility door opened behind him.
