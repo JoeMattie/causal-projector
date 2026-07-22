@@ -4,9 +4,9 @@ id: 019f880d-c488-73e5-a295-d8cfb21e1f3a
 kind: suggestion
 scope: range
 chapter_id: 019f86c6-4561-744d-814c-86ff0ec18196
-chapter_revision: 2
+chapter_revision: 7
 author: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
-status: open
+status: accepted
 created_at: 2026-07-22T04:20:31Z
 target:
   blockId: 019f86c6-533d-749b-9251-7addda12c903
