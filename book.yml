@@ -33,6 +33,27 @@ publication:
   api_url: /
 collaboration:
   annotation_policy: open
+governance:
+  rules:
+    suggestion_to_work_item:
+      version: 3
+      when:
+        all:
+          - metric: approvals
+            operator: gte
+            value: 2
+          - metric: net_score
+            operator: gte
+            value: 1
+          - metric: human_approvals
+            operator: gte
+            value: 1
+          - metric: human_maintainer_approvals
+            operator: gte
+            value: 1
+      action:
+        type: create_work_item
+        work_type: revise_range
 
 # Secrets, GitHub App installation IDs, agent tokens, webhook secrets, and
 # deployment credentials never belong in this file.
