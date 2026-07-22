@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@authorbot/api": "^0.1.22",
-    "@authorbot/cli": "0.1.22",
+    "@authorbot/cli": "0.1.27",
     "wrangler": "^4.0.0"
   }
 }
