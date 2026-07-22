@@ -5,10 +5,11 @@ slug: the-short-list
 title: The Short List
 order: 70
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T03:51:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: Eighteen-minute exposures clear Evan's backlog at work and at home, and the accumulating good fortune convinces him to call in Lena Varga.
 character_refs:
   - character:protagonist
@@ -101,8 +102,8 @@ No one asked him to defend the decision in the afternoon design meeting. Marcus 
 <!-- authorbot:block id="019f87ef-6992-711d-ae90-eff18505578f" -->
 It was the meeting he had rehearsed privately for months. In those rehearsals he had needed sharper arguments, cleaner diagrams, or a title that made interruption less automatic. In the actual room, he explained each point once.
 
-<!-- authorbot:block id="019f87ef-6992-7993-bb0b-3a0e988548e4" -->
-People understood him.
+<!-- authorbot:block id="019f8bae-c946-7049-b959-4004ca8f76bb" -->
+No clarification was required.
 
 <!-- authorbot:block id="019f87ef-6992-7d44-bdf5-c4207601d377" -->
 The pleasure of it arrived later, in the stairwell, when no one was present to receive his restraint.
