@@ -5,10 +5,11 @@ slug: the-version-who-stopped
 title: The Version Who Stopped
 order: 120
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T04:03:28Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: The peripheral form resolves into a family of Evans who abandoned the experiment, and Evan reports a depth he no longer sees in order to keep the run alive.
 timeline_refs:
   - event:quitter-recognition
@@ -20,6 +21,9 @@ character_refs:
 
 <!-- authorbot:block id="019f87fc-e8cc-7d53-a0d9-d8ec78938fef" -->
 The stop circuit occupied more of Lena's attention than the experiment.
+
+<!-- authorbot:block id="019f8ba9-97cf-7064-8952-547edb8b5674" -->
+Ruth was spending the afternoon with Marisol. Before she left, she asked whether Lena was coming to make Evan stop. He told her Lena was coming to operate.
 
 <!-- authorbot:block id="019f87fc-e8cc-7d13-bab1-9872d4a209bf" -->
 She removed Evan's reporting microphone from the acquisition computer and connected it to an isolated board with a vocabulary of five words: FOUR, THREE, TWO, ONE, and NONE. FOUR did nothing. THREE, TWO, ONE, or NONE opened the safety contactor and latched it open until someone in the garage reset it by hand. An optically isolated tap carried live audio to Lena's headphones and a write-once recorder. The board could stop the controller but could not send it data, change a phase setting, or extend a run.
