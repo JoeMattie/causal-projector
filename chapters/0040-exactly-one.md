@@ -4,8 +4,9 @@ id: 019f87ed-18a7-7278-8cb3-4ff8d1569b48
 slug: exactly-one
 title: Exactly One
 order: 40
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T03:53:11Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Running the faulty build by hand, Evan falls into a state where each observation has exactly one successor, and solves a motor defect that had resisted him for weeks.
