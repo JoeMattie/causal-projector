@@ -5,7 +5,7 @@ slug: loose-ends
 title: Loose Ends
 order: 10
 status: published
-revision: 5
+revision: 6
 published_at: 2026-07-22T03:23:40Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -59,7 +59,7 @@ Ruth sat at the table wearing her red cardigan over a summer blouse. She had sor
 Evan looked at the printed schedule clipped inside a cabinet. Ruth was right. He had updated the calendar application and not the dispenser card. The dose would not have harmed her, which was not the standard he was trying to meet.
 
 <!-- authorbot:block id="019f86c6-533d-71c5-9fbc-3676ebee2cbc" -->
-"Every other Thursday," he said. He returned the tablet to its bottle. "Good catch."
+"Every other Thursday," he said. He returned the tablet to its bottle. "I'll fix the card."
 
 <!-- authorbot:block id="019f86c6-533d-7c4e-8626-a80bcf35b638" -->
 Ruth made a small sound of satisfaction. The neurologist's notes called these moments retained executive function. Evan thought that description managed to be both accurate and rude. His mother had remembered a medication change. She had also spent ten minutes that afternoon looking for a school secretary who had been dead for thirty years. Both facts belonged to her day. Neither canceled the other.

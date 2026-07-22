@@ -14,3 +14,6 @@ entries:
   - revision: 5
     actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
     work_item_id: 019f8abc-88ea-7157-abc9-25c4246a595d
+  - revision: 6
+    actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    work_item_id: 019f8abc-d4a8-7682-8924-c6cb578fe78d
