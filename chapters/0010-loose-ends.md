@@ -5,7 +5,7 @@ slug: loose-ends
 title: Loose Ends
 order: 10
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T03:23:40Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -26,7 +26,7 @@ The garage timer won by half a second. Evan reached across the bench and silence
 The apparatus occupied the space where a car had once leaked oil. It had started as a plywood base and a printed coil former. It now included a stainless vacuum chamber bought from a closing dental laboratory, a liquid-nitrogen dewar with someone else's university inventory number ground off, two RF amplifiers, a field-programmable gate array, sixteen heater leads, and a small forest of sensors mounted wherever a previous failure had made a new measurement seem indispensable.
 
 <!-- authorbot:block id="019f86c6-533d-706f-ad90-17c443e25e97" -->
-At the center, hidden by insulation and a polycarbonate shield, sat a dark annulus of melt-textured yttrium barium copper oxide. The material could trap a magnetic field after cooling below its transition temperature. Evan's less modest hope was that a traveling heat pulse and a rotating magnetic field could pump that trapped field higher without a permanent high-current connection. His immediate hope was that channel three would stop reporting a temperature nine kelvin below its neighbors.
+At the center, hidden by insulation and a polycarbonate shield, sat a dark annulus of melt-textured yttrium barium copper oxide. YBCO was a type-2 superconductor, which did not expel a magnetic field so much as admit it under protest, in quantized threads that lodged against defects in the grain structure. The lodging was the useful part. Cooled below its transition temperature, the ceramic held every thread its boundaries could catch, so the ring kept a field after the source of that field was gone. Against its lower face sat the segments that did the switching, a magnetic material whose permeability fell off steeply near eighty kelvin, close enough to the ceramic's working temperature that a microheater could walk a segment across the edge and back. Evan's less modest hope was that a traveling heat pulse and a rotating magnetic field could pump that trapped field higher without a permanent high-current connection. His immediate hope was that channel three would stop reporting a temperature nine kelvin below its neighbors.
 
 <!-- authorbot:block id="019f86c6-533d-79d0-b334-4e3b2894ef1f" -->
 He wanted a persistent field source for an open low-field imaging system. The project description said portable and serviceable. The grant rejection had said technically interesting but insufficiently differentiated. Ruth had called it the machine that took pictures of thoughts, and he had corrected her until he understood that she liked her version better.
