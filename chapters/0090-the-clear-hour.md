@@ -4,8 +4,9 @@ id: 019f87f0-296d-7759-b023-6bbddfa17069
 slug: the-clear-hour
 title: The Clear Hour
 order: 90
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T03:50:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Ruth requests six minutes of reduced exposure and returns oriented and articulate, remembering a daughter who appears in no record Evan can find.
