@@ -4,8 +4,9 @@ id: 019f86c6-4561-744d-814c-86ff0ec18196
 slug: loose-ends
 title: Loose Ends
 order: 10
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T03:23:40Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Evan Hale tends an unruly garage experiment alongside the careful evening routines that help his mother Ruth remain at home.
