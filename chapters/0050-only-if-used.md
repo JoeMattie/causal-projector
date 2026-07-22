@@ -5,7 +5,7 @@ slug: only-if-used
 title: Only If Used
 order: 50
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T03:52:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -149,7 +149,7 @@ For 4,096 fair decisions, a deviation that large should not have survived contac
 Evan checked whether APPLY had altered the generator through heat, RF load, timing, or optical traffic. The box temperature had varied by less than a tenth of a degree. Its supply current was flat. The request timing was identical in all controller modes. APPLY and HOLD returned the same acknowledgment pulse over the fiber.
 
 <!-- authorbot:block id="019f87ed-e6ed-721c-be06-cfbb231b1697" -->
-There was one control that made those paths irrelevant.
+One control made those paths irrelevant.
 
 <!-- authorbot:block id="019f87ed-e6ed-7c2b-8abf-c3df417a7299" -->
 He reversed the mapping.
