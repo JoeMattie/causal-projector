@@ -4,8 +4,9 @@ id: 019f87ec-d191-779f-af8a-bc707f89f937
 slug: common-mode
 title: Common Mode
 order: 30
-status: draft
-revision: 1
+status: published
+revision: 2
+published_at: 2026-07-22T03:49:10Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
 summary: Five separately grounded instruments collapse onto one shared noise direction, and a sixteen-bit timer wrap explains the field gain but not the agreement.
