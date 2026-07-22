@@ -5,7 +5,7 @@ slug: only-if-used
 title: Only If Used
 order: 50
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T03:52:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -218,25 +218,11 @@ He copied the files twice and set one copy read-only. Then he printed the two ma
 <!-- authorbot:block id="019f87ed-e6ed-77cb-bfac-5ae3bbd1ffd7" -->
 At 10:04 he opened a new issue.
 
-<!-- authorbot:block id="019f87ed-e6ed-7455-891c-f776e8f4db00" -->
-```text
-DECISION-01: fresh contingency bias
+<!-- authorbot:block id="019f8bac-bc7b-7bdb-b07d-f2a880af4c79" -->
+In DECISION-01, Evan wrote that RNG-1 stayed fair when its bits were recorded, read, replayed, or unused, and biased only when a fresh bit selected a live physical branch. Reversing the bit meaning preserved the favored action while reversing the raw bias. Increasing feedback depth strengthened the effect; changing RF power did not. He listed fixed bit bias, receiver loss, shared ground, RF pickup, post-selection, and pre-recorded sequence effects among the excluded explanations. His working description was that the distribution depended on the causal use of information.
 
-finding:
-  RNG output remains fair when recorded, read, replayed, or unused
-  fresh output biases only when it selects a live physical branch
-  reversing bit meaning reverses raw bias and preserves favored action
-  bias scales with feedback depth, not RF power
-
-excluded:
-  fixed bit bias, receiver loss, shared ground, RF pickup,
-  post-selection in analysis, pre-recorded sequence effect
-
-working description:
-  distribution depends on causal use of information
-
-DO NOT CONNECT EXTERNAL OUTCOMES
-```
+<!-- authorbot:block id="019f8bac-bc7b-7b6f-b8a5-337a91b58426" -->
+At the bottom he wrote: DO NOT CONNECT EXTERNAL OUTCOMES.
 
 <!-- authorbot:block id="019f87ed-e6ed-77ba-8756-00e6353b9a04" -->
 He read the final line several times. It was a safety rule with no defined hazard and a category boundary he had invented minutes earlier.
