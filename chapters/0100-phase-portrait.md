@@ -5,10 +5,11 @@ slug: phase-portrait
 title: Phase Portrait
 order: 100
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T04:02:21Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: Masked and blinded, Evan reports a nested figure that tracks the phase steps the hardware acts on and ignores the ones written to a shadow register.
 timeline_refs:
   - event:structured-entity-observation
@@ -71,7 +72,7 @@ Lena read the entries without changing expression. "Have you seen this before?"
 Evan said yes.
 
 <!-- authorbot:block id="019f87f8-c552-7197-a97d-b34cd678d691" -->
-Eleven years earlier, he had participated in a licensed perception study that used DMT. He had volunteered because the study paid, the monitoring looked serious, and another engineer claimed the experience was impossible to describe. Evan had interpreted this as a challenge to description.
+He had not recognized the grain when it first appeared during L-03. He had recognized it completely by the time it acquired depth. Eleven years earlier, he had participated in a licensed perception study that used DMT. He had volunteered because the study paid, the monitoring looked serious, and another engineer claimed the experience was impossible to describe. Evan had interpreted this as a challenge to description.
 
 <!-- authorbot:block id="019f87f8-c552-7d30-bc65-9c16c90a50fc" -->
 The session lasted minutes. It did not reveal a cosmic truth. It dismantled the ordinary priority by which one room, one body, and one sequence of moments suppressed every competing interpretation. He saw recursive architecture populated by figures that seemed to react when he attended to them. Afterward he treated the impression as a property of a brain temporarily unable to enforce its usual model.
