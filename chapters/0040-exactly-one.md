@@ -5,7 +5,7 @@ slug: exactly-one
 title: Exactly One
 order: 40
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T03:53:11Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -87,6 +87,9 @@ Field slope low: advance the thermal front. Current third harmonic rising: reduc
 The state was calm enough that he initially mistook it for relief. His shoulders lowered. The pressure he usually carried behind his eyes disappeared. He could see the next ten minutes of the run not as prediction but as a sequence of necessary maintenance. When the system reached each point, it behaved as he expected.
 
 <!-- authorbot:block id="019f87ed-3f3a-793d-b2f0-43b581b9d653" -->
+From the garden came Ruth's laugh, then Marisol repeating something more slowly. Evan turned toward the sound. Fewer alternatives were not the same thing as restored memory. He had no measurement that said otherwise.
+
+<!-- authorbot:block id="019f91dc-c4f7-7ea5-be4a-944129fd8c52" -->
 His work laptop sat closed beside the acquisition monitor. Evan looked at it and understood the zero-speed reversal defect.
 
 <!-- authorbot:block id="019f87ed-3f3a-7452-bcae-c1632e4cbd44" -->
