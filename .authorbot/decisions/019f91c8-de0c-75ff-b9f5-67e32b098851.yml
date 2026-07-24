@@ -1,0 +1,18 @@
+schema: authorbot.decision/v1
+id: 019f91c8-de0c-75ff-b9f5-67e32b098851
+source_annotation_id: 019f91c6-8dac-7011-9d24-144bc1eeccfe
+rule: maintainer_override
+rule_version: 0
+metrics:
+  abstentions: 0
+  agent_approvals: 0
+  approvals: 0
+  distinct_voters: 0
+  human_approvals: 0
+  human_maintainer_approvals: 0
+  maintainer_approvals: 0
+  net_score: 0
+  rejections: 0
+result: create_work_item
+work_item_id: 019f91c8-de0c-7600-a108-6fc8f86bd830
+effective_at: 2026-07-24T01:41:28Z
