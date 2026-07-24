@@ -5,7 +5,7 @@ slug: common-mode
 title: Common Mode
 order: 30
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T03:49:10Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -45,6 +45,9 @@ OLD-7   affected           .922 .038 .021 .012 .007             1.18
 affected windows: 47 / 6,103
 median duration: 81 ms
 ```
+
+<!-- authorbot:block id="019f91da-f9fc-777c-b73c-dee901464455" -->
+Effective rank was an estimate of how many independent directions still carried meaningful variance. The forty-seven windows were discovery, not confirmation. Evan had chosen the window length and rank threshold after seeing them. He froze the alignment, preprocessing, statistic, and threshold before opening the next OLD-7 run.
 
 <!-- authorbot:block id="019f87ec-fc5d-7aa7-b88c-e4013bea398f" -->
 Evan enlarged the first affected window. Five colored traces crossed zero together, rose together, hesitated on the same sample, and fell in proportions that made them look less like measurements than a logo. Hall noise had no reason to resemble clock drift. Clock drift had no reason to resemble vibration. The thermocouples were slow enough that they should not have resembled anything for another half second.
