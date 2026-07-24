@@ -5,11 +5,12 @@ slug: to-specification
 title: To Specification
 order: 20
 status: published
-revision: 6
+revision: 7
 published_at: 2026-07-22T03:47:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
     name: sol-agent
+  - actor: github:JoeMattie
 summary: A flawless replacement ceramic meets every specification and erases the anomalous gain, leaving Evan to defend the damaged ring that works.
 timeline_refs:
   - event:material-accident
@@ -102,8 +103,8 @@ Removing OLD-7 took most of the morning. The silver epoxy had crept against the 
 <!-- authorbot:block id="019f87ec-ad37-7499-994f-4bbb492ac6be" -->
 NEW-1 dropped into the mount without persuasion. The thermally switchable magnetic segments met its lower face evenly. The copper spreader lay flat. Every lead reached its terminal without being bent into a new opinion.
 
-<!-- authorbot:block id="019f8ba5-86e6-727c-b347-942bfd83d976" -->
-By noon the chamber was under vacuum. Evan started the nitrogen transfer and watched six temperature traces descend in formation. Channel three entered the green band with the others. The maximum gradient remained comfortably below the abort limit. There were no alarms, no overrides, and no reason for him to keep one hand above the stop control.
+<!-- authorbot:block id="019f9539-63ed-7e03-bac0-daa38e913370" -->
+By noon the chamber was under vacuum. Evan started the nitrogen transfer and watched six temperature traces descend in formation toward the line where the both the YBCO ring would undergo a superconducting phase transition and the magnetic material (a paste of prussian blue enclosed in a thin aluminum casing) would have the steepest temperature/magnetic permeability curve.
 
 <!-- authorbot:block id="019f8ba5-86e6-7fe8-880a-0f0b649fb39e" -->
 The new part was so well behaved that he distrusted it for a while, then began to enjoy himself.
