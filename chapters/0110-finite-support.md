@@ -5,7 +5,7 @@ slug: finite-support
 title: Finite Support
 order: 110
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T04:02:44Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -57,7 +57,7 @@ Evan began with a toy system small enough to enumerate. Sixteen binary events fo
 Nothing in the simulation resembled a universe. It had no quantum theory, gravity, chemistry, or observers. It was a finite constraint problem with enough structure to be wrong clearly.
 
 <!-- authorbot:block id="019f87fa-2bf8-77c1-ad5e-fac1dd294696" -->
-When the controller merely recorded a random bit, every compatible history retained equal status. When the bit selected an action and the controller rejected histories with higher loss, the surviving bit distribution shifted. Replaying the same bits after they were fixed produced no shift. Asking for a state excluded by the graph produced an empty local path and a failed update.
+When the controller merely recorded a random bit, every compatible history retained equal status. When the bit selected an action and the controller rejected histories with higher loss, the surviving bit distribution shifted. Replaying the same bits after they were fixed produced no shift. Asking for a state excluded by the graph produced an empty local path and a failed update. "You wrote the rejection rule," Lena said. "The bias is what the model does after you assume projection. It is not independent evidence for projection."
 
 <!-- authorbot:block id="019f87fa-2bf8-7e71-821e-eaab0785e351" -->
 The toy model did not prove the apparatus worked this way. It demonstrated that one constrained operation could reproduce three otherwise unrelated signatures without sending information backward or violating a local rule.
