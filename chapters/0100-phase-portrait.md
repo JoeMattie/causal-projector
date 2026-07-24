@@ -5,7 +5,7 @@ slug: phase-portrait
 title: Phase Portrait
 order: 100
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T04:02:21Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -60,7 +60,7 @@ Evan accepted this because arguing would have converted an accurate statement in
 He showed Lena the visual notes after lunch.
 
 <!-- authorbot:block id="019f87f8-c552-7649-a913-ef6dc988691d" -->
-The first entry predated Ruth's run. During L-03, Evan had seen a faint hexagonal grain across the closed-eye darkness. During Lena's replication it had acquired depth, like tiled rooms viewed from all sides at once. While the sensors lost rank in RUTH R-01, the grain had returned at the edge of his vision even though he was in the kitchen and not the active subject.
+The first entry predated Ruth's run. During L-03 he had seen a faint hexagonal grain across the closed-eye darkness and had given it the weight of a floater. During Lena's replication it came back with depth in it, like tiled rooms viewed from all sides at once, and he had been sitting in a diner booth while it did, blaming the light. While the sensors lost rank in RUTH R-01, it found the edge of his vision in his mother's kitchen, over the white of a cupboard door, while he scored her answers. He had been the active subject exactly once. After that the pattern had proceeded without needing him.
 
 <!-- authorbot:block id="019f87f8-c552-7478-87d0-b47ed357a533" -->
 He had omitted it because geometric afterimages were subjective, migraines existed, and writing hallucination beside cognitive enhancement would have made every other result easier to ignore.
