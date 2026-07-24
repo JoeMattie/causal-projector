@@ -5,7 +5,7 @@ slug: finite-support
 title: Finite Support
 order: 110
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T04:02:44Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -160,7 +160,7 @@ The nested figure's useful timing advice suggested a family aligned with continu
 "Neither is ours."
 
 <!-- authorbot:block id="019f87fa-2bf8-7ac9-a0e2-4da97ccea282" -->
-"Ours can contain disagreement."
+"No," Lena said. "But I can tell you you're wrong and still be here tomorrow. Can it?"
 
 <!-- authorbot:block id="019f87fa-2bf8-7075-9a28-95ef604c8d2c" -->
 To move FINITE from red, they needed a prediction not used to build the model. If the figures were renderings of finite residual families, their recursion should terminate. More important, continued projection should reduce the visible subdivision depth of poorly aligned families. A generic hallucination could become simpler with fatigue, but depth should track cumulative anomalous cycles rather than time, field power, or observer expectation.
