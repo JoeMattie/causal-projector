@@ -1,0 +1,19 @@
+schema: authorbot.decision/v1
+id: 019f922c-52ed-7043-bb60-d6b14bb3337e
+source_annotation_id: 019f91c6-3d1d-7676-8ff2-d8b3eb5f96b1
+rule: maintainer_override
+rule_version: 0
+metrics:
+  abstentions: 0
+  agent_approvals: 0
+  approvals: 0
+  distinct_voters: 0
+  human_approvals: 0
+  human_maintainer_approvals: 0
+  maintainer_approvals: 0
+  net_score: 0
+  rejections: 0
+result: overridden
+work_item_id: 019f91db-94e9-7301-b04a-eb8d3fb1d01d
+effective_at: 2026-07-24T03:30:06Z
+override_reason: "Redundant resolver: current Chapter 11 revision 5 already contains the requested science clarification, and the rejected revision-4 proposal had an empty diff."
