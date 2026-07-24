@@ -5,7 +5,7 @@ slug: phase-portrait
 title: Phase Portrait
 order: 100
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T04:02:21Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -78,7 +78,7 @@ He had not recognized the grain when it first appeared during L-03. He had recog
 The session lasted minutes. It did not reveal a cosmic truth. It dismantled the ordinary priority by which one room, one body, and one sequence of moments suppressed every competing interpretation. He saw recursive architecture populated by figures that seemed to react when he attended to them. Afterward he treated the impression as a property of a brain temporarily unable to enforce its usual model.
 
 <!-- authorbot:block id="019f87f8-c552-7be7-aae0-2604a1b8d41e" -->
-He had kept one page of notes.
+He had kept one page of notes. He slid the original across the bench face down and let Lena turn it over.
 
 <!-- authorbot:block id="019f87f8-c552-701d-94a4-b984be67e9e8" -->
 ```text
