@@ -5,10 +5,11 @@ slug: out-of-the-loop
 title: Out of the Loop
 order: 80
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T03:51:07Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: Lena rebuilds the experiment with her own instruments and a hidden mapping, reproduces the effect with Evan six kilometers away, and halts the operator runs.
 timeline_refs:
   - event:independent-replication
@@ -150,7 +151,7 @@ At the garage, Lena controlled a machine built from his choices. Every phase tab
 The second possibility should have been reassuring.
 
 <!-- authorbot:block id="019f87ef-e8f7-7743-91d3-b39341f474f3" -->
-He remained at the diner for two hours after the planned stop, as instructed. When he returned, Lena was sitting on the back step with the instrument cases closed. The garage breaker was off. A red cable tie passed through the disconnect handle.
+He remained at the diner for two hours after the planned stop, as instructed. Somewhere in the second hour he rested his eyes against the heels of his hands, and the grain was there again with depth in it, like tiled rooms viewed from all sides at once. He was not in the garage and was the subject of nothing. He assigned it to the booth light, to a headache that had not arrived, and to the fact that he had gone looking for it. When he returned, Lena was sitting on the back step with the instrument cases closed. The garage breaker was off. A red cable tie passed through the disconnect handle.
 
 <!-- authorbot:block id="019f87ef-e8f7-704e-b064-fd0715995e87" -->
 "Safety fault?" he asked.
