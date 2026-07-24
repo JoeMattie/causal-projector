@@ -5,7 +5,7 @@ slug: out-of-the-loop
 title: Out of the Loop
 order: 80
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T03:51:07Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -216,7 +216,7 @@ She pointed to the red cable tie. "You stop the operator runs. No more task list
 "And you felt it."
 
 <!-- authorbot:block id="019f87ef-e8f7-7a23-be27-6c6828e5fe4d" -->
-"Yes. That is why you stop."
+"Yes." Lena looked at the sealed logs. "While it was happening, stopping felt stupid. That is why you stop."
 
 <!-- authorbot:block id="019f87ef-e8f7-71a1-aefc-cd970ed6fd39" -->
 The answer irritated him because it used his strongest evidence as an argument against the thing the evidence made useful.
