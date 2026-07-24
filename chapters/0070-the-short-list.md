@@ -5,7 +5,7 @@ slug: the-short-list
 title: The Short List
 order: 70
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T03:51:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -91,7 +91,7 @@ The test motor reversed through zero speed until the bearings warmed. The curren
 "The changes were small."
 
 <!-- authorbot:block id="019f87ef-6992-75a3-977c-38e849e7d782" -->
-"They were small on Friday."
+"They were small on Friday." Nadia looked at him instead of the issue list. "How much did you sleep?" Evan told her he'd slept Sunday night. It was true, and not what she'd asked.
 
 <!-- authorbot:block id="019f87ef-6992-795d-b916-2f81facd2f9a" -->
 Nadia opened the estimator rewrite proposal, read his closing note, and nodded before reaching the second paragraph. "You're right. We don't do this."
