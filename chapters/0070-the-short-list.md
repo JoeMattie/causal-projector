@@ -5,7 +5,7 @@ slug: the-short-list
 title: The Short List
 order: 70
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T03:51:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -178,7 +178,7 @@ sleep: unchanged
 The confidence error reassured him. He was not becoming grandiose. When the neutral problems contained missing information, he still marked them unresolved. When two summaries remained defensible, he still selected both. His improvement was visible in tests other people could run.
 
 <!-- authorbot:block id="019f87ef-6992-70e8-9596-cc84a0944374" -->
-The frequency concerned him more. L-01 had been Saturday. L-02 Tuesday. L-03 Thursday. He had scheduled L-04 for Friday because Nadia wanted the release-recovery plan before noon, and because an eighteen-minute protocol did not become more hazardous merely because the calendar recognized a pattern.
+The frequency concerned him more. L-01 had been Saturday. L-02 Tuesday. L-03 Thursday. During L-03 he had closed his eyes for less than a minute while the phase relation held, and the ordinary darkness had carried a faint hexagonal grain, too regular for retinal noise and too dim to be worth an entry. He did not add it to the log. He had scheduled L-04 for Friday because Nadia wanted the release-recovery plan before noon, and because an eighteen-minute protocol did not become more hazardous merely because the calendar recognized a pattern.
 
 <!-- authorbot:block id="019f87ef-6992-7a76-9065-ef36b6672349" -->
 Friday's run felt cleaner than the others. The quiet arrived within two minutes of the phase relation and remained through automatic shutdown. Evan produced a dependency plan that separated the release into five independently testable gates. At work, Nadia read it once and moved every assigned engineer onto his schedule.
