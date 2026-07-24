@@ -5,7 +5,7 @@ slug: the-version-who-stopped
 title: The Version Who Stopped
 order: 120
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T04:03:28Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -86,7 +86,7 @@ Nothing tripped. The scenes widened.
 In one garage, the replacement ceramic had removed the unexplained gain and stayed installed. In another, the wraparound fault had been corrected before the manual trial. In a third, a printed label crossed the controller enclosure: DISASSEMBLED AFTER P-01. The versions represented by the form had not all understood the anomaly. Some had never proved it. Some had proved enough and stopped.
 
 <!-- authorbot:block id="019f87fc-e8cc-7ea9-bdb5-2e90f1de9086" -->
-Their lives were not rewards.
+Their lives were not rewards. In one garage, the neighbor's brass clock had been repaired and boxed for forwarding. No result depended on it.
 
 <!-- authorbot:block id="019f87fc-e8cc-7643-8905-8d8269ebd90a" -->
 Evan received an argument with Ruth that ended badly and stayed ended. He received a missed release, a smaller apartment, a resignation drafted and deleted, six months of unopened mail, and a morning when he sat in his parked car because going inside required admitting he had failed. None of the versions were wiser in every direction. They had merely left the apparatus behind.
