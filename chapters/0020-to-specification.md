@@ -5,7 +5,7 @@ slug: to-specification
 title: To Specification
 order: 20
 status: published
-revision: 5
+revision: 6
 published_at: 2026-07-22T03:47:38Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -130,7 +130,7 @@ He recalibrated both Hall probes against the reference coil. Their disagreement 
 Evan ate two crackers over the keyboard and ran the test again with the optimizer disabled. The fixed waveform fell short by a little more. A new seed recovered the previous result. Widening the phase bounds until the thermal front nearly lost direction bought almost nothing at the cost of twice the heat.
 
 <!-- authorbot:block id="019f87ec-ad37-7caa-a6e3-24a5ca6aaf35" -->
-The supplier's ring was reproducible, symmetrical, safe, and useless to him.
+The supplier's ring was reproducible, symmetrical, safe, and useless to him. It could make the machine safer to demonstrate, easier to reproduce, and too ordinary to justify building.
 
 <!-- authorbot:block id="019f8ba5-86e6-7040-b260-f2dc41644721" -->
 He checked the mount dimensions against the scan he had taken before disassembly. NEW-1 sat slightly higher. He shimmed the stator. The result did not change. He reversed the pickup coil, swapped the Hall channels, restored the previous controller build, and repeated the run under Thursday's conditions. The field remained within the uncertainty band around the model.
