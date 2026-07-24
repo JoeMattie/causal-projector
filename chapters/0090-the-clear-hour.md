@@ -5,7 +5,7 @@ slug: the-clear-hour
 title: The Clear Hour
 order: 90
 status: published
-revision: 3
+revision: 4
 published_at: 2026-07-22T03:50:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -296,19 +296,19 @@ exposure: 6 min at 20% OPERATOR L-01 power
 participant stop: not used
 full-rank to low-rank transition: present
 
-post-run:
-  sustained orientation and task improvement: approximately 43 min
+observation:
+  orientation and task performance improved for approximately 43 min
   independent preferences stated clearly
-  autobiographical continuity improved
+  stable Celia narrative conflicts with current records
+  and E. Hale memory
 
-incompatible invariant:
-  Celia Hale, older daughter / sister
-  detailed, stable, integrated across family events
-  absent from current records and E. Hale memory
+interpretations retained:
+  state-induced coherent confabulation
+  autobiographical history absent from current records
 
 assessment:
-  not restoration
-  coherent implementation selected from an incompatible history
+  not demonstrated restoration
+  origin unresolved
 ```
 
 <!-- authorbot:block id="019f87f0-62e3-7ed7-864a-1504103e63f2" -->
