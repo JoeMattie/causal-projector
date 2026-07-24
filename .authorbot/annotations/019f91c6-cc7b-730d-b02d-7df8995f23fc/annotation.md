@@ -6,7 +6,7 @@ scope: block
 chapter_id: 019f87fc-a6e9-7456-be34-ae7e19e11eb0
 chapter_revision: 3
 author: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
-status: open
+status: work_item_created
 created_at: 2026-07-24T01:39:12Z
 target:
   blockId: 019f87fc-e8cc-7ea9-bdb5-2e90f1de9086
