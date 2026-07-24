@@ -5,7 +5,7 @@ slug: only-if-used
 title: Only If Used
 order: 50
 status: published
-revision: 5
+revision: 6
 published_at: 2026-07-22T03:52:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -143,7 +143,7 @@ LIVE A mapping: 1 = APPLY, 0 = HOLD
 ```
 
 <!-- authorbot:block id="019f87ed-e6ed-7d43-8607-2df13c56e5e8" -->
-For 4,096 fair decisions, a deviation that large should not have survived contact with the first decimal place. It was not a single dramatic bit. It was 231 extra ordinary choices, each legal, each small, and together unwilling to average away.
+If the whitened bits were independent and fair, a deviation that large should not have survived contact with the first decimal place. That conditional mattered. One source and one LIVE sequence could still be wrong. The mapping reversal would be the stronger test because it could separate a voltage-level preference from an action preference. It was not a single dramatic bit. It was 231 extra ordinary choices, each legal, each small, and together unwilling to average away.
 
 <!-- authorbot:block id="019f87ed-e6ed-7878-9047-cd34a8e12916" -->
 Evan checked whether APPLY had altered the generator through heat, RF load, timing, or optical traffic. The box temperature had varied by less than a tenth of a degree. Its supply current was flat. The request timing was identical in all controller modes. APPLY and HOLD returned the same acknowledgment pulse over the fiber.
