@@ -5,7 +5,7 @@ slug: a-valid-path
 title: A Valid Path
 order: 60
 status: published
-revision: 4
+revision: 5
 published_at: 2026-07-22T03:52:26Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -157,7 +157,7 @@ Evan walked to the shed and opened the tumbler enclosure. The seal was intact. D
 He spent forty minutes attempting to turn success back into an ordinary mistake. The attempt was methodical and sincere. It was also performed by the version of him to whom the committed sequence had happened.
 
 <!-- authorbot:block id="019f87ee-29a7-7db5-95be-6d85bf0d948b" -->
-At 5:26 he prepared CONSTRAINT-01.
+Twice he started toward the kitchen with the printout. The second time he heard Ruth asking the room where Denise's pen had gone. He returned to the bench. At 5:26 he prepared CONSTRAINT-01.
 
 <!-- authorbot:block id="019f87ee-29a7-7ba7-96b9-3dffb1ac93dd" -->
 Two steel shutters shared one rigid slide. Moving the slide left blocked optical gate A and opened gate B. Moving it right opened A and blocked B. The solid center section was wider than both beams. No position allowed both gates to read open. Evan verified this through the full mechanical travel, then removed the actuator. For the target run, nothing could move the slide at all.
