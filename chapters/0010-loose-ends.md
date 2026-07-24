@@ -5,7 +5,7 @@ slug: loose-ends
 title: Loose Ends
 order: 10
 status: published
-revision: 10
+revision: 11
 published_at: 2026-07-22T03:23:40Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
@@ -194,4 +194,4 @@ Evan waited. Behind him, relays opened one by one. The apparatus shed its stored
 He closed the utility door without correcting her. In the kitchen he added LIBRARY, 10:00 to the whiteboard, then repaired the medication card, and put the pears on the shopping list. The glove's partner was under the chair where Ruth had been sitting. The water stain above the window had spread another centimeter toward the cabinet.
 
 <!-- authorbot:block id="019f86c6-533d-74bb-8331-a989c11ff588" -->
-At 8:03 the controller sent him a recovery report. At 8:04 his manager asked whether he was still awake. At 8:05 the home-care agency called for the third time and did not leave a message. Evan set the phone face down while Ruth described a library that had been demolished before he was born. In the garage, the ceramic ring warmed by fractions of a degree, keeping every small imperfection it had acquired on the way down.
+At 8:03 the controller sent him a recovery report. At 8:04 his manager asked whether he was still awake. At 8:05 the home-care agency called for the third time and did not leave a message. Evan set the phone face down while Ruth described a library that had been demolished before he was born. In the garage, the ceramic ring warmed by fractions of a degree, with defects in its grain structure still pinning the trapped field in place.
