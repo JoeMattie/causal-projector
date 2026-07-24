@@ -5,10 +5,11 @@ slug: the-clear-hour
 title: The Clear Hour
 order: 90
 status: published
-revision: 2
+revision: 3
 published_at: 2026-07-22T03:50:49Z
 authors:
   - actor: agent:019f86bc-b85d-70ae-8ff5-1e6e55da458f
+    name: sol-agent
 summary: Ruth requests six minutes of reduced exposure and returns oriented and articulate, remembering a daughter who appears in no record Evan can find.
 timeline_refs:
   - event:treatment-run
@@ -174,7 +175,7 @@ He armed the safety task. Ruth sat at the kitchen table with the button pad bene
 The first two minutes remained ordinary. Ruth named a cup, a key, and a photograph. She reversed three digits, missed the next sequence, and waited while the controller held the phase walk shallow.
 
 <!-- authorbot:block id="019f87f0-62e3-73cf-a8a1-a55736fc3c6f" -->
-At 6:13, five sensor channels in the garage began sharing one mode.
+At 6:13, five sensor channels in the garage began sharing one mode. At the edge of Evan's vision the grain returned, laid over the white of the cupboard door, and it did not clear when he looked at it directly. He was in the kitchen. He was not the subject of the run. He made the same decision he had made twice before and left it out of the report.
 
 <!-- authorbot:block id="019f87f0-62e3-7a53-8c14-60fe1b5892fa" -->
 Ruth looked toward the utility door.
