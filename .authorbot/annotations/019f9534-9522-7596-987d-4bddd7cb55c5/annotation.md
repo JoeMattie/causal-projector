@@ -6,10 +6,10 @@ scope: range
 chapter_id: 019f87ea-14fc-73e6-85b7-32bfdc0a0434
 chapter_revision: 6
 author: github:JoeMattie
-status: work_item_created
+status: needs_reanchor
 created_at: 2026-07-24T17:37:59Z
 target:
-  blockId: 019f8ba5-86e6-727c-b347-942bfd83d976
+  blockId: 019f9539-63ed-7e03-bac0-daa38e913370
   textPosition:
     start: 0
     end: 347
