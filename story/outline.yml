@@ -1,3 +1,10 @@
+# Current Authorbot story graph.
+# schema: authorbot.story-graph/v1
+#
+# This graph reflects the Snowflake restart and supersedes the legacy graph.
+# It deliberately stays at premise, arc, character, concept, and motif level.
+# Detailed chapter planning, especially the exact genesis operation, remains
+# late-bound until the final chapter or two has been earned by earlier work.
 schema: authorbot.story-graph/v1
 
 nodes:
@@ -24,68 +31,358 @@ nodes:
       turning the project he shares with Ruth into an obsession that steals
       their remaining time together. When Evan exposes Ruth to the machine,
       she becomes lucid and casually asks after the granddaughter who survived
-      in Ruth's memories but was miscarried in Evan's history; Evan treats the
-      impossible detail as a calibration error rather than confront what the
-      machine has selected. Addicted to the machine and haunted by entities
-      that prove to be echoes of dying realities, Evan realizes each run is
-      erasing entire universes; yet every attempt to stop becomes another
-      impossible link in the chain that keeps it operating while Ruth's last
-      lucid hours pass without him. As reality collapses around them into a
-      fractal singularity, Evan and the one companion improbable enough to
-      remain herself attempt to erase his mistake, only for their final act to
-      become the genesis of our universe.
+      in her memories but was miscarried in his; Evan treats the impossible
+      detail as a calibration error rather than confront what the machine has
+      selected. Addicted to the machine and haunted by entities that prove to
+      be echoes of dying realities, Evan realizes each run is erasing entire
+      universes; yet every attempt to stop becomes another impossible link in
+      the chain that keeps it operating while Ruth's last lucid hours pass
+      without him. As reality collapses around them into a fractal singularity,
+      Evan and Esther "Tess" Kertesz, the one person too causally rare to be
+      smoothly rewritten, attempt to erase his mistake together, and their
+      final independent choices become the genesis of our universe.
     order: 15
 
-  - id: arc:assembly
+  - id: rule:snowflake-status
+    type: custom
+    title: Snowflake status
+    parent: premise:main
+    summary: >-
+      Step 1 and Step 2 are complete. Step 3 sheets are substantially complete
+      for Evan, Ruth, and Tess. Lena is stable but unfinished. The next Step 3
+      subject is the projector operation as the true antagonist and
+      eigenoperation. Do not jump to chapter drafting.
+    order: 18
+
+  - id: arc:shared-project
     type: arc
     title: The shared project
     parent: premise:main
     summary: >-
-      Months into caring for his mother Ruth, controls engineer Evan Hale is
-      building a garage-scale MRI flux source with her when a defective
-      superconducting ring begins producing measurements that should not
-      agree.
+      Months into caregiving, Evan and Ruth already share the garage workshop.
+      Their ordinary portable-MRI flux-source project becomes strange when a
+      defective superconducting ring produces measurements that should remain
+      independent.
     order: 20
 
-  - id: arc:anomaly-and-clarity
+  - id: arc:impossible-clarity
     type: arc
     title: Impossible clarity
     parent: premise:main
     summary: >-
-      While testing the anomaly, Evan experiences impossible clarity and
-      discovers that the machine can force the improbable to happen, turning
-      the project he shares with Ruth into an obsession that steals their
-      remaining time together.
+      Evan proves that the anomaly produces real cognitive clarity and can
+      force an improbable but physically valid outcome. The shared project
+      becomes the perfect reward for his workaholic response to helplessness.
     order: 30
 
-  - id: arc:use-and-cost
+  - id: arc:selected-mother
     type: arc
     title: The selected mother
     parent: premise:main
     summary: >-
-      When Evan exposes Ruth to the machine, she becomes lucid and casually
-      asks after the granddaughter who survived in Ruth's memories but was
-      miscarried in Evan's history; Evan treats the impossible detail as a
-      calibration error rather than confront what the machine has selected.
+      Ruth becomes lucid but casually remembers a granddaughter who survived
+      in her history and was miscarried in Evan's. Evan treats the incompatible
+      life as a calibration problem rather than confront substitution and lost
+      time.
     order: 40
 
-  - id: arc:capture
+  - id: arc:dying-realities
     type: arc
     title: Dying realities
     parent: premise:main
     summary: >-
-      Addicted to the machine and haunted by entities that prove to be echoes
-      of dying realities, Evan realizes each run is erasing entire universes;
-      yet every attempt to stop becomes another impossible link in the chain
-      that keeps it operating while Ruth's last lucid hours pass without him.
+      Addiction, fractal entities, and causal-chain anomalies reveal that each
+      run is erasing real history families. Attempts to stop become links in
+      the operation's continuation while Ruth's lucid time passes without Evan.
     order: 50
 
   - id: arc:terminal-genesis
     type: arc
-    title: The fractal singularity
+    title: Fractal singularity and genesis
     parent: premise:main
     summary: >-
-      As reality collapses around them into a fractal singularity, Evan and the
-      one companion improbable enough to remain herself attempt to erase his
-      mistake, only for their final act to become the genesis of our universe.
+      Evan and Tess remain two genuinely independent causal vectors as the
+      parent universe collapses. Their attempt to end the projector instead
+      seeds our universe. The exact terminal game, hardware, and veto mechanics
+      are a favored late-stage hypothesis, not fixed chapter architecture.
     order: 60
+
+  - id: character:evan-hale
+    type: custom
+    title: Evan Hale
+    parent: premise:main
+    summary: >-
+      A 43-year-old workaholic controls engineer who converts helplessness into
+      labor. He loves Ruth sincerely, but the machine rewards his belief that
+      useful work is the highest form of love and that reduced ambiguity is
+      truth.
+    order: 100
+
+  - id: character:ruth-hale
+    type: custom
+    title: Ruth Hale
+    parent: premise:main
+    summary: >-
+      Evan's mother, a retired mathematician with progressive dementia. She is
+      his garage assistant, intellectual companion, dependent, and moral
+      witness, often seeing his category errors during the lucid intervals he
+      is supposedly trying to preserve.
+    order: 110
+
+  - id: character:lena-varga
+    type: custom
+    title: Lena Varga
+    parent: premise:main
+    summary: >-
+      The skeptical scientific collaborator who believes Evan's data before
+      his interpretation, designs the independent controls, recruits Tess, and
+      becomes the strongest advocate for consent, containment, and stopping.
+      Her full Step 3 sheet remains open.
+    order: 120
+
+  - id: character:esther-tess-kertesz
+    type: custom
+    title: Esther "Tess" Kertesz
+    parent: premise:main
+    summary: >-
+      A 38-year-old catastrophe modeler and sole neurologically intact survivor
+      of a childhood Alaska ferry disaster. Her near-unique causal history
+      leaves almost no compliant neighboring versions, making her difficult to
+      rewrite and capable of loving Evan without becoming part of him.
+    order: 130
+
+  - id: character:projector-operation
+    type: custom
+    title: The projector operation
+    parent: premise:main
+    summary: >-
+      The true antagonist and dominant eigenoperation. It need not be conscious;
+      histories containing further or completed projection gain support until
+      the operation reproduces through people, software, institutions, and
+      unrelated carriers. Its Step 3 sheet is the next task.
+    order: 140
+
+  - id: character:coordinated-multiself
+    type: custom
+    title: Coordinated multiself
+    parent: premise:main
+    summary: >-
+      Parked supporting-character concept: one body contains several
+      semi-autonomous cognitive coalitions. The projector can capture them
+      unevenly, allowing one subsystem to comply while others detect, warn,
+      remember, or resist. Use only if the plot earns the neuroscience load.
+    order: 150
+
+  - id: concept:finite-causal-code
+    type: custom
+    title: Finite causal code
+    parent: premise:main
+    summary: >-
+      The set of globally valid complete histories is enormous but finite.
+      Physically valid states occupy a lower-dimensional subset of the larger
+      mathematical state space, giving the apparatus unsupported directions to
+      prune.
+    order: 200
+
+  - id: concept:identity-bundles
+    type: custom
+    title: Identity as redundant history
+    parent: premise:main
+    summary: >-
+      A person is a redundant family of nearby implementations. Moderate
+      pruning reduces noise and feels like clarity; deeper pruning removes
+      flexibility, correction, autobiographical overlap, and eventually the
+      person.
+    order: 210
+
+  - id: concept:causal-projector
+    type: custom
+    title: The causal projector
+    parent: premise:main
+    summary: >-
+      A defective YBCO ring, coherent and lossy layers, traveling
+      thermomagnetic wave, rotating field, timing edge case, and live adaptive
+      feedback close a loop in ordinary physics while remaining open in the
+      deeper causal code.
+    order: 220
+
+  - id: concept:addiction
+    type: custom
+    title: Ontological addiction
+    parent: premise:main
+    summary: >-
+      The clarity state is rewarding in the ordinary neurological sense, and
+      the deeper operation removes support from histories in which Evan stops.
+      Relapse becomes both psychological and ontological.
+    order: 230
+
+  - id: concept:residual-entities
+    type: custom
+    title: Fractal residual entities
+    parent: premise:main
+    summary: >-
+      DMT-like states loosen the single-world decoder and render compressed
+      families of erased histories as agents. Their visible recursion depth
+      decreases as support is pruned. They are interested survivor coalitions,
+      not omniscient aliens.
+    order: 240
+
+  - id: concept:causal-rube-goldberg
+    type: custom
+    title: Delayed causal chains
+    parent: premise:main
+    summary: >-
+      Tiny early details become links in increasingly absurd, globally
+      coordinated chains of locally ordinary events. The exact metal-sliver
+      example is rejected; future chains should be longer, stranger, and more
+      distributed.
+    order: 250
+
+  - id: concept:tess-rarity
+    type: custom
+    title: Tess as a narrow causal filament
+    parent: premise:main
+    summary: >-
+      Tess's childhood ferry survival, neurological continuity, guardianship,
+      and adult convergence make her more than one hundred effective bits
+      rarer than a typical identity bundle. This makes substitution difficult,
+      not deletion impossible.
+    order: 260
+
+  - id: concept:genesis-late-bound
+    type: custom
+    title: Genesis constraints, mechanics late-bound
+    parent: premise:main
+    summary: >-
+      Preserve the emotional requirement that Evan and Tess remain genuinely
+      nonparallel and must choose without one controlling or verifying the
+      other. Do not finalize the exact mutual-veto game, noncommuting controls,
+      or factorization protocol until the final chapter or two has been earned.
+    order: 270
+
+  - id: concept:helpless-presence
+    type: custom
+    title: Helpless presence as love
+    parent: premise:main
+    summary: >-
+      Evan cannot accept helpless presence as a form of love. His fatal error
+      is repeatedly doing work for someone instead of remaining with them.
+    order: 300
+
+  - id: concept:certainty-as-violence
+    type: custom
+    title: Certainty as violence
+    parent: premise:main
+    summary: >-
+      Evan becomes correct by erasing the histories in which he is wrong.
+      Ambiguity, disagreement, and independent desire are load-bearing parts
+      of reality rather than noise to eliminate.
+    order: 310
+
+  - id: concept:chosen-meaning
+    type: custom
+    title: Chosen meaning without retroactive justification
+    parent: premise:main
+    summary: >-
+      Tess rejects destiny stories that turn the dead into necessary scenery.
+      She must learn that meaning can be chosen afterward without redeeming or
+      justifying the losses that preceded it.
+    order: 320
+
+  - id: concept:garage-couch
+    type: custom
+    title: Ruth's garage couch
+    parent: premise:main
+    summary: >-
+      Ruth listens, assists, sleeps, wakes with insights, and remains present in
+      the workshop. The couch embodies the project's original function as
+      companionship before it becomes abandonment.
+    order: 400
+
+  - id: concept:miscarriage-planter
+    type: custom
+    title: The neglected planter
+    parent: premise:main
+    summary: >-
+      Evan and his former wife buried a miscarriage in a planter, then
+      neglected the flowers while he buried grief in work. The dead flowers
+      later mirror his repeated failure to remain present.
+    order: 410
+
+  - id: concept:podkletnov
+    type: custom
+    title: Podkletnov historical reference
+    parent: premise:main
+    summary: >-
+      The disputed rotating-YBCO experiments should be mentioned as historical
+      inspiration or false lead, never as accepted gravity evidence.
+    order: 420
+
+  - id: concept:kertesz-curtis
+    type: custom
+    title: Kertesz, not Curtis
+    parent: premise:main
+    summary: >-
+      People routinely hear or spell Tess's surname as Curtis. It begins as
+      ordinary lived texture and may later become useful when records disagree,
+      but should not be introduced as a glowing plot device.
+    order: 430
+
+links:
+  - from: arc:shared-project
+    to: character:evan-hale
+    type: introduces
+  - from: arc:shared-project
+    to: character:ruth-hale
+    type: introduces
+  - from: arc:shared-project
+    to: concept:causal-projector
+    type: introduces
+  - from: arc:impossible-clarity
+    to: concept:addiction
+    type: introduces
+  - from: arc:impossible-clarity
+    to: concept:helpless-presence
+    type: develops
+  - from: arc:selected-mother
+    to: concept:identity-bundles
+    type: develops
+  - from: arc:selected-mother
+    to: concept:miscarriage-planter
+    type: develops
+  - from: arc:dying-realities
+    to: concept:residual-entities
+    type: develops
+  - from: arc:dying-realities
+    to: concept:causal-rube-goldberg
+    type: develops
+  - from: arc:dying-realities
+    to: character:projector-operation
+    type: develops
+  - from: arc:terminal-genesis
+    to: character:esther-tess-kertesz
+    type: develops
+  - from: arc:terminal-genesis
+    to: concept:genesis-late-bound
+    type: develops
+  - from: character:evan-hale
+    to: character:ruth-hale
+    type: cares-for
+  - from: character:evan-hale
+    to: character:esther-tess-kertesz
+    type: loves-and-violates-trust
+  - from: character:lena-varga
+    to: character:esther-tess-kertesz
+    type: friend-and-recruits
+  - from: character:esther-tess-kertesz
+    to: character:ruth-hale
+    type: befriends
+  - from: character:projector-operation
+    to: character:evan-hale
+    type: uses-as-bootloader
+  - from: concept:tess-rarity
+    to: character:esther-tess-kertesz
+    type: defines
+  - from: concept:chosen-meaning
+    to: character:esther-tess-kertesz
+    type: develops

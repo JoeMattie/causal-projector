@@ -15,7 +15,7 @@ events:
     display_time: Before Run 0
     title: The material accident
     participants:
-      - character:protagonist
+      - character:evan-hale
     facts:
       - The YBCO component is imperfect in exactly the way a professional lab would reject, creating a coherent upper region and a lossy lower region.
       - A replacement made to specification fails.
@@ -24,7 +24,7 @@ events:
     display_time: Run 0
     title: "The first anomaly: loss of sensor rank"
     participants:
-      - character:protagonist
+      - character:evan-hale
     facts:
       - Principal-component analysis of nominally independent channels shows that their covariance matrix is losing dimensions.
       - The strongest correlation is not with field strength but with the sequence of control decisions, especially manual corrections made by the protagonist.
@@ -33,7 +33,7 @@ events:
     display_time: Early repeat runs
     title: The first dose
     participants:
-      - character:protagonist
+      - character:evan-hale
     facts:
       - During a long manual stabilization run, internal noise abruptly disappears; each thought has exactly one correct successor.
       - The clarity returns after sleep, ventilation, and conventional controls are tested.
@@ -42,7 +42,7 @@ events:
     display_time: Validation series
     title: The fresh-randomness test
     participants:
-      - character:protagonist
+      - character:evan-hale
     facts:
       - A battery-powered hardware RNG behaves normally when its bits are merely recorded, and becomes biased when its fresh bits determine the next heater phase or whether a run continues.
       - Pre-recorded random bits are unaffected; the anomaly depends on a contingency being inside a live feedback loop.
@@ -51,7 +51,7 @@ events:
     display_time: First deliberate use
     title: One small, precommitted outcome
     participants:
-      - character:protagonist
+      - character:evan-hale
     facts:
       - The result is statistically impossible but causally ordinary.
       - He crosses from investigation into use.
@@ -60,8 +60,8 @@ events:
     display_time: Independent replication
     title: The anomaly follows another operator
     participants:
-      - character:protagonist
-      - character:skeptical-collaborator
+      - character:evan-hale
+      - character:lena-varga
     facts:
       - Lena reproduces rank collapse, fresh-bit action bias, and the low-ambiguity cognitive state while Evan is physically absent.
       - The raw bias reverses with an action mapping known only to Lena, excluding Evan's expectation as the active cause.
@@ -71,8 +71,8 @@ events:
     display_time: The reduced protocol
     title: Lucidity from an incompatible history
     participants:
-      - character:protagonist
-      - character:loved-one
+      - character:evan-hale
+      - character:ruth-hale
     facts:
       - Lucidity returns, but so do memories from an incompatible family history.
       - A coherent implementation has been selected, not restored.
@@ -81,9 +81,8 @@ events:
     display_time: Controlled altered-state observation
     title: A structured percept responds to the apparatus
     participants:
-      - character:protagonist
-      - character:skeptical-collaborator
-      - character:the-guide
+      - character:evan-hale
+      - character:lena-varga
     facts:
       - During a blinded machine-induced state, Evan's geometric reports track hidden physical phase changes but not causally inert decoy writes.
       - A persistent nested figure presents a timing relation that matches an overlooked control edge and yields a useful but anomaly-strengthening change.
@@ -93,10 +92,9 @@ events:
     display_time: Model-building series
     title: The finite-history model
     participants:
-      - character:protagonist
-      - character:loved-one
-      - character:skeptical-collaborator
-      - character:the-guide
+      - character:evan-hale
+      - character:ruth-hale
+      - character:lena-varga
     facts:
       - Evan and Lena model the apparatus as projection and renormalization over finite effective history support.
       - Identity behaves as a redundant family of nearby implementations, making moderate pruning clarifying and deeper pruning destructive.
@@ -106,9 +104,8 @@ events:
     display_time: Midpoint
     title: Recognizing the Quitter
     participants:
-      - character:protagonist
-      - character:skeptical-collaborator
-      - character:the-quitter
+      - character:evan-hale
+      - character:lena-varga
     facts:
       - A private hand gesture, shutdown callback, and childhood room with different parents identify the unstable residual as a family of Evan's stopped versions.
       - The family contains ordinary divergent lives whose people retain futures independent of Evan, and it asks him to shut down the apparatus.
@@ -118,8 +115,8 @@ events:
     display_time: The shutdown attempt
     title: Shutdown selected against
     participants:
-      - character:protagonist
-      - character:skeptical-collaborator
+      - character:evan-hale
+      - character:lena-varga
     facts:
       - The collaborator demands shutdown; the protagonist agrees.
       - A chain of mundane failures preserves the apparatus or its essential software.
@@ -128,7 +125,7 @@ events:
     display_time: After the original hardware is destroyed
     title: The topology escapes the machine
     participants:
-      - character:protagonist
+      - character:evan-hale
     facts:
       - Destroying hardware does not destroy the causal pattern.
       - The topology appears outside the original machine.
@@ -137,7 +134,7 @@ events:
     display_time: Terminal collapse
     title: The rupture and factorization
     participants:
-      - character:protagonist
+      - character:evan-hale
     facts:
       - The valid-state manifold reaches local rank zero around the projector.
       - He attempts to steer completely orthogonal to valid state space, intending to erase himself; the code factorizes instead.
@@ -147,7 +144,6 @@ events:
     display_time: Billions of years later, in the child universe
     title: Someone else’s impossible drug story
     participants:
-      - character:the-future-witness
-      - character:protagonist
+      - character:evan-hale
     facts:
       - A person undergoing a DMT experience encounters a fractal entity that still believes it is a software engineer standing beside a failing superconducting machine.
