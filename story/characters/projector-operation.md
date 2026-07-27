@@ -6,14 +6,11 @@ summary: >-
   A mindless, lineage-bound feedback pattern that rewards Evan's attempt to
   turn helplessness into work, reproduces through the systems built to contain
   it, and consumes the alternatives required for its own next act of closure.
-status: planned
 ---
 
 # The projector operation
 
-## Status
-
-Snowflake Step 3 complete.
+## Nature
 
 The operation is a character-like antagonist because it has continuity,
 propagation, a motivation-equivalent, relationships, limits, and an arc. It is
@@ -175,8 +172,7 @@ wants. Her resistance is not immunity, and it does not make her a numerical
 key.
 
 At the terminal boundary, her continued difference from Evan prevents their
-choices from collapsing into one will. Exact terminal mechanics remain
-deferred.
+choices from collapsing into one will.
 
 ## Point of independence
 
@@ -283,9 +279,6 @@ This is indirect contact without communication. The book does not resolve
 whether recursive closure caused genesis or whether genesis was the boundary
 condition shaping recursive closure.
 
-The exact final operations, controls, hardware, and choice structure remain
-deferred until the last chapter or two are outlined.
-
 ## Signature texture
 
 - Closed loops that recur in different materials and at different scales.
@@ -295,17 +288,3 @@ deferred until the last chapter or two are outlined.
 - Increasingly long chains in which every surviving detail becomes useful.
 - Late repetition, compressed biography, and the disappearance of irrelevant
   events.
-
-## Open questions
-
-- In-world technical and colloquial names for the operation.
-- The exact observable event that proves the first independent cycle occurred.
-- Which labs, agencies, companies, or other institutions become carriers.
-- How widely the operation is recognized before terminal convergence.
-- The exact practical act through which Evan makes his sincere refusal.
-- How the DMT observer renders the invariant in sensory and symbolic terms.
-- Whether the epilogue entity is best read as Evan's remainder, the operation,
-  the child universe modeling its origin, or a relation in which those
-  distinctions no longer apply.
-- Exact terminal protocol, noncommuting controls, and genesis mechanics
-  (deliberately deferred).

@@ -23,7 +23,7 @@ Keep working beside Evan, preserve as much independence as possible, and maintai
 
 ## False belief or flaw
 
-Ruth does not require a conventional fatal flaw at this stage. Her limits are neurological and practical, not moral punishment. Her stubbornness can create conflict, but it is also one of the ways she protects her agency.
+Ruth does not have a conventional fatal flaw. Her limits are neurological and practical, not moral punishment. Her stubbornness can create conflict, but it is also one of the ways she protects her agency.
 
 ## Primary conflict
 
@@ -43,7 +43,7 @@ Ruth's cognition is supported by misaligned but partially surviving history bund
 
 ## Essential backstory
 
-1. Retired mathematician or community-college mathematics professor.
+1. Retired mathematician.
 2. Formerly sharp, practical, committee-weary, and capable of puncturing inflated claims with one question.
 3. Lives in her own house; Evan moves in when she can no longer live alone.
 4. Sometimes remembers the miscarriage and its consequences only peripherally, which makes her later alternate-granddaughter question casual rather than theatrical.
@@ -57,7 +57,7 @@ Ruth's cognition is supported by misaligned but partially surviving history bund
 - **Recognition:** Ruth understands that the machine selected a coherent version rather than restoring an authenticated original.
 - **Resistance:** She insists on agency, corrects Evan's language, and refuses to let his measurements define what remains of her.
 - **Tragedy:** Her last lucid time passes while Evan tries to perfect the mechanism intended to save it.
-- **Ending status:** Open. Her personal ending must matter emotionally even if the parent universe later collapses.
+- **Ending:** Her personal ending matters emotionally even as the parent universe later collapses.
 
 ## Signature texture
 
@@ -66,11 +66,3 @@ Ruth's cognition is supported by misaligned but partially surviving history bund
 - Uses old classroom language such as unlike terms, waiting as an operation, or refusing to cancel things merely because Evan wants one answer.
 - Dislikes being watched while taking medication or being answered for.
 - Can be funny, irritated, lucid, confused, and authoritative in the same day without one state invalidating the others.
-
-## Open questions
-
-- Exact diagnosis and pace of decline.
-- Whether she was a professor, industrial mathematician, or another mathematical professional.
-- Her relationship with Evan's former wife.
-- Exact scenes through which Tess and Ruth become close.
-- Her final lucid exchange with Evan and/or Tess.

@@ -1,7 +1,7 @@
 # Current Authorbot story graph.
 # schema: authorbot.story-graph/v1
 #
-# This graph reflects the Snowflake restart and supersedes the legacy graph.
+# This graph reflects the planning restart and supersedes the legacy graph.
 # It deliberately stays at premise, arc, character, concept, and motif level.
 # Detailed chapter planning, especially the exact genesis operation, remains
 # late-bound until the final chapter or two has been earned by earlier work.
@@ -42,18 +42,6 @@ nodes:
       smoothly rewritten, attempt to erase his mistake together, and their
       final independent choices become the genesis of our universe.
     order: 15
-
-  - id: development:snowflake-status
-    type: development
-    title: Snowflake status
-    parent: premise:main
-    summary: >-
-      Step 1 and Step 2 are complete. Step 3 sheets are complete for Evan,
-      Ruth, Tess, Lena, and the projector operation. The coordinated multiself
-      has been removed from the active cast. The next task is deciding which
-      entity families require character-like arcs and which remain phenomena.
-      Do not jump to chapter drafting.
-    order: 18
 
   - id: arc:shared-project
     type: arc

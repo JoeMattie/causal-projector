@@ -54,7 +54,7 @@ Evan is an approximate local eigenpattern because of his behavioral coherence, t
 2. Moves in with Ruth when she can no longer live alone.
 3. A prior miscarriage exposed his habit of converting pain into work. He yelled while his wife grieved, helped bury the miscarriage in a planter, neglected the flowers, and contributed to the marriage's collapse by disappearing into labor.
 4. Builds an air liquefier from a salvaged cellular-rack cryocooler.
-5. Has prior DMT experience or participation in a controlled study, giving him a visual reference for the machine's later residual geometry.
+5. Recognizes the machine's later residual geometry from prior DMT experience.
 
 ## Arc landmarks
 
@@ -80,10 +80,3 @@ Evan is an approximate local eigenpattern because of his behavioral coherence, t
 - Labels and logs everything, then uses good documentation to make dangerous continuation feel responsible.
 - Notices broken systems and unfinished repairs everywhere.
 - Finds waiting almost physically intolerable.
-
-## Open questions
-
-- Exact employment and company role in the revised version.
-- Whether his former wife appears in the present timeline.
-- Exact nature and timing of his prior DMT experience.
-- How much public recognition he receives before causal collapse.
