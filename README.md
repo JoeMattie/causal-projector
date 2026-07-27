@@ -15,21 +15,21 @@ Written by @JoeMattie.
 ```text
 book.yml                       the book identity and publication settings
 chapters/                      future chapter drafts
-story/development-brief.md     the earlier converted development dossier
 story/outline.yml              the current Authorbot story graph
-story/timeline.yml             provisional event sequence
+story/timeline.yml             empty active timeline stub
 story/characters/              the current six-character cast
 .authorbot/                    collaboration records managed by Authorbot
 archive/legacy-authorbot/      collaboration history for the removed chapters
+archive/superseded-planning/   planning documents retained for reference only
 wrangler.jsonc                 the Cloudflare Worker that serves the site
 ```
 
 ## Canon and planning
 
-There is no current chapter prose. The story graph and character records hold
-the restart's active direction. The timeline and development brief predate that
-restart and remain supporting material until they are reconciled against the
-current canon.
+There is no current chapter prose or established event sequence. The story
+graph and character records hold the restart's active direction. The active
+timeline is an empty schema-valid stub; the prior timeline and development
+brief are archived as superseded planning.
 
 ## Local commands
 
