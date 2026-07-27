@@ -43,15 +43,16 @@ nodes:
       final independent choices become the genesis of our universe.
     order: 15
 
-  - id: rule:snowflake-status
-    type: custom
+  - id: development:snowflake-status
+    type: development
     title: Snowflake status
     parent: premise:main
     summary: >-
-      Step 1 and Step 2 are complete. Step 3 sheets are substantially complete
-      for Evan, Ruth, and Tess. Lena is stable but unfinished. The next Step 3
-      subject is the projector operation as the true antagonist and
-      eigenoperation. Do not jump to chapter drafting.
+      Step 1 and Step 2 are complete. Step 3 sheets are complete for Evan,
+      Ruth, Tess, Lena, and the projector operation. The coordinated multiself
+      has been removed from the active cast. The next task is deciding which
+      entity families require character-like arcs and which remain phenomena.
+      Do not jump to chapter drafting.
     order: 18
 
   - id: arc:shared-project
@@ -108,7 +109,7 @@ nodes:
     order: 60
 
   - id: character:evan-hale
-    type: custom
+    type: character
     title: Evan Hale
     parent: premise:main
     summary: >-
@@ -119,7 +120,7 @@ nodes:
     order: 100
 
   - id: character:ruth-hale
-    type: custom
+    type: character
     title: Ruth Hale
     parent: premise:main
     summary: >-
@@ -130,18 +131,20 @@ nodes:
     order: 110
 
   - id: character:lena-varga
-    type: custom
+    type: character
     title: Lena Varga
     parent: premise:main
     summary: >-
-      The skeptical scientific collaborator who believes Evan's data before
-      his interpretation, designs the independent controls, recruits Tess, and
-      becomes the strongest advocate for consent, containment, and stopping.
-      Her full Step 3 sheet remains open.
+      A shared-facility experimental physicist whose faith in independent
+      process makes the anomaly credible before she recognizes that the
+      containment system has become a carrier. She refuses the live test needed
+      to prove it, breaks with Evan when he runs it anyway, and remains only a
+      passive witness until the collapsing parent universe can no longer
+      sustain her as a coherent person.
     order: 120
 
   - id: character:esther-tess-kertesz
-    type: custom
+    type: character
     title: Esther "Tess" Kertesz
     parent: premise:main
     summary: >-
@@ -152,29 +155,19 @@ nodes:
     order: 130
 
   - id: character:projector-operation
-    type: custom
+    type: character
     title: The projector operation
     parent: premise:main
     summary: >-
-      The true antagonist and dominant eigenoperation. It need not be conscious;
-      histories containing further or completed projection gain support until
-      the operation reproduces through people, software, institutions, and
-      unrelated carriers. Its Step 3 sheet is the next task.
+      The mindless true antagonist and dominant eigenoperation. It recursively
+      selects for another live closure, reproduces only through causally
+      descended carriers, and first becomes independent through the distributed
+      system built to reproduce and contain it. Its success exhausts the
+      counterfactual freedom required for another cycle.
     order: 140
 
-  - id: character:coordinated-multiself
-    type: custom
-    title: Coordinated multiself
-    parent: premise:main
-    summary: >-
-      Parked supporting-character concept: one body contains several
-      semi-autonomous cognitive coalitions. The projector can capture them
-      unevenly, allowing one subsystem to comply while others detect, warn,
-      remember, or resist. Use only if the plot earns the neuroscience load.
-    order: 150
-
   - id: concept:finite-causal-code
-    type: custom
+    type: concept
     title: Finite causal code
     parent: premise:main
     summary: >-
@@ -185,7 +178,7 @@ nodes:
     order: 200
 
   - id: concept:identity-bundles
-    type: custom
+    type: concept
     title: Identity as redundant history
     parent: premise:main
     summary: >-
@@ -196,7 +189,7 @@ nodes:
     order: 210
 
   - id: concept:causal-projector
-    type: custom
+    type: concept
     title: The causal projector
     parent: premise:main
     summary: >-
@@ -207,7 +200,7 @@ nodes:
     order: 220
 
   - id: concept:addiction
-    type: custom
+    type: concept
     title: Ontological addiction
     parent: premise:main
     summary: >-
@@ -217,7 +210,7 @@ nodes:
     order: 230
 
   - id: concept:residual-entities
-    type: custom
+    type: concept
     title: Fractal residual entities
     parent: premise:main
     summary: >-
@@ -228,7 +221,7 @@ nodes:
     order: 240
 
   - id: concept:causal-rube-goldberg
-    type: custom
+    type: concept
     title: Delayed causal chains
     parent: premise:main
     summary: >-
@@ -239,7 +232,7 @@ nodes:
     order: 250
 
   - id: concept:tess-rarity
-    type: custom
+    type: concept
     title: Tess as a narrow causal filament
     parent: premise:main
     summary: >-
@@ -250,7 +243,7 @@ nodes:
     order: 260
 
   - id: concept:genesis-late-bound
-    type: custom
+    type: concept
     title: Genesis constraints, mechanics late-bound
     parent: premise:main
     summary: >-
@@ -260,8 +253,8 @@ nodes:
       or factorization protocol until the final chapter or two has been earned.
     order: 270
 
-  - id: concept:helpless-presence
-    type: custom
+  - id: theme:helpless-presence
+    type: theme
     title: Helpless presence as love
     parent: premise:main
     summary: >-
@@ -269,8 +262,8 @@ nodes:
       is repeatedly doing work for someone instead of remaining with them.
     order: 300
 
-  - id: concept:certainty-as-violence
-    type: custom
+  - id: theme:certainty-as-violence
+    type: theme
     title: Certainty as violence
     parent: premise:main
     summary: >-
@@ -279,8 +272,8 @@ nodes:
       of reality rather than noise to eliminate.
     order: 310
 
-  - id: concept:chosen-meaning
-    type: custom
+  - id: theme:chosen-meaning
+    type: theme
     title: Chosen meaning without retroactive justification
     parent: premise:main
     summary: >-
@@ -289,8 +282,8 @@ nodes:
       justifying the losses that preceded it.
     order: 320
 
-  - id: concept:garage-couch
-    type: custom
+  - id: motif:garage-couch
+    type: motif
     title: Ruth's garage couch
     parent: premise:main
     summary: >-
@@ -299,8 +292,8 @@ nodes:
       companionship before it becomes abandonment.
     order: 400
 
-  - id: concept:miscarriage-planter
-    type: custom
+  - id: motif:miscarriage-planter
+    type: motif
     title: The neglected planter
     parent: premise:main
     summary: >-
@@ -309,8 +302,8 @@ nodes:
       later mirror his repeated failure to remain present.
     order: 410
 
-  - id: concept:podkletnov
-    type: custom
+  - id: motif:podkletnov
+    type: motif
     title: Podkletnov historical reference
     parent: premise:main
     summary: >-
@@ -318,8 +311,8 @@ nodes:
       inspiration or false lead, never as accepted gravity evidence.
     order: 420
 
-  - id: concept:kertesz-curtis
-    type: custom
+  - id: motif:kertesz-curtis
+    type: motif
     title: Kertesz, not Curtis
     parent: premise:main
     summary: >-
@@ -342,13 +335,13 @@ links:
     to: concept:addiction
     type: introduces
   - from: arc:impossible-clarity
-    to: concept:helpless-presence
+    to: theme:helpless-presence
     type: develops
   - from: arc:selected-mother
     to: concept:identity-bundles
     type: develops
   - from: arc:selected-mother
-    to: concept:miscarriage-planter
+    to: motif:miscarriage-planter
     type: develops
   - from: arc:dying-realities
     to: concept:residual-entities
@@ -380,9 +373,18 @@ links:
   - from: character:projector-operation
     to: character:evan-hale
     type: uses-as-bootloader
+  - from: character:projector-operation
+    to: character:ruth-hale
+    type: selects-coherent-variant
+  - from: character:projector-operation
+    to: character:lena-varga
+    type: reproduces-through-containment
+  - from: character:projector-operation
+    to: character:esther-tess-kertesz
+    type: cannot-smoothly-rewrite
   - from: concept:tess-rarity
     to: character:esther-tess-kertesz
     type: defines
-  - from: concept:chosen-meaning
+  - from: theme:chosen-meaning
     to: character:esther-tess-kertesz
     type: develops

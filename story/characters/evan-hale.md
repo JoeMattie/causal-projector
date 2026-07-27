@@ -63,9 +63,14 @@ Evan is an approximate local eigenpattern because of his behavioral coherence, t
 - **Escalation:** He proves the machine can force an improbable but physically valid outcome.
 - **Moral injury:** Ruth becomes lucid but remembers a surviving granddaughter absent from his history.
 - **Addiction:** Continued runs become euphoric and ontologically self-selecting.
+- **Loss of control:** The distributed containment and replication system
+  becomes an active carrier before he understands the full cosmological cost.
 - **Recognition:** The entities are dying history families; the Quitter contains versions of him who stopped.
 - **Failure:** He repeatedly treats people, consent, and resistance as variables in a better experiment.
 - **Epiphany:** He has mistaken reduction for rescue throughout his life.
+- **Separation from the operation:** He makes a sincere, non-instrumental
+  refusal and chooses helpless presence over another attempt to run, fix, or
+  control the operation. The independent carrier continues without him.
 - **Ending:** He cannot create genesis alone. He must trust Tess's independent choice without modeling or controlling it.
 
 ## Signature texture
