@@ -1,6 +1,7 @@
 > Repository note: Converted from `syndrome-space-novel-development-dossier.docx`.
-> This is planning material, not chapter prose. The published first 12 chapters
-> control wherever an established detail conflicts with the dossier.
+> This predates the current Snowflake restart. It remains supporting material,
+> not chapter prose or current canon. The story graph and character records
+> control wherever they conflict with this dossier.
 
 **WORKING TITLE**
 
