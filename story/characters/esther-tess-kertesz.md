@@ -20,7 +20,7 @@ Esther "Tess" Kertesz is a catastrophe modeler and the neurologically intact sol
 - Full name: Esther Kertesz
 - Everyday name: Tess
 - People routinely hear or spell `Kertesz` as `Curtis`; she corrects them automatically.
-- The surname is Hungarian-American. The unaccented spelling `Kertesz` is canon.
+- The surname is Hungarian-American, spelled `Kertesz` without the accent.
 
 ## Age
 
@@ -65,7 +65,7 @@ A catastrophic sequence involving severe weather, progressive flooding or struct
 
 Her entire immediate family dies.
 
-The exact vessel, route, failure sequence, and rescue mechanics remain open for later technical development. It should be plausible enough that no single miracle carries the entire survival. Her rarity comes from the compound bottleneck and the survival of this substantially continuous adult identity.
+No single miracle carries the entire survival. Her rarity comes from the compound bottleneck and the survival of this substantially continuous adult identity.
 
 ## Degree of causal rarity
 
@@ -78,7 +78,7 @@ The disaster alone is not the whole bottleneck. Most nearby histories contain:
 - a different guardian, education, and adult identity;
 - later death or a dramatically different adaptation.
 
-The adult Tess Evan meets is provisionally **more than one hundred effective bits rarer than a typical identity bundle**, with a working estimate in the 120-160 bit range. This is a fictional history-support measure, not an ordinary actuarial probability.
+The adult Tess Evan meets occupies an exceptionally narrow history bundle. `Effective bits of rarity` is a fictional history-support measure, not an ordinary actuarial probability.
 
 Rarity does not make her immune. It means the projector has almost no compliant neighboring versions to substitute. It must keep her recognizable or remove her entirely.
 
@@ -96,7 +96,7 @@ Tess is a mildly eccentric amateur naturalist.
 
 - Catalogs mushrooms, tide-pool organisms, rocks, weather, and birds she cannot reliably identify by sound.
 - Owns field guides, binoculars, labeled specimens, small weather instruments, and abandoned attempts at watercolor.
-- Has a cat whose name and personality remain open. The cat later moves into Evan and Ruth's house with her when the research becomes intensive.
+- Has a cat. The cat later moves into Evan and Ruth's house with her when the research becomes intensive.
 - Plays pub trivia with Lena.
 - Has a small, ordinary, inhabited life that contrasts with the mythic rarity of her survival.
 
@@ -182,15 +182,11 @@ Chosen meaning does not redeem the disaster, excuse Evan, or turn the dead into 
 
 ## Genesis role
 
-High-level canon:
-
 - Evan cannot create or repair the terminal state alone.
 - Tess must remain a genuinely independent, nonparallel causal vector.
 - Their final choices must preserve the real possibility of refusal and cannot be verified or coerced in advance.
 - The act becomes genesis and does not preserve them as intact selves.
 - The result creates chosen meaning without turning earlier deaths and violations into necessary or justified steps.
-
-A mutual-veto assurance-game structure is the leading candidate because it directly resolves Tess's active false belief and reverses Evan's earlier use of her as an uninformed control. Exact terminal operations, payoff states, and physical control logic are deliberately deferred until the final chapter or two are outlined.
 
 ## Arc landmarks
 
@@ -202,13 +198,4 @@ A mutual-veto assurance-game structure is the leading candidate because it direc
 - **Rupture:** Evan uses her unknowingly as a control and converts her survival history into experimental material.
 - **Confrontation:** He calls their relationship inevitable; she rejects the retroactive justification.
 - **Reconciliation:** Evan must give her every relevant fact and surrender the ability to verify her choice.
-- **Ending:** Tess and Evan make genuinely independent terminal choices that neither can verify in advance. Their difference seeds genesis; the exact operation remains deliberately unplanned until late outlining.
-
-## Open questions
-
-- Exact ferry name, route, and accident mechanics.
-- Guardians' names and present relationship with Tess.
-- Exact degree and visibility of the records contradicting her history.
-- Cat name and temperament.
-- The sequence by which Tess and Ruth become close.
-- Exact terms of the rupture and reconciliation scenes.
+- **Ending:** Tess and Evan make genuinely independent terminal choices that neither can verify in advance. Their difference seeds genesis.

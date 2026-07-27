@@ -10,10 +10,6 @@ summary: >-
 
 # Lena Varga
 
-## Status
-
-Snowflake Step 3 complete.
-
 ## Dramatic role
 
 Lena is the skeptical scientific collaborator, not the terminal love interest.
@@ -105,9 +101,7 @@ control model as physical truth. Evan remembers her as the person who can hold
 up a working system until the evidence earns the word `working`.
 
 They become intellectual collaborators with genuine respect and escalating
-moral conflict. The old draft contains useful versions of Lena insisting on
-isolation, sealed mappings, stop conditions, and decommissioning. Those scenes
-are a quarry, not fixed sequence.
+moral conflict.
 
 ## Break with Evan
 
@@ -121,10 +115,9 @@ every participating lab and institution to disengage. Lena recognizes that
 obtaining the evidence needed to justify stopping would itself strengthen the
 thing they need to stop.
 
-Evan pursues confirmation anyway. The exact action remains open until
-outlining, but the Step 3 boundary is fixed: Lena chooses ethical uncertainty,
-and Evan still needs the answer. Their scientific disagreement becomes a
-decisive rupture.
+Evan pursues confirmation anyway. Lena chooses ethical uncertainty, and Evan
+still needs the answer. Their scientific disagreement becomes a decisive
+rupture.
 
 ## Relationship with Tess
 
@@ -150,9 +143,6 @@ enough that the continuity of people, institutions, records, and stable causal
 separation can no longer be maintained. Lena disappears with that structure
 before Evan and Tess reach the genesis boundary.
 
-The exact last observation or image associated with her remains an outlining
-decision.
-
 ## Arc direction
 
 - Begins by expecting interference, bad metrology, or operator contamination.
@@ -172,8 +162,3 @@ decision.
   cycle.
 - Loses meaningful personal continuity as the parent universe comes apart,
   before Evan and Tess reach genesis.
-
-## Open questions
-
-- Exact university, facility name, and geography.
-- Whether she is Hungarian, Hungarian-American, or simply has the surname Varga; avoid needless overlap with Tess's Hungarian surname unless intentionally explained.

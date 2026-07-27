@@ -1,6 +1,6 @@
 # Open Questions
 
-## Immediate Snowflake work
+## Immediate planning work
 
 1. Decide which entity families require character-like arcs and which remain
    phenomena.
@@ -8,8 +8,9 @@
 ## Evan
 
 - Exact employer and day-job problem in the revised plot.
-- How much of his prior DMT experience remains.
+- Exact nature and timing of any prior DMT experience.
 - Whether his former wife appears in the present.
+- How much public recognition he receives before causal collapse.
 - What exact choice marks the point after which stopping is no longer meaningfully available.
 - His final emotional exchange with Ruth.
 
@@ -17,16 +18,19 @@
 
 - Exact mathematical career.
 - Diagnosis and progression.
+- Her relationship with Evan's former wife.
 - The scenes through which she and Tess become friends.
+- Whether her final lucid exchange is with Evan, Tess, or both.
 - Her end-state before the universe-scale collapse.
 - Whether she knowingly contributes an insight that later becomes part of genesis.
 
 ## Tess
 
 - Exact ferry name, route, date, and accident mechanics.
-- Names and character of her Fairbanks guardians.
+- Names, character, and present relationship of her Fairbanks guardians.
 - Cat name and temperament.
-- Exact records that first contradict her survival history.
+- Exact records that first contradict her survival history, and how visible the
+  contradictions become.
 - How she moves from professional audit to living in Evan and Ruth's house.
 - The precise experiment in which Evan secretly uses her choices.
 - The mechanics of separation and reconciliation.
@@ -36,11 +40,21 @@
 
 - Exact university, shared-facility name, and geography.
 - Whether `Varga` creates unintended Hungarian overlap with Kertesz.
+- The exact action Evan takes after she refuses the live test.
 - Her exact final observation before meaningful personal continuity fails.
+
+## Projector operation
+
+- How widely the operation is recognized before terminal convergence.
+- The exact practical act through which Evan makes his sincere refusal.
+- How the DMT observer renders the invariant in sensory and symbolic terms.
+- Whether the epilogue entity is best read as Evan's remainder, the operation,
+  the child universe modeling its origin, or a relation in which those
+  distinctions no longer apply.
 
 ## Plot structure
 
-- Five-part, four-part, or another part structure after Step 3.
+- Five-part, four-part, or another part structure.
 - How early Tess appears.
 - Exact point of Ruth's exposure.
 - Exact first deliberate outcome-selection test.
