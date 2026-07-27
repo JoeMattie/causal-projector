@@ -139,6 +139,39 @@ He gives her the possibility that survival can acquire chosen meaning without th
 
 She understands why he is obsessed. She is also the person who insists that understanding does not excuse abandoning Ruth's remaining present for a hypothetical cure.
 
+## Entity contact
+
+Tess's first projector-linked contact occurs later than Evan's, after repeated
+runs have thinned the causal insulation around her participation. The exposure
+does not train her to decode the entity.
+
+Eventually she and Evan undergo simultaneous shared contact. Their agreement
+concerns the same otherwise impossible perturbation, not a shared hallucinated
+room or identical entity image. Each returns with a different symbolic
+reconstruction. The contact preserves their nonparallel relation rather than
+dissolving it.
+
+Tess's primary Turning Knot rendering is spatio-acoustic. Sound carries
+adjacency, depth, rotation, and her own orientation within the impossible
+kata-ward turn. She reconstructs a reciprocal relation rather than the bounded
+external object Evan sees. Her rendering is different, not more authoritative.
+
+Tess reconstructs the Ruined Sovereign's converted interruption as a reply
+made on her behalf. This is not a literal voice or sentence. Each objection,
+refusal, or separate orientation she begins to form becomes the condition for
+the next movement before she can own it. Evan experiences the same invariant
+as guidance. Tess experiences it as preemption.
+
+She can still tell that the reply is not hers. The contact exposes the
+operation's attempt to absorb her choice without proving that it has succeeded.
+Her remaining independence links the encounter to Evan's use of her uninformed
+choices and to the terminal choice he cannot make or verify for her.
+
+Tess's cat is calm around people undergoing contact, is drawn toward them, and
+appears at home within the perturbed experience. This remains suggestive rather
+than explanatory. The cat does not become a guide or proof of a supernatural
+realm.
+
 ## Relationship rupture
 
 Evan secretly uses Tess's uninformed choices as the live control in an experiment that tests her resistance to pruning. He withholds the experimental role because awareness would contaminate the result.
@@ -195,6 +228,10 @@ Chosen meaning does not redeem the disaster, excuse Evan, or turn the dead into 
 - **First reversal:** She proves the global conjunction is anomalous even though each local link is ordinary.
 - **Personal reversal:** Her own records begin contradicting one another while her identity remains stable.
 - **Domestic deepening:** Tess and her cat move into Evan and Ruth's house; she becomes close to Ruth and falls in love with Evan.
+- **First contact:** Accumulated projector exposure produces her first direct
+  encounter later than Evan's.
+- **Shared contact:** She and Evan experience the same perturbation from
+  irreducibly different orientations.
 - **Rupture:** Evan uses her unknowingly as a control and converts her survival history into experimental material.
 - **Confrontation:** He calls their relationship inevitable; she rejects the retroactive justification.
 - **Reconciliation:** Evan must give her every relevant fact and surrender the ability to verify her choice.

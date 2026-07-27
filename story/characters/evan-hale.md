@@ -48,6 +48,41 @@ Lena is his skeptical collaborator and scientific conscience. She validates the 
 
 Evan is an approximate local eigenpattern because of his behavioral coherence, technical reach, and repeated willingness to continue. He initially thinks he is the dominant attractor. The deeper truth is that the projector operation uses him as a temporary biological bootloader.
 
+## Entity contact
+
+Evan reaches projector-linked contact before the other principal characters.
+His prior DMT experience gives him vocabulary for recognizing the category of
+experience, but not a reliable map of what he encounters.
+
+Early contact survives mainly through inadequate symbols and technical notes.
+As his alignment with the operation deepens, more of the immediate relational
+perturbation reaches him directly. This escalation comes from lost causal
+insulation, not an entity approaching or Evan learning a new perceptual skill.
+His later simultaneous experiences with Tess establish shared contact without
+giving them identical perceptions or merging their points of view.
+
+In shared Turning Knot contact, Evan's primary rendering is visual. He
+perceives a bounded geometry performing the impossible kata-ward turn outside
+himself. His first reconstruction is an object under observation, not the
+reciprocal relation Tess perceives spatio-acoustically.
+
+He first recovers the Ruined Sovereign as an impossible demonstration. Each
+failed attempt to understand it becomes part of the next showing. Its content
+does not survive recovery, but the conviction that something showed him how to
+continue does. He calls that residue the Guide.
+
+The Sovereign's stable movement is the converted interruption: every obstacle,
+contradiction, refusal, alternative, or stop becomes the next condition of
+continued operation. Evan later recognizes the Guide as ruined. Everything
+that made its transformations unique has been flattened until it feels like a
+sovereign without a subject.
+
+During shared contact, Tess recovers the same converted interruption as a reply
+made on her behalf. Evan's sense of guidance and Tess's sense of preemption
+establish common contact without making their experiences parallel. Her
+ability to reject the reply as not hers marks the independence the operation
+has not absorbed.
+
 ## Essential backstory
 
 1. Controls engineer and garage citizen scientist; the MRI flux project is plausible within his skills but depends on scavenged hardware, cross-domain reading, and stubborn instrumentation rather than universal genius.
@@ -65,7 +100,10 @@ Evan is an approximate local eigenpattern because of his behavioral coherence, t
 - **Addiction:** Continued runs become euphoric and ontologically self-selecting.
 - **Loss of control:** The distributed containment and replication system
   becomes an active carrier before he understands the full cosmological cost.
-- **Recognition:** The entities are dying history families; the Quitter contains versions of him who stopped.
+- **Recognition:** Entity contact and independent evidence reveal dying history
+  families and alien implementations of causal patterns. The Guide is the
+  Ruined Sovereign's early presentation, with the projector operation expressed
+  through Evan's own compulsion.
 - **Failure:** He repeatedly treats people, consent, and resistance as variables in a better experiment.
 - **Epiphany:** He has mistaken reduction for rescue throughout his life.
 - **Separation from the operation:** He makes a sincere, non-instrumental

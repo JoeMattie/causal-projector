@@ -41,6 +41,17 @@ Tess forms an independent friendship with Ruth and spends time with her outside 
 
 Ruth's cognition is supported by misaligned but partially surviving history bundles. The projector can temporarily select a larger coherent intersection, but that intersection may contain autobiographical memories absent from Evan's current record family. Her condition also makes her harder to absorb cleanly into Evan's causal attractor.
 
+## Entity contact
+
+Ruth experiences projector-linked contact as grounding rather than alienating.
+The perturbation feels like returning to a mode of reality she once knew and
+then lost. She may be less frightened by the failure of ordinary continuity
+because continuity already fails her in daily life.
+
+This does not make dementia a mystical gift or give Ruth privileged factual
+knowledge. Her familiarity is phenomenological. What she recognizes, and
+whether it corresponds to a recoverable history, remain uncertain.
+
 ## Essential backstory
 
 1. Retired mathematician.
@@ -55,6 +66,8 @@ Ruth's cognition is supported by misaligned but partially surviving history bund
 - **First reversal:** The project begins taking more of Evan's attention than their companionship does.
 - **Treatment:** A reduced exposure produces genuine lucidity and an incompatible family memory.
 - **Recognition:** Ruth understands that the machine selected a coherent version rather than restoring an authenticated original.
+- **Contact:** The entity state feels less like entry into the unknown than
+  return to something familiar but inaccessible.
 - **Resistance:** She insists on agency, corrects Evan's language, and refuses to let his measurements define what remains of her.
 - **Tragedy:** Her last lucid time passes while Evan tries to perfect the mechanism intended to save it.
 - **Ending:** Her personal ending matters emotionally even as the parent universe later collapses.

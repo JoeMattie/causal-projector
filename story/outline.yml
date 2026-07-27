@@ -33,11 +33,12 @@ nodes:
       she becomes lucid and casually asks after the granddaughter who survived
       in her memories but was miscarried in his; Evan treats the impossible
       detail as a calibration error rather than confront what the machine has
-      selected. Addicted to the machine and haunted by entities that prove to
-      be echoes of dying realities, Evan realizes each run is erasing entire
-      universes; yet every attempt to stop becomes another impossible link in
-      the chain that keeps it operating while Ruth's last lucid hours pass
-      without him. As reality collapses around them into a fractal singularity,
+      selected. Addicted to the machine and haunted by contacts that expose
+      dying realities and an alien causal ecology, Evan realizes each run is
+      erasing entire universes; yet every attempt to stop becomes another
+      impossible link in the chain that keeps it operating while Ruth's last
+      lucid hours pass without him. As reality collapses around them into a
+      fractal singularity,
       Evan and Esther "Tess" Kertesz, the one person too causally rare to be
       smoothly rewritten, attempt to erase his mistake together, and their
       final independent choices become the genesis of our universe.
@@ -80,9 +81,11 @@ nodes:
     title: Dying realities
     parent: premise:main
     summary: >-
-      Addiction, fractal entities, and causal-chain anomalies reveal that each
-      run is erasing real history families. Attempts to stop become links in
-      the operation's continuation while Ruth's lucid time passes without Evan.
+      Increasingly direct entity encounters and causal-chain anomalies reveal
+      that each run is erasing real history families. Ruth experiences contact
+      as a return, Lena withdraws after her first encounters, and Evan and Tess
+      eventually share a simultaneous perturbation without merging. Attempts
+      to stop become links in the operation's continuation.
     order: 50
 
   - id: arc:terminal-genesis
@@ -125,10 +128,11 @@ nodes:
     summary: >-
       A shared-facility experimental physicist whose faith in independent
       process makes the anomaly credible before she recognizes that the
-      containment system has become a carrier. She refuses the live test needed
-      to prove it, breaks with Evan when he runs it anyway, and remains only a
-      passive witness until the collapsing parent universe can no longer
-      sustain her as a coherent person.
+      containment system may have become a carrier. Entity contact establishes
+      causal coupling without authenticating its lore. She refuses the live
+      test needed to prove more, breaks with Evan when he runs it anyway, and
+      remains only a passive witness until the collapsing parent universe can
+      no longer sustain her as a coherent person.
     order: 120
 
   - id: character:esther-tess-kertesz
@@ -153,6 +157,35 @@ nodes:
       system built to reproduce and contain it. Its success exhausts the
       counterfactual freedom required for another cycle.
     order: 140
+
+  - id: character:ruined-sovereign
+    type: character
+    title: The Ruined Sovereign
+    parent: character:projector-operation
+    summary: >-
+      The projector operation's Evan-shaped encounter-avatar. Its recognition
+      invariant is the converted interruption: every possible diversion,
+      contradiction, refusal, or stop becomes the next condition of continued
+      operation. Evan recovers its early impossible demonstration as guidance.
+      Tess recovers the same movement as a reply made on her behalf. As
+      counterfactual support disappears, its meaningful complexity collapses
+      until one simple unfold can only recreate and repeat itself.
+    order: 145
+
+  - id: character:turning-knot
+    type: character
+    title: The Turning Knot
+    parent: premise:main
+    summary: >-
+      A coherent family of histories carried on a nonhuman substrate
+      incompatible with the one in which they formed. Every sensory rendering
+      contains the same impossible kata-ward turn. Repeated projection exposes
+      larger cross-sections by stripping away causal insulation, not by drawing
+      the Knot closer. Evan renders shared contact visually as an external
+      object. Tess renders it spatio-acoustically as a reciprocal relation. At
+      zero insulation, the Knot ceases to be humanly separable from the
+      relation through which it is perceived.
+    order: 150
 
   - id: concept:finite-causal-code
     type: concept
@@ -199,13 +232,18 @@ nodes:
 
   - id: concept:residual-entities
     type: concept
-    title: Fractal residual entities
+    title: Residual entities
     parent: premise:main
     summary: >-
-      DMT-like states loosen the single-world decoder and render compressed
-      families of erased histories as agents. Their visible recursion depth
-      decreases as support is pruned. They are interested survivor coalitions,
-      not omniscient aliens.
+      DMT-like states loosen the single-world decoder and expose compressed
+      families or alien implementations of causal patterns as coherent
+      presences. Raw contact is ungrounded from ordinary place, creature, body,
+      and spacetime. Familiar figures and sequences are lossy reconstructions
+      afterward. The Ruined Sovereign is the projector operation's encounter
+      avatar. Stopped histories remain an unnamed phenomenon without a coherent
+      agency. The later observer belongs to a non-agentic causal relation. The
+      Turning Knot supplies an independent nonhuman history-family on an
+      incompatible substrate.
     order: 240
 
   - id: concept:causal-rube-goldberg
@@ -370,6 +408,18 @@ links:
   - from: character:projector-operation
     to: character:esther-tess-kertesz
     type: cannot-smoothly-rewrite
+  - from: character:projector-operation
+    to: character:ruined-sovereign
+    type: encountered-as
+  - from: character:evan-hale
+    to: character:ruined-sovereign
+    type: reconstructs-and-recognizes
+  - from: concept:residual-entities
+    to: character:turning-knot
+    type: exposes
+  - from: character:turning-knot
+    to: character:ruined-sovereign
+    type: contrasts-with
   - from: concept:tess-rarity
     to: character:esther-tess-kertesz
     type: defines
