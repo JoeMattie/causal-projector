@@ -2,8 +2,8 @@
 
 ## Immediate Snowflake work
 
-1. Finish Lena's Step 3 sheet.
-2. Decide which entity families require character-like arcs and which remain phenomena.
+1. Decide which entity families require character-like arcs and which remain
+   phenomena.
 
 ## Evan
 
@@ -34,11 +34,9 @@
 
 ## Lena
 
-- Discipline, employment, and geography.
+- Exact university, shared-facility name, and geography.
 - Whether `Varga` creates unintended Hungarian overlap with Kertesz.
-- Personal stake beyond scientific ethics.
-- Exact break with Evan.
-- Late-story survival and role.
+- Her exact final observation before meaningful personal continuity fails.
 
 ## Plot structure
 

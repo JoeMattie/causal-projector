@@ -268,6 +268,37 @@ Relationship rupture:
 - Tess hears him turning her family's deaths, Ruth's decline, and erased universes into evidence that their love was supposed to happen.
 - If the mutual-veto protocol survives later development, it should be the ethical inverse: full information, independent control, no observation of the other's choice, and genuine ability to refuse.
 
+## Lena
+
+Lena Varga is the skeptical scientific collaborator whose rigor makes the
+projector anomaly credible.
+
+- She is a staff experimental physicist at a broad university shared research
+  facility. Her own work concerns vortex phases and pinning in thin-film
+  type-II superconductors.
+- Her expertise is diagnostic rather than generative. She can recognize
+  anomalous vortex behavior and design independent tests, but she could not
+  have designed Evan's garage flux source for him.
+- Her primary false belief is faith in process: moving judgment into an
+  independent, auditable system always makes an experiment safer.
+- Her secondary false belief is faith in evidence: sufficiently clear proof
+  will compel reasonable institutions to act responsibly.
+- Her personal stake is curiosity. The anomaly may be the only genuinely new
+  physical phenomenon she ever encounters, and stopping means accepting that
+  she may never know what it is.
+- She and Evan first earned each other's respect while diagnosing an unrelated
+  shared-facility instrument whose controller logs did not prove its physical
+  state.
+- She refuses the live consequential test needed to prove that the distributed
+  containment system has become a carrier. Evan pursues the test anyway, which
+  breaks their collaboration.
+- Afterward, she limits herself to passive analysis that cannot guide another
+  projection cycle.
+- By the approach to genesis, the parent universe can no longer sustain Lena as
+  a coherent person. She loses meaningful continuity before the Evan and Tess
+  terminal boundary, rather than being punished for refusing or preserved as a
+  third chooser.
+
 ## Genesis: high-level canon, detailed mechanism deferred
 
 The ending is fixed only at the level required by the tragedy:
