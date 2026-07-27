@@ -48,10 +48,10 @@ nodes:
     title: Snowflake status
     parent: premise:main
     summary: >-
-      Step 1 and Step 2 are complete. Step 3 sheets are substantially complete
-      for Evan, Ruth, and Tess. Lena is stable but unfinished. The next Step 3
-      subject is the projector operation as the true antagonist and
-      eigenoperation. Do not jump to chapter drafting.
+      Step 1 and Step 2 are complete. Step 3 sheets are complete for Evan,
+      Ruth, Tess, and the projector operation. Lena is stable but unfinished.
+      The coordinated multiself has been removed from the active cast. The next
+      task is Lena's final Step 3 pass. Do not jump to chapter drafting.
     order: 18
 
   - id: arc:shared-project
@@ -156,22 +156,12 @@ nodes:
     title: The projector operation
     parent: premise:main
     summary: >-
-      The true antagonist and dominant eigenoperation. It need not be conscious;
-      histories containing further or completed projection gain support until
-      the operation reproduces through people, software, institutions, and
-      unrelated carriers. Its Step 3 sheet is the next task.
+      The mindless true antagonist and dominant eigenoperation. It recursively
+      selects for another live closure, reproduces only through causally
+      descended carriers, and first becomes independent through the distributed
+      system built to reproduce and contain it. Its success exhausts the
+      counterfactual freedom required for another cycle.
     order: 140
-
-  - id: character:coordinated-multiself
-    type: custom
-    title: Coordinated multiself
-    parent: premise:main
-    summary: >-
-      Parked supporting-character concept: one body contains several
-      semi-autonomous cognitive coalitions. The projector can capture them
-      unevenly, allowing one subsystem to comply while others detect, warn,
-      remember, or resist. Use only if the plot earns the neuroscience load.
-    order: 150
 
   - id: concept:finite-causal-code
     type: custom
@@ -380,6 +370,15 @@ links:
   - from: character:projector-operation
     to: character:evan-hale
     type: uses-as-bootloader
+  - from: character:projector-operation
+    to: character:ruth-hale
+    type: selects-coherent-variant
+  - from: character:projector-operation
+    to: character:lena-varga
+    type: reproduces-through-containment
+  - from: character:projector-operation
+    to: character:esther-tess-kertesz
+    type: cannot-smoothly-rewrite
   - from: concept:tess-rarity
     to: character:esther-tess-kertesz
     type: defines

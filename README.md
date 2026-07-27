@@ -17,7 +17,10 @@ book.yml                       the book identity and publication settings
 chapters/                      future chapter drafts
 story/outline.yml              the current Authorbot story graph
 story/timeline.yml             empty active timeline stub
-story/characters/              the current six-character cast
+story/characters/              the current five-character cast
+story/canon.md                 accepted story canon and constraints
+story/decision-log.md          chronological accepted decisions
+story/open-questions.md        unresolved Snowflake work
 .authorbot/                    collaboration records managed by Authorbot
 archive/legacy-authorbot/      collaboration history for the removed chapters
 archive/superseded-planning/   planning documents retained for reference only
@@ -26,10 +29,11 @@ wrangler.jsonc                 the Cloudflare Worker that serves the site
 
 ## Canon and planning
 
-There is no current chapter prose or established event sequence. The story
-graph and character records hold the restart's active direction. The active
-timeline is an empty schema-valid stub; the prior timeline and development
-brief are archived as superseded planning.
+There is no current chapter prose or established event sequence. The canon,
+decision log, story graph, character records, and open questions hold the
+restart's active direction. The active timeline is an empty schema-valid stub;
+the prior timeline, development brief, and coordinated-multiself concept are
+archived as superseded planning.
 
 ## Local commands
 

@@ -1,18 +1,16 @@
----
-schema: authorbot.character/v1
-id: character:coordinated-multiself
-name: Coordinated Multiself
-summary: >-
-  One body contains approximately four semi-autonomous cognitive coalitions
-  that coordinate more like an octopus than like a conventional unitary self.
-status: planned
----
-
-# Coordinated Multiself (Provisional Supporting Character)
+# Coordinated multiself (shelved concept)
 
 ## Status
 
-Parked. Develop only if the plot earns the additional conceptual load.
+Removed from the active cast during Snowflake Step 3. Preserved here as an idea
+bank only.
+
+The concept did not earn its additional neuroscience premise. Ruth already
+shows damaged overlap among identity bundles, Tess shows resistance to smooth
+replacement, and the residual entities show subdivided alternate selves. The
+multiself's partial-capture behavior remained an illustration rather than an
+indispensable decision, conflict, relationship, reveal, recurring image, or
+ending function.
 
 ## Core idea
 
@@ -48,8 +46,9 @@ Possible line:
 
 ## Open questions
 
+These questions are inactive unless the concept is deliberately revived.
+
 - Cause: congenital organization, surgery, injury, engineered neural interface, or unknown.
 - Degree of shared language and memory.
 - Pronouns and self-description.
 - Plot role and relationship to Evan, Ruth, Tess, and Lena.
-- Whether the character is required at all.
