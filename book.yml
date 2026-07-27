@@ -27,6 +27,11 @@ publication:
   # Changing `chapter_url` or `slug` breaks links to chapters you have already
   # published, so both are guarded in the Settings view.
   chapter_url: /chapters/{slug}/
+  cover_images:
+    - public/covers/cover-3.png
+    - public/covers/cover-1.png
+    - public/covers/cover-2.png
+  cover_images_label: Cover candidates
   show_revision: true
   show_attribution: true
   show_public_annotations: true
