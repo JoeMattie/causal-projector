@@ -31,6 +31,7 @@ publication:
     - public/covers/cover-3.png
     - public/covers/cover-1.png
     - public/covers/cover-2.png
+    - public/covers/cover-4.png
   cover_images_label: Cover candidates
   show_revision: true
   show_attribution: true

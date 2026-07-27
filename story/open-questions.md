@@ -2,8 +2,9 @@
 
 ## Immediate planning work
 
-1. Decide which entity families require character-like arcs and which remain
-   phenomena.
+1. Decide what makes the defective-ring anomaly function as the first disaster
+   rather than as neutral scientific curiosity.
+2. Complete the five short-synopsis paragraphs one at a time.
 
 ## Evan
 
@@ -18,6 +19,8 @@
 
 - Exact mathematical career.
 - Diagnosis and progression.
+- What makes her encounters feel like return without turning dementia into
+  privileged cosmological access.
 - Her relationship with Evan's former wife.
 - The scenes through which she and Tess become friends.
 - Whether her final lucid exchange is with Evan, Tess, or both.
@@ -35,6 +38,8 @@
 - The precise experiment in which Evan secretly uses her choices.
 - The mechanics of separation and reconciliation.
 - Whether Tess knows Evan remembers her childhood disaster from the news before he tells her.
+- Exact visual and spatio-acoustic symbols Evan and Tess recover after sharing
+  the same impossible turn.
 
 ## Lena
 
@@ -48,9 +53,18 @@
 - How widely the operation is recognized before terminal convergence.
 - The exact practical act through which Evan makes his sincere refusal.
 - How the DMT observer renders the invariant in sensory and symbolic terms.
-- Whether the epilogue entity is best read as Evan's remainder, the operation,
-  the child universe modeling its origin, or a relation in which those
-  distinctions no longer apply.
+- Whether the later observer's machine-elf reconstruction is best read as
+  Evan's remainder, the operation, the child universe modeling its origin, or
+  a relation in which those distinctions no longer apply.
+
+## Retained entities
+
+- The Ruined Sovereign's exact sensory reconstruction and scene placement.
+- Whether Evan ever uses `Ruined Sovereign` as an in-story name.
+- The Turning Knot's physical topology beyond the impossible-turn invariant.
+- What displaced the Knot's histories onto their incompatible substrate.
+- The precise point at which the Knot can no longer be rendered as separate
+  from observer, carrier, and contact.
 
 ## Plot structure
 
@@ -68,6 +82,9 @@
 
 ## Science
 
+- Exact test by which the impossible turn is compared across visual and
+  spatio-acoustic reports without reducing them to identical imagery or
+  language.
 - Exact finite-history formalism and what can be measured locally.
 - What measurable signature distinguishes causal lineage from an unrelated
   system with the same abstract topology.

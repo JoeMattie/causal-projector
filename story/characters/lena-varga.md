@@ -103,6 +103,23 @@ up a working system until the evidence earns the word `working`.
 They become intellectual collaborators with genuine respect and escalating
 moral conflict.
 
+## Entity contact
+
+Lena's first direct encounters with the entities cause her to abandon the
+project. The experience makes it impossible for her to treat the anomaly as
+only an unusual measurement problem.
+
+Her contact remains preconceptual, extra-spatial, and resistant to reliable
+symbolic reconstruction. Lena accepts it as evidence that the observer and the
+containment process are causally coupled to the anomaly. She does not treat the
+reconstructed entities, their apparent identities, or their cosmological lore
+as authenticated fact.
+
+The experience makes her reinterpret the passive evidence and recognize that
+the containment system may no longer stand outside what it measures. Stronger
+proof would require another live consequential response, which could strengthen
+the carrier she is trying to establish.
+
 ## Break with Evan
 
 Lena finds enough passive evidence to suspect that the distributed containment
@@ -148,6 +165,8 @@ before Evan and Tess reach the genesis boundary.
 - Begins by expecting interference, bad metrology, or operator contamination.
 - Reproduces the anomaly independently.
 - Helps identify residual entities and finite effective support.
+- Experiences direct entity contact and can no longer treat the anomaly as
+  only a measurement problem.
 - Recognizes earlier than Evan that coherence is not authentication and that continued observation may itself cause damage.
 - Attempts shutdown or containment.
 - Brings Tess into the project.

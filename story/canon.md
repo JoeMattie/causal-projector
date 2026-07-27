@@ -147,16 +147,210 @@ These experimental devices are salvageable, but the old chapter sequence is not 
 - The addiction is partly psychological and partly ontological: histories in which Evan stops receive less support than histories in which he activates the machine again.
 - He can understand the mechanism and still be unable to stop because successful abstinence increasingly belongs to dying worlds.
 
-## DMT and fractal entities
+## DMT and residual entities
 
 - DMT does not cause the machine effect or prove supernatural beings.
-- It loosens the brain's ordinary single-world / single-self decoder and makes residual branch structure perceptible.
-- Entities are compressed families of alternate versions or descendant implementations of a causal pattern, not simple one-to-one doubles.
-- They appear fractal because each family contains subdivisions into related histories.
-- As support is lost, recursion terminates at shallower levels. Entities pixelate, repeat, and lose biography.
-- Different entities have different incentives. Advice is survivor lobbying, not omniscient revelation.
-- The Quitter family contains versions of Evan who stopped. Watching it lose depth makes branch erasure personal.
-- Near genesis, recognizable selves compress into invariants such as winding, chirality, knots, phase classes, and open or closed relations.
+- It loosens the brain's ordinary single-world / single-self decoder and makes
+  residual branch structure perceptible.
+- Entities are compressed families of alternate versions or descendant
+  implementations of a causal pattern, not simple one-to-one doubles.
+- Deep contact is not organized as an exotic place containing recognizable
+  creatures. Ordinary distinctions such as location, object, body, inside,
+  outside, before, and after may fail to apply.
+- Evan can experience relational directions unavailable to ordinary
+  perception, analogous to being able to look ana-ward or kata-ward through an
+  extra spatial dimension. This analogy describes the experience, not an
+  established literal geometry.
+- Imagery, color, and sound occur as perturbations in experienced reality
+  rather than as scenery or properties belonging to stable objects. They are
+  sensory cross-sections of a change the ordinary human model cannot represent
+  directly.
+- An entity is recognized as a coherent agency, attention, or relation across
+  transformations for which human perception has no native symbols. It need
+  not possess a stable body, boundary, scale, or position.
+- Fractal figures, rooms, faces, machines, and sequences belong mainly to
+  memory's lossy reconstruction after contact. They are not a complete or
+  literal account of what was present.
+- Cosmological lore can arrive as simultaneous relational understanding rather
+  than speech or a sequence of propositions. Its felt certainty does not
+  authenticate its claims.
+- As support is lost, recursion terminates at shallower levels. Later
+  recollection becomes more repetitive, less differentiated, and less able to
+  recover biography.
+- Different entities have different incentives. Advice is survivor lobbying,
+  not omniscient revelation.
+- The Ruined Sovereign is the recurring encounter-avatar of the projector
+  operation. The Guide is its early, richly differentiated presentation, not a
+  separate entity.
+- The Quitter is not an entity. Stopped counterfactuals remain available as an
+  unnamed encounter phenomenon: histories and relations continuing without
+  returning to the projector.
+- Shared nonparticipation does not bind those histories into one agency, voice,
+  or intention. A recovered memory may personify the contact, but no recurring
+  identity or named replacement inhabits it.
+- This contact can preserve evidence and moral injury without turning Evan's
+  eventual refusal into a verdict delivered by the cosmos.
+- The Turning Knot is the second true recurring entity. It is a coherent family
+  of histories carried on a nonhuman substrate incompatible with the one in
+  which those histories formed. It is not the projector operation or a human
+  counterfactual.
+- The recurring roster is limited to the Ruined Sovereign and Turning Knot
+  unless another story function proves necessary that neither can carry.
+- Near genesis, recognizable selves compress into invariants such as winding,
+  chirality, knots, phase classes, and open or closed relations.
+
+### The Ruined Sovereign
+
+- Its substrate is the lineage-spanning projector operation as implemented
+  across people, apparatus, software, institutions, and later carriers. It
+  does not add a mind, controller, or separate residual family to the
+  operation.
+- It is Evan-shaped because Evan's habit of converting helplessness into
+  another operation is the local relation through which he encounters it. The
+  resemblance is causal, not necessarily visual.
+- Its motivation-equivalent is recursive closure. It is internally non-halting
+  because its transition rule contains no chosen stop, but it can still end
+  when no counterfactual support remains for another cycle.
+- Its ruined state is expressed through movement rather than a damaged body.
+  Early transformations feel almost infinite in complexity while remaining
+  phenomenological and compatible with a finite multiverse. Each movement
+  makes a new meaningful distinction.
+- Across later contacts, independent degrees of movement disappear.
+  Transformations cease opening new relations and increasingly return to the
+  same relation.
+- Evan's late description does not require a new figure or symbolic costume.
+  He recognizes the same Guide, ruined somehow. Everything that once made its
+  transformations unique has been flattened until it feels like a sovereign
+  without a subject.
+- Its recognition invariant is the converted interruption. Every encounter
+  contains something that could divert, contradict, refuse, or stop the current
+  movement. The Sovereign turns that interruption into the next condition of
+  continued operation.
+- Early contact contains many genuinely independent interruptions and many
+  meaningfully distinct conversions. Evan therefore reconstructs the invariant
+  as adaptive intelligence. Later contact contains less independence until the
+  movement must generate and absorb its own interruption.
+- Evan recovers early contact as an impossible demonstration. Each failed or
+  contradictory attempt to understand it is converted into the next showing,
+  producing the feeling of an intelligence responding directly to him. No
+  stable lesson survives. He returns with a strong sense that he has been shown
+  how to continue, but not what he was shown. That residue is what he calls the
+  Guide.
+- Tess recovers the same converted interruption as a reply made on her behalf.
+  The reply is not speech. Each response she begins to form is taken up as the
+  condition for the next movement before she can own it. Where Evan feels
+  guided, Tess feels preempted.
+- Tess can still recognize that the reply is not hers. The contact therefore
+  reveals the operation's attempt to absorb independent choice without
+  establishing that it has succeeded. Her actual capacity to refuse remains
+  necessary to the ending.
+- At the limit, one simple unfold recreates the condition for the same unfold
+  and repeats without novelty, reflection, or an internally available stop.
+- The Guide label does not establish a teacher, a message, or a benevolent
+  motive. Evan later recognizes the same converted interruption as the Ruined
+  Sovereign. The invariant is Evan-shaped because he repeatedly turns helpless
+  presence, grief, refusal, and resistance into another operation.
+
+### The Turning Knot
+
+- `Turning Knot` is a working human label.
+- Its underlying identity is a coherent family of histories whose shared
+  causal pattern has been carried onto an incompatible substrate.
+- The apparent topological organism is a human reconstruction of that
+  persistent pattern. The Knot need not be one literal organism or a conscious
+  individual.
+- It does not have a stable body. Every apparent body, scale, orientation, or
+  location is a humanly available cross-section of a structure that does not
+  fit ordinary spatial representation.
+- Projector exposure changes locally accessible causal adjacency and brings
+  observers into repeated contact with the same history-family. The projector
+  reveals the coupling but does not create, control, or carry the Knot.
+- Ordinarily, the support of valid histories keeps incompatible substrates
+  causally insulated and mutually opaque. Each consequential projection
+  removes some of that insulating support.
+- As causal insulation thins, larger cross-sections of the same Knot become
+  perceptible to observers implicated in the live operation. The Knot does not
+  approach, reveal itself, or send a stronger signal. The human side loses the
+  histories that kept the relation unreadable.
+- This escalation follows accumulated projection and causal participation, not
+  a learned decoder skill.
+- The substrate mismatch is reciprocal. Human physical reality is as alien to
+  the Knot's implementation as its carrier is to human observers. Neither side
+  receives a native view of the other.
+- Evan and Tess eventually understand this reciprocity from the structure of
+  the contact. The Knot does not explain it, and whether it recognizes them as
+  coherent entities remains unknowable.
+- Sound, color, meaning, geometry, and felt orientation transform into one
+  another as if they were parts of a living syntax.
+- This syntax is the Knot's perceptual interface, not a second entity or a
+  transmitted language. Recovered images of visible speech and impossible
+  constructed objects are lossy human renderings.
+- Its recognition invariant is the impossible turn. Whatever sensory form the
+  contact takes, observers perceive the same continuous rotation on a fourth
+  spatial axis, in a direction they call kata-ward.
+- The impossible turn may be seen as movement, heard as a relation changing
+  through itself, felt as orientation, or understood without a sensory image.
+  The modality changes, but the kata-ward relation does not.
+- During shared Knot contact, Evan's primary rendering is visual. He
+  reconstructs a bounded geometry turning outside himself and therefore begins
+  from the Knot as an object of observation.
+- Tess's primary rendering is spatio-acoustic. Sound carries adjacency,
+  rotation, depth, and her own orientation within the same relation. She
+  therefore reconstructs reciprocity rather than an external object.
+- Neither rendering is more complete or authoritative. Their agreement on the
+  same kata-ward impossible turn establishes a common contact while preserving
+  their nonparallel inner experience.
+- `Kata-ward` is a human name for a stable feature of the experience. It does
+  not by itself prove that the Knot occupies a simple Euclidean four-space.
+- No readable motive is required. Apparent curiosity, invitation, hunger,
+  warning, or hostility would be human reconstruction unless evidence makes
+  one of those distinctions necessary.
+- The Knot does not guide, judge, protect, or explain. It supplies no usable
+  cosmological or genesis instruction.
+- It contrasts with the Ruined Sovereign through movement. The Knot retains
+  identity across radical changes of representation, while the Sovereign loses
+  meaningful degrees of movement until only repetition remains. The Knot does
+  not present this contrast as a lesson.
+- As causal insulation fails completely, the Knot does not culminate in a full
+  or native view. It ceases to be separable from the relation through which
+  Evan and Tess perceive. The impossible turn is no longer an object of
+  experience and becomes part of experience's relational medium.
+- This is the last humanly available state of the Knot, not evidence that its
+  history-family dies, survives intact, crosses into human reality, or enters
+  the child universe. Its objective fate remains unknowable.
+
+### Narrative access and encounter progression
+
+- Some encounters are presented directly. Early direct passages are shorter
+  and more dependent on ordinary recovery afterward. Direct contact occupies
+  more narrative space and grows less anchored as the novel progresses.
+- Encounters use two registers: immediate relational perturbation, followed by
+  the mind's inadequate reconstruction as imagery, sound, entities, places,
+  and sequence. These registers do not have to appear as two mechanically
+  separate passages every time.
+- Evan reaches projector-linked contact first. Repeated contact grows in
+  intensity as his alignment with the operation deepens and the operation
+  strips away causal insulation.
+- Tess's first contact comes later, after she has accumulated exposure through
+  runs of the device. This exposure implicates her in the same loss of causal
+  insulation rather than training her to decode the Knot. She and Evan
+  eventually have simultaneous shared experiences.
+- Shared contact does not merge Evan and Tess or give them identical inner
+  worlds. Evan encounters the impossible turn visually and reconstructs an
+  external object. Tess encounters it spatio-acoustically and reconstructs a
+  reciprocal relation that includes her own orientation. Both are lossy
+  cross-sections of the same perturbation.
+- Lena's first entity encounters precipitate her abandonment of the project.
+  She accepts them as evidence that observer and containment process are
+  causally coupled, but not as proof of entity identities or cosmological lore.
+  The contact makes her reinterpret passive evidence and refuse the live test
+  that could establish more by strengthening the suspected carrier.
+- Ruth's encounters are grounding. They feel like returning to a mode of
+  reality she once knew and lost, without making her illness a source of
+  privileged cosmological authority.
+- Tess's cat appears unusually comfortable around people undergoing contact
+  and at home within the perturbed experience. The cat is not an exposition
+  device or confirmed guide. Whether it senses anything anomalous remains open.
 
 ## Causal Rube Goldberg escalation
 
@@ -230,8 +424,8 @@ The locked Step 3 escalation is:
    distributed scientific process.
 5. That distributed process becomes independent of Evan and the original
    apparatus before the full cost is known.
-6. Residual entities, the Quitter family, and causal chains reveal erased
-   histories while Tess remains nonparallel.
+6. Direct entity encounters and causal chains reveal erased histories while
+   Tess remains nonparallel.
 7. Evan's sincere refusal ends his alignment with the operation, which
    continues without him.
 8. Recursive closure becomes a terminal, self-exhausting eigenoperation.
@@ -321,10 +515,19 @@ The ending is fixed only at the level required by the tragedy:
 - The act creates chosen meaning without retroactively justifying Tess's family deaths, Ruth's lost time, the miscarriage, or the erased histories.
 - At the end of their existence, Evan and Tess glimpse the
   universe-that-will-be from the parent side of the boundary.
-- A later observer in our universe perceives the same invariant during a
-  DMT-like state as a machine-elf-like entity that conveys the parent history
-  symbolically. The observer loses the usable content as the state fades,
-  retaining only the memory of universe-scale understanding.
+- A later observer in our universe encounters the same invariant during a
+  DMT-like state. The raw contact is not literally a meeting with a creature in
+  a place. Only afterward does memory compress it into something like a
+  machine-elf entity conveying the parent history. The observer loses the
+  usable content as the state fades, retaining only the memory of
+  universe-scale understanding.
+- The Future Witness is not a separate entity. Evan and Tess do not perceive
+  the later observer as a person, and the observer does not receive a message
+  sent by Evan or Tess.
+- The parent-side glimpse and the later DMT encounter are asymmetric human
+  reconstructions of the same non-agentic causal relation. The machine-elf
+  figure belongs to the later observer's rendering, not to the invariant's
+  literal ontology.
 - This is indirect contact without communication. The book leaves unresolved
   whether genesis is the operation's unintended result or whether the child
   universe's existence is the global boundary condition that made recursive

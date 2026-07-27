@@ -223,8 +223,10 @@ creating his first moral warning.
 5. **Independence:** The distributed system closes a live projection cycle
    without Evan or the original apparatus, before anyone has conclusive proof
    that the discarded alternatives are inhabited histories.
-6. **Revelation and resistance:** The entities, degrading Quitter family, and
-   impossible causal chains establish the true cost. Tess remains recognizably
+6. **Revelation and resistance:** Direct entity encounters and impossible
+   causal chains establish the true cost. The Ruined Sovereign exposes the
+   operation through Evan's own pattern, while the Turning Knot proves that
+   contact reaches an independent causal ecology. Tess remains recognizably
    nonparallel while records and people around her converge. Shutdown attempts
    provide further consequential feedback.
 7. **Separation from Evan:** Evan makes a sincere refusal and chooses helpless
@@ -237,6 +239,59 @@ creating his first moral warning.
 9. **Genesis boundary:** Evan and Tess remain irreducibly distinct at the
    exhausted fixed point. Their independent final choices produce a child
    universe beginning at its own Big Bang.
+
+## Encounter avatar
+
+The Ruined Sovereign is the projector operation as recovered through entity
+contact. It is not a separate residual family or a concealed intelligence
+directing the operation.
+
+Its movement begins with almost uncountable meaningful complexity. Each
+transformation changes relation, causal adjacency, orientation, or possibility
+without merely repeating what came before.
+
+Evan recovers early contact as an impossible demonstration. Each failed or
+contradictory attempt to understand it becomes part of the next showing. He
+cannot recover a stable lesson afterward, but he retains the conviction that
+something showed him how to continue. He calls that residue the Guide. The
+name does not establish a teacher, a message, or a benevolent motive.
+
+Its recognition invariant is the converted interruption. Every contact turns
+an apparent obstacle, contradiction, refusal, alternative, or stop into the
+next condition of continued operation. Early conversions remain meaningfully
+distinct. Later, as independent alternatives disappear, the movement must
+generate and absorb its own interruption.
+
+Tess recovers this invariant as a reply made on her behalf. It is not literal
+speech. Each independent response she begins to form is used as the condition
+for the next movement before she can own it. Evan feels guided by the same
+conversion that makes Tess feel preempted. Her recognition that the reply is
+not hers preserves the independent choice the operation cannot smoothly
+rewrite.
+
+As recursive closure consumes counterfactual freedom, independent degrees of
+movement disappear. The transformations make fewer distinctions until only
+one simple unfold remains, recreating the condition for its own repetition.
+The Sovereign is non-halting only from within its rule. It still ends when the
+surrounding causal substrate can no longer support another cycle.
+
+Evan recognizes this late presentation as the Guide ruined. Everything that
+once made its transformations unique has been flattened, leaving a sovereign
+without a subject. The avatar is Evan-shaped because his compulsion to convert
+helplessness into another operation is the local structure through which he
+encounters the larger pattern.
+
+The Turning Knot is not another avatar or carrier of the projector operation.
+It is an independent history-family carried on a nonhuman, incompatible
+substrate and exposed through the same contact channel. Its ability to retain
+identity across radical changes of representation contrasts with the
+Sovereign's loss of meaningful movement, but it does not oppose the operation
+or teach the characters how to stop it.
+
+When causal insulation fails completely, the Knot ceases to be humanly
+separable from the relation through which it is perceived. This does not show
+that the projector destroys, carries, or incorporates the Knot's
+history-family.
 
 ## Observable signatures
 
@@ -251,6 +306,9 @@ creating his first moral warning.
   same decision topology.
 - As closure deepens, records, language, institutions, and long causal chains
   lose irrelevant alternatives and become unnaturally efficient.
+- The same loss of valid-history support thins the causal insulation between
+  incompatible substrates. Larger cross-sections of the Turning Knot become
+  perceptible without the Knot moving closer or sending a stronger signal.
 
 ## Epiphany analogue
 
@@ -270,10 +328,22 @@ and Tess's irreducible relation persists only as a general time-symmetric
 causal invariant embedded in the child universe's fine structure. At the end of
 their existence they glimpse the universe-that-will-be from the parent side.
 
-Much later, a person in our universe perceives the same invariant during a
-DMT-like state. The mind renders it as a machine-elf-like entity conveying the
-parent history symbolically. The observer forgets the usable content as the
-state fades and retains only the memory of universe-scale understanding.
+Much later, a person in our universe encounters the same invariant during a
+DMT-like state. The raw experience is ungrounded from ordinary place, creature,
+body, and spacetime. It includes relations analogous to looking ana-ward or
+kata-ward through an extra spatial direction, without establishing that this
+is its literal geometry. Imagery and sound occur as perturbations in
+experienced reality, not as stable scenery or attributes of a visible being.
+
+Only afterward does memory render the contact as something like a
+machine-elf-like entity conveying the parent history. The observer forgets the
+usable content as the state fades and retains only the memory of universe-scale
+understanding.
+
+There is no separate Future Witness entity. Evan and Tess do not encounter the
+later observer as an individual, and the observer does not receive an intended
+message from them. Their parent-side glimpse and the observer's later contact
+are asymmetric human reconstructions of the same non-agentic causal relation.
 
 This is indirect contact without communication. The book does not resolve
 whether recursive closure caused genesis or whether genesis was the boundary
@@ -283,7 +353,8 @@ condition shaping recursive closure.
 
 - Closed loops that recur in different materials and at different scales.
 - Rotating fields, phase winding, chirality, and asymmetric loss.
-- Objections and stop conditions returning as inputs to the next decision.
+- Converted interruptions: objections, contradictions, and stop conditions
+  returning as inputs to continued operation.
 - Branching diagrams and explanations that lose branches over time.
 - Increasingly long chains in which every surviving detail becomes useful.
 - Late repetition, compressed biography, and the disappearance of irrelevant
