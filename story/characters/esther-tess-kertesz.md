@@ -20,7 +20,7 @@ Esther "Tess" Kertesz is a catastrophe modeler and the neurologically intact sol
 - Full name: Esther Kertesz
 - Everyday name: Tess
 - People routinely hear or spell `Kertesz` as `Curtis`; she corrects them automatically.
-- The surname is Hungarian-American, spelled `Kertesz` without the accent.
+- The surname is Hungarian-American. The unaccented spelling is `Kertesz`.
 
 ## Age
 
@@ -56,6 +56,17 @@ Tess works at the fictional **North Pacific Resilience Institute**, an independe
 Her specialty is **compound and cascading risk**: events in which individually ordinary failures become catastrophic through weather, infrastructure, human decisions, institutional response, and incomplete data.
 
 Lena recruits her because this expertise is exactly what is needed to distinguish a long selected chain from cherry-picked coincidence.
+
+Tess enters after Evan and Lena have already produced a precommitted rare
+physical outcome. As longer coincidence chains begin appearing outside the
+immediate apparatus, Lena asks her to determine whether the global pattern
+survives controls for postselection, hidden dependence, and retrospective
+story-making. She arrives before Ruth's incidental lucidity and is present for
+the early repeat runs.
+
+Nobody recruits Tess because of the ferry disaster, and nobody recognizes her
+causal rarity at this stage. She is not brought in to validate superconducting
+physics.
 
 ## Ferry disaster
 
@@ -123,6 +134,9 @@ Tess develops an independent friendship with Ruth and spends time with her as sh
 
 This relationship:
 
+- begins while the team still regards Ruth's requested runs as beneficial;
+- lets Tess witness each interval restore more continuity and last longer
+  before the first incompatible memory appears;
 - gives Ruth companionship outside Evan's experiment;
 - takes some of the sting out of Evan's distraction without excusing it;
 - lets Tess witness Evan's love and failure at the same time;
@@ -141,20 +155,34 @@ She understands why he is obsessed. She is also the person who insists that unde
 
 ## Entity contact
 
-Tess's first projector-linked contact occurs later than Evan's, after repeated
-runs have thinned the causal insulation around her participation. The exposure
-does not train her to decode the entity.
+Tess's first projector-linked trip occurs later than Evan's, after she has
+accumulated exposure through repeated runs of the device. Eventually she and
+Evan undergo simultaneous shared contact. The accumulated runs have thinned
+the causal insulation around her participation. They have not trained her to
+decode the entity.
 
-Eventually she and Evan undergo simultaneous shared contact. Their agreement
-concerns the same otherwise impossible perturbation, not a shared hallucinated
-room or identical entity image. Each returns with a different symbolic
-reconstruction. The contact preserves their nonparallel relation rather than
-dissolving it.
+Their agreement concerns the same otherwise impossible perturbation, not a
+shared hallucinated room or identical entity image. Each returns with a
+different symbolic reconstruction. The contact preserves their nonparallel
+relation rather than dissolving it.
 
 Tess's primary Turning Knot rendering is spatio-acoustic. Sound carries
 adjacency, depth, rotation, and her own orientation within the impossible
 kata-ward turn. She reconstructs a reciprocal relation rather than the bounded
 external object Evan sees. Her rendering is different, not more authoritative.
+
+During terminal geometric failure, that relation-first perception becomes
+Tess's local atlas of one shared damaged reality. Voices, footsteps, echoes,
+surfaces, machinery, and her own position tell her what is adjacent and how she
+is oriented even when those relations cannot fit one global room or route.
+Objects, signals, and physical traces still cross between her atlas and Evan's
+visual, object-centered one. Merged replica sites become overlap regions
+between them.
+
+Tess does not receive an abstract diagram, use sonar, or retreat into
+decorative synesthesia. Her geometry is carried by specific audible sources and
+continuing physical traces. It remains as objective as Evan's account while
+including her position inside the relation he tries to observe from outside.
 
 Tess reconstructs the Ruined Sovereign's converted interruption as a reply
 made on her behalf. This is not a literal voice or sentence. Each objection,
@@ -164,19 +192,36 @@ as guidance. Tess experiences it as preemption.
 
 She can still tell that the reply is not hers. The contact exposes the
 operation's attempt to absorb her choice without proving that it has succeeded.
-Her remaining independence links the encounter to Evan's use of her uninformed
-choices and to the terminal choice he cannot make or verify for her.
+Her remaining independence is the point. It links the encounter to Evan's use
+of her uninformed choices and to the terminal choice he cannot make or verify
+for her.
 
 Tess's cat is calm around people undergoing contact, is drawn toward them, and
 appears at home within the perturbed experience. This remains suggestive rather
 than explanatory. The cat does not become a guide or proof of a supernatural
 realm.
 
+The cat survives the local catastrophe miraculously unscathed. Later, during
+loss of separability, it moves through a badly perturbed region and settles
+somewhere Tess and Evan can both identify from their incompatible orientations.
+The cat supplies one last shared external fact without becoming a magical key,
+mechanical trigger, solver, or chooser of genesis.
+
+This anchoring happens before Tess and Evan make their mutually unobservable
+terminal choices. It establishes that their incompatible atlases still belong
+to one causal neighborhood without revealing what either will choose. Only
+after their choices meet does the child universe become perceptible from the
+parent boundary. The cat does not open, measure, or cross that relation.
+
 ## Relationship rupture
 
 Evan secretly uses Tess's uninformed choices as the live control in an experiment that tests her resistance to pruning. He withholds the experimental role because awareness would contaminate the result.
 
 He has also used ferry, rescue, and medical records to estimate her causal rarity without fully involving her. The research is technically relevant, but he has converted her family's deaths and her survival into model parameters.
+
+As paired loss and echo becomes conclusive, Evan voluntarily admits both
+violations. Tess does not catch him. The admission matters, but it does not
+undo what he did.
 
 During the confrontation, Evan makes the deeper mistake: he argues that their meeting and love may have been inevitable within the surviving fixed-point history.
 
@@ -190,6 +235,14 @@ Tess hears him turning:
 into proof that their relationship was supposed to happen.
 
 The rupture does not require her to stop loving him. It requires Evan to understand that love does not confer retroactive permission.
+
+Their conflict begins before Ruth's final decline. Tess remains with Ruth while
+angry, and Evan leaves to follow proof-to-stop chains through the distributed
+carrier. The growing chaos cuts through the argument without resolving it. Tess
+recognizes that the system is beyond their control and fears for Evan's safety.
+After Ruth dies and Evan returns, Tess does not forgive him on the spot. Her
+presence with Ruth and his refusal to turn the aftermath into more work begin
+renewed trust without absolution.
 
 ## Why she stays
 
@@ -218,8 +271,26 @@ Chosen meaning does not redeem the disaster, excuse Evan, or turn the dead into 
 - Evan cannot create or repair the terminal state alone.
 - Tess must remain a genuinely independent, nonparallel causal vector.
 - Their final choices must preserve the real possibility of refusal and cannot be verified or coerced in advance.
+- Tess and Evan believe they are choosing a shared ending for themselves and
+  the projector, not creating a successor universe.
+- Each receives the full relevant truth, then loses any ability to inspect,
+  model, or influence the other's decision.
+- Tess chooses while accepting that an unmatched choice might leave her as the
+  sole remainder again. Her willingness does not turn the ferry disaster or
+  any later loss into a necessary step.
 - The act becomes genesis and does not preserve them as intact selves.
+- Genesis is unintended.
 - The result creates chosen meaning without turning earlier deaths and violations into necessary or justified steps.
+- During loss of separability, the cat acts as their last shared external
+  reference. It is not a participant in the terminal decision.
+
+The final portion of the genesis-operation chapter is locked as the novel's
+only literal cat viewpoint. The cat bridges Tess's spatio-acoustic context and
+Evan's visual, object-centered context, observes them, and hears their final
+words as they perceive the incoming Big Bang. It does not comprehend the words
+or cosmology. The dialogue may be available verbatim to the reader while the
+cat knows only familiar voices, cadence, attention, fear, bodies, and sensory
+change.
 
 ## Arc landmarks
 
@@ -232,7 +303,26 @@ Chosen meaning does not redeem the disaster, excuse Evan, or turn the dead into 
   encounter later than Evan's.
 - **Shared contact:** She and Evan experience the same perturbation from
   irreducibly different orientations.
-- **Rupture:** Evan uses her unknowingly as a control and converts her survival history into experimental material.
+- **Rupture:** As paired loss and echo becomes conclusive, Evan admits that he
+  used her unknowingly as a control and converted her survival history into
+  experimental material.
 - **Confrontation:** He calls their relationship inevitable; she rejects the retroactive justification.
-- **Reconciliation:** Evan must give her every relevant fact and surrender the ability to verify her choice.
+- **Ruth and the catastrophe:** Tess remains fully present through Ruth's
+  natural terminal lucidity and death while the local compound collapse makes
+  the sky appear to rain molten glass or fire. The cat survives unscathed.
+- **Renewed trust:** Evan returns and refuses to inspect, salvage, measure, or
+  turn the aftermath into another project. Tess remains angry. His presence
+  begins reconciliation without securing forgiveness.
+- **Lena search:** During the several-week escalation, Tess's concrete objective
+  is to reach her friend Lena. Evan joins her for Lena's sake rather than to
+  recover scientific work or control. Their choices along the route develop
+  renewed trust without erasing his violation or forcing forgiveness. They
+  reach the observatory after the satellite cascade and before the geologic
+  catastrophe, while Lena still recognizes them but is beginning to lose
+  continuity. At the station, Tess experiences the directions and arrival times
+  of synchronized continental-margin ruptures as a planet-scale acoustic and
+  bodily relation while Evan reads their convergence visually. Lena retains old
+  knowledge but loses alternative next responses in a fixed-successor collapse.
+  Tess remains with her as Lena makes one last refusal to be tested.
+- **Reconciliation:** Evan must ultimately give her every relevant fact and surrender the ability to verify her choice.
 - **Ending:** Tess and Evan make genuinely independent terminal choices that neither can verify in advance. Their difference seeds genesis.

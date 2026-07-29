@@ -23,7 +23,7 @@ Keep working beside Evan, preserve as much independence as possible, and maintai
 
 ## False belief or flaw
 
-Ruth does not have a conventional fatal flaw. Her limits are neurological and practical, not moral punishment. Her stubbornness can create conflict, but it is also one of the ways she protects her agency.
+Ruth does not require a conventional fatal flaw. Her limits are neurological and practical, not moral punishment. Her stubbornness can create conflict, but it is also one of the ways she protects her agency.
 
 ## Primary conflict
 
@@ -33,13 +33,58 @@ Evan genuinely loves her but increasingly treats coherence as more important tha
 
 Ruth is his mother, collaborator, dependent, teacher, and moral counterweight. She understands his work in flashes and often identifies the category error beneath his technical explanation. Her clearest moments should not merely serve exposition.
 
+Her dementia fluctuates enough that on some days she knows Evan is familiar
+without being able to place him clearly as her son. Evan keeps her involved in
+the garage for company and gives her bounded jobs so she can feel useful. He
+quietly checks all of her work himself. The arrangement is loving,
+practical, unequal, and genuinely collaborative at once.
+
 ## Relationship with Tess
 
 Tess forms an independent friendship with Ruth and spends time with her outside the research. Ruth is not merely a bridge between Evan and Tess. She develops her own trust, irritation, humor, and loyalties with Tess. Tess's presence reduces Ruth's isolation while making Evan's absence more visible.
 
+Tess joins the project before Ruth's incidental lucidity and is present while
+the team still supports Ruth's requested repeat runs. Their friendship begins
+before the incompatible granddaughter memory turns Ruth into the center of an
+ethical dispute.
+
+During Ruth's final natural lucid interval, Tess remains with her while still
+angry with Evan. Tess does not turn the interval into another measurement or
+response. When the local catastrophe cuts off communications and emergency
+access, she stays present through Ruth's increasing tiredness, trouble speaking
+and swallowing, intermittent responsiveness, unconsciousness, and death.
+
 ## Connection to the science
 
 Ruth's cognition is supported by misaligned but partially surviving history bundles. The projector can temporarily select a larger coherent intersection, but that intersection may contain autobiographical memories absent from Evan's current record family. Her condition also makes her harder to absorb cleanly into Evan's causal attractor.
+
+In the opening runs, Ruth repeatedly spots the sub-bath cold notch in data Evan
+has given her to review. She points it out each time as though it were the
+first. The recurrence shows that familiar mathematical habits survive even
+when her memory of prior runs does not. It is not a formal blinded control,
+proof of restored cognition, or privileged access to the mechanism.
+
+Her first projector-linked lucidity is incidental in purpose but not in causal
+participation. She is performing a real task that affects a live run when the
+operator effect reaches her. Nobody has proposed a cognitive experiment on
+her. After the improvement, Ruth asks for reduced repeat exposures, and the
+team initially supports her request. The incompatible granddaughter memory
+does not appear until a later run.
+
+The intervals deepen with repetition. The first restores present orientation,
+working memory, and conversational continuity well enough for Ruth to
+recognize the people around her and rejoin the work. Each later run restores
+more continuity and lasts longer, but the gain still fades. The early
+intervals contain no incompatible autobiographical detail. The granddaughter
+memory appears during Ruth's clearest and longest interval yet, and she holds
+it as an ordinary part of an otherwise coherent life rather than a new or
+disturbing thought.
+
+Evan responds by defining a concordance window in which her clarity counts as
+successful only while her autobiography agrees with his record family. Lena
+objects that agreement cannot authenticate Ruth. The proposal turns Ruth's
+identity into a control variable and makes Evan's history the standard without
+settling Ruth's own view or consent.
 
 ## Entity contact
 
@@ -63,14 +108,28 @@ whether it corresponds to a recoverable history, remain uncertain.
 ## Arc landmarks
 
 - **Starting state:** Evan's assistant and intellectual companion, lucid in intervals, sleeping on the garage couch, wandering to the garden, and correcting assumptions.
-- **First reversal:** The project begins taking more of Evan's attention than their companionship does.
-- **Treatment:** A reduced exposure produces genuine lucidity and an incompatible family memory.
+- **First reversal:** Evan stops treating Ruth's departures as pauses in their
+  shared work. The project advances while she is gone, and she returns to
+  something that no longer waits for her.
+- **Treatment:** An incidental live exposure produces lucidity. Ruth asks for
+  reduced repeat runs. Each interval restores more continuity and lasts
+  longer. Her clearest interval then produces the incompatible family memory
+  without any prior warning contradiction.
 - **Recognition:** Ruth understands that the machine selected a coherent version rather than restoring an authenticated original.
 - **Contact:** The entity state feels less like entry into the unknown than
   return to something familiar but inaccessible.
 - **Resistance:** She insists on agency, corrects Evan's language, and refuses to let his measurements define what remains of her.
-- **Tragedy:** Her last lucid time passes while Evan tries to perfect the mechanism intended to save it.
-- **Ending:** Her personal ending matters emotionally even as the parent universe later collapses.
+- **Tragedy:** Her last lucid interval is natural terminal or paradoxical
+  lucidity, not a projector restoration. It passes with Tess while Evan follows
+  the proof-to-stop chain he believes might save everyone.
+- **Death:** Her physical decline ends in increasing fatigue, difficulty
+  speaking and swallowing, intermittent responsiveness, unconsciousness, and
+  death. A local catastrophe isolates the house but does not medically cause
+  her death. Earlier material must foreshadow worsening mobility, eating, and
+  swallowing.
+- **Moral aftermath:** Evan returns too late and, for the first time, does not
+  convert the loss into investigation or repair. His choice to stay cannot give
+  Ruth back the time he missed.
 
 ## Signature texture
 
@@ -79,3 +138,5 @@ whether it corresponds to a recoverable history, remain uncertain.
 - Uses old classroom language such as unlike terms, waiting as an operation, or refusing to cancel things merely because Evan wants one answer.
 - Dislikes being watched while taking medication or being answered for.
 - Can be funny, irritated, lucid, confused, and authoritative in the same day without one state invalidating the others.
+- Repeatedly circles or marks the same cold notch in separate run logs, each
+  time with fresh concern.

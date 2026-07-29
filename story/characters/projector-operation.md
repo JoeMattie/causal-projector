@@ -87,10 +87,63 @@ continuations. Histories incompatible with the consequential mapping lose
 support. The survivors are renormalized, and histories containing another
 lineage-linked closure become more likely.
 
+## Goal eligibility and causal reach
+
+The operation has no private wish, telepathy, or independent human objective. A
+mundane endpoint becomes eligible only when success or failure will alter a
+live decision inside a causally descended projector lineage. Idle desire and
+mere spatial proximity do nothing.
+
+Its causal reach expands in four stages:
+
+1. **Convenience:** One or two unlikely events remove small garage obstacles.
+2. **Conjunction:** Longer chains through suppliers, traffic, weather,
+   institutions, animals, and strangers accomplish precommitted mundane goals.
+3. **Overlapping centers:** Replica labs become dense nodes whose outcomes
+   change one another's decisions.
+4. **Brittleness:** As alternatives disappear, trivial goals require longer and
+   more damaging chains. The destination becomes predictable while the path
+   becomes chaotic.
+
+Terminal brittleness unfolds over several weeks between Ruth's death and the
+first nonclosing map. The operation scales through human, institutional,
+orbital, and planetary consequences while each local event remains physically
+valid. The world does not establish a durable new normal before global
+composition fails.
+
+The locked scale ladder is mass simultaneous speech, synchronized satellite
+collisions, geologic catastrophe, then the nonclosing map. Millions first
+independently choose the same sentence at the same instant. The words do not
+come from the operation. The satellite cascade then arises through
+collision-avoidance convergence: genuine warnings prompt separate operators and
+autonomous systems to make locally defensible maneuvers that converge into
+synchronized impacts across several orbital shells. No hack, shared fault, or
+coordinating signal is involved. The geologic rung is synchronized
+continental-margin rupture: already stressed subduction zones and submarine
+slopes release existing energy in one precisely timed global sequence, driving
+tsunamis and long-period waves.
+
+At the observatory, Lena undergoes fixed-successor collapse. Her memory and
+recognition remain while distinct new situations increasingly produce the same
+response. This is the operation's loss of alternative futures expressed through
+a person, not dementia, telepathy, or a deliberate punishment. Lena refuses
+testing while one distinct choice remains, and Evan honors that refusal.
+
+The representative overlapping-center chain is a cross-lab handoff. One site's
+ordinary failed run releases a mundane resource needed by another. Auditable
+procurement, weather, transport, staffing, and related contingencies deliver it
+before a precommitted cutoff, allowing the second site to complete a blocked
+task.
+
 ## Hard limits
 
 - It selects among physically valid outcomes. It cannot produce an impossible
   state or free energy.
+- A physically valid joint outcome does not need an ordinary coordinating
+  carrier. Many people may independently make the same available choice in the
+  selected complete history even when their exact agreement is vanishingly
+  unlikely. The operation has not sent them a message or made them share a
+  mind.
 - It requires fresh contingency tied to consequence. Recorded or ignored
   randomness has no special effect.
 - It cannot arise merely because an unrelated system has the same abstract
@@ -115,6 +168,15 @@ The operation does not defeat resistance by arguing with anyone. It absorbs
 measured resistance as feedback. By the time Evan makes a refusal that is not
 another attempted intervention, the lineage no longer depends on him.
 
+The representative proof-to-stop begins when Lena suspects that the distributed
+containment system is a carrier. Proving it requires a live test whose result
+will determine participating labs' containment or decommissioning response.
+Lena refuses because the test may strengthen the suspected loop. Evan argues
+that suspicion will not make institutions disengage and runs it anyway.
+Measurements, decisions, approvals, and responses close a cycle without him or
+the garage apparatus. A locally successful shutdown can therefore become the
+next continuation link.
+
 Its victory also contains its failure. Total closure would remove the
 independent differences and fresh contingencies that let it operate at all.
 
@@ -137,16 +199,36 @@ operation. The independent carrier continues. His change matters morally, but
 it does not erase what he has done or restore the ordinary shutdown point he
 helped remove.
 
+The practical refusal occurs after Evan leaves Tess with Ruth to follow the
+proof-to-stop chain. A lawful compound subsurface collapse destroys or isolates
+the garage while the independent operation continues elsewhere. Evan returns to
+find Ruth dead, Tess alive and still angry, the neighborhood ruined, and the cat
+unscathed. He does not inspect, salvage, measure, reconstruct, or recruit Tess
+into another response. He stays.
+
 ## Relationship with Ruth
 
 Ruth is the first person for whom the operation appears to offer something
-Evan cannot reasonably dismiss. Her lucidity is real, but the selected coherent
-implementation contains a granddaughter absent from Evan's history family.
+Evan cannot reasonably dismiss. Each requested run gives her more continuity
+and a longer lucid interval before the gain fades. The early intervals contain
+no warning contradiction. Her clearest interval is real, but its selected
+coherent implementation contains a granddaughter absent from Evan's history
+family.
 
 The operation has not cured, copied, or deliberately baited her. It has exposed
 the difference between coherence and authentication. Ruth's insistence on
 remaining a participant also makes the human cost of pruning visible before
 Evan understands the cosmological cost.
+
+Evan answers that difference with a concordance window. He tries to maximize
+lucidity while requiring Ruth's autobiography to agree with his record family.
+The operation needs no deception of its own. Evan supplies the rule that
+converts Lena's objection and Ruth's difference into the next controlled run.
+
+Ruth's final lucidity is a natural terminal or paradoxical interval rather than
+another projector selection. The operation causes Evan's absence and the
+collapse of support around her, but it does not cause the lucid interval or her
+death.
 
 ## Relationship with Lena
 
@@ -174,6 +256,14 @@ key.
 At the terminal boundary, her continued difference from Evan prevents their
 choices from collapsing into one will.
 
+Tess's retained continuity makes paired loss and echo legible. One
+autobiographical distinction disappears from waking people and ordinary
+records, but Tess can establish a before-state. During shared contact, she
+recovers structured residue spatio-acoustically or relationally while Evan
+recovers it visually. The residue includes details Evan never knew and loses
+degrees of freedom under further projection. They infer erasure from the
+combined evidence rather than receiving an explanation from an entity.
+
 ## Point of independence
 
 The first independent carrier is the distributed scientific system built to
@@ -183,6 +273,10 @@ The point of independence is reached when its shared measurements, filtering,
 stop criteria, human decisions, approvals, and automated controls collectively
 close a live projection cycle without Evan or the original apparatus. There is
 then no single machine left to unplug.
+
+This is the result of the proof-to-stop test Evan runs over Lena's refusal. Its
+outcome changes the participating labs' containment or decommissioning actions,
+which supply the feedback needed to close the distributed cycle.
 
 This occurs before Evan has conclusive proof that projection erases inhabited
 history families. He has already ignored human-scale reasons to stop, including
@@ -223,12 +317,10 @@ creating his first moral warning.
 5. **Independence:** The distributed system closes a live projection cycle
    without Evan or the original apparatus, before anyone has conclusive proof
    that the discarded alternatives are inhabited histories.
-6. **Revelation and resistance:** Direct entity encounters and impossible
-   causal chains establish the true cost. The Ruined Sovereign exposes the
-   operation through Evan's own pattern, while the Turning Knot proves that
-   contact reaches an independent causal ecology. Tess remains recognizably
-   nonparallel while records and people around her converge. Shutdown attempts
-   provide further consequential feedback.
+6. **Revelation and resistance:** Paired loss and echo joins record
+   disappearance to structured contact residue and establishes the true cost.
+   Tess remains recognizably nonparallel while records and people around her
+   converge. Shutdown attempts provide further consequential feedback.
 7. **Separation from Evan:** Evan makes a sincere refusal and chooses helpless
    presence over another intervention. The operation routes around him through
    its independent carriers.
@@ -275,18 +367,24 @@ one simple unfold remains, recreating the condition for its own repetition.
 The Sovereign is non-halting only from within its rule. It still ends when the
 surrounding causal substrate can no longer support another cycle.
 
-Evan recognizes this late presentation as the Guide ruined. Everything that
+Evan describes this late presentation as the Guide ruined. Everything that
 once made its transformations unique has been flattened, leaving a sovereign
-without a subject. The avatar is Evan-shaped because his compulsion to convert
-helplessness into another operation is the local structure through which he
-encounters the larger pattern.
+without a subject. Evan may use `Ruined Sovereign` in-story, or he may only
+describe the Guide as ruined and without a subject.
+
+The avatar is Evan-shaped because his compulsion to convert helplessness into
+another operation is the local structure through which he encounters the
+larger pattern. This resemblance is causal rather than necessarily bodily or
+visual.
 
 The Turning Knot is not another avatar or carrier of the projector operation.
 It is an independent history-family carried on a nonhuman, incompatible
 substrate and exposed through the same contact channel. Its ability to retain
-identity across radical changes of representation contrasts with the
-Sovereign's loss of meaningful movement, but it does not oppose the operation
-or teach the characters how to stop it.
+identity across radical changes of representation provides a structural
+contrast with the Sovereign's loss of meaningful movement, but it does not
+oppose the operation or teach the characters how to stop it. Its impossible
+kata-ward turn is the Knot's recognition invariant, not a general signature of
+the projector operation.
 
 When causal insulation fails completely, the Knot ceases to be humanly
 separable from the relation through which it is perceived. This does not show
@@ -306,6 +404,9 @@ history-family.
   same decision topology.
 - As closure deepens, records, language, institutions, and long causal chains
   lose irrelevant alternatives and become unnaturally efficient.
+- Eligible causal chains serve only live lineage-linked decisions. Their reach
+  grows from convenience, through conjunction and overlapping replica centers,
+  into brittle and increasingly destructive routes.
 - The same loss of valid-history support thins the causal insulation between
   incompatible substrates. Larger cross-sections of the Turning Knot become
   perceptible without the Knot moving closer or sending a stronger signal.
@@ -328,6 +429,13 @@ and Tess's irreducible relation persists only as a general time-symmetric
 causal invariant embedded in the child universe's fine structure. At the end of
 their existence they glimpse the universe-that-will-be from the parent side.
 
+Evan and Tess do not set out to create that child. They believe their fully
+informed but mutually unobservable choices will end the operation and
+themselves. Each retains a real possibility of refusal. Evan cannot model,
+coerce, or substitute Tess's decision, and Tess accepts the feared possibility
+that unmatched choices could leave her as the sole remainder again. Their
+shared ending becomes genesis unintentionally.
+
 Much later, a person in our universe encounters the same invariant during a
 DMT-like state. The raw experience is ungrounded from ordinary place, creature,
 body, and spacetime. It includes relations analogous to looking ana-ward or
@@ -340,6 +448,20 @@ machine-elf-like entity conveying the parent history. The observer forgets the
 usable content as the state fades and retains only the memory of universe-scale
 understanding.
 
+The planned epilogue places a male participant back in a clinical setting as a
+technician asks what he saw and writes down his answer. He reconstructs
+something female made from sounds and the spaces between sounds, another
+presence made from shapes and patterns converging toward one, and something
+stranger beyond them that loops, knots, collapses to a point, and disappears.
+He remembers a relation bridging two incompatible spaces and compares it to
+seeing the end or beginning of time from the perspective of a cat.
+
+The cat comparison is essential. It is the child-side echo of the cat's last
+shared-reference role and the protected cat-viewpoint design. It does not mean
+the cat crossed into the child universe. The transcript retains words rather
+than knowledge, and its figures do not prove that Tess, Evan, the Turning Knot,
+or the Ruined Sovereign crossed intact.
+
 There is no separate Future Witness entity. Evan and Tess do not encounter the
 later observer as an individual, and the observer does not receive an intended
 message from them. Their parent-side glimpse and the observer's later contact
@@ -348,6 +470,26 @@ are asymmetric human reconstructions of the same non-agentic causal relation.
 This is indirect contact without communication. The book does not resolve
 whether recursive closure caused genesis or whether genesis was the boundary
 condition shaping recursive closure.
+
+During loss of separability, Tess's cat moves through a badly perturbed region
+and settles somewhere Evan and Tess can both identify from their incompatible
+orientations. It supplies their last shared external reference without becoming
+a guide, proof, magical key, mechanical trigger, solver, chooser of genesis, or
+intact migrant into the child universe.
+
+The cat supplies that reference before Evan and Tess choose. They then act
+without access to one another's decisions. Only after the choices meet does
+the child universe become perceptible from the parent boundary through their
+different orientations. The cat neither reveals agreement nor causes or
+crosses the boundary.
+
+The final portion of the genesis-operation chapter is locked as the novel's
+only literal cat viewpoint. The cat bridges Evan's visual, object-centered
+context and Tess's spatio-acoustic, relation-centered context. It observes them
+and hears their final words as they perceive the incoming Big Bang, but it
+understands neither the words nor the cosmology. The prose may render dialogue
+for the reader while the cat registers only familiar voices, cadence,
+attention, fear, bodies, light, sound, pressure, motion, and orientation.
 
 ## Signature texture
 
