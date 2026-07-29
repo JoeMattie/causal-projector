@@ -107,7 +107,13 @@ Tess is a mildly eccentric amateur naturalist.
 
 - Catalogs mushrooms, tide-pool organisms, rocks, weather, and birds she cannot reliably identify by sound.
 - Owns field guides, binoculars, labeled specimens, small weather instruments, and abandoned attempts at watercolor.
-- Has a cat. The cat later moves into Evan and Ruth's house with her when the research becomes intensive.
+- Has a seventeen-year-old, long-haired black-and-brown cat named Mouse. Mouse
+  weighs about five pounds. Frostbite destroyed the tips of her ears before
+  Tess adopted her, leaving them vaguely mouse-like. She is intensely curious
+  about humans and other animals, afraid of nothing, and calmly watches strange
+  events. Mouse later moves into Evan and Ruth's house with Tess when the
+  research becomes intensive. She follows Tess anywhere, curled up in a little
+  bag or perched on Tess's shoulder.
 - Plays pub trivia with Lena.
 - Has a small, ordinary, inhabited life that contrasts with the mythic rarity of her survival.
 
@@ -142,6 +148,11 @@ This relationship:
 - lets Tess witness Evan's love and failure at the same time;
 - gives Tess a concrete reason to stay before she admits she is staying for Evan;
 - grounds the love story in caregiving and shared domestic life rather than only cosmic compatibility.
+
+Mouse also chooses Ruth as her preferred resting companion. She frequently
+looks up at Ruth and meows once to get her attention. This small household
+routine helps place Tess and Mouse in Ruth's ordinary life before the project
+turns catastrophic.
 
 ## Relationship with Evan
 
@@ -196,22 +207,22 @@ Her remaining independence is the point. It links the encounter to Evan's use
 of her uninformed choices and to the terminal choice he cannot make or verify
 for her.
 
-Tess's cat is calm around people undergoing contact, is drawn toward them, and
+Mouse is calm around people undergoing contact, is drawn toward them, and
 appears at home within the perturbed experience. This remains suggestive rather
-than explanatory. The cat does not become a guide or proof of a supernatural
+than explanatory. Mouse does not become a guide or proof of a supernatural
 realm.
 
-The cat survives the local catastrophe miraculously unscathed. Later, during
-loss of separability, it moves through a badly perturbed region and settles
+Mouse survives the local catastrophe miraculously unscathed. Later, during
+loss of separability, she moves through a badly perturbed region and settles
 somewhere Tess and Evan can both identify from their incompatible orientations.
-The cat supplies one last shared external fact without becoming a magical key,
+Mouse supplies one last shared external fact without becoming a magical key,
 mechanical trigger, solver, or chooser of genesis.
 
 This anchoring happens before Tess and Evan make their mutually unobservable
 terminal choices. It establishes that their incompatible atlases still belong
 to one causal neighborhood without revealing what either will choose. Only
 after their choices meet does the child universe become perceptible from the
-parent boundary. The cat does not open, measure, or cross that relation.
+parent boundary. Mouse does not open, measure, or cross that relation.
 
 ## Relationship rupture
 

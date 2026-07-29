@@ -46,7 +46,7 @@ and magnetocaloric explanations.
 
 - Exact ferry name, route, date, and accident mechanics.
 - Names, character, and present relationship of her Fairbanks guardians.
-- Cat name and temperament.
+- Exact circumstances and timing of Tess adopting Mouse.
 - Exact records that first contradict her survival history, and how visible
   those contradictions become.
 - How she moves from professional audit to living in Evan and Ruth's house.
@@ -127,8 +127,8 @@ and magnetocaloric explanations.
 - Ruth's garden.
 - Tess's ferry rituals.
 - Kertesz misheard as Curtis.
-- Tess's cat as the last shared external reference during loss of separability.
-- The cat's survival of the local catastrophe and apparent comfort during
+- Mouse as the last shared external reference during loss of separability.
+- Mouse's survival of the local catastrophe and apparent comfort during
   contact.
 - Podkletnov reference.
 - The first tiny causal seed whose consequences surface much later.
@@ -137,6 +137,5 @@ and magnetocaloric explanations.
 
 - Novel title.
 - Ferry name.
-- Tess's cat.
 - Tess's guardians.
 - Projector operation's in-world technical and colloquial names.

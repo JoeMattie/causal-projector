@@ -58,6 +58,13 @@ rescue, and medical records to estimate her rarity. She does not catch him. The
 admission matters, but he still tries to explain their meeting and love as
 inevitable. Their rupture begins before Ruth's final decline.
 
+## Relationship with Mouse
+
+Once Tess and Mouse live in the house, Evan becomes one of Mouse's people.
+Mouse is affectionate in her own stoic way. She is interested in him without
+fuss and often watches from the corner of the workbench or the arm of a nearby
+chair.
+
 ## Relationship with Lena
 
 Lena is his skeptical collaborator and scientific conscience. She validates the phenomenon, sharpens the theory, and repeatedly insists on controls, consent, and shutdown. Evan values her rigor until it blocks the next experiment.
