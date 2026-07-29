@@ -54,6 +54,13 @@ response. When the local catastrophe cuts off communications and emergency
 access, she stays present through Ruth's increasing tiredness, trouble speaking
 and swallowing, intermittent responsiveness, unconsciousness, and death.
 
+## Relationship with Mouse
+
+Mouse chooses Ruth as her preferred resting companion after she and Tess move
+into the house. She frequently looks up at Ruth and meows once to get her
+attention. This is ordinary companionship, not a sign that Mouse understands
+Ruth's condition.
+
 ## Connection to the science
 
 Ruth's cognition is supported by misaligned but partially surviving history bundles. The projector can temporarily select a larger coherent intersection, but that intersection may contain autobiographical memories absent from Evan's current record family. Her condition also makes her harder to absorb cleanly into Evan's causal attractor.

@@ -158,16 +158,16 @@ nodes:
       refusal. Their independently chosen ending unintentionally seeds our
       universe. The exact terminal game, hardware, and veto mechanics are a
       favored late-stage hypothesis, not fixed chapter architecture. During loss
-      of separability, Tess's cat first supplies their last shared external
+      of separability, Mouse first supplies their last shared external
       reference by settling somewhere both atlases identify. Evan and Tess then
       choose independently. Only after their choices meet do they glimpse the
       child universe from the parent boundary through their distinct
       orientations. The cat neither reveals the choices, triggers the act, nor
       crosses intact. The final portion of the genesis-operation chapter is
-      locked to the literal viewpoint of Tess's cat. It bridges Evan's visual
+      locked to Mouse's literal viewpoint. She bridges Evan's visual
       context and Tess's spatio-acoustic context, hears without comprehending
       their final words, and registers their response to the incoming Big Bang
-      through animal sensation. It cannot explain or trigger genesis. The child
+      through animal sensation. She cannot explain or trigger genesis. The child
       begins at its own Big Bang. Much later, a male participant returns from a
       DMT-like state in a clinical setting while a technician records his
       failing attempt to describe the parent history. His child-side
@@ -229,6 +229,25 @@ nodes:
       remains fully present with Ruth through her final lucidity, the local
       catastrophe, and her death.
     order: 130
+  - id: character:mouse
+    type: character
+    title: Mouse
+    parent: character:esther-tess-kertesz
+    summary: Tess's seventeen-year-old, long-haired black-and-brown cat. Mouse
+      weighs about five pounds. Frostbite destroyed the tips of her ears before
+      Tess adopted her, leaving them vaguely mouse-like. She is intensely curious
+      about humans and other animals, afraid of nothing, and calmly watches
+      strange events. She is affectionate with her people in a stoic way and
+      often observes from the arm of a chair or the corner of the workbench. She
+      follows Tess anywhere, curled up in a little bag or perched on her shoulder.
+      Ruth becomes her preferred resting companion, and Mouse frequently looks up
+      at her and meows once for attention. Evan also becomes one of her people.
+      Her comfort around projector-linked contact extends her ordinary temperament
+      rather than proving supernatural perception. She survives the local
+      catastrophe, later supplies Evan and Tess's last shared external reference,
+      and carries the novel's only animal viewpoint. She does not guide, explain,
+      trigger, measure, or cross genesis.
+    order: 135
   - id: character:projector-operation
     type: character
     title: The projector operation
@@ -409,19 +428,19 @@ nodes:
     order: 410
   - id: motif:cat-reference
     type: motif
-    title: The cat as common reference
+    title: Mouse as common reference
     parent: premise:main
-    summary: Tess's cat appears comfortable around projector-linked contact,
-      survives the local catastrophe unscathed, and later gives Evan and Tess
-      their last shared external fact before their terminal choices by settling
-      somewhere both incompatible atlases identify. The cat reveals nothing
-      about either choice and does not trigger or measure the act. It is not a
-      guide, proof, key, solver, terminal chooser, or intact migrant into the
-      child universe. The final portion of the genesis-operation chapter is
-      locked to the cat's literal animal viewpoint. It bridges both human
-      contexts and hears their final words without comprehension. The later DMT
-      observer's comparison to seeing time from the perspective of a cat is the
-      child-side echo of this relation, not evidence that the cat crossed.
+    summary: Mouse appears comfortable around projector-linked contact, survives
+      the local catastrophe unscathed, and later gives Evan and Tess their last
+      shared external fact before their terminal choices by settling somewhere
+      both incompatible atlases identify. Mouse reveals nothing about either
+      choice and does not trigger or measure the act. She is not a guide, proof,
+      key, solver, terminal chooser, or intact migrant into the child universe.
+      The final portion of the genesis-operation chapter is locked to Mouse's
+      literal animal viewpoint. She bridges both human contexts and hears their
+      final words without comprehension. The later DMT observer's comparison to
+      seeing time from the perspective of a cat is the child-side echo of this
+      relation, not evidence that the cat crossed.
     order: 415
   - id: motif:podkletnov
     type: motif
@@ -493,6 +512,18 @@ links:
   - from: character:esther-tess-kertesz
     to: motif:cat-reference
     type: carries
+  - from: character:esther-tess-kertesz
+    to: character:mouse
+    type: adopts-and-cares-for
+  - from: character:mouse
+    to: motif:cat-reference
+    type: embodies
+  - from: character:mouse
+    to: character:ruth-hale
+    type: rests-with
+  - from: character:mouse
+    to: character:evan-hale
+    type: includes-among-her-people
   - from: character:projector-operation
     to: character:evan-hale
     type: uses-as-bootloader

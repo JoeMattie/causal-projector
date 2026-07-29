@@ -482,9 +482,37 @@ the Step 4 synopsis:
 - Ruth's encounters are grounding. They feel like returning to a mode of
   reality she once knew and lost, without making her illness a source of
   privileged cosmological authority.
-- Tess's cat appears unusually comfortable around people undergoing contact
-  and at home within the perturbed experience. The cat is not an exposition
-  device or confirmed guide. Whether it senses anything anomalous remains open.
+- Mouse, Tess's cat, appears unusually comfortable around people undergoing
+  contact and at home within the perturbed experience. She is not an
+  exposition device or confirmed guide. Whether she senses anything anomalous
+  remains open.
+
+### Mouse
+
+- Mouse is a seventeen-year-old, long-haired black-and-brown female cat who
+  weighs about five pounds.
+- Before Tess adopted her, frostbite destroyed the tips of both ears. Their
+  shortened outline looks vaguely mouse-like, which is the basis of her name.
+- She is intensely curious about humans and other animals, afraid of nothing,
+  and willing to watch the strangest events calmly.
+- Mouse is affectionate in her own way with the people she considers hers. She
+  is interested in everyone, but her interest is stoic. She often observes
+  from the arm of a chair or the corner of the workbench.
+- Her calmness around projector-linked contact extends her ordinary
+  temperament. It does not establish supernatural perception or privileged
+  access to the causal substrate.
+- Mouse moves into Evan and Ruth's house with Tess when the research becomes
+  intensive.
+- Mouse follows Tess anywhere, usually curled up in a little bag or perched on
+  Tess's shoulder. This established habit keeps her with Tess through the
+  several-week terminal corridor and the journey to Lena.
+- Ruth becomes Mouse's preferred resting companion. Mouse frequently looks up
+  at Ruth and meows once to get her attention.
+- Once Tess and Mouse live in the house, Evan becomes one of Mouse's people.
+  Mouse is interested in him without fuss and often watches him from the
+  corner of the workbench or the arm of a nearby chair.
+- Mouse's exact adoption history remains open.
+- Mouse's focused character brief is at `story/characters/mouse.md`.
 
 ## Causal Rube Goldberg escalation
 
@@ -594,7 +622,7 @@ an illustration of the mechanism and was too contrived in its particular form.
   but it makes him genuinely opposed to it for the first time.
 - That refusal occurs when he returns from pursuing proof-to-stop chains to find
   Ruth dead, Tess alive and still angry, the garage and neighborhood ruined, and
-  Tess's cat unscathed. He does not inspect the crater, recover data, salvage
+  Mouse unscathed. He does not inspect the crater, recover data, salvage
   the ring, reconstruct the chain, or recruit Tess into another attempt to
   understand it. He stays.
 - Recursive closure is self-exhausting. The operation requires fresh unresolved
@@ -860,7 +888,7 @@ The ending is fixed only at the level required by the tragedy:
   reconstructions of the same non-agentic causal relation. The machine-elf
   figure belongs to the later observer's rendering, not to the invariant's
   literal ontology.
-- During loss of separability, Tess's cat supplies Evan and Tess's last shared
+- During loss of separability, Mouse supplies Evan and Tess's last shared
   external reference by moving through a badly perturbed region and settling
   somewhere both can identify from their incompatible orientations. The cat
   confirms a shared causal neighborhood without becoming a guide, proof,
@@ -874,15 +902,15 @@ The ending is fixed only at the level required by the tragedy:
   the child universe become perceptible from the parent boundary. They render
   the same new relation differently through their still-distinct
   orientations. The cat neither opens that relation nor crosses it intact.
-- The final portion of the genesis-operation chapter is locked to the literal
-  viewpoint of Tess's cat. This is the novel's only cat viewpoint.
-- The cat physically bridges Evan's visual, object-centered context and Tess's
-  spatio-acoustic, relation-centered context. It can observe both people, move
+- The final portion of the genesis-operation chapter is locked to Mouse's
+  literal viewpoint. This is the novel's only cat viewpoint.
+- Mouse physically bridges Evan's visual, object-centered context and Tess's
+  spatio-acoustic, relation-centered context. She can observe both people, move
   through relations neither human atlas can globally compose, and supply the
   reader with one continuous animal perspective across them.
-- The cat hears Evan and Tess's final words as they perceive the parent-side
+- Mouse hears Evan and Tess's final words as they perceive the parent-side
   glimpse of the incoming Big Bang. The prose may give their spoken words
-  verbatim for the reader, but the cat understands familiar voices, cadence,
+  verbatim for the reader, but Mouse understands familiar voices, cadence,
   attention, fear, and bodily response rather than the semantic content.
 - The cat registers light, sound, motion, pressure, orientation, and the
   humans' reactions. It does not understand the choice, the projector,
