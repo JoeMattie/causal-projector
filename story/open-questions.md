@@ -1,19 +1,31 @@
 # Open Questions
 
-## Immediate planning work
+## Opening anomaly and erasure proof
 
-1. Decide what makes the defective-ring anomaly function as the first disaster
-   rather than as neutral scientific curiosity.
-2. Complete the five short-synopsis paragraphs one at a time.
+Details deferred to later outlining:
+
+- the autobiographical distinction lost in paired loss and echo;
+- the ordinary before-state and cross-modal verification of its contact residue;
+- the live consequential test that proves the containment system has become a
+  carrier;
+- the resource and links in the representative cross-lab handoff;
+- the geography, stored-energy source, and ejecta in the local catastrophe;
+
+Parked fallback: phase collapse between spatially separated diode thermometers
+if no impossible-temperature signature holds up. Do not combine both anomalies
+without a later story need.
+
+The sub-bath cold notch's exact depth and duration remain late-bound. Later
+validation must beat ordinary magnetic-field, calibration, thermal-contact,
+and magnetocaloric explanations.
 
 ## Evan
 
 - Exact employer and day-job problem in the revised plot.
-- Exact nature and timing of any prior DMT experience.
+- How much of his prior DMT experience remains.
 - Whether his former wife appears in the present.
 - How much public recognition he receives before causal collapse.
-- What exact choice marks the point after which stopping is no longer meaningfully available.
-- His final emotional exchange with Ruth.
+- Evan's last meaningful exchange with Ruth before he leaves.
 
 ## Ruth
 
@@ -22,9 +34,12 @@
 - What makes her encounters feel like return without turning dementia into
   privileged cosmological access.
 - Her relationship with Evan's former wife.
+- How she responds to Evan's concordance window and whether she consents to
+  another run.
 - The scenes through which she and Tess become friends.
-- Whether her final lucid exchange is with Evan, Tess, or both.
-- Her end-state before the universe-scale collapse.
+- Exact foreshadowing and progression of her worsening fatigue, mobility,
+  eating, and swallowing before terminal lucidity.
+- Her final exchange with Tess.
 - Whether she knowingly contributes an insight that later becomes part of genesis.
 
 ## Tess
@@ -32,30 +47,32 @@
 - Exact ferry name, route, date, and accident mechanics.
 - Names, character, and present relationship of her Fairbanks guardians.
 - Cat name and temperament.
-- Exact records that first contradict her survival history, and how visible the
-  contradictions become.
+- Exact records that first contradict her survival history, and how visible
+  those contradictions become.
 - How she moves from professional audit to living in Evan and Ruth's house.
 - The precise experiment in which Evan secretly uses her choices.
-- The mechanics of separation and reconciliation.
+- Exact scene mechanics of Evan's admission, their rupture, and the renewed
+  trust that begins after Ruth's death without becoming immediate forgiveness.
 - Whether Tess knows Evan remembers her childhood disaster from the news before he tells her.
 - Exact visual and spatio-acoustic symbols Evan and Tess recover after sharing
   the same impossible turn.
+- The cat's exact action as their last shared external reference.
+- Exact wording and image-to-referent mapping in the clinical DMT transcript.
 
 ## Lena
 
 - Exact university, shared-facility name, and geography.
 - Whether `Varga` creates unintended Hungarian overlap with Kertesz.
-- The exact action Evan takes after she refuses the live test.
 - Her exact final observation before meaningful personal continuity fails.
 
 ## Projector operation
 
 - How widely the operation is recognized before terminal convergence.
-- The exact practical act through which Evan makes his sincere refusal.
-- How the DMT observer renders the invariant in sensory and symbolic terms.
-- Whether the later observer's machine-elf reconstruction is best read as
-  Evan's remainder, the operation, the child universe modeling its origin, or
-  a relation in which those distinctions no longer apply.
+- How the clinical observer renders the parent-side invariant in sensory and
+  symbolic terms.
+- Whether the observer's reconstruction is best read as Evan's remainder, the
+  operation, the child universe modeling its origin, or a relation in which
+  those distinctions no longer apply.
 
 ## Retained entities
 
@@ -69,13 +86,11 @@
 ## Plot structure
 
 - Five-part, four-part, or another part structure.
-- How early Tess appears.
-- Exact point of Ruth's exposure.
 - Exact first deliberate outcome-selection test.
 - Shape and timing of Evan's addiction.
 - How the long delayed coincidence chains are seeded without making the prose feel mechanical.
-- The exact event that proves the distributed containment system has completed
-  a live projection cycle without Evan or the original apparatus.
+- Exact implementation of the proof-to-stop test that closes the first
+  distributed projection cycle without Evan or the garage apparatus.
 - Which institutions become later carriers after the scientific containment
   system.
 - How much of the parent universe visibly collapses before genesis.
@@ -86,6 +101,8 @@
   spatio-acoustic reports without reducing them to identical imagery or
   language.
 - Exact finite-history formalism and what can be measured locally.
+- Exact exposure variable, memory checks, and stopping rule for Evan's
+  concordance window.
 - What measurable signature distinguishes causal lineage from an unrelated
   system with the same abstract topology.
 - What `effective bits of rarity` means operationally.
@@ -99,6 +116,9 @@
 - Exact noncommuting operations controlled by Evan and Tess.
 - Game-theoretic payoff states and permit/veto combinations.
 - Exact hardware, waveform, protocol, and physical mechanism of genesis.
+- Exact transition into the locked cat-viewpoint ending of the genesis chapter,
+  Evan and Tess's final words, and the cat's sensory experience of the
+  incoming Big Bang.
 
 ## Recurring images and Chekhov's guns
 
@@ -107,7 +127,9 @@
 - Ruth's garden.
 - Tess's ferry rituals.
 - Kertesz misheard as Curtis.
-- Tess's cat.
+- Tess's cat as the last shared external reference during loss of separability.
+- The cat's survival of the local catastrophe and apparent comfort during
+  contact.
 - Podkletnov reference.
 - The first tiny causal seed whose consequences surface much later.
 

@@ -53,9 +53,9 @@ history-family persisting through an incompatible implementation, not meeting a
 creature that owes them an intention.
 
 Apparent curiosity, invitation, hunger, warning, or hostility belongs to human
-reconstruction unless evidence makes one of those distinctions necessary. The
-Knot has an ontological condition rather than a human motivation: continuity
-across substrate translation.
+reconstruction unless later evidence makes one of those distinctions
+necessary. The Knot has an ontological condition rather than a human
+motivation: continuity across substrate translation.
 
 ## Escalation through lost causal insulation
 
@@ -93,8 +93,8 @@ four-space.
 ## Evan and Tess: object and reciprocity
 
 During shared contact, Evan's primary rendering is visual. He perceives a
-bounded geometry performing the impossible turn outside himself. This leads
-him to reconstruct the Knot as an object under observation.
+bounded geometry performing the impossible turn outside himself. This leads him
+to reconstruct the Knot as an object under observation.
 
 Tess's primary rendering is spatio-acoustic. Sound carries adjacency, depth,
 rotation, and her own orientation within the change. She does not hear a sound
@@ -106,7 +106,22 @@ Neither modality grants better access to the Knot. Their different renderings
 contain the same kata-ward impossible turn. That agreement establishes common
 contact without giving them the same inner experience.
 
+During the parent universe's geometric collapse, those orientations become
+incompatible local atlases of one damaged reality. Evan continues to perceive
+bounded objects and impossible routes. Tess experiences adjacency, depth, and
+her own placement through concrete relations among voices, footsteps, echoes,
+surfaces, and machinery. Physical objects, signals, and traces cross between
+both descriptions, so neither can be dismissed as private experience.
+
+Merged replica sites become overlap regions between the atlases. As those
+overlaps multiply, place, object, observer, and contact can no longer be
+assigned independently. This advances into the Knot's loss of
+separability without making Evan's and Tess's inner orientations identical.
+
 ## Syntax-like contact
+
+Syntax-like presentation is part of the Knot rather than a second substrate or
+partner entity.
 
 During direct contact, sound, color, meaning, geometry, and felt orientation
 can transform into one another. The transformations behave as though they have
@@ -114,8 +129,8 @@ grammar, but they do not transmit an ordinary language or a usable message.
 
 Afterward, human memory may reconstruct the contact as visible speech,
 impossible objects made from sound, or an entity presenting structures. Those
-images are lossy renderings of the coupling, not literal behavior by a creature
-in a room.
+images are lossy renderings of the coupling, not literal behavior by a
+creature in a room.
 
 ## Fate: loss of separability
 
@@ -147,8 +162,8 @@ solution to genesis.
 
 - It is not a guide, judge, guardian, healer, or ally.
 - It does not explain the cosmology or provide usable genesis instructions.
+- The Syntax Bloom does not survive as a separate entity.
 - Visible language and constructed objects belong to human reconstruction.
-- The impossible turn does not prove a simple Euclidean four-space.
 - It need not disclose a motive or recognize the observers in return.
 - Escalation comes from loss of causal insulation, not action by the Knot.
 - Evan's visual and Tess's spatio-acoustic renderings are fixed.

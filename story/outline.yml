@@ -2,351 +2,442 @@
 # schema: authorbot.story-graph/v1
 #
 # This graph reflects the planning restart and supersedes the legacy graph.
-# It deliberately stays at premise, arc, character, concept, and motif level.
-# Detailed chapter planning, especially the exact genesis operation, remains
-# late-bound until the final chapter or two has been earned by earlier work.
+# It deliberately stays at premise, arc, character, concept, theme, and motif level.
+# Detailed chapter planning and the exact genesis operation remain late-bound.
 schema: authorbot.story-graph/v1
-
 nodes:
   - id: premise:main
     type: premise
     title: One-sentence premise
-    summary: >-
-      A workaholic engineer caring for his fading mother discovers that his
+    summary: A workaholic engineer caring for his fading mother discovers that his
       harmless garage project might restore her mind, and in trying to perfect
       it sacrifices first their remaining time together, then the universe
       itself.
     order: 10
-
   - id: premise:synopsis
     type: premise
     title: Five-sentence synopsis
     parent: premise:main
-    summary: >-
-      Months into caring for his mother Ruth, controls engineer Evan Hale is
+    summary: Months into caring for his mother Ruth, controls engineer Evan Hale is
       building a garage-scale MRI flux source with her when a defective
-      superconducting ring begins producing measurements that should not
-      agree. While testing the anomaly, Evan experiences impossible clarity
-      and discovers that the machine can force the improbable to happen,
-      turning the project he shares with Ruth into an obsession that steals
-      their remaining time together. When Evan exposes Ruth to the machine,
-      she becomes lucid and casually asks after the granddaughter who survived
-      in her memories but was miscarried in his; Evan treats the impossible
-      detail as a calibration error rather than confront what the machine has
-      selected. Addicted to the machine and haunted by contacts that expose
-      dying realities and an alien causal ecology, Evan realizes each run is
-      erasing entire universes; yet every attempt to stop becomes another
-      impossible link in the chain that keeps it operating while Ruth's last
-      lucid hours pass without him. As reality collapses around them into a
-      fractal singularity,
-      Evan and Esther "Tess" Kertesz, the one person too causally rare to be
-      smoothly rewritten, attempt to erase his mistake together, and their
-      final independent choices become the genesis of our universe.
+      superconducting ring begins producing measurements that should not agree.
+      While testing the anomaly, Evan experiences impossible clarity and
+      discovers that the machine can force the improbable to happen, turning the
+      project he shares with Ruth into an obsession that steals their remaining
+      time together. When Evan exposes Ruth to the machine, she becomes lucid
+      and casually asks after the granddaughter who survived in her memories but
+      was miscarried in his; Evan treats the impossible detail as a calibration
+      error rather than confront what the machine has selected. Addicted to the
+      machine and haunted by entities that prove to be echoes of dying
+      realities, Evan realizes each run is erasing entire universes; yet every
+      attempt to stop becomes another impossible link in the chain that keeps it
+      operating while Ruth's last lucid hours pass without him. As reality
+      collapses around them into a fractal singularity, Evan and Esther "Tess"
+      Kertesz, the one person too causally rare to be smoothly rewritten,
+      attempt to erase his mistake together, and their final independent choices
+      become the genesis of our universe.
     order: 15
-
   - id: arc:shared-project
     type: arc
     title: The shared project
     parent: premise:main
-    summary: >-
-      Months into caregiving, Evan and Ruth already share the garage workshop.
-      Their ordinary portable-MRI flux-source project becomes strange when a
-      defective superconducting ring produces measurements that should remain
-      independent.
+    summary: Months into caregiving, Evan and Ruth already share the garage
+      workshop. They need a flux-pumping run with enough trapped field to
+      justify their longer-term portable-imaging project. Their defective ring
+      falls just short and carries an apparently impossible temperature reading.
+      As the traveling heat pulse reaches one fixed sector, its diode drops
+      below the cold-stage temperature while neighboring probes warm normally.
+      Evan assumes an instrumentation fault. Ruth repeatedly notices the notch
+      in her assigned data-review work but does not remember its prior
+      appearances. A costly custom ring ordered months earlier reaches the field
+      target and clears the anomaly. Late that night, Evan reinstalls the
+      defective ring and reproduces it. The effect cannot require a real
+      violation of thermodynamics.
     order: 20
-
   - id: arc:impossible-clarity
     type: arc
     title: Impossible clarity
     parent: premise:main
-    summary: >-
-      Evan proves that the anomaly produces real cognitive clarity and can
+    summary: Evan proves that the anomaly produces real cognitive clarity and can
       force an improbable but physically valid outcome. The shared project
       becomes the perfect reward for his workaholic response to helplessness.
+      During clarity, he solves an externally testable motor-control problem by
+      preserving two electrical-angle hypotheses through an interval in which
+      the sensor cannot distinguish them. Evan mistakes the state for an
+      epiphany or deep flow and claims the insight as his own. His first
+      deliberate test lets fresh physical randomness choose between two safe
+      actions in the live apparatus. Record-only bits remain fair, and replayed
+      commands produce no effect. Consequential fresh bits become biased, and
+      reversing their action mapping preserves the favored physical result.
+      Evan believes he has found new physics and calls Lena to examine that
+      claim. Ruth has always wandered away or been absent during some work, but
+      Evan stops treating those departures as pauses. The project advances
+      without her and acquires an urgency of its own.
     order: 30
-
   - id: arc:selected-mother
     type: arc
     title: The selected mother
     parent: premise:main
-    summary: >-
-      Ruth becomes lucid but casually remembers a granddaughter who survived
+    summary: Ruth becomes lucid but casually remembers a granddaughter who survived
       in her history and was miscarried in Evan's. Evan treats the incompatible
       life as a calibration problem rather than confront substitution and lost
-      time.
+      time. Her first exposure is incidental during real project work and
+      produces lucidity without the incompatible memory. She requests repeat
+      runs, and the team initially supports them. Each interval restores more
+      continuity and lasts longer, but the gain fades. The alternate
+      granddaughter emerges as an ordinary fact during Ruth's clearest interval
+      yet and prompts Lena's first objection. Tess has already joined the team
+      to audit the longer coincidence chains and is present for Ruth's early
+      runs. Evan calls the contradiction an overshoot and proposes maximizing
+      lucidity subject to agreement with his own record family. Lena objects
+      that concordance cannot authenticate identity. Evan converts her objection
+      into a need for better controls and starts formalizing another run.
+      Ruth's response and consent remain unresolved.
     order: 40
-
   - id: arc:dying-realities
     type: arc
     title: Dying realities
     parent: premise:main
-    summary: >-
-      Increasingly direct entity encounters and causal-chain anomalies reveal
-      that each run is erasing real history families. Ruth experiences contact
-      as a return, Lena withdraws after her first encounters, and Evan and Tess
-      eventually share a simultaneous perturbation without merging. Attempts
-      to stop become links in the operation's continuation.
+    summary: "Increasingly direct contact and lineage-linked causal chains reveal
+      that each run is erasing real history families. Lena refuses a live test
+      that could prove the distributed containment system is a carrier. Evan
+      runs it anyway, and the resulting measurements, decisions, approvals, and
+      containment responses close a cycle without him or the garage apparatus.
+      Paired loss and echo supplies the conclusive erasure proof: one
+      autobiographical distinction vanishes from people and records, while Evan
+      and Tess independently recover its structured residue through different
+      modalities during shared contact. Evan admits that he used Tess's
+      uninformed choices and survival records as experimental material. He then
+      leaves angry Tess with Ruth while he follows proof-to-stop chains through
+      the distributed carrier. Ruth's final lucidity is natural and ends in
+      death with Tess present as a lawful compound subsurface collapse destroys
+      or isolates the garage. Evan returns and refuses to turn the aftermath
+      into more work. The independent operation continues."
     order: 50
-
   - id: arc:terminal-genesis
     type: arc
     title: Fractal singularity and genesis
     parent: premise:main
-    summary: >-
-      Evan and Tess remain two genuinely independent causal vectors as the
-      parent universe collapses. Their attempt to end the projector instead
-      seeds our universe. The exact terminal game, hardware, and veto mechanics
-      are a favored late-stage hypothesis, not fixed chapter architecture.
+    summary: "Over several weeks after Ruth's death, terminal brittleness scales
+      from the local catastrophe to global and planetary consequences. Millions
+      of people first independently choose the same sentence at the same
+      instant; synchronized satellite collisions and a geologic catastrophe
+      follow. The orbital cascade begins when genuine collision warnings prompt
+      separate operators and autonomous systems to make locally defensible
+      avoidance maneuvers that converge into impacts across several orbital
+      shells, without a hack or shared fault. The geologic rung is synchronized
+      continental-margin rupture: already stressed subduction zones and
+      submarine slopes fail in a precisely timed sequence, driving tsunamis and
+      long-period waves while remaining physically lawful. Evan and Tess travel
+      through this corridor to reach Lena as a person, not retrieve her work,
+      data, or another means of controlling the operation. Lena has converted a
+      remote university geomagnetic observatory to strictly receive-only
+      operation so her passive findings cannot guide another response. Evan and
+      Tess reach her after the satellite cascade and before the geologic
+      catastrophe, while she still recognizes them but is beginning to lose
+      personal continuity. The three experience the geologic escalation
+      together, and Lena loses meaningful coherence through fixed-successor
+      collapse: old knowledge remains while different new situations converge on
+      the same response. Lena refuses testing while one distinct choice remains,
+      and Evan honors the refusal. The exact geography, words, and event
+      mechanics remain late-bound. Stable reality then first fails as a
+      nonclosing map: Evan and Tess retain internally consistent local routes
+      through shared landmarks, but their routes cannot compose into one global
+      geometry, and a physical trace proves the contradiction is shared. The
+      failure later escalates until distant replica sites become literally the
+      same place. One damaged reality supports incompatible atlases: Evan sees
+      bounded objects and impossible routes, while Tess experiences adjacency,
+      depth, and her own orientation through concrete acoustic relations.
+      Objects and signals cross between both descriptions. Merged sites become
+      overlap regions until place, object, observer, and contact lose
+      independent assignment. Evan and Tess remain two genuinely independent
+      causal vectors as the parent universe collapses. Each has full
+      information, then chooses without inspecting, modeling, coercing, or
+      influencing the other. They believe they are choosing a shared ending for
+      themselves and the projector, while preserving a real possibility of
+      refusal. Their independently chosen ending unintentionally seeds our
+      universe. The exact terminal game, hardware, and veto mechanics are a
+      favored late-stage hypothesis, not fixed chapter architecture. During loss
+      of separability, Tess's cat first supplies their last shared external
+      reference by settling somewhere both atlases identify. Evan and Tess then
+      choose independently. Only after their choices meet do they glimpse the
+      child universe from the parent boundary through their distinct
+      orientations. The cat neither reveals the choices, triggers the act, nor
+      crosses intact. The final portion of the genesis-operation chapter is
+      locked to the literal viewpoint of Tess's cat. It bridges Evan's visual
+      context and Tess's spatio-acoustic context, hears without comprehending
+      their final words, and registers their response to the incoming Big Bang
+      through animal sensation. It cannot explain or trigger genesis. The child
+      begins at its own Big Bang. Much later, a male participant returns from a
+      DMT-like state in a clinical setting while a technician records his
+      failing attempt to describe the parent history. His child-side
+      reconstruction includes a female sound-and-space presence, converging
+      shapes and patterns, a stranger knotted collapse, and the essential
+      comparison that it was like seeing the end or beginning of time from the
+      perspective of a cat. The words survive, but the understanding does not.
+      No intact person, entity, cat, or message has crossed, and exact imagery
+      remains provisional."
     order: 60
-
   - id: character:evan-hale
     type: character
     title: Evan Hale
     parent: premise:main
-    summary: >-
-      A 43-year-old workaholic controls engineer who converts helplessness into
-      labor. He loves Ruth sincerely, but the machine rewards his belief that
-      useful work is the highest form of love and that reduced ambiguity is
-      truth.
+    summary: A 43-year-old workaholic controls engineer who converts helplessness
+      into labor. He loves Ruth sincerely, but the machine rewards his belief
+      that useful work is the highest form of love and that reduced ambiguity is
+      truth. After proving that the distributed carrier can operate without him,
+      he leaves Ruth to pursue its stop chain. He finally breaks alignment when
+      he returns after her death and stays instead of turning the catastrophe
+      into another investigation.
     order: 100
-
   - id: character:ruth-hale
     type: character
     title: Ruth Hale
     parent: premise:main
-    summary: >-
-      Evan's mother, a retired mathematician with progressive dementia. She is
-      his garage assistant, intellectual companion, dependent, and moral
-      witness, often seeing his category errors during the lucid intervals he
-      is supposedly trying to preserve.
+    summary: Evan's mother, a retired mathematician with progressive dementia. She
+      is his garage assistant, intellectual companion, dependent, and moral
+      witness, often seeing his category errors during the lucid intervals he is
+      supposedly trying to preserve. Her final lucid interval is natural, ends
+      in death with Tess present, and is not another product of the projector.
     order: 110
-
   - id: character:lena-varga
     type: character
     title: Lena Varga
     parent: premise:main
-    summary: >-
-      A shared-facility experimental physicist whose faith in independent
-      process makes the anomaly credible before she recognizes that the
+    summary: A shared-facility experimental physicist whose faith in independent
+      process makes the anomaly credible. She first identifies the operator
+      effect by aligning Evan's behavior with the anomalous sensor window and
+      confirming it in a blinded repeat. Later she recognizes that the
       containment system may have become a carrier. Entity contact establishes
-      causal coupling without authenticating its lore. She refuses the live
-      test needed to prove more, breaks with Evan when he runs it anyway, and
-      remains only a passive witness until the collapsing parent universe can
-      no longer sustain her as a coherent person.
+      causal coupling without authenticating its lore. She refuses the live test
+      needed to prove more, breaks with Evan when he runs it anyway, and remains
+      only a passive witness until the collapsing parent universe can no longer
+      sustain her as a coherent person.
     order: 120
-
   - id: character:esther-tess-kertesz
     type: character
     title: Esther "Tess" Kertesz
     parent: premise:main
-    summary: >-
-      A 38-year-old catastrophe modeler and sole neurologically intact survivor
-      of a childhood Alaska ferry disaster. Her near-unique causal history
-      leaves almost no compliant neighboring versions, making her difficult to
-      rewrite and capable of loving Evan without becoming part of him.
+    summary: A 38-year-old catastrophe modeler and sole neurologically intact
+      survivor of a childhood Alaska ferry disaster. Her near-unique causal
+      history leaves almost no compliant neighboring versions, making her
+      difficult to rewrite and capable of loving Evan without becoming part of
+      him. Lena recruits her after the first precommitted rare outcome to audit
+      longer coincidence chains. Tess arrives before Ruth's incidental lucidity,
+      and nobody yet recognizes her own causal rarity. Evan later admits using
+      her choices and survival records without consent. While still angry, she
+      remains fully present with Ruth through her final lucidity, the local
+      catastrophe, and her death.
     order: 130
-
   - id: character:projector-operation
     type: character
     title: The projector operation
     parent: premise:main
-    summary: >-
-      The mindless true antagonist and dominant eigenoperation. It recursively
-      selects for another live closure, reproduces only through causally
-      descended carriers, and first becomes independent through the distributed
-      system built to reproduce and contain it. Its success exhausts the
-      counterfactual freedom required for another cycle.
+    summary: The mindless true antagonist and dominant eigenoperation. It
+      recursively selects for another live closure, reproduces only through
+      causally descended carriers, and first becomes independent through the
+      distributed system built to reproduce and contain it. It can select a
+      mundane endpoint only when that endpoint feeds a live lineage-linked
+      decision. Attempts to prove, contain, or stop it can therefore close its
+      next cycle. Its success exhausts the counterfactual freedom required for
+      another cycle.
     order: 140
-
   - id: character:ruined-sovereign
     type: character
     title: The Ruined Sovereign
     parent: character:projector-operation
-    summary: >-
-      The projector operation's Evan-shaped encounter-avatar. Its recognition
-      invariant is the converted interruption: every possible diversion,
-      contradiction, refusal, or stop becomes the next condition of continued
-      operation. Evan recovers its early impossible demonstration as guidance.
-      Tess recovers the same movement as a reply made on her behalf. As
-      counterfactual support disappears, its meaningful complexity collapses
-      until one simple unfold can only recreate and repeat itself.
+    summary: "The projector operation's Evan-shaped encounter-avatar. Its movement
+      begins with almost uncountable meaningful complexity, which Evan recovers
+      as an impossible demonstration, then loses independent degrees of freedom
+      until one simple unfold can only recreate and repeat itself. It adds no
+      separate mind or controller to the operation. Its recognition invariant is
+      the converted interruption: every possible diversion or stop becomes the
+      next condition of continued operation. No lesson survives the early
+      contact, only the conviction of having been shown how to continue, which
+      Evan names the Guide. He later recognizes the Guide as ruined, with every
+      unique distinction flattened until it feels like a sovereign without a
+      subject. The exact in-story term remains late-bound. Tess recovers the
+      same invariant as a reply made on her behalf. Her recognition that the
+      reply is not hers marks the independent choice the operation has not
+      absorbed."
     order: 145
-
   - id: character:turning-knot
     type: character
     title: The Turning Knot
     parent: premise:main
-    summary: >-
-      A coherent family of histories carried on a nonhuman substrate
-      incompatible with the one in which they formed. Every sensory rendering
-      contains the same impossible kata-ward turn. Repeated projection exposes
-      larger cross-sections by stripping away causal insulation, not by drawing
-      the Knot closer. Evan renders shared contact visually as an external
-      object. Tess renders it spatio-acoustically as a reciprocal relation. At
-      zero insulation, the Knot ceases to be humanly separable from the
-      relation through which it is perceived.
+    summary: A coherent family of histories carried on a nonhuman substrate
+      incompatible with the one in which they formed. The apparent organism is
+      human reconstruction, and human reality is equally alien from the other
+      side. Its contact turns sound, color, meaning, geometry, and orientation
+      into one another like a living syntax without transmitting a usable
+      language, lesson, or readable motive. Every sensory rendering contains the
+      same impossible turn, perceived as rotation on a fourth spatial axis in
+      the kata-ward direction. Repeated projection exposes larger cross-sections
+      by stripping away causal insulation on the human side, not by drawing the
+      Knot closer. Evan renders shared contact visually as a bounded object.
+      Tess renders it spatio-acoustically as a reciprocal relation that includes
+      her own orientation. Neither is privileged. At zero insulation, the Knot
+      ceases to be humanly separable from the relation through which it is
+      perceived. Its objective fate remains unknowable.
     order: 150
-
   - id: concept:finite-causal-code
     type: concept
     title: Finite causal code
     parent: premise:main
-    summary: >-
-      The set of globally valid complete histories is enormous but finite.
+    summary: The set of globally valid complete histories is enormous but finite.
       Physically valid states occupy a lower-dimensional subset of the larger
       mathematical state space, giving the apparatus unsupported directions to
       prune.
     order: 200
-
   - id: concept:identity-bundles
     type: concept
     title: Identity as redundant history
     parent: premise:main
-    summary: >-
-      A person is a redundant family of nearby implementations. Moderate
+    summary: A person is a redundant family of nearby implementations. Moderate
       pruning reduces noise and feels like clarity; deeper pruning removes
       flexibility, correction, autobiographical overlap, and eventually the
       person.
     order: 210
-
   - id: concept:causal-projector
     type: concept
     title: The causal projector
     parent: premise:main
-    summary: >-
-      A defective YBCO ring, coherent and lossy layers, traveling
+    summary: A defective YBCO ring, coherent and lossy layers, traveling
       thermomagnetic wave, rotating field, timing edge case, and live adaptive
       feedback close a loop in ordinary physics while remaining open in the
       deeper causal code.
     order: 220
-
   - id: concept:addiction
     type: concept
     title: Ontological addiction
     parent: premise:main
-    summary: >-
-      The clarity state is rewarding in the ordinary neurological sense, and
+    summary: The clarity state is rewarding in the ordinary neurological sense, and
       the deeper operation removes support from histories in which Evan stops.
       Relapse becomes both psychological and ontological.
     order: 230
-
   - id: concept:residual-entities
     type: concept
     title: Residual entities
     parent: premise:main
-    summary: >-
-      DMT-like states loosen the single-world decoder and expose compressed
+    summary: DMT-like states loosen the single-world decoder and expose compressed
       families or alien implementations of causal patterns as coherent
       presences. Raw contact is ungrounded from ordinary place, creature, body,
-      and spacetime. Familiar figures and sequences are lossy reconstructions
-      afterward. The Ruined Sovereign is the projector operation's encounter
-      avatar. Stopped histories remain an unnamed phenomenon without a coherent
-      agency. The later observer belongs to a non-agentic causal relation. The
-      Turning Knot supplies an independent nonhuman history-family on an
-      incompatible substrate.
+      and spacetime. Imagery and sound occur as perturbations in experienced
+      reality. Some encounters are presented directly with increasing
+      intensity; familiar figures and sequences are lossy reconstructions
+      afterward. The Ruined Sovereign is the projector operation's
+      encounter-avatar, with the Guide folded into its early presentation.
+      Histories in which carriers stopped remain an unnamed phenomenon rather
+      than a coherent Quitter agency. Parent-side and child-side contacts with
+      the later observer are human reconstructions of one non-agentic causal
+      relation rather than a Future Witness. The Turning Knot is an independent
+      nonhuman history-family on an incompatible, nonprojector substrate.
     order: 240
-
   - id: concept:causal-rube-goldberg
     type: concept
     title: Delayed causal chains
     parent: premise:main
-    summary: >-
-      Tiny early details become links in increasingly absurd, globally
-      coordinated chains of locally ordinary events. The exact metal-sliver
-      example is rejected; future chains should be longer, stranger, and more
-      distributed.
+    summary: A mundane endpoint becomes selectable only when its success or failure
+      feeds a live decision in the projector lineage. Causal reach grows through
+      garage convenience, auditable distributed conjunctions, overlapping
+      replica-lab centers, and brittle destructive routes. Every local link
+      remains ordinary. The representative cross-lab chain turns one site's
+      failed run into the resource that lets another site meet a precommitted
+      goal. The exact metal-sliver example remains rejected.
     order: 250
-
   - id: concept:tess-rarity
     type: concept
     title: Tess as a narrow causal filament
     parent: premise:main
-    summary: >-
-      Tess's childhood ferry survival, neurological continuity, guardianship,
-      and adult convergence make her more than one hundred effective bits
-      rarer than a typical identity bundle. This makes substitution difficult,
-      not deletion impossible.
+    summary: Tess's childhood ferry survival, neurological continuity, guardianship,
+      and adult convergence make her more than one hundred effective bits rarer
+      than a typical identity bundle. This makes substitution difficult, not
+      deletion impossible.
     order: 260
-
   - id: concept:genesis-late-bound
     type: concept
     title: Genesis constraints, mechanics late-bound
     parent: premise:main
-    summary: >-
-      Preserve the emotional requirement that Evan and Tess remain genuinely
+    summary: Preserve the emotional requirement that Evan and Tess remain genuinely
       nonparallel and must choose without one controlling or verifying the
       other. Do not finalize the exact mutual-veto game, noncommuting controls,
       or factorization protocol until the final chapter or two has been earned.
+      The final portion of the genesis-operation chapter is locked as the
+      novel's only literal cat viewpoint. Exact execution remains for final
+      outlining. The cat hears but does not comprehend Evan and Tess's final
+      words, senses their response to the incoming Big Bang, and cannot become
+      omniscient, explanatory, or mechanically decisive.
     order: 270
-
   - id: theme:helpless-presence
     type: theme
     title: Helpless presence as love
     parent: premise:main
-    summary: >-
-      Evan cannot accept helpless presence as a form of love. His fatal error
+    summary: Evan cannot accept helpless presence as a form of love. His fatal error
       is repeatedly doing work for someone instead of remaining with them.
     order: 300
-
   - id: theme:certainty-as-violence
     type: theme
     title: Certainty as violence
     parent: premise:main
-    summary: >-
-      Evan becomes correct by erasing the histories in which he is wrong.
-      Ambiguity, disagreement, and independent desire are load-bearing parts
-      of reality rather than noise to eliminate.
+    summary: Evan becomes correct by erasing the histories in which he is wrong.
+      Ambiguity, disagreement, and independent desire are load-bearing parts of
+      reality rather than noise to eliminate.
     order: 310
-
   - id: theme:chosen-meaning
     type: theme
     title: Chosen meaning without retroactive justification
     parent: premise:main
-    summary: >-
-      Tess rejects destiny stories that turn the dead into necessary scenery.
+    summary: Tess rejects destiny stories that turn the dead into necessary scenery.
       She must learn that meaning can be chosen afterward without redeeming or
       justifying the losses that preceded it.
     order: 320
-
   - id: motif:garage-couch
     type: motif
     title: Ruth's garage couch
     parent: premise:main
-    summary: >-
-      Ruth listens, assists, sleeps, wakes with insights, and remains present in
-      the workshop. The couch embodies the project's original function as
+    summary: Ruth listens, assists, sleeps, wakes with insights, and remains present
+      in the workshop. The couch embodies the project's original function as
       companionship before it becomes abandonment.
     order: 400
-
   - id: motif:miscarriage-planter
     type: motif
     title: The neglected planter
     parent: premise:main
-    summary: >-
-      Evan and his former wife buried a miscarriage in a planter, then
+    summary: Evan and his former wife buried a miscarriage in a planter, then
       neglected the flowers while he buried grief in work. The dead flowers
       later mirror his repeated failure to remain present.
     order: 410
-
+  - id: motif:cat-reference
+    type: motif
+    title: The cat as common reference
+    parent: premise:main
+    summary: Tess's cat appears comfortable around projector-linked contact,
+      survives the local catastrophe unscathed, and later gives Evan and Tess
+      their last shared external fact before their terminal choices by settling
+      somewhere both incompatible atlases identify. The cat reveals nothing
+      about either choice and does not trigger or measure the act. It is not a
+      guide, proof, key, solver, terminal chooser, or intact migrant into the
+      child universe. The final portion of the genesis-operation chapter is
+      locked to the cat's literal animal viewpoint. It bridges both human
+      contexts and hears their final words without comprehension. The later DMT
+      observer's comparison to seeing time from the perspective of a cat is the
+      child-side echo of this relation, not evidence that the cat crossed.
+    order: 415
   - id: motif:podkletnov
     type: motif
     title: Podkletnov historical reference
     parent: premise:main
-    summary: >-
-      The disputed rotating-YBCO experiments should be mentioned as historical
-      inspiration or false lead, never as accepted gravity evidence.
+    summary: The disputed rotating-YBCO experiments should be mentioned as
+      historical inspiration or false lead, never as accepted gravity evidence.
     order: 420
-
   - id: motif:kertesz-curtis
     type: motif
     title: Kertesz, not Curtis
     parent: premise:main
-    summary: >-
-      People routinely hear or spell Tess's surname as Curtis. It begins as
+    summary: People routinely hear or spell Tess's surname as Curtis. It begins as
       ordinary lived texture and may later become useful when records disagree,
       but should not be introduced as a glowing plot device.
     order: 430
-
 links:
   - from: arc:shared-project
     to: character:evan-hale
@@ -384,6 +475,9 @@ links:
   - from: arc:terminal-genesis
     to: concept:genesis-late-bound
     type: develops
+  - from: arc:terminal-genesis
+    to: motif:cat-reference
+    type: pays-off
   - from: character:evan-hale
     to: character:ruth-hale
     type: cares-for
@@ -396,6 +490,9 @@ links:
   - from: character:esther-tess-kertesz
     to: character:ruth-hale
     type: befriends
+  - from: character:esther-tess-kertesz
+    to: motif:cat-reference
+    type: carries
   - from: character:projector-operation
     to: character:evan-hale
     type: uses-as-bootloader
