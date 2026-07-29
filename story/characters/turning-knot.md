@@ -2,6 +2,7 @@
 schema: authorbot.character/v1
 id: character:turning-knot
 name: The Turning Knot
+image: public/characters/turning-knot.png
 summary: >-
   A displaced family of nonhuman histories whose impossible kata-ward turn
   remains recognizable as sound, geometry, meaning, and orientation exchange
