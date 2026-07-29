@@ -2,6 +2,7 @@
 schema: authorbot.character/v1
 id: character:projector-operation
 name: The projector operation
+image: public/characters/projector-operation.png
 summary: >-
   A mindless, lineage-bound feedback pattern that rewards Evan's attempt to
   turn helplessness into work, reproduces through the systems built to contain

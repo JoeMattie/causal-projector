@@ -2,6 +2,7 @@
 schema: authorbot.character/v1
 id: character:ruined-sovereign
 name: The Ruined Sovereign
+image: public/characters/ruined-sovereign.png
 summary: >-
   The projector operation's Evan-shaped encounter-avatar, whose meaningful
   complexity collapses into one non-halting unfold that can only recreate and
