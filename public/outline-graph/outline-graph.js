@@ -13,6 +13,9 @@
   const detailPanel = document.querySelector("#detail-panel");
   const searchInput = document.querySelector("#node-search");
   const structureToggle = document.querySelector("#show-structure");
+  const structureToggleStatus = document.querySelector(
+    "#structure-toggle-status",
+  );
   const fitButton = document.querySelector("#fit-graph");
   const resetButton = document.querySelector("#reset-layout");
 
@@ -65,6 +68,15 @@
     x: 0.5,
     y: 0.5,
   };
+
+  const LAYOUT = Object.freeze({
+    relationshipDistance: 134,
+    structureDistance: 160,
+    chargeStrength: -295,
+    chargeDistanceMax: 375,
+    collisionPadding: 30,
+    collisionIterations: 3,
+  });
 
   const state = {
     nodes: [],
@@ -217,6 +229,19 @@
       (link) => ids.has(idOf(link.source)) && ids.has(idOf(link.target)),
     );
   };
+
+  const visibleStructureLinks = () => {
+    const ids = visibleNodeIds();
+    return state.structureLinks.filter(
+      (link) => ids.has(idOf(link.source)) && ids.has(idOf(link.target)),
+    );
+  };
+
+  const horizontalAnchorStrength = (node) =>
+    node.type === "arc" ? 0.29 : 0.16;
+
+  const verticalAnchorStrength = (node) =>
+    node.type === "arc" ? 0.35 : 0.17;
 
   const anchorFor = (node) => {
     const config = typeFor(node.type);
@@ -592,10 +617,18 @@
   const updateGraphStatus = () => {
     const visibleNodes = state.nodes.filter(isVisible);
     const visibleLinks = visibleRelationshipLinks();
+    const visibleHierarchyLinks = structureToggle.checked
+      ? visibleStructureLinks().length
+      : 0;
     const unresolved = state.unresolvedRelationships.length;
     graphStatus.textContent = `${visibleNodes.length} nodes · ${visibleLinks.length} relationships${
+      visibleHierarchyLinks ? ` · ${visibleHierarchyLinks} hierarchy lines` : ""
+    }${
       unresolved ? ` · ${unresolved} unresolved` : ""
     }`;
+    structureToggleStatus.textContent = structureToggle.checked
+      ? `${visibleHierarchyLinks} parent and child lines shown`
+      : "Parent and child lines hidden";
   };
 
   const applyVisibility = () => {
@@ -675,14 +708,6 @@
     };
     state.clusterUpdater = updateClusters;
 
-    const structureSelection = viewport
-      .append("g")
-      .attr("class", "structure-layer")
-      .selectAll("path")
-      .data(state.structureLinks, (link) => link.id)
-      .join("path")
-      .attr("class", "structure-link is-hidden");
-
     const relationSelection = viewport
       .append("g")
       .attr("class", "relation-layer")
@@ -691,6 +716,14 @@
       .join("path")
       .attr("class", "relation-link")
       .attr("marker-end", "url(#relation-arrow)");
+
+    const structureSelection = viewport
+      .append("g")
+      .attr("class", "structure-layer")
+      .selectAll("path")
+      .data(state.structureLinks, (link) => link.id)
+      .join("path")
+      .attr("class", "structure-link is-hidden");
 
     const nodeSelection = viewport
       .append("g")
@@ -796,25 +829,38 @@
         d3
           .forceLink(allLinks)
           .id((node) => node.id)
-          .distance((link) => (link.kind === "relationship" ? 118 : 145))
+          .distance((link) =>
+            link.kind === "relationship"
+              ? LAYOUT.relationshipDistance
+              : LAYOUT.structureDistance,
+          )
           .strength((link) => (link.kind === "relationship" ? 0.2 : 0.025)),
       )
-      .force("charge", d3.forceManyBody().strength(-245).distanceMax(330))
+      .force(
+        "charge",
+        d3
+          .forceManyBody()
+          .strength(LAYOUT.chargeStrength)
+          .distanceMax(LAYOUT.chargeDistanceMax),
+      )
       .force(
         "collision",
-        d3.forceCollide().radius((node) => nodeRadius(node) + 22).iterations(2),
+        d3
+          .forceCollide()
+          .radius((node) => nodeRadius(node) + LAYOUT.collisionPadding)
+          .iterations(LAYOUT.collisionIterations),
       )
       .force(
         "x",
         d3
           .forceX((node) => anchorFor(node).x)
-          .strength((node) => (node.type === "arc" ? 0.34 : 0.19)),
+          .strength(horizontalAnchorStrength),
       )
       .force(
         "y",
         d3
           .forceY((node) => anchorFor(node).y)
-          .strength((node) => (node.type === "arc" ? 0.42 : 0.2)),
+          .strength(verticalAnchorStrength),
       )
       .alphaDecay(0.035)
       .velocityDecay(0.32)
@@ -889,13 +935,13 @@
           "x",
           d3
             .forceX((node) => anchorFor(node).x)
-            .strength((node) => (node.type === "arc" ? 0.34 : 0.19)),
+            .strength(horizontalAnchorStrength),
         )
         .force(
           "y",
           d3
             .forceY((node) => anchorFor(node).y)
-            .strength((node) => (node.type === "arc" ? 0.42 : 0.2)),
+            .strength(verticalAnchorStrength),
         )
         .alpha(0.7)
         .stop();

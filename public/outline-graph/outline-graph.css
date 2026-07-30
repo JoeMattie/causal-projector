@@ -321,6 +321,20 @@ h1 {
   cursor: pointer;
 }
 
+.structure-toggle:hover {
+  border-color: var(--line-bright);
+}
+
+.structure-toggle:has(input:checked) {
+  border-color: color-mix(in srgb, var(--focus) 62%, var(--line));
+  background: color-mix(in srgb, var(--focus) 8%, var(--surface-sunken));
+}
+
+.structure-toggle:has(input:focus-visible) {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
 .structure-toggle input {
   width: 0.9rem;
   height: 0.9rem;
@@ -336,6 +350,10 @@ h1 {
 .structure-toggle strong {
   font-family: var(--font-display);
   font-size: 13px;
+}
+
+.structure-toggle:has(input:checked) strong {
+  color: var(--focus);
 }
 
 .structure-toggle small {
@@ -570,10 +588,11 @@ h1 {
 }
 
 .structure-link {
-  stroke: var(--text-muted);
-  stroke-dasharray: 2 5;
-  stroke-opacity: 0.25;
-  stroke-width: 0.8;
+  stroke: var(--focus);
+  stroke-dasharray: 2 6;
+  stroke-linecap: round;
+  stroke-opacity: 0.72;
+  stroke-width: 1.25;
 }
 
 .structure-link.is-hidden,
