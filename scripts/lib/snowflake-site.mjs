@@ -31,6 +31,10 @@ const START_MARKER = "<!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_START -->";
 const END_MARKER = "<!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_END -->";
 const THEME_IMPORT_START = "/* AUTHORBOT_THEME_IMPORT_START */";
 const THEME_IMPORT_END = "/* AUTHORBOT_THEME_IMPORT_END */";
+const THEME_IMPORT_TARGETS = [
+  "snowflake/snowflake.css",
+  "outline-graph/outline-graph.css",
+];
 
 const escapeHtml = (value) =>
   String(value)
@@ -426,31 +430,33 @@ async function injectAuthorbotThemeImport(deploymentRoot) {
 
   const stylesheet = candidates[0];
   assertSafeRelativePath(stylesheet, "Authorbot theme stylesheet");
-  const path = join(deploymentRoot, "snowflake/snowflake.css");
-  if (!(await pathExists(path))) {
-    throw new SnowflakeError(
-      "SNOWFLAKE_PAGE_MISSING",
-      `${path} does not exist; run the Authorbot build first`,
-    );
+  for (const relativePath of THEME_IMPORT_TARGETS) {
+    const path = join(deploymentRoot, relativePath);
+    if (!(await pathExists(path))) {
+      throw new SnowflakeError(
+        "CUSTOM_PAGE_MISSING",
+        `${path} does not exist; run the Authorbot build first`,
+      );
+    }
+    const css = await readFile(path, "utf8");
+    const start = css.indexOf(THEME_IMPORT_START);
+    const end = css.indexOf(THEME_IMPORT_END);
+    if (start === -1 || end === -1 || end < start) {
+      throw new SnowflakeError(
+        "AUTHORBOT_THEME_IMPORT_INVALID",
+        `${relativePath} is missing its Authorbot theme import markers`,
+      );
+    }
+    const replacement =
+      `${THEME_IMPORT_START}\n` +
+      `@import url("../_astro/${stylesheet}");\n` +
+      THEME_IMPORT_END;
+    const next =
+      css.slice(0, start) +
+      replacement +
+      css.slice(end + THEME_IMPORT_END.length);
+    await writeFileEnsured(path, next);
   }
-  const css = await readFile(path, "utf8");
-  const start = css.indexOf(THEME_IMPORT_START);
-  const end = css.indexOf(THEME_IMPORT_END);
-  if (start === -1 || end === -1 || end < start) {
-    throw new SnowflakeError(
-      "SNOWFLAKE_THEME_IMPORT_INVALID",
-      "Snowflake CSS is missing its Authorbot theme import markers",
-    );
-  }
-  const replacement =
-    `${THEME_IMPORT_START}\n` +
-    `@import url("../_astro/${stylesheet}");\n` +
-    THEME_IMPORT_END;
-  const next =
-    css.slice(0, start) +
-    replacement +
-    css.slice(end + THEME_IMPORT_END.length);
-  await writeFileEnsured(path, next);
   return stylesheet;
 }
 

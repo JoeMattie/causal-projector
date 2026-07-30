@@ -543,7 +543,7 @@ Private material.
   assert.deepEqual(fragment.sourceLinks, []);
 });
 
-test("public generation imports the exact content-hashed Astro theme", async (t) => {
+test("public generation imports the exact content-hashed Astro theme into custom pages", async (t) => {
   const outDir = await temporaryDirectory(t);
   await writeEnsured(
     join(outDir, "_astro/_chapterPath_.theme-hash.css"),
@@ -559,6 +559,15 @@ test("public generation imports the exact content-hashed Astro theme", async (t)
 `,
   );
   await writeEnsured(
+    join(outDir, "outline-graph/outline-graph.css"),
+    `/* AUTHORBOT_THEME_IMPORT_START */
+/* The generator imports the content-hashed Astro stylesheet here. */
+/* AUTHORBOT_THEME_IMPORT_END */
+
+.graph-panel { display: grid; }
+`,
+  );
+  await writeEnsured(
     join(outDir, "snowflake/index.html"),
     `<!doctype html>
 <html><body>
@@ -571,11 +580,21 @@ test("public generation imports the exact content-hashed Astro theme", async (t)
   const first = await writePublicDataset({ outDir });
   const second = await writePublicDataset({ outDir });
   const css = await readFile(join(outDir, "snowflake/snowflake.css"), "utf8");
+  const graphCss = await readFile(
+    join(outDir, "outline-graph/outline-graph.css"),
+    "utf8",
+  );
 
   assert.equal(first.themeStylesheet, "_chapterPath_.theme-hash.css");
   assert.equal(second.themeStylesheet, first.themeStylesheet);
   assert.equal(
     css.match(
+      /@import url\("\.\.\/_astro\/_chapterPath_\.theme-hash\.css"\);/g,
+    )?.length,
+    1,
+  );
+  assert.equal(
+    graphCss.match(
       /@import url\("\.\.\/_astro\/_chapterPath_\.theme-hash\.css"\);/g,
     )?.length,
     1,

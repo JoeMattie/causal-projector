@@ -16,18 +16,52 @@
   const fitButton = document.querySelector("#fit-graph");
   const resetButton = document.querySelector("#reset-layout");
 
+  const themeColor = (property, fallback) =>
+    getComputedStyle(document.documentElement).getPropertyValue(property).trim() ||
+    fallback;
+
   const TYPE_CONFIG = {
-    premise: { label: "Premise", color: "#f4f0e8", x: 0.5, y: 0.12 },
-    arc: { label: "Arc", color: "#ff7a1a", x: 0.17, y: 0.43 },
-    character: { label: "Character", color: "#5dc5b4", x: 0.48, y: 0.48 },
-    concept: { label: "Concept", color: "#65a7ff", x: 0.81, y: 0.4 },
-    theme: { label: "Theme", color: "#b68cff", x: 0.67, y: 0.81 },
-    motif: { label: "Motif", color: "#e6bf55", x: 0.32, y: 0.81 },
+    premise: {
+      label: "Premise",
+      color: themeColor("--premise", "#f4f0e8"),
+      x: 0.5,
+      y: 0.12,
+    },
+    arc: {
+      label: "Arc",
+      color: themeColor("--arc", "#ff7a1a"),
+      x: 0.17,
+      y: 0.43,
+    },
+    character: {
+      label: "Character",
+      color: themeColor("--character", "#5dc5b4"),
+      x: 0.48,
+      y: 0.48,
+    },
+    concept: {
+      label: "Concept",
+      color: themeColor("--concept", "#65a7ff"),
+      x: 0.81,
+      y: 0.4,
+    },
+    theme: {
+      label: "Theme",
+      color: themeColor("--theme", "#b68cff"),
+      x: 0.67,
+      y: 0.81,
+    },
+    motif: {
+      label: "Motif",
+      color: themeColor("--motif", "#e6bf55"),
+      x: 0.32,
+      y: 0.81,
+    },
   };
 
   const DEFAULT_TYPE = {
     label: "Other",
-    color: "#a89f93",
+    color: themeColor("--unknown", "#a89f93"),
     x: 0.5,
     y: 0.5,
   };
@@ -47,6 +81,7 @@
     structureSelection: null,
     viewport: null,
     zoom: null,
+    clusterUpdater: null,
     hasFit: false,
     unresolvedRelationships: [],
   };
@@ -215,23 +250,64 @@
     };
   };
 
-  const clusterShape = (type) => {
-    const config = typeFor(type);
-    const center = {
-      x: state.width * config.x,
-      y: 45 + Math.max(320, state.height - 90) * config.y,
+  const fallbackClusterExtent = (node) => {
+    const radius = nodeRadius(node) + 8;
+    const labelWidth = compactTitle(node.title).length * 6.6;
+    return {
+      x: -radius,
+      y: -radius,
+      width: radius + nodeRadius(node) + 8 + labelWidth,
+      height: radius * 2,
     };
-    const narrow = state.width < 700;
-    const sizes = {
-      premise: [narrow ? 105 : 150, 88],
-      arc: [narrow ? 90 : 120, Math.min(250, state.height * 0.36)],
-      character: [narrow ? 110 : 170, narrow ? 115 : 150],
-      concept: [narrow ? 100 : 155, narrow ? 120 : 160],
-      theme: [narrow ? 88 : 135, narrow ? 80 : 105],
-      motif: [narrow ? 100 : 150, narrow ? 90 : 120],
+  };
+
+  const clusterBounds = (type) => {
+    const nodes = state.nodes.filter(
+      (node) =>
+        node.type === type &&
+        isVisible(node) &&
+        Number.isFinite(node.x) &&
+        Number.isFinite(node.y),
+    );
+    if (nodes.length === 0) return null;
+
+    let left = Infinity;
+    let right = -Infinity;
+    let top = Infinity;
+    let bottom = -Infinity;
+    for (const node of nodes) {
+      const extent = node.clusterExtent ?? fallbackClusterExtent(node);
+      left = Math.min(left, node.x + extent.x);
+      right = Math.max(right, node.x + extent.x + extent.width);
+      top = Math.min(top, node.y + extent.y);
+      bottom = Math.max(bottom, node.y + extent.y + extent.height);
+    }
+
+    const paddingX = 24;
+    const paddingTop = 42;
+    const paddingBottom = 24;
+    let x = left - paddingX;
+    let y = top - paddingTop;
+    let width = right - left + paddingX * 2;
+    let height = bottom - top + paddingTop + paddingBottom;
+    const minimumWidth = 130;
+    const minimumHeight = 86;
+    if (width < minimumWidth) {
+      x -= (minimumWidth - width) / 2;
+      width = minimumWidth;
+    }
+    if (height < minimumHeight) {
+      y -= (minimumHeight - height) / 2;
+      height = minimumHeight;
+    }
+    return {
+      x,
+      y,
+      width,
+      height,
+      labelX: x + 16,
+      labelY: y + 21,
     };
-    const [rx, ry] = sizes[type] ?? [120, 100];
-    return { ...center, rx, ry };
   };
 
   const linkPath = (link) => {
@@ -537,6 +613,7 @@
         !visibleIds.has(idOf(link.source)) ||
         !visibleIds.has(idOf(link.target)),
     );
+    state.clusterUpdater?.();
     renderNodeList();
     updateGraphStatus();
     updateSelectionStyles();
@@ -569,29 +646,34 @@
       .attr("class", "cluster")
       .style("--cluster-color", (type) => typeFor(type).color);
 
-    clusters.append("ellipse").attr("class", "cluster-region");
+    clusters.append("rect").attr("class", "cluster-region");
     clusters
       .append("text")
       .attr("class", "cluster-label")
-      .attr("text-anchor", "middle")
+      .attr("text-anchor", "start")
       .text((type) => typeFor(type).label);
 
     const updateClusters = () => {
       clusters.each(function update(type) {
-        const shape = clusterShape(type);
+        const bounds = clusterBounds(type);
         const group = d3.select(this);
+        group.classed("is-hidden", !bounds);
+        if (!bounds) return;
         group
-          .select("ellipse")
-          .attr("cx", shape.x)
-          .attr("cy", shape.y)
-          .attr("rx", shape.rx)
-          .attr("ry", shape.ry);
+          .select("rect")
+          .attr("x", bounds.x)
+          .attr("y", bounds.y)
+          .attr("width", bounds.width)
+          .attr("height", bounds.height)
+          .attr("rx", 18)
+          .attr("ry", 18);
         group
           .select("text")
-          .attr("x", shape.x)
-          .attr("y", shape.y - shape.ry + 14);
+          .attr("x", bounds.labelX)
+          .attr("y", bounds.labelY);
       });
     };
+    state.clusterUpdater = updateClusters;
 
     const structureSelection = viewport
       .append("g")
@@ -659,6 +741,29 @@
       .attr("y", 3)
       .text((node) => compactTitle(node.title));
 
+    nodeSelection.each(function cacheClusterExtent(node) {
+      const radius = nodeRadius(node) + 8;
+      const label = this.querySelector(".node-label");
+      let measuredLabelWidth = 0;
+      try {
+        measuredLabelWidth = label?.getComputedTextLength() ?? 0;
+      } catch {
+        measuredLabelWidth = 0;
+      }
+      const labelWidth = Math.max(
+        measuredLabelWidth,
+        compactTitle(node.title).length * 6.6,
+      );
+      const left = -radius;
+      const right = Math.max(radius, nodeRadius(node) + 8 + labelWidth);
+      node.clusterExtent = {
+        x: left,
+        y: -radius,
+        width: right - left,
+        height: radius * 2,
+      };
+    });
+
     const drag = d3
       .drag()
       .on("start", (event, node) => {
@@ -681,6 +786,7 @@
       relationSelection.attr("d", linkPath);
       structureSelection.attr("d", linkPath);
       nodeSelection.attr("transform", (node) => `translate(${node.x},${node.y})`);
+      updateClusters();
     };
 
     const simulation = d3
@@ -729,7 +835,8 @@
 
     const fitGraph = (animate = true) => {
       if (!state.nodeSelection || state.nodes.length === 0) return;
-      const bounds = state.nodeSelection.node().parentNode.getBBox();
+      updateClusters();
+      const bounds = state.viewport.node().getBBox();
       if (!bounds.width || !bounds.height) return;
       const padding = 58;
       const scale = Math.min(
