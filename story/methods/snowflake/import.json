@@ -2,15 +2,15 @@
   "schema": "causal-projector.snowflake-import/v1",
   "source": {
     "repository": "https://github.com/JoeMattie/causal-projector-snowflake.git",
-    "commit": "1e0bf9dac749f4983d471366cffe54156337ebd1"
+    "commit": "2bf7c15948a540ddcd76b15fdeb29bda1b433cf9"
   },
   "contractVersion": "causal-projector.snowflake-export/v1",
   "catalogHash": "462ab2f9a7765bb383ce3df98b44eb0fff6247f0f1f06c3b04dd4ec925cadb3b",
   "projectionConfigHash": "32988c9248ec7f73e24d8836d831a18134089c4ecf9b045e69714e46710f88fd",
   "importerVersion": "1.0.0",
   "transaction": {
-    "id": "d3d81170-daba-41f8-9329-2a6d1d81e4f6",
-    "importedAt": "2026-07-30T23:10:03.226Z"
+    "id": "81893f5a-c909-42fe-a36d-f56bc87f6bb4",
+    "importedAt": "2026-07-30T23:22:57.770Z"
   },
   "documents": [
     {
@@ -22,16 +22,16 @@
       "projectionTargets": [
         "story/characters/esther-tess-kertesz.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "character:evan-hale:full-character-synopsis",
       "path": "canon/characters/evan-hale/05-full-character-synopsis.md",
       "status": "provisional",
       "visibility": "public",
-      "sourceHash": "4a54a9bf4d0ea086df14bb4e6ed9d3802517abe2a217b0eeb6fb7351212be8d6",
+      "sourceHash": "492dc6fa25a6aa56a0c6385e41f3ca5ef22516975f804724c85f97ed57d73cb0",
       "projectionTargets": [],
-      "result": "added"
+      "result": "modified"
     },
     {
       "id": "character:evan-hale:full-character-synopsis-planning",
@@ -40,7 +40,7 @@
       "visibility": "public",
       "sourceHash": "f95d4d4b99a8bc312362d736d4398bd55509099f886af2fe364846594a593a7f",
       "projectionTargets": [],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "character:evan-hale:summary-sheet",
@@ -51,7 +51,7 @@
       "projectionTargets": [
         "story/characters/evan-hale.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "character:lena-varga:summary-sheet",
@@ -62,7 +62,7 @@
       "projectionTargets": [
         "story/characters/lena-varga.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "character:mouse:summary-sheet",
@@ -73,7 +73,7 @@
       "projectionTargets": [
         "story/characters/mouse.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "character:projector-operation:summary-sheet",
@@ -84,7 +84,7 @@
       "projectionTargets": [
         "story/characters/projector-operation.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "character:ruth-hale:summary-sheet",
@@ -95,7 +95,7 @@
       "projectionTargets": [
         "story/characters/ruth-hale.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "entity:ruined-sovereign:summary-sheet",
@@ -106,7 +106,7 @@
       "projectionTargets": [
         "story/characters/ruined-sovereign.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "entity:turning-knot:summary-sheet",
@@ -117,18 +117,18 @@
       "projectionTargets": [
         "story/characters/turning-knot.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "history:decision-log",
       "path": "archive/decision-log.md",
       "status": null,
       "visibility": "internal",
-      "sourceHash": "12d1bef215c2a85acaeffbd86284e94490f34e8b5f66a371a96611f08b7bb719",
+      "sourceHash": "22b57fcd2b9efc3688f30b03154d45c76585b0bebaf0ef1f1bd01885a9d5d048",
       "projectionTargets": [
         "story/decision-log.md"
       ],
-      "result": "added"
+      "result": "modified"
     },
     {
       "id": "integration:authorbot:story-graph",
@@ -139,7 +139,7 @@
       "projectionTargets": [
         "story/outline.yml"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:character:esther-tess-kertesz",
@@ -150,7 +150,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:character:evan-hale",
@@ -161,7 +161,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:character:lena-varga",
@@ -172,7 +172,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:character:mouse",
@@ -183,7 +183,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:character:projector-operation",
@@ -194,7 +194,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:character:ruth-hale",
@@ -205,7 +205,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:motifs",
@@ -216,7 +216,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:naming",
@@ -227,7 +227,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:plot",
@@ -238,7 +238,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "questions:science",
@@ -249,7 +249,7 @@
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "science:apparatus-and-discovery",
@@ -260,7 +260,7 @@
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "science:causal-substrate",
@@ -271,7 +271,7 @@
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "science:contact-model",
@@ -282,7 +282,7 @@
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "science:replication-and-containment",
@@ -293,7 +293,7 @@
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "story:escalation",
@@ -304,7 +304,7 @@
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "story:expanded-summary",
@@ -315,7 +315,7 @@
       "projectionTargets": [
         "story/synopsis.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "story:expanded-summary-planning",
@@ -324,7 +324,7 @@
       "visibility": "public",
       "sourceHash": "90c0d31799c31cf6031b9edc436b52067b56786e37cdc34b04742de603dec6fc",
       "projectionTargets": [],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "story:five-sentence-summary",
@@ -335,7 +335,7 @@
       "projectionTargets": [
         "story/synopsis.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "story:foundation",
@@ -346,7 +346,7 @@
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "story:genesis-boundaries",
@@ -357,7 +357,7 @@
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "story:one-sentence-summary",
@@ -366,16 +366,16 @@
       "visibility": "public",
       "sourceHash": "827db2b622c25c7446cfcde6c7048c1838c4d8e8da2fa2c5182d1a0d6dce3d71",
       "projectionTargets": [],
-      "result": "added"
+      "result": "unchanged"
     },
     {
       "id": "workflow:current-work",
       "path": "work/README.md",
       "status": null,
       "visibility": "internal",
-      "sourceHash": "e8d269b8a80d7c5034392fa6ade2b87ec3fc4290f590ef0081be58ab81f7a6a5",
+      "sourceHash": "b5c1430ee35195d62ba1751ce6d4260b8255bf663fe60d10664ecc8be2cf59ab",
       "projectionTargets": [],
-      "result": "added"
+      "result": "modified"
     }
   ],
   "retiredDocuments": [],
@@ -451,7 +451,7 @@
     },
     {
       "path": "story/decision-log.md",
-      "hash": "12d1bef215c2a85acaeffbd86284e94490f34e8b5f66a371a96611f08b7bb719",
+      "hash": "22b57fcd2b9efc3688f30b03154d45c76585b0bebaf0ef1f1bd01885a9d5d048",
       "sourceIds": [
         "history:decision-log"
       ]
