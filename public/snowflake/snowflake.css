@@ -372,20 +372,50 @@ h1 {
 
 .stage-toolbar {
   display: flex;
-  min-height: 3.5rem;
+  min-height: 4.4rem;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.75rem 1.1rem;
+  padding: 0.82rem 1.1rem;
   border-bottom: 1px solid var(--line);
   background: var(--surface-card);
 }
 
-.stage-toolbar p {
+.stage-location {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.stage-location h2 {
   margin: 0;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.45;
+  color: var(--text-strong);
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.stage-context {
+  display: inline-flex;
+  min-height: 1.55rem;
+  flex: 0 0 auto;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+  color: var(--blue-200);
+  border: 1px solid var(--surface-selected);
+  border-radius: 999px;
+  background: var(--tint-primary);
+  font: 800 10px/1 var(--font-mono);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.stage-context[hidden] {
+  display: none;
 }
 
 .stage-toolbar .data-state {

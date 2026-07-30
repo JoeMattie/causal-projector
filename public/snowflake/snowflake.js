@@ -6,7 +6,8 @@
   const treeBranches = document.querySelector("#tree-branches");
   const treeToggle = document.querySelector("#tree-toggle");
   const search = document.querySelector("#library-search");
-  const locationLabel = document.querySelector("#stage-location");
+  const stageContext = document.querySelector("#stage-context");
+  const stageTitle = document.querySelector("#stage-title");
   const dataState = document.querySelector("#data-state");
   const stage = document.querySelector(".library-stage");
   const heroStatus = document.querySelector("#hero-status");
@@ -20,7 +21,8 @@
     !treeBranches ||
     !treeToggle ||
     !search ||
-    !locationLabel ||
+    !stageContext ||
+    !stageTitle ||
     !dataState ||
     !stage ||
     !heroStatus ||
@@ -133,6 +135,12 @@
     if (className) node.className = className;
     if (text !== undefined) node.textContent = String(text);
     return node;
+  };
+
+  const setStageLocation = (title, context = "") => {
+    stageTitle.textContent = title;
+    stageContext.textContent = context;
+    stageContext.hidden = !context;
   };
 
   const normalizedText = (value) =>
@@ -448,7 +456,7 @@
   };
 
   const renderOverview = () => {
-    locationLabel.textContent = "Workspace overview";
+    setStageLocation("Workspace overview");
     content.replaceChildren();
 
     const accepted = state.records.filter(
@@ -878,7 +886,7 @@
   const renderView = (view) => {
     const copy = VIEW_COPY[view];
     const records = recordsForView(view);
-    locationLabel.textContent = copy.title;
+    setStageLocation(copy.title);
     content.replaceChildren();
 
     const header = element("header", "view-header");
@@ -974,7 +982,7 @@
       .filter((record) => searchableText(record).includes(normalizedQuery))
       .sort(recordSort);
 
-    locationLabel.textContent = `Search · ${pluralize(matches.length, "result")}`;
+    setStageLocation(pluralize(matches.length, "result"), "Search");
     content.replaceChildren();
 
     const header = element("header", "view-header");
@@ -1332,7 +1340,7 @@
     state.activeDocumentId = record.id;
     revealActiveTreePath();
     syncNavigation();
-    locationLabel.textContent = `Document · ${record.title}`;
+    setStageLocation(record.title, "Document");
     content.setAttribute("aria-busy", "true");
     content.replaceChildren();
 
