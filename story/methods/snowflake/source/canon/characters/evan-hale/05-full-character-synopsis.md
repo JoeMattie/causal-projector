@@ -107,19 +107,19 @@ objection to the protocol and begins designing a better one. He believes he is
 protecting Ruth from a bad result. In practice, he has made his own past the
 test for which version of her is allowed to be right.
 
-The argument over Ruth does not stop the rest of the work. Because the
-coincidence chains now pass through people as well as equipment, Evan begins
-looking for unusual histories among the people closest to the runs. Tess's
-survival is the obvious candidate. The chain of rescue, treatment, and later
-choices that kept her alive after the rest of her family died is so improbable
-that he starts testing whether her ordinary decisions remain variable during
-runs that make other people's responses easier to predict. He does not tell
-her. He uses choices she would have made anyway as a live control, then mines
-ferry, rescue, and medical records to estimate how rare her survival really
-was. He tells himself that asking permission would contaminate the control and
-that observing her does not change what she is free to choose. The reasoning
-allows him to keep the experiment separate from their relationship, at least
-as long as he does not have to explain it to her.
+The argument over Ruth does not stop the rest of the work. Evan begins looking
+for unusual histories among the people closest to the runs. He starts with
+Tess, testing whether her ordinary decisions remain variable during runs that
+make other people's responses easier to predict. The coincidence chains now
+pass through people as well as equipment, and the chain of rescue, treatment,
+and later choices that kept Tess alive after the rest of her family died makes
+her the obvious candidate. Evan does not tell her. He uses choices she would
+have made anyway as a live control, then mines ferry, rescue, and medical
+records to estimate how rare her survival really was. He tells himself that
+asking permission would contaminate the control and that observing her does
+not change what she is free to choose. The reasoning allows him to keep the
+experiment separate from their relationship, at least as long as he does not
+have to explain it to her.
 
 Evan does not let either the argument over Ruth or his secret study of Tess
 stop the physical program. Lena first takes the original ring to her shared
@@ -146,19 +146,22 @@ The first replica runs reproduce the operator effect and the bias toward live
 consequences without a major accident. Smaller hazards lead Lena and the site
 teams to add exposure limits, shared monitoring, and common stop rules. Later,
 one site begins a run whose result has been defined in advance to decide
-whether that site will continue or shut down. The operation does not add
-energy to the apparatus. It selects a permissible route through ordinary
+whether that site will continue or shut down. Shutdown begins, and the
+apparatus fails catastrophically. One researcher dies. Another survives with
+their technical ability intact but no autobiographical memory of the dead
+collaborator or of the years they worked together. Messages, recordings, and
+colleagues preserve the relationship. The survivor can learn those facts but
+cannot remember living them.
+
+The operation has not added energy to the apparatus or produced an impossible
+equipment state. It has selected a permissible route through ordinary
 equipment states, one that leaves magnetic, thermal, or cryogenic energy
-already in the system dangerously arranged as shutdown begins. Each individual
-reading remains inside the range the safety systems were built to tolerate,
-and each safeguard responds to the local failure it was built to detect. No
-one safeguard recognizes what the whole sequence has assembled. One
-researcher dies. Another survives with their technical ability intact but no
-autobiographical memory of the dead collaborator or of the years they worked
-together. Messages, recordings, and colleagues preserve the relationship. The
-survivor can learn those facts but cannot remember living them. The survivor
-was also physically injured in the accident, so neurological trauma remains a
-possible explanation for the missing memory.
+already in the system dangerously arranged as shutdown begins. Each
+individual reading remains inside the range the safety systems were built to
+tolerate, and each safeguard responds to the local failure it was built to
+detect. No one safeguard recognizes what the whole sequence has assembled.
+The survivor was also physically injured in the accident, so neurological
+trauma remains a possible explanation for the missing memory.
 
 Every replica is put on hold. Evan's garage falls outside the institutions'
 authority, but he powers it down too and keeps the original ring without asking
@@ -173,14 +176,14 @@ the grief. He joins as a technical adviser with access to the shared data,
 controller logs, and safety records, but no authority to approve or run a test
 whose outcome will change what a site does next.
 
-The restarted sites reveal that the replicas are becoming more than separate
-copies of the garage machine. A failed run causes one lab to cancel planned
-work and release a resource it had reserved. Procurement, weather, transport,
-staffing, and other unremarkable contingencies carry that resource to a second
-lab before a cutoff fixed in advance, allowing a blocked task to succeed. No
-single link is impossible. What troubles Lena is that one site's failure has
-become part of another site's live decision, and similar chains are beginning
-to recur through the shared containment process.
+A failed run at one restarted site causes the lab to cancel planned work and
+release a resource it had reserved. Procurement, weather, transport, staffing,
+and other unremarkable contingencies carry that resource to a second lab before
+a cutoff fixed in advance, allowing a blocked task to succeed. No single link
+is impossible. Together, the links show that the replicas are becoming more
+than separate copies of the garage machine. What troubles Lena is that one
+site's failure has become part of another site's live decision, and similar
+chains are beginning to recur through the shared containment process.
 
 During longer runs, Evan also begins passing through intervals that he cannot
 reconstruct as an ordinary place or sequence afterward. What he retains is a
@@ -205,15 +208,14 @@ he also knows suspicion will not keep several institutions shut down
 indefinitely. If the sites act separately, their uncoordinated attempts to
 stop may create more live branches than one bounded test under a common plan.
 
-Evan is exact about disclosure this time. The secret control he has built
-around Tess sits in his mind as a different kind of act, one whose validity
-depends on her not knowing about it. Here he tells the reviewers, site leads,
+Evan is exact about disclosure this time. He tells the reviewers, site leads,
 and operators why they think the containment network is carrying the
 operation, why the test's own approved response may complete or strengthen
-that loop, and why Lena has refused to participate. The distinction feels
-decisive to him. These people receive the same facts and retain the authority
-to say no. They approve, and local teams carry out the test under the
-consortium's shared rules.
+that loop, and why Lena has refused to participate. The secret control he has
+built around Tess depends on her not knowing about it. This test does not.
+The distinction feels decisive to him. These people receive the same facts and
+retain the authority to say no. They approve, and local teams carry out the
+test under the consortium's shared rules.
 
 The pattern the consortium agreed would count as evidence appears. Under the
 plan they approved, participating sites begin the promised containment and
@@ -232,18 +234,19 @@ to survive the fury. Instead, she withdraws from every live response. Evan
 knows she has drawn a moral boundary, but he experiences her departure as
 leaving when the work matters most.
 
-The survivor's missing years can still be blamed on the physical accident.
-That explanation fails after a later distributed run. Tess remembers one
-specific distinction from her own life, something ordinary enough to have
-appeared in messages, records, and other people's memories before the run.
-Afterward, she is the only waking person who remembers it, and every ordinary
-record agrees that it never existed. Evan cannot dismiss this as trauma or a
-private false memory because he and Tess recover the missing distinction
-together during contact. Evan sees a structured visual residue. Tess locates
-the same residue through sound and spatial relation. Their accounts differ,
-but they contain corresponding details, including things Evan never knew.
-When another distributed run removes part of that structure, both accounts lose
-the same details and possible relations.
+After a later distributed run, Tess discovers that one specific distinction
+from her own life has disappeared. It is ordinary enough to have appeared in
+messages, records, and other people's memories before the run. Now she is the
+only waking person who remembers it, and every ordinary record agrees that it
+never existed. Evan and Tess recover the missing distinction together during
+contact. Evan sees a structured visual residue. Tess locates the same residue
+through sound and spatial relation. Their accounts differ, but they contain
+corresponding details, including things Evan never knew. When another
+distributed run removes part of that structure, both accounts lose the same
+details and possible relations. The shared residue prevents Evan from
+dismissing Tess's memory as a private false memory. The survivor's missing
+years could still be blamed on the physical accident. That explanation cannot
+account for Tess's loss.
 
 The paired loss from ordinary reality and the echo that remains in contact
 give Evan the explanation he has resisted. Contact can preserve residues of
@@ -255,15 +258,15 @@ every interruption into another continuation. Now it looks ruined, with only
 that one motion left. The machine has not merely favored outcomes. It has been
 destroying the alternatives in which those outcomes did not occur.
 
-Evan cannot keep his private experiment with Tess separate from that
-knowledge. He tells her that he used her ordinary choices as a live control
-and searched the records of her family's deaths, rescue, and treatment to
-measure her rarity. She has not discovered the work on her own. He confesses
-because he now understands the secrecy as a personal violation and knows that
-continuing to hide it would repeat the act. Even then, part of him expects the
-confession to repair something. He has given her the complete record, named
-what he did, and explained why he believed the experiment mattered. That is
-how honest ground is supposed to be rebuilt.
+Evan tells Tess that he used her ordinary choices as a live control and
+searched the records of her family's deaths, rescue, and treatment to measure
+her rarity. She has not discovered the work on her own. He confesses because
+the new evidence makes him understand that the secrecy was a personal
+violation, not just a flaw in the experiment. Continuing to hide it would
+repeat the act. Even then, part of him expects the confession to repair
+something. He has given her the complete record, named what he did, and
+explained why he believed the experiment mattered. That is how honest ground
+is supposed to be rebuilt.
 
 Tess does not accept an explanation as the return of a choice she was never
 given. When Evan cannot make the disclosure repair her trust, he reaches for
@@ -283,16 +286,19 @@ be left alone, not because she has forgiven him. Evan tells himself Ruth has
 Tess and the work is the part he can still do for them. He leaves with both
 statements arranged like a proof.
 
-Because the result of Evan's attempt will determine the consortium's next
-shutdown decisions, his plan makes the garage consequential again. That gives
-the operation another outcome it can select. It does not create an impossible
-blast or supply energy from nowhere. Infrastructure fails in an ordinary
-sequence, an already unstable subsurface site gives way, and energy already
-stored below the neighborhood is released. The exact chain is wildly
-improbable, but each part of it can happen under ordinary physics. The ground
-collapses, an explosion follows, and the garage disappears into a disaster
-zone Evan cannot reach while the independent carrier continues elsewhere. The
-house survives, but roads, phones, utilities, and emergency access fail.
+The ground beneath the neighborhood collapses while Evan is still trying to
+isolate the garage. An explosion follows, and the garage disappears into a
+disaster zone he cannot reach. The house survives, but roads, phones,
+utilities, and emergency access fail while the independent carrier continues
+elsewhere.
+
+Evan's attempt makes the garage consequential again because its result will
+determine the consortium's next shutdown decisions. That gives the operation
+another outcome it can select. It has not created an impossible blast or
+supplied energy from nowhere. Infrastructure fails in an ordinary sequence, an
+already unstable subsurface site gives way, and energy already stored below
+the neighborhood is released. The exact chain is wildly improbable, but each
+part of it can happen under ordinary physics.
 
 Evan comes back to find Ruth dead, Tess alive and still angry, and Mouse
 unharmed. From Tess he learns that Ruth's final lucidity came without the
@@ -364,20 +370,20 @@ turn it into a final set of measurements. He feels the old impulse to define
 the problem and preserve what can be preserved. He also understands what she
 is asking. Evan honors the refusal and stays with her.
 
-Already stressed continental margins then rupture in one synchronized
-sequence. Each fault and submarine slope releases energy that was already
-present, and each local failure remains physically possible. The impossible
-part is their timing. At the observatory, separate signals arrive from around
-the planet and make the ground itself feel like one struck object. Lena is
-still physically present, but before the next change she loses the ability to
-give any response except the same one.
+Continental margins already under stress rupture in one synchronized sequence.
+At the observatory, separate signals arrive from around the planet and make
+the ground itself feel like one struck object. Each fault and submarine slope
+releases energy that was already present, and each local failure remains
+physically possible. The impossible part is their timing. Lena is still
+physically present, but before the next change she loses the ability to give
+any response except the same one.
 
-Until then, every catastrophe has been an extreme selection among locally
-possible events. The next failure is different. Evan and Tess each follow an
-ordinary route through the same damaged landmarks, but when they compare what
-they did, the two routes cannot belong to one map. Neither route contains a
-mistake. A physical trace passes through both of them and proves that the
-contradiction exists outside either observer.
+Evan and Tess each follow an ordinary route through the same damaged
+landmarks, but when they compare what they did, the two routes cannot belong
+to one map. Neither route contains a mistake. A physical trace passes through
+both of them and proves that the contradiction exists outside either observer.
+Until this moment, every catastrophe has been an extreme selection among
+locally possible events. This is the first failure of stable reality itself.
 
 As the failure spreads, distant replica sites become physically co-present
 with one another. One of them overlaps the damaged space around Lena's

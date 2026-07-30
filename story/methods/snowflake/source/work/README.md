@@ -23,10 +23,14 @@ link here instead of repeating current status.
 Evan's planning decisions are accepted. His first treatment was judged too
 stilted and list-like, so it was expanded to remove orphaned references,
 explain causal transitions within the treatment, and carry his relationships
-without a page-length constraint.
+without a page-length constraint. The current pass moves events and their
+immediate consequences ahead of after-the-fact explanation throughout the
+synopsis, except where setup is needed to understand a choice, an experiment,
+or its stakes.
 
-Does the expanded treatment now read continuously, or does it still contain a
-compression artifact?
+Does the revised treatment now read continuously, with its explanations
+arriving where the reader needs them rather than before the events they
+explain?
 
 ## Open-question destinations
 
