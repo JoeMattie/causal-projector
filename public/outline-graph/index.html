@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; connect-src 'self'; img-src 'self' data:; font-src 'self' data:; style-src 'self'; script-src 'self'"
+    >
+    <meta
+      name="description"
+      content="An interactive relationship map for The Causal Projector story outline."
+    >
+    <title>Outline graph · The Causal Projector</title>
+    <link rel="stylesheet" href="./outline-graph.css">
+    <script defer src="./vendor/d3.min.js"></script>
+    <script defer src="./outline-graph.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to graph</a>
+
+    <header class="site-bar">
+      <a class="book-link" href="../" aria-label="The Causal Projector home">
+        <span class="book-mark" aria-hidden="true">⌬</span>
+        <span>the causal projector<b>.</b></span>
+      </a>
+      <nav aria-label="Site">
+        <a href="../">Chapters</a>
+        <a href="../story/">Outline</a>
+        <a href="../story/timeline/">Timeline</a>
+        <a href="../story/characters/">Characters</a>
+        <a href="./" aria-current="page">Graph</a>
+        <a href="../snowflake/">Snowflake</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <header class="page-heading">
+        <div>
+          <p class="eyebrow">Interactive story map</p>
+          <h1>Outline graph</h1>
+        </div>
+        <p class="page-intro">
+          Explore how arcs, characters, concepts, themes, and motifs pull on
+          one another. Select a node to isolate its relationships.
+        </p>
+      </header>
+
+      <div class="workspace">
+        <aside class="control-panel" aria-label="Graph controls">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker">Explore</p>
+              <h2>Story nodes</h2>
+            </div>
+            <span class="data-state" id="data-state">Loading</span>
+          </div>
+
+          <label class="search-field">
+            <span>Find a node</span>
+            <input
+              id="node-search"
+              type="search"
+              placeholder="Character, theme, motif…"
+              autocomplete="off"
+              spellcheck="false"
+            >
+          </label>
+
+          <fieldset class="type-filter">
+            <legend>Show types</legend>
+            <div id="type-filters" class="type-filter-list"></div>
+          </fieldset>
+
+          <label class="structure-toggle">
+            <input id="show-structure" type="checkbox">
+            <span>
+              <strong>Hierarchy lines</strong>
+              <small>Show parent and child structure</small>
+            </span>
+          </label>
+
+          <div class="node-list-heading">
+            <span>Visible nodes</span>
+            <span id="visible-node-count"></span>
+          </div>
+          <div id="node-list" class="node-list"></div>
+        </aside>
+
+        <section class="graph-panel" aria-labelledby="graph-title">
+          <h2 id="graph-title" class="visually-hidden">Story relationship graph</h2>
+          <div class="graph-toolbar">
+            <p id="graph-status" aria-live="polite">Loading story model…</p>
+            <div class="graph-actions">
+              <button id="reset-layout" type="button">Reflow</button>
+              <button id="fit-graph" type="button">Fit graph</button>
+            </div>
+          </div>
+          <div class="graph-frame" id="graph-frame">
+            <svg
+              id="outline-graph"
+              role="group"
+              aria-labelledby="graph-title graph-description"
+            >
+              <desc id="graph-description">
+                A clustered network of story outline nodes. Use the node list
+                to select any item without using a pointer.
+              </desc>
+            </svg>
+            <div class="graph-loading" id="graph-loading" role="status">
+              <span class="loading-orbit" aria-hidden="true"></span>
+              <span>Reading the outline…</span>
+            </div>
+            <p class="graph-hint">Drag nodes · scroll to zoom · double-click to release</p>
+          </div>
+        </section>
+
+        <aside class="detail-panel" id="detail-panel" aria-live="polite">
+          <div class="detail-empty">
+            <p class="panel-kicker">Selection</p>
+            <h2>Choose a node</h2>
+            <p>
+              Select a point in the graph or use the keyboard-friendly list.
+              Connected nodes and relationship directions will appear here.
+            </p>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="page-footer">
+        <p>
+          Prototype view · Data loaded from
+          <code>authorbot-site.json</code>
+        </p>
+        <a href="../story/">Open the generated outline</a>
+      </footer>
+    </main>
+
+    <noscript>
+      <p class="noscript">
+        This experimental graph needs JavaScript. The generated
+        <a href="../story/">outline page</a> remains available without it.
+      </p>
+    </noscript>
+  </body>
+</html>
