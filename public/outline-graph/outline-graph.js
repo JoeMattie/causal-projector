@@ -70,12 +70,12 @@
   };
 
   const LAYOUT = Object.freeze({
-    relationshipDistance: 134,
-    structureDistance: 160,
-    chargeStrength: -295,
-    chargeDistanceMax: 375,
-    collisionPadding: 30,
-    collisionIterations: 3,
+    relationshipDistance: 164,
+    structureDistance: 194,
+    chargeStrength: -390,
+    chargeDistanceMax: 460,
+    collisionPadding: 46,
+    collisionIterations: 4,
   });
 
   const state = {
@@ -238,10 +238,10 @@
   };
 
   const horizontalAnchorStrength = (node) =>
-    node.type === "arc" ? 0.29 : 0.16;
+    node.type === "arc" ? 0.25 : 0.14;
 
   const verticalAnchorStrength = (node) =>
-    node.type === "arc" ? 0.35 : 0.17;
+    node.type === "arc" ? 0.3 : 0.15;
 
   const anchorFor = (node) => {
     const config = typeFor(node.type);
