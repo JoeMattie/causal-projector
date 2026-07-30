@@ -96,93 +96,41 @@
             <small><kbd>/</kbd> to focus · <kbd>Esc</kbd> to clear</small>
           </label>
 
+          <button
+            id="tree-toggle"
+            class="tree-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="view-navigation"
+          >
+            <span>Browse the catalog</span>
+            <span class="tree-toggle-icon" aria-hidden="true">⌄</span>
+          </button>
+
           <div
             id="view-navigation"
-            class="view-navigation"
-            role="tablist"
-            aria-label="Planning library views"
-            aria-orientation="vertical"
+            class="view-navigation library-tree"
+            role="tree"
+            aria-label="Snowflake document catalog"
           >
             <button
-              id="view-tab-overview"
-              class="view-button is-active"
+              id="tree-item-overview"
+              class="tree-row tree-overview is-active"
               type="button"
-              role="tab"
-              aria-selected="true"
-              aria-controls="workspace-content"
+              role="treeitem"
+              aria-current="page"
+              aria-level="1"
               tabindex="0"
               data-view="overview"
             >
-              <span class="nav-symbol" aria-hidden="true">✣</span>
-              <span>
+              <span class="tree-spacer" aria-hidden="true"></span>
+              <span class="tree-symbol" aria-hidden="true">✣</span>
+              <span class="tree-copy">
                 <strong>Overview</strong>
                 <small>Method and current work</small>
               </span>
             </button>
-            <button
-              id="view-tab-step"
-              class="view-button"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              aria-controls="workspace-content"
-              tabindex="-1"
-              data-view="step"
-            >
-              <span class="nav-symbol" aria-hidden="true">10</span>
-              <span>
-                <strong>Snowflake steps</strong>
-                <small><span data-count="step">0</span> documents</small>
-              </span>
-            </button>
-            <button
-              id="view-tab-subject"
-              class="view-button"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              aria-controls="workspace-content"
-              tabindex="-1"
-              data-view="subject"
-            >
-              <span class="nav-symbol" aria-hidden="true">§</span>
-              <span>
-                <strong>Subjects</strong>
-                <small><span data-count="subject">0</span> documents</small>
-              </span>
-            </button>
-            <button
-              id="view-tab-science"
-              class="view-button"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              aria-controls="workspace-content"
-              tabindex="-1"
-              data-view="science"
-            >
-              <span class="nav-symbol" aria-hidden="true">⌁</span>
-              <span>
-                <strong>Science</strong>
-                <small><span data-count="science">0</span> documents</small>
-              </span>
-            </button>
-            <button
-              id="view-tab-story"
-              class="view-button"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              aria-controls="workspace-content"
-              tabindex="-1"
-              data-view="story"
-            >
-              <span class="nav-symbol" aria-hidden="true">¶</span>
-              <span>
-                <strong>Story</strong>
-                <small><span data-count="story">0</span> documents</small>
-              </span>
-            </button>
+            <div id="tree-branches" class="tree-branches" role="none"></div>
           </div>
 
           <section class="current-pointer" aria-labelledby="current-pointer-title">
@@ -197,7 +145,7 @@
         <section
           class="library-stage"
           role="tabpanel"
-          aria-labelledby="view-tab-overview"
+          aria-labelledby="tree-item-overview"
         >
           <div class="stage-toolbar">
             <p id="stage-location">Workspace overview</p>

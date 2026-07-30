@@ -3,6 +3,8 @@
 
   const content = document.querySelector("#workspace-content");
   const viewNavigation = document.querySelector("#view-navigation");
+  const treeBranches = document.querySelector("#tree-branches");
+  const treeToggle = document.querySelector("#tree-toggle");
   const search = document.querySelector("#library-search");
   const locationLabel = document.querySelector("#stage-location");
   const dataState = document.querySelector("#data-state");
@@ -15,6 +17,8 @@
   if (
     !content ||
     !viewNavigation ||
+    !treeBranches ||
+    !treeToggle ||
     !search ||
     !locationLabel ||
     !dataState ||
@@ -88,6 +92,13 @@
     },
   };
 
+  const VIEW_TREE = {
+    step: { label: "Snowflake steps", symbol: "10" },
+    subject: { label: "Subjects", symbol: "§" },
+    science: { label: "Science", symbol: "⌁" },
+    story: { label: "Story", symbol: "¶" },
+  };
+
   const ALLOWED_VIEWS = new Set(["overview", ...Object.keys(VIEW_COPY)]);
   const STATUS_ORDER = { accepted: 0, provisional: 1 };
   const collator = new Intl.Collator("en", {
@@ -113,16 +124,9 @@
     fragmentCache: new Map(),
     requestToken: 0,
     restoreFocusId: null,
+    expandedTreeIds: new Set(["tree-view-step"]),
+    mobileTreeOpen: false,
   };
-
-  const syncNavigationOrientation = () => {
-    viewNavigation.setAttribute(
-      "aria-orientation",
-      mobileLayout.matches ? "horizontal" : "vertical",
-    );
-  };
-  syncNavigationOrientation();
-  mobileLayout.addEventListener("change", syncNavigationOrientation);
 
   const element = (tag, className, text) => {
     const node = document.createElement(tag);
@@ -142,6 +146,13 @@
 
   const pluralize = (count, singular, plural = `${singular}s`) =>
     `${count} ${count === 1 ? singular : plural}`;
+
+  const isPlainLinkActivation = (event) =>
+    event.button === 0 &&
+    !event.metaKey &&
+    !event.ctrlKey &&
+    !event.shiftKey &&
+    !event.altKey;
 
   const stepTitle = (step) => STEP_TITLES[step - 1] ?? `Step ${step}`;
 
@@ -295,27 +306,88 @@
   const recordsForView = (view) =>
     state.records.filter((record) => recordInView(record, view)).sort(recordSort);
 
-  const updateNavigationCounts = () => {
-    for (const node of viewNavigation.querySelectorAll("[data-count]")) {
-      const view = node.dataset.count;
-      node.textContent = String(recordsForView(view).length);
-    }
-  };
-
   const syncNavigation = () => {
-    for (const button of viewNavigation.querySelectorAll("[data-view]")) {
-      const active = button.dataset.view === state.activeView;
-      button.classList.toggle("is-active", active);
-      button.setAttribute("aria-selected", String(active));
-      button.tabIndex = active ? 0 : -1;
-      if (active) stage.setAttribute("aria-labelledby", button.id);
+    const items = [...viewNavigation.querySelectorAll('[role="treeitem"]')];
+    let activeItem = null;
+
+    for (const item of items) {
+      const itemView = item.dataset.treeView ?? item.dataset.view;
+      const context = itemView === state.activeView;
+      const isDocument =
+        Boolean(item.dataset.recordId) &&
+        item.dataset.recordId === state.activeDocumentId &&
+        context;
+      const isGroup =
+        !state.activeDocumentId &&
+        Boolean(item.dataset.treeGroup) &&
+        context &&
+        String(item.dataset.treeGroup) === String(state.activeGroup);
+      const isView =
+        !state.activeDocumentId &&
+        !state.activeGroup &&
+        Boolean(item.dataset.view) &&
+        item.dataset.view === state.activeView;
+      const active = isDocument || isGroup || isView;
+
+      item.classList.toggle("is-active", active);
+      item.classList.toggle("is-context", context && !active);
+      if (active) {
+        item.setAttribute("aria-current", "page");
+        activeItem ??= item;
+      } else {
+        item.removeAttribute("aria-current");
+      }
     }
+
+    const focused = document.activeElement?.closest?.('[role="treeitem"]');
+    const tabStop =
+      focused && viewNavigation.contains(focused)
+        ? focused
+        : activeItem ?? items[0] ?? null;
+    for (const item of items) item.tabIndex = item === tabStop ? 0 : -1;
+
+    const label =
+      state.activeView === "overview"
+        ? document.querySelector("#tree-item-overview")
+        : document.querySelector(`#tree-view-${state.activeView}`);
+    if (label?.id) stage.setAttribute("aria-labelledby", label.id);
   };
 
   const metricCard = (value, label) => {
     const card = element("div", "metric-card");
     card.append(element("strong", "", value), element("span", "", label));
     return card;
+  };
+
+  const treeIdPart = (value) =>
+    String(value)
+      .toLocaleLowerCase()
+      .normalize("NFKD")
+      .replace(/[^\p{L}\p{N}]+/gu, "-")
+      .replace(/^-+|-+$/g, "") || "general";
+
+  const groupHash = (view, group) => {
+    if (group === null || group === undefined || group === "") return "";
+    const value =
+      view === "step"
+        ? String(group).padStart(2, "0")
+        : encodeURIComponent(String(group));
+    return `${view}-${value}`;
+  };
+
+  const groupFromHash = (view, hash) => {
+    const prefix = `#${view}-`;
+    if (!hash.startsWith(prefix)) return null;
+    const encoded = hash.slice(prefix.length);
+    if (!encoded) return null;
+    try {
+      const value = decodeURIComponent(encoded);
+      if (view !== "step") return value;
+      const step = Number(value);
+      return Number.isInteger(step) && step >= 1 && step <= 10 ? step : null;
+    } catch {
+      return null;
+    }
   };
 
   const makeViewUrl = (view = state.activeView, group = state.activeGroup) => {
@@ -326,10 +398,8 @@
     } else {
       url.searchParams.set("view", view);
     }
-    url.hash =
-      view === "step" && Number.isInteger(Number(group))
-        ? `step-${String(group).padStart(2, "0")}`
-        : "";
+    const hash = groupHash(view, group);
+    url.hash = hash ? `#${hash}` : "";
     return url;
   };
 
@@ -347,9 +417,11 @@
   };
 
   const scrollToActiveGroup = () => {
-    if (state.activeView !== "step" || !state.activeGroup) return;
-    const target = content.querySelector(
-      `[data-step-group="${String(state.activeGroup)}"]`,
+    if (!state.activeGroup) return;
+    const target = [...content.querySelectorAll("[data-view-group]")].find(
+      (node) =>
+        node.dataset.viewGroup === String(state.activeGroup) &&
+        node.dataset.view === state.activeView,
     );
     target?.scrollIntoView({
       behavior: reducedMotion.matches ? "auto" : "smooth",
@@ -520,17 +592,17 @@
 
   const documentCard = (record) => {
     const item = element("li");
-    const button = element("button", "document-card");
-    button.type = "button";
-    button.dataset.recordId = record.id;
-    button.setAttribute("aria-label", `${record.title}, ${record.status}`);
+    const link = element("a", "document-card");
+    link.dataset.recordId = record.id;
+    link.href = makeDocumentUrl(record).href;
+    link.setAttribute("aria-label", `${record.title}, ${record.status}`);
 
     const heading = element("span", "card-header");
     heading.append(element("strong", "", record.title), statusChip(record.status));
-    button.append(heading);
+    link.append(heading);
 
     if (record.excerpt) {
-      button.append(element("p", "card-excerpt", record.excerpt));
+      link.append(element("p", "card-excerpt", record.excerpt));
     }
 
     const tags = element("span", "card-tags");
@@ -538,11 +610,15 @@
     if (record.family) tags.append(metadataChip(titleCase(record.family)));
     if (record.role) tags.append(metadataChip(titleCase(record.role)));
     if (record.subject) tags.append(metadataChip(titleCase(record.subject)));
-    if (tags.childElementCount > 0) button.append(tags);
+    if (tags.childElementCount > 0) link.append(tags);
 
-    button.append(element("span", "card-open", "Read document →"));
-    button.addEventListener("click", () => openDocument(record, { push: true }));
-    item.append(button);
+    link.append(element("span", "card-open", "Read document →"));
+    link.addEventListener("click", (event) => {
+      if (!isPlainLinkActivation(event)) return;
+      event.preventDefault();
+      openDocument(record, { push: true });
+    });
+    item.append(link);
     return item;
   };
 
@@ -583,6 +659,204 @@
     );
   };
 
+  const preferredViewForRecord = (record) => {
+    if (record.step !== null) return "step";
+    if (record.subject) return "subject";
+    if (record.domain === "science") return "science";
+    return "story";
+  };
+
+  const groupKeyForRecord = (view, record) => {
+    if (view === "step") return record.step;
+    if (view === "subject") {
+      return (record.subject || "General").toLocaleLowerCase();
+    }
+    return (record.family || record.role || "General").toLocaleLowerCase();
+  };
+
+  const branchGroup = (row) => {
+    const controls = row.getAttribute("aria-controls");
+    return controls ? document.getElementById(controls) : null;
+  };
+
+  const setBranchExpanded = (row, expanded, { remember = true } = {}) => {
+    if (!row?.hasAttribute("aria-expanded")) return;
+    const group = branchGroup(row);
+    if (!group) return;
+    row.setAttribute("aria-expanded", String(expanded));
+    group.hidden = !expanded;
+    if (remember) {
+      if (expanded) state.expandedTreeIds.add(row.id);
+      else state.expandedTreeIds.delete(row.id);
+    }
+  };
+
+  const createTreeBranch = ({
+    id,
+    label,
+    detail,
+    symbol,
+    level,
+    view,
+    group = null,
+    expanded = false,
+  }) => {
+    const node = element("div", "tree-node");
+    node.setAttribute("role", "none");
+
+    const row = element("button", "tree-row");
+    row.type = "button";
+    row.id = id;
+    row.setAttribute("role", "treeitem");
+    row.setAttribute("aria-level", String(level));
+    row.setAttribute("aria-expanded", String(expanded));
+    row.setAttribute("aria-controls", `${id}-children`);
+    row.tabIndex = -1;
+    if (group === null) row.dataset.view = view;
+    else {
+      row.dataset.treeView = view;
+      row.dataset.treeGroup = String(group);
+    }
+
+    const chevron = element("span", "tree-chevron", "›");
+    chevron.setAttribute("aria-hidden", "true");
+    const marker = element("span", "tree-symbol", symbol);
+    marker.setAttribute("aria-hidden", "true");
+    const copy = element("span", "tree-copy");
+    copy.append(element("strong", "", label), element("small", "", detail));
+    row.append(chevron, marker, copy);
+
+    const children = element("div", "tree-group");
+    children.id = `${id}-children`;
+    children.setAttribute("role", "group");
+    children.hidden = !expanded;
+    node.append(row, children);
+    return { node, row, children };
+  };
+
+  const createTreeDocument = (record, view, group, level, itemIndex) => {
+    const link = element("a", "tree-row tree-document");
+    link.id =
+      `tree-document-${treeIdPart(view)}-${treeIdPart(group)}-` +
+      `${String(itemIndex + 1)}-${treeIdPart(record.id)}`;
+    link.setAttribute("role", "treeitem");
+    link.setAttribute("aria-level", String(level));
+    link.tabIndex = -1;
+    link.dataset.recordId = record.id;
+    link.dataset.treeView = view;
+    link.dataset.treeGroup = String(group);
+    link.href = makeDocumentUrl(record, "", view, group).href;
+
+    const spacer = element("span", "tree-spacer");
+    spacer.setAttribute("aria-hidden", "true");
+    const status = element("span", "tree-status");
+    status.dataset.status = record.status;
+    status.setAttribute("aria-hidden", "true");
+    const copy = element("span", "tree-copy");
+    copy.append(
+      element("strong", "", record.title),
+      element(
+        "small",
+        "",
+        `${titleCase(record.status)}${record.step ? ` · Step ${record.step}` : ""}`,
+      ),
+    );
+    link.append(spacer, status, copy);
+    return link;
+  };
+
+  const buildNavigationTree = () => {
+    treeBranches.replaceChildren();
+
+    for (const view of Object.keys(VIEW_TREE)) {
+      const records = recordsForView(view);
+      const viewId = `tree-view-${view}`;
+      const viewBranch = createTreeBranch({
+        id: viewId,
+        label: VIEW_TREE[view].label,
+        detail: pluralize(records.length, "document"),
+        symbol: VIEW_TREE[view].symbol,
+        level: 1,
+        view,
+        expanded: state.expandedTreeIds.has(viewId),
+      });
+
+      const groups = groupRecords(view, records);
+      for (const [groupIndex, group] of groups.entries()) {
+        const groupId =
+          `${viewId}-${String(groupIndex + 1)}-${treeIdPart(group.key)}`;
+        const groupBranch = createTreeBranch({
+          id: groupId,
+          label: group.title,
+          detail: pluralize(group.records.length, "document"),
+          symbol:
+            view === "step"
+              ? String(group.key).padStart(2, "0")
+              : String(group.records.length),
+          level: 2,
+          view,
+          group: group.key,
+          expanded:
+            state.expandedTreeIds.has(groupId) ||
+            (view === "step" && Number(group.key) === state.currentStep),
+        });
+
+        if (view === "step" && Number(group.key) === state.currentStep) {
+          state.expandedTreeIds.add(groupId);
+        }
+        for (const [recordIndex, record] of group.records.entries()) {
+          groupBranch.children.append(
+            createTreeDocument(record, view, group.key, 3, recordIndex),
+          );
+        }
+        viewBranch.children.append(groupBranch.node);
+      }
+
+      treeBranches.append(viewBranch.node);
+    }
+    syncNavigation();
+  };
+
+  const revealActiveTreePath = () => {
+    let item = null;
+    if (state.activeDocumentId) {
+      item = [...viewNavigation.querySelectorAll("[data-record-id]")].find(
+        (candidate) =>
+          candidate.dataset.recordId === state.activeDocumentId &&
+          candidate.dataset.treeView === state.activeView,
+      );
+    }
+    if (!item && state.activeGroup !== null) {
+      item = [...viewNavigation.querySelectorAll("[data-tree-group]")].find(
+        (candidate) =>
+          candidate.dataset.treeView === state.activeView &&
+          candidate.dataset.treeGroup === String(state.activeGroup),
+      );
+    }
+    if (!item) {
+      item = viewNavigation.querySelector(
+        state.activeView === "overview"
+          ? "#tree-item-overview"
+          : `#tree-view-${state.activeView}`,
+      );
+    }
+
+    let group = item?.closest('[role="group"]');
+    while (group && viewNavigation.contains(group)) {
+      const node = group.parentElement;
+      const parentRow = node?.querySelector(":scope > [role='treeitem']");
+      if (parentRow) setBranchExpanded(parentRow, true);
+      group = node?.parentElement?.closest('[role="group"]') ?? null;
+    }
+    return item;
+  };
+
+  const syncMobileTree = () => {
+    const expanded = !mobileLayout.matches || state.mobileTreeOpen;
+    treeToggle.setAttribute("aria-expanded", String(expanded));
+    viewNavigation.dataset.mobileOpen = String(expanded);
+  };
+
   const renderView = (view) => {
     const copy = VIEW_COPY[view];
     const records = recordsForView(view);
@@ -620,7 +894,9 @@
     const stack = element("div", "group-stack");
     for (const group of groups) {
       const section = element("section", "document-group");
-      if (view === "step") section.dataset.stepGroup = group.key;
+      section.dataset.view = view;
+      section.dataset.viewGroup = group.key;
+      section.id = groupHash(view, group.key);
 
       const heading = element("div", "group-heading");
       if (view === "step" && Number(group.key) === state.currentStep) {
@@ -731,9 +1007,15 @@
     state.requestToken += 1;
     state.activeDocumentId = null;
     state.activeView = ALLOWED_VIEWS.has(view) ? view : "overview";
-    state.activeGroup = state.activeView === "step" ? Number(group) || null : null;
+    state.activeGroup =
+      group === null || group === undefined || group === ""
+        ? null
+        : state.activeView === "step"
+          ? Number(group) || null
+          : String(group);
     state.query = "";
     search.value = "";
+    revealActiveTreePath();
     syncNavigation();
     renderActive();
     if (updateUrl) updateViewUrl();
@@ -947,8 +1229,13 @@
     return request;
   };
 
-  const makeDocumentUrl = (record, heading = "") => {
-    const url = makeViewUrl();
+  const makeDocumentUrl = (
+    record,
+    heading = "",
+    view = state.activeView,
+    group = state.activeGroup,
+  ) => {
+    const url = makeViewUrl(view, group);
     url.searchParams.set("document", record.id);
     url.hash = heading ? `#${heading.replace(/^#/, "")}` : "";
     return url;
@@ -968,6 +1255,8 @@
   const closeDocument = ({ updateUrl = true, focus = true } = {}) => {
     state.requestToken += 1;
     state.activeDocumentId = null;
+    revealActiveTreePath();
+    syncNavigation();
     renderActive();
     if (updateUrl) updateViewUrl({ replace: true });
     if (focus) {
@@ -1023,6 +1312,8 @@
       state.restoreFocusId = document.activeElement.dataset.recordId;
     }
     state.activeDocumentId = record.id;
+    revealActiveTreePath();
+    syncNavigation();
     locationLabel.textContent = `Document · ${record.title}`;
     content.setAttribute("aria-busy", "true");
     content.replaceChildren();
@@ -1055,7 +1346,17 @@
     );
     viewer.append(topbar, header, loading);
     content.append(viewer);
-    if (push) history.pushState({ document: record.id }, "", makeDocumentUrl(record, heading));
+    if (push) {
+      history.pushState(
+        {
+          document: record.id,
+          view: state.activeView,
+          group: state.activeGroup,
+        },
+        "",
+        makeDocumentUrl(record, heading),
+      );
+    }
     focusContent();
 
     try {
@@ -1086,24 +1387,33 @@
     state.activeView = ALLOWED_VIEWS.has(requestedView)
       ? requestedView
       : "overview";
-    const stepHash = /^#step-(\d{1,2})$/.exec(url.hash);
-    state.activeGroup =
-      state.activeView === "step" && stepHash ? Number(stepHash[1]) : null;
     state.query = "";
     search.value = "";
-    syncNavigation();
 
     const documentId = url.searchParams.get("document");
     const record = documentId ? state.recordsById.get(documentId) : null;
     if (record) {
+      if (
+        state.activeView === "overview" ||
+        !recordInView(record, state.activeView)
+      ) {
+        state.activeView = preferredViewForRecord(record);
+      }
+      state.activeGroup = groupKeyForRecord(state.activeView, record);
+      revealActiveTreePath();
+      syncNavigation();
       openDocument(record, { push: false, heading: url.hash });
       return;
     }
+
+    state.activeGroup = groupFromHash(state.activeView, url.hash);
     if (documentId) {
       history.replaceState({ view: state.activeView }, "", makeViewUrl());
     }
 
     state.activeDocumentId = null;
+    revealActiveTreePath();
+    syncNavigation();
     renderActive();
     if (focus) focusContent();
   };
@@ -1181,7 +1491,7 @@
       state.recordsById = new Map(records.map((record) => [record.id, record]));
       state.currentStep = extractCurrentStep(catalog);
       state.catalogState = extractCatalogState(catalog);
-      updateNavigationCounts();
+      buildNavigationTree();
       setReadyState();
       routeFromLocation();
     } catch {
@@ -1190,38 +1500,132 @@
   }
 
   viewNavigation.addEventListener("click", (event) => {
-    const button = event.target.closest("[data-view]");
-    if (!button || !viewNavigation.contains(button)) return;
-    setView(button.dataset.view, { updateUrl: true, focus: false });
-  });
+    const item = event.target.closest('[role="treeitem"]');
+    if (!item || !viewNavigation.contains(item)) return;
 
-  viewNavigation.addEventListener("keydown", (event) => {
-    if (!["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) {
+    const record = item.dataset.recordId
+      ? state.recordsById.get(item.dataset.recordId)
+      : null;
+    if (record) {
+      if (item instanceof HTMLAnchorElement && !isPlainLinkActivation(event)) {
+        return;
+      }
+      event.preventDefault();
+      state.activeView = item.dataset.treeView || preferredViewForRecord(record);
+      state.activeGroup =
+        item.dataset.treeGroup || groupKeyForRecord(state.activeView, record);
+      state.query = "";
+      search.value = "";
+      state.mobileTreeOpen = false;
+      syncMobileTree();
+      openDocument(record, { push: true });
       return;
     }
-    const buttons = [...viewNavigation.querySelectorAll("[data-view]")];
-    const currentIndex = buttons.indexOf(document.activeElement);
+
+    event.preventDefault();
+    if (item.hasAttribute("aria-expanded")) {
+      setBranchExpanded(item, item.getAttribute("aria-expanded") !== "true");
+    }
+    const view = item.dataset.view ?? item.dataset.treeView ?? "overview";
+    const group = item.dataset.treeGroup ?? null;
+    setView(view, { group, updateUrl: true, focus: false });
+  });
+
+  const visibleTreeItems = () =>
+    [...viewNavigation.querySelectorAll('[role="treeitem"]')].filter(
+      (item) => !item.closest("[hidden]"),
+    );
+
+  const focusTreeItem = (item) => {
+    if (!item) return;
+    for (const candidate of viewNavigation.querySelectorAll('[role="treeitem"]')) {
+      candidate.tabIndex = candidate === item ? 0 : -1;
+    }
+    item.focus();
+  };
+
+  viewNavigation.addEventListener("keydown", (event) => {
+    if (
+      ![
+        "ArrowUp",
+        "ArrowDown",
+        "ArrowLeft",
+        "ArrowRight",
+        "Home",
+        "End",
+      ].includes(event.key)
+    ) {
+      return;
+    }
+    const current = event.target.closest('[role="treeitem"]');
+    if (!current || !viewNavigation.contains(current)) return;
+    const items = visibleTreeItems();
+    const currentIndex = items.indexOf(current);
     if (currentIndex < 0) return;
     event.preventDefault();
 
-    let nextIndex = currentIndex;
-    if (event.key === "Home") nextIndex = 0;
-    if (event.key === "End") nextIndex = buttons.length - 1;
-    if (event.key === "ArrowUp" || event.key === "ArrowLeft") {
-      nextIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+    if (event.key === "Home") {
+      focusTreeItem(items[0]);
+      return;
     }
-    if (event.key === "ArrowDown" || event.key === "ArrowRight") {
-      nextIndex = (currentIndex + 1) % buttons.length;
+    if (event.key === "End") {
+      focusTreeItem(items.at(-1));
+      return;
     }
-    buttons[nextIndex].focus();
-    buttons[nextIndex].click();
+    if (event.key === "ArrowUp" || event.key === "ArrowDown") {
+      const offset = event.key === "ArrowUp" ? -1 : 1;
+      const nextIndex = Math.max(0, Math.min(items.length - 1, currentIndex + offset));
+      focusTreeItem(items[nextIndex]);
+      return;
+    }
+    if (event.key === "ArrowRight") {
+      if (
+        current.hasAttribute("aria-expanded") &&
+        current.getAttribute("aria-expanded") !== "true"
+      ) {
+        setBranchExpanded(current, true);
+        return;
+      }
+      const child = branchGroup(current)?.querySelector('[role="treeitem"]');
+      if (child) focusTreeItem(child);
+      return;
+    }
+    if (
+      current.hasAttribute("aria-expanded") &&
+      current.getAttribute("aria-expanded") === "true"
+    ) {
+      setBranchExpanded(current, false);
+      return;
+    }
+    const parentGroup = current.parentElement?.closest('[role="group"]');
+    const parent = parentGroup?.parentElement?.querySelector(
+      ":scope > [role='treeitem']",
+    );
+    if (parent) focusTreeItem(parent);
   });
+
+  treeToggle.addEventListener("click", () => {
+    state.mobileTreeOpen = !state.mobileTreeOpen;
+    syncMobileTree();
+    if (state.mobileTreeOpen) {
+      window.requestAnimationFrame(() => {
+        const active =
+          viewNavigation.querySelector('[aria-current="page"]') ??
+          viewNavigation.querySelector('[role="treeitem"]');
+        active?.focus({ preventScroll: true });
+      });
+    }
+  });
+
+  mobileLayout.addEventListener("change", syncMobileTree);
+  syncMobileTree();
 
   search.addEventListener("input", () => {
     const wasDocumentOpen = Boolean(state.activeDocumentId);
     state.query = search.value;
     state.requestToken += 1;
     state.activeDocumentId = null;
+    syncNavigation();
     renderActive();
     if (wasDocumentOpen) {
       history.replaceState({ view: state.activeView }, "", makeViewUrl());
@@ -1258,6 +1662,7 @@
   content.addEventListener("click", (event) => {
     const anchor = event.target.closest("a[href]");
     if (!anchor || !content.contains(anchor)) return;
+    if (!isPlainLinkActivation(event)) return;
     const targetUrl = new URL(anchor.href, pageUrl);
     const documentId = targetUrl.searchParams.get("document");
     if (
