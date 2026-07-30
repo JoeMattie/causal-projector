@@ -8,13 +8,21 @@
     "node": ">=22"
   },
   "scripts": {
-    "validate": "authorbot validate .",
-    "build": "authorbot build . --out _site",
+    "validate": "authorbot validate . && npm run validate:snowflake",
+    "validate:snowflake": "node scripts/validate-snowflake.mjs",
+    "test:snowflake": "node --test --test-isolation=none tests/snowflake-*.test.mjs",
+    "build:authorbot": "authorbot build . --out _site",
+    "generate:snowflake": "node scripts/generate-snowflake.mjs",
+    "build": "npm run build:authorbot && npm run generate:snowflake -- --out _site",
+    "ingest:snowflake": "node scripts/ingest-snowflake.mjs",
     "upgrade": "authorbot upgrade"
   },
   "devDependencies": {
     "@authorbot/api": "0.1.54",
     "@authorbot/cli": "0.1.54",
-    "wrangler": "^4.0.0"
+    "ajv": "8.20.0",
+    "marked": "11.2.0",
+    "wrangler": "^4.0.0",
+    "yaml": "2.9.0"
   }
 }

@@ -48,7 +48,10 @@ on:
       - "book.yml"
       - "chapters/**"
       - "story/**"
+      - "story/methods/snowflake/**"
       - "public/**"
+      - "config/**"
+      - "scripts/**"
       - ".authorbot/releases/**"
       - "wrangler.jsonc"
       - "package.json"
@@ -96,6 +99,9 @@ jobs:
       - name: Validate the book repository
         run: npx authorbot validate .
 
+      - name: Validate the Snowflake import
+        run: npm run validate:snowflake
+
       # --base-url survives ADR-0020 for exactly one job: serving the book
       # under a base path (ADR-0019 §6). A book at the root of its own
       # hostname needs no prefix, so the flag is passed only when
@@ -107,8 +113,10 @@ jobs:
         run: |
           if [ -n "$BASE_URL" ]; then
             npx authorbot build . --out _site --base-url "$BASE_URL"
+            npm run generate:snowflake -- --out _site --base-path "$BASE_URL"
           else
             npx authorbot build . --out _site
+            npm run generate:snowflake -- --out _site
           fi
 
       # ADR-0021 §4 — MIGRATIONS RUN BEFORE THE DEPLOY, NOT AFTER.

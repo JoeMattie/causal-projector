@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; connect-src 'self'; img-src 'self' data:; font-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+    >
+    <meta
+      name="description"
+      content="The public Snowflake planning library for The Causal Projector."
+    >
+    <title>Snowflake library · The Causal Projector</title>
+    <link rel="stylesheet" href="./snowflake.css">
+    <script defer src="./snowflake.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#workspace-content">Skip to the planning library</a>
+
+    <header class="site-bar">
+      <a class="book-link" href="../" aria-label="The Causal Projector home">
+        <span class="book-mark" aria-hidden="true">⌬</span>
+        <span>the causal projector<b>.</b></span>
+      </a>
+      <nav aria-label="Site">
+        <a href="../">Chapters</a>
+        <a href="../story/">Outline</a>
+        <a href="../story/timeline/">Timeline</a>
+        <a href="../story/characters/">Characters</a>
+        <a href="../outline-graph/">Graph</a>
+        <a href="./" aria-current="page">Snowflake</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <header class="page-heading">
+        <div>
+          <p class="eyebrow">Public planning library</p>
+          <h1>Snowflake workspace</h1>
+          <p class="page-intro">
+            Follow the story’s planning from premise to draft. Accepted canon
+            and provisional work stay visibly distinct.
+          </p>
+        </div>
+        <div class="hero-status" aria-label="Planning library status">
+          <div class="snowflake-mark" aria-hidden="true">
+            <i></i><i></i><i></i>
+            <span></span>
+          </div>
+          <div>
+            <span class="status-label">Current work</span>
+            <strong id="hero-status">Reading the library…</strong>
+            <small id="hero-detail">The current step comes from the work pointer.</small>
+          </div>
+        </div>
+      </header>
+
+      <div class="workspace">
+        <aside class="library-nav" aria-label="Snowflake library controls">
+          <div class="nav-heading">
+            <p class="nav-kicker">Explore</p>
+            <h2>Planning views</h2>
+          </div>
+
+          <label class="search-field">
+            <span>Find a document</span>
+            <input
+              id="library-search"
+              type="search"
+              placeholder="Title, subject, family…"
+              autocomplete="off"
+              spellcheck="false"
+              aria-controls="workspace-content"
+            >
+            <small><kbd>/</kbd> to focus · <kbd>Esc</kbd> to clear</small>
+          </label>
+
+          <div
+            id="view-navigation"
+            class="view-navigation"
+            role="tablist"
+            aria-label="Planning library views"
+            aria-orientation="vertical"
+          >
+            <button
+              id="view-tab-overview"
+              class="view-button is-active"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="workspace-content"
+              tabindex="0"
+              data-view="overview"
+            >
+              <span class="nav-symbol" aria-hidden="true">✣</span>
+              <span>
+                <strong>Overview</strong>
+                <small>Method and current work</small>
+              </span>
+            </button>
+            <button
+              id="view-tab-step"
+              class="view-button"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="workspace-content"
+              tabindex="-1"
+              data-view="step"
+            >
+              <span class="nav-symbol" aria-hidden="true">10</span>
+              <span>
+                <strong>Snowflake steps</strong>
+                <small><span data-count="step">0</span> documents</small>
+              </span>
+            </button>
+            <button
+              id="view-tab-subject"
+              class="view-button"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="workspace-content"
+              tabindex="-1"
+              data-view="subject"
+            >
+              <span class="nav-symbol" aria-hidden="true">§</span>
+              <span>
+                <strong>Subjects</strong>
+                <small><span data-count="subject">0</span> documents</small>
+              </span>
+            </button>
+            <button
+              id="view-tab-science"
+              class="view-button"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="workspace-content"
+              tabindex="-1"
+              data-view="science"
+            >
+              <span class="nav-symbol" aria-hidden="true">⌁</span>
+              <span>
+                <strong>Science</strong>
+                <small><span data-count="science">0</span> documents</small>
+              </span>
+            </button>
+            <button
+              id="view-tab-story"
+              class="view-button"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="workspace-content"
+              tabindex="-1"
+              data-view="story"
+            >
+              <span class="nav-symbol" aria-hidden="true">¶</span>
+              <span>
+                <strong>Story</strong>
+                <small><span data-count="story">0</span> documents</small>
+              </span>
+            </button>
+          </div>
+
+          <section class="current-pointer" aria-labelledby="current-pointer-title">
+            <p class="nav-kicker" id="current-pointer-title">Current step pointer</p>
+            <strong id="current-step-label">Loading…</strong>
+            <p id="current-step-note">
+              A current step is a work pointer, not a completion claim.
+            </p>
+          </section>
+        </aside>
+
+        <section
+          class="library-stage"
+          role="tabpanel"
+          aria-labelledby="view-tab-overview"
+        >
+          <div class="stage-toolbar">
+            <p id="stage-location">Workspace overview</p>
+            <span class="data-state" id="data-state" role="status">Loading</span>
+          </div>
+          <div
+            id="workspace-content"
+            class="workspace-content"
+            tabindex="-1"
+            aria-live="polite"
+            aria-busy="true"
+          >
+            <div class="loading-state">
+              <span class="loading-flake" aria-hidden="true">✣</span>
+              <p>Reading the public catalog…</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <noscript>
+        <section class="noscript" aria-labelledby="noscript-title">
+          <p class="section-kicker">No JavaScript view</p>
+          <h2 id="noscript-title">The ten Snowflake steps</h2>
+          <p>
+            JavaScript adds search and the library views. The method and the
+            build-generated document links remain available here.
+          </p>
+          <ol class="noscript-steps">
+            <li>One-sentence summary</li>
+            <li>One-paragraph summary</li>
+            <li>Character sketches</li>
+            <li>Expanded synopsis</li>
+            <li>Character synopses</li>
+            <li>Long synopsis</li>
+            <li>Character bible</li>
+            <li>Scene list</li>
+            <li>Scene briefs</li>
+            <li>Draft</li>
+          </ol>
+          <!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_START -->
+          <div data-snowflake-noscript-documents>
+            <h3>Published planning documents</h3>
+            <p>Document links are inserted here when the site is built.</p>
+          </div>
+          <!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_END -->
+        </section>
+      </noscript>
+
+      <footer class="page-footer">
+        <p>Accepted canon and provisional planning are labeled independently.</p>
+        <a href="../story/">Open the generated outline</a>
+      </footer>
+    </main>
+  </body>
+</html>
