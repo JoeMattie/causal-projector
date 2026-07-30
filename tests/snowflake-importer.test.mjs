@@ -20,7 +20,10 @@ import {
   findOrphanedGeneratedTargets,
   loadPreviousImport,
 } from "../scripts/lib/snowflake-projections.mjs";
-import { buildPublicDataset } from "../scripts/lib/snowflake-site.mjs";
+import {
+  buildPublicDataset,
+  writePublicDataset,
+} from "../scripts/lib/snowflake-site.mjs";
 
 const DEFAULT_CONTENT = `# Test document
 
@@ -538,6 +541,45 @@ Private material.
   assert.doesNotMatch(fragment.html, /private notes/);
   assert.match(fragment.html, /Internal planning reference/);
   assert.deepEqual(fragment.sourceLinks, []);
+});
+
+test("public generation imports the exact content-hashed Astro theme", async (t) => {
+  const outDir = await temporaryDirectory(t);
+  await writeEnsured(
+    join(outDir, "_astro/_chapterPath_.theme-hash.css"),
+    ":root{--surface-page:#1b1815;--font-display:system-ui}.site-header{height:57px}",
+  );
+  await writeEnsured(
+    join(outDir, "snowflake/snowflake.css"),
+    `/* AUTHORBOT_THEME_IMPORT_START */
+/* The generator imports the content-hashed Astro stylesheet here. */
+/* AUTHORBOT_THEME_IMPORT_END */
+
+.workspace { display: grid; }
+`,
+  );
+  await writeEnsured(
+    join(outDir, "snowflake/index.html"),
+    `<!doctype html>
+<html><body>
+<!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_START -->
+<!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_END -->
+</body></html>
+`,
+  );
+
+  const first = await writePublicDataset({ outDir });
+  const second = await writePublicDataset({ outDir });
+  const css = await readFile(join(outDir, "snowflake/snowflake.css"), "utf8");
+
+  assert.equal(first.themeStylesheet, "_chapterPath_.theme-hash.css");
+  assert.equal(second.themeStylesheet, first.themeStylesheet);
+  assert.equal(
+    css.match(
+      /@import url\("\.\.\/_astro\/_chapterPath_\.theme-hash\.css"\);/g,
+    )?.length,
+    1,
+  );
 });
 
 test("graph validation accepts Authorbot chapter nodes and rejects custom nodes", () => {

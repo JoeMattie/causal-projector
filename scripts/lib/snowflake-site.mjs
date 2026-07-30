@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises";
-import { basename, dirname, join, posix, resolve } from "node:path";
+import { dirname, join, posix, resolve } from "node:path";
 import { isDeepStrictEqual } from "node:util";
 import { Marked } from "marked";
 import {
@@ -29,6 +29,8 @@ import {
 
 const START_MARKER = "<!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_START -->";
 const END_MARKER = "<!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_END -->";
+const THEME_IMPORT_START = "/* AUTHORBOT_THEME_IMPORT_START */";
+const THEME_IMPORT_END = "/* AUTHORBOT_THEME_IMPORT_END */";
 
 const escapeHtml = (value) =>
   String(value)
@@ -399,6 +401,59 @@ function deploymentOutputRoot(outDir, basePath = "") {
   return resolveInside(outDir, relativePath, "deployment base path");
 }
 
+async function injectAuthorbotThemeImport(deploymentRoot) {
+  const astroRoot = join(deploymentRoot, "_astro");
+  const candidates = [];
+  for (const path of await listFilesRecursive(astroRoot)) {
+    if (!path.endsWith(".css")) continue;
+    const css = await readFile(join(astroRoot, path), "utf8");
+    if (
+      css.includes("--surface-page:") &&
+      css.includes("--font-display:") &&
+      css.includes(".site-header")
+    ) {
+      candidates.push(path);
+    }
+  }
+  if (candidates.length !== 1) {
+    throw new SnowflakeError(
+      "AUTHORBOT_THEME_STYLESHEET_INVALID",
+      candidates.length === 0
+        ? "The Authorbot build did not produce its shared Astro theme stylesheet"
+        : `The Authorbot build produced multiple shared theme candidates: ${candidates.join(", ")}`,
+    );
+  }
+
+  const stylesheet = candidates[0];
+  assertSafeRelativePath(stylesheet, "Authorbot theme stylesheet");
+  const path = join(deploymentRoot, "snowflake/snowflake.css");
+  if (!(await pathExists(path))) {
+    throw new SnowflakeError(
+      "SNOWFLAKE_PAGE_MISSING",
+      `${path} does not exist; run the Authorbot build first`,
+    );
+  }
+  const css = await readFile(path, "utf8");
+  const start = css.indexOf(THEME_IMPORT_START);
+  const end = css.indexOf(THEME_IMPORT_END);
+  if (start === -1 || end === -1 || end < start) {
+    throw new SnowflakeError(
+      "SNOWFLAKE_THEME_IMPORT_INVALID",
+      "Snowflake CSS is missing its Authorbot theme import markers",
+    );
+  }
+  const replacement =
+    `${THEME_IMPORT_START}\n` +
+    `@import url("../_astro/${stylesheet}");\n` +
+    THEME_IMPORT_END;
+  const next =
+    css.slice(0, start) +
+    replacement +
+    css.slice(end + THEME_IMPORT_END.length);
+  await writeFileEnsured(path, next);
+  return stylesheet;
+}
+
 async function injectNoscriptIndex(deploymentRoot, dataset) {
   const path = join(deploymentRoot, "snowflake/index.html");
   if (!(await pathExists(path))) {
@@ -432,6 +487,7 @@ export async function writePublicDataset({
   const deploymentRoot = deploymentOutputRoot(outDir, basePath);
   const dataDir = join(deploymentRoot, "snowflake/data");
   const dataset = snapshot ? buildPublicDataset(snapshot) : reviewRequiredDataset();
+  const themeStylesheet = await injectAuthorbotThemeImport(deploymentRoot);
   await resetDirectory(dataDir);
   for (const [path, value] of dataset.generated) {
     assertSafeRelativePath(path, "generated public path");
@@ -443,6 +499,7 @@ export async function writePublicDataset({
     records: dataset.records.length,
     files: dataset.generated.size,
     deploymentRoot,
+    themeStylesheet,
   };
 }
 
