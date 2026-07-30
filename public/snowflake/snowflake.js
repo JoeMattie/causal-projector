@@ -95,6 +95,7 @@
     sensitivity: "base",
   });
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const mobileLayout = window.matchMedia("(max-width: 680px)");
   const pageUrl = new URL(window.location.href);
   pageUrl.search = "";
   pageUrl.hash = "";
@@ -113,6 +114,15 @@
     requestToken: 0,
     restoreFocusId: null,
   };
+
+  const syncNavigationOrientation = () => {
+    viewNavigation.setAttribute(
+      "aria-orientation",
+      mobileLayout.matches ? "horizontal" : "vertical",
+    );
+  };
+  syncNavigationOrientation();
+  mobileLayout.addEventListener("change", syncNavigationOrientation);
 
   const element = (tag, className, text) => {
     const node = document.createElement(tag);
@@ -527,7 +537,7 @@
     if (record.step) tags.append(metadataChip(`Step ${record.step}`));
     if (record.family) tags.append(metadataChip(titleCase(record.family)));
     if (record.role) tags.append(metadataChip(titleCase(record.role)));
-    if (record.subject) tags.append(metadataChip(record.subject));
+    if (record.subject) tags.append(metadataChip(titleCase(record.subject)));
     if (tags.childElementCount > 0) button.append(tags);
 
     button.append(element("span", "card-open", "Read document →"));
@@ -558,7 +568,7 @@
       const key = rawKey.toLocaleLowerCase();
       const existing = grouped.get(key) ?? {
         key,
-        title: view === "subject" ? rawKey : titleCase(rawKey),
+        title: titleCase(rawKey),
         description:
           view === "subject"
             ? "Subject collection"
@@ -1033,7 +1043,9 @@
     if (record.step) metadata.append(metadataChip(`Step ${record.step}`));
     if (record.domain) metadata.append(metadataChip(titleCase(record.domain)));
     if (record.family) metadata.append(metadataChip(titleCase(record.family)));
-    if (record.subject) metadata.append(metadataChip(record.subject));
+    if (record.subject) {
+      metadata.append(metadataChip(titleCase(record.subject)));
+    }
     if (metadata.childElementCount > 0) header.append(metadata);
 
     const loading = element("div", "loading-state document-loading");
