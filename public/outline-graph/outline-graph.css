@@ -930,6 +930,9 @@ h1 {
   }
 
   .site-bar nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    overflow-x: visible;
     padding-bottom: 0.1rem;
   }
 

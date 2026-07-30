@@ -1625,6 +1625,12 @@ kbd {
     font-size: 0.67rem;
   }
 
+  .site-bar nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    overflow-x: visible;
+  }
+
   main {
     width: min(100% - 1.1rem, 650px);
     padding-top: 1.7rem;
