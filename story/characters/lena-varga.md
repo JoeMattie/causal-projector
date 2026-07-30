@@ -2,10 +2,7 @@
 schema: authorbot.character/v1
 id: character:lena-varga
 name: Lena Varga
-summary: >-
-  A shared-facility experimental physicist who believes Evan's data before she
-  believes his interpretation and becomes the person most willing to stop a
-  fascinating experiment while its meaning is still uncertain.
+summary: A shared-facility experimental physicist who believes Evan's data before she believes his interpretation and becomes the person most willing to stop a fascinating experiment while its meaning is still uncertain.
 ---
 
 # Lena Varga
@@ -101,7 +98,9 @@ control model as physical truth. Evan remembers her as the person who can hold
 up a working system until the evidence earns the word `working`.
 
 They become intellectual collaborators with genuine respect and escalating
-moral conflict.
+moral conflict. The old draft contains useful versions of Lena insisting on
+isolation, sealed mappings, stop conditions, and decommissioning. Those scenes
+are a quarry, not fixed sequence.
 
 Evan calls Lena into the garage project only after the live consequential-bit
 test convinces him that he has discovered new physics. He asks her to examine
@@ -159,12 +158,25 @@ every participating lab and institution to disengage. Lena recognizes that
 obtaining the evidence needed to justify stopping would itself strengthen the
 thing they need to stop.
 
-Evan pursues confirmation anyway. The test outcome determines the participating
-labs' next containment or decommissioning action. Measurements, decisions,
-approvals, and responses close a live projection cycle without Evan or the
-original garage apparatus. Lena chooses ethical uncertainty, Evan still needs
-the answer, and the result proves her suspected carrier by strengthening it.
-Their scientific disagreement becomes a decisive rupture.
+Evan serves as a technical adviser to the selected-site restart, with full
+shared-data access but no unilateral run authority. He formulates and sponsors
+the test through the consortium's approval process. Lena refuses her
+participation and endorsement, but she cannot veto the other sites.
+Evan includes the carrier hypothesis, its recursive risk, and Lena's stated
+reason for refusing in the proposal. Reviewers, site leads, and operators
+knowingly authorize and execute the test under local control. Its outcome
+determines their next containment or decommissioning action.
+Measurements, decisions, approvals, and responses close a live projection
+cycle without Evan or the original garage apparatus. Lena chooses ethical
+uncertainty, Evan still needs the answer, and the result proves her suspected
+carrier by strengthening it. Their scientific disagreement becomes a decisive
+rupture. Evan acknowledges that Lena was right about the recursive risk but
+still calls the proof necessary, then moves directly into coordinated shutdown
+work. He expects her to remain because he sees containment as their shared
+duty. Lena instead ends their active collaboration and refuses to supply
+another live response. Evan recognizes the boundary but initially experiences
+it as leaving when the work matters most. Exact governance, test mechanics, and
+their exchange remain late-bound.
 
 ## Relationship with Tess
 
@@ -177,7 +189,32 @@ rarity play no role in the recruitment.
 
 ## Connection to the science
 
-Lena designs the independent replication, separates live consequence from replay, insists on blinded controls, and helps formulate the finite-history model while marking the unsupported bridges. She should be the character most disciplined about what an experiment does **not** establish.
+Lena designs the independent replication, separates live consequence from
+replay, insists on blinded controls, and helps formulate the finite-history
+model while marking the unsupported bridges. She should be the character most
+disciplined about what an experiment does **not** establish.
+
+After the garage team identifies the defective ring's relevant structure, Lena
+takes the original to her shared facility. Her group confirms the effect with
+independent equipment, records the specification needed for a deliberate
+analogue, and returns the original ring to Evan. Her facility then fabricates
+the first hardware-independent replica.
+
+When that analogue works, Lena organizes a small, closed, preregistered study
+through facilities in her professional network. Each site makes and controls
+its own apparatus. Repeated operator effects and live-consequence bias lead her
+to impose exposure limits, shared monitoring, common stop rules, and tighter
+approval. These safeguards are reasonable given the evidence available at the
+time.
+
+A later site accident kills one researcher and leaves another unable to
+remember the dead collaborator or their years together. Lena orders an
+immediate evidence hold across every replica site. She later accepts a bounded
+restart at selected sites under one containment plan while other systems remain
+quarantined or are decommissioned. This is a responsible response to an
+unresolved hazard, not carelessness. The resulting measurements, approvals,
+stop rules, and distributed decisions nevertheless assemble the system that
+can later become the operation's first independent carrier.
 
 ## Late-story role and end
 
@@ -187,6 +224,12 @@ approve, or participate in another live feedback cycle. Any later work is
 limited to passive analysis that cannot guide the system's next response. This
 allows her to recognize the operation's self-exhaustion without undoing her
 refusal or becoming a third terminal chooser.
+
+Evan does not understand this boundary when she first leaves. Only after Ruth's
+death, when he makes his own non-instrumental refusal, does he recognize that
+Lena did not abandon necessary work. She refused to turn stopping into another
+live input. This later allows him to honor her final refusal at the
+observatory.
 
 During the several weeks of terminal brittleness, Evan and Tess try to reach
 her. Tess seeks her friend. Evan chooses Lena as a person rather than her work,
@@ -199,16 +242,17 @@ clocks, incoming data, and local storage let her observe without sending
 measurements or conclusions into an institutional response or commanding any
 replica site. This is an ethical boundary, not a safe haven, and she does not
 believe isolation places her outside the operation. Tess knows the destination
-from their last direct contact before communications fail.
+from their last direct contact before communications fail. The exact geography,
+station name, instrumentation, and route remain open.
 
 Evan and Tess reach the observatory after the synchronized satellite collisions
 and before the geologic catastrophe. Lena recognizes them, understands why she
 came to the station, and can still share what passive observation has
 established, but her continuity is beginning to thin. This is not dementia and
-must not repeat Ruth's medical decline. It arises because the parent history
-can no longer sustain new distinctions, consistent recent records, and
-continuous personhood. The three experience the geologic escalation together:
-synchronized continental-margin ruptures and
+must not repeat Ruth's medical decline. The exact symptoms remain late-bound.
+They arise because the parent history can no longer sustain new distinctions,
+consistent recent records, and continuous personhood. The three experience the
+geologic escalation together: synchronized continental-margin ruptures and
 submarine landslides drive tsunamis and long-period waves that make the planet
 ring. Evan reads their convergence in the station's plots and instruments;
 Tess experiences their arrival as a planet-scale acoustic and bodily relation.
@@ -219,9 +263,9 @@ knowledge, recognizes Evan and Tess, and understands the onset, but different
 new questions, observations, and choices increasingly lead to the same sentence
 or action. Her past remains available while alternative next responses
 disappear. While she can still make one last distinct choice, she refuses to
-let Evan test her or turn the collapse into data. Evan honors the refusal and
-stays with her until the person capable of making a different next choice is
-gone.
+let Evan test her or turn the collapse into data. Exact words and gestures
+remain late-bound. Evan honors the refusal and stays with her until the person
+capable of making a different next choice is gone.
 
 By the approach to genesis, Lena no longer exists in any meaningful sense. She
 is not killed for refusing, deliberately pruned as an opponent, converted into
@@ -229,6 +273,9 @@ a carrier, or preserved offstage. The parent universe is coming apart badly
 enough that the continuity of people, institutions, records, and stable causal
 separation can no longer be maintained. Lena disappears with that structure
 before Evan and Tess reach the genesis boundary.
+
+The exact last observation or image associated with her remains an outlining
+decision.
 
 ## Arc direction
 

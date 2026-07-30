@@ -19,11 +19,12 @@ content:
   chapters_glob: chapters/*.md
   raw_html: false
 planning:
-  method: custom
+  method: snowflake
   outline: story/outline.yml
   timeline: story/timeline.yml
   characters_glob: story/characters/*.md
 publication:
+  mode: generated
   # Changing `chapter_url` or `slug` breaks links to chapters you have already
   # published, so both are guarded in the Settings view.
   chapter_url: /chapters/{slug}/
@@ -37,6 +38,11 @@ publication:
   show_attribution: true
   show_public_annotations: true
   api_url: /
+  nav_links:
+    - label: Graph
+      href: /outline-graph/
+    - label: Snowflake
+      href: /snowflake/
 collaboration:
   annotation_policy: open
 governance:

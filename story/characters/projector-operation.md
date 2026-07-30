@@ -3,15 +3,10 @@ schema: authorbot.character/v1
 id: character:projector-operation
 name: The projector operation
 image: public/characters/projector-operation.png
-summary: >-
-  A mindless, lineage-bound feedback pattern that rewards Evan's attempt to
-  turn helplessness into work, reproduces through the systems built to contain
-  it, and consumes the alternatives required for its own next act of closure.
+summary: A mindless, lineage-bound feedback pattern that rewards Evan's attempt to turn helplessness into work, reproduces through the systems built to contain it, and consumes the alternatives required for its own next act of closure.
 ---
 
 # The projector operation
-
-## Nature
 
 The operation is a character-like antagonist because it has continuity,
 propagation, a motivation-equivalent, relationships, limits, and an arc. It is
@@ -122,7 +117,8 @@ synchronized impacts across several orbital shells. No hack, shared fault, or
 coordinating signal is involved. The geologic rung is synchronized
 continental-margin rupture: already stressed subduction zones and submarine
 slopes release existing energy in one precisely timed global sequence, driving
-tsunamis and long-period waves.
+tsunamis and long-period waves. The exact speech, spacecraft, maneuvers,
+margins, timing, and consequences remain late-bound.
 
 At the observatory, Lena undergoes fixed-successor collapse. Her memory and
 recognition remain while distinct new situations increasingly produce the same
@@ -134,7 +130,21 @@ The representative overlapping-center chain is a cross-lab handoff. One site's
 ordinary failed run releases a mundane resource needed by another. Auditable
 procurement, weather, transport, staffing, and related contingencies deliver it
 before a precommitted cutoff, allowing the second site to complete a blocked
-task.
+task. Exact resource and links remain late-bound.
+
+## People and influence
+
+- People gravitate toward Evan because futures remaining connected to him
+  retain more support.
+- No telepathy is required. Everyone's local motives remain intelligible.
+- Consent is subjectively genuine in surviving histories, while incompatible
+  biographies disappear.
+- Evan's fears become true because the operation preferentially preserves
+  histories in which his suspicions are justified.
+- The operation, not Evan's personality, is ultimately the dominant
+  eigenpattern.
+- Institutions, protocols, control topologies, and stories may be stronger
+  eigenmodes than individuals.
 
 ## Hard limits
 
@@ -173,10 +183,11 @@ The representative proof-to-stop begins when Lena suspects that the distributed
 containment system is a carrier. Proving it requires a live test whose result
 will determine participating labs' containment or decommissioning response.
 Lena refuses because the test may strengthen the suspected loop. Evan argues
-that suspicion will not make institutions disengage and runs it anyway.
-Measurements, decisions, approvals, and responses close a cycle without him or
-the garage apparatus. A locally successful shutdown can therefore become the
-next continuation link.
+that suspicion will not make institutions disengage. He sponsors the test
+through shared consortium approval, and participating sites execute it under
+local control. Measurements, decisions, approvals, and responses close a cycle
+without him or the garage apparatus. A locally successful shutdown can
+therefore become the next continuation link.
 
 Its victory also contains its failure. Total closure would remove the
 independent differences and fresh contingencies that let it operate at all.
@@ -201,11 +212,14 @@ it does not erase what he has done or restore the ordinary shutdown point he
 helped remove.
 
 The practical refusal occurs after Evan leaves Tess with Ruth to follow the
-proof-to-stop chain. A lawful compound subsurface collapse destroys or isolates
-the garage while the independent operation continues elsewhere. Evan returns to
-find Ruth dead, Tess alive and still angry, the neighborhood ruined, and the cat
-unscathed. He does not inspect, salvage, measure, reconstruct, or recruit Tess
-into another response. He stays.
+proof-to-stop chain. His effort to make the garage part of the shutdown gives
+the operation another result to select. It aligns ordinary infrastructure
+failures with a plausible subsurface trigger, and geologic or industrial energy
+already stored below the neighborhood supplies the collapse and blast. The
+garage is destroyed or isolated while the independent operation continues
+elsewhere. Evan returns to find Ruth dead, Tess alive and still angry, the
+neighborhood ruined, and the cat unscathed. He does not inspect, salvage,
+measure, reconstruct, or recruit Tess into another response. He stays.
 
 ## Relationship with Ruth
 
@@ -255,7 +269,8 @@ wants. Her resistance is not immunity, and it does not make her a numerical
 key.
 
 At the terminal boundary, her continued difference from Evan prevents their
-choices from collapsing into one will.
+choices from collapsing into one will. Exact terminal mechanics remain
+deferred.
 
 Tess's retained continuity makes paired loss and echo legible. One
 autobiographical distinction disappears from waking people and ordinary
@@ -267,6 +282,35 @@ combined evidence rather than receiving an explanation from an entity.
 
 ## Point of independence
 
+Before independence, replication and containment formalize the operation as a
+distributed scientific process.
+
+Lena first confirms the original ring outside Evan's garage, returns it, and
+builds a deliberate analogue. A closed, preregistered multi-site study then
+reproduces the operator effect and live-consequence bias across independently
+built apparatuses.
+
+The study initially responds with ordinary safeguards. A later local accident
+reaches its precommitted valid target before stored magnetic, thermal, or
+cryogenic energy destroys the site's replica. One researcher dies. Another
+retains technical competence but permanently loses every autobiographical
+memory of the dead collaborator and their years together.
+
+The labs hold and preserve every replica, then restart only selected sites
+under common approvals, exposure limits, monitoring, stop rules, and
+independent hard trips. Evan voluntarily powers down the original garage
+apparatus and retains the ring, though the institutional hold cannot prevent
+him from restarting it. This distributed structure is not yet an independent
+carrier merely because it exists.
+
+Evan joins the restart as a technical adviser with full access to the shared
+record but no unilateral run authority. When Lena refuses the proof-to-stop
+test, he sponsors it through consortium review. Participating sites authorize
+and execute it under local control after receiving the carrier hypothesis, its
+recursive risk, and Lena's reason for refusing. The formal route matters
+because its informed proposal, approvals, operations, measurements, and
+containment responses become parts of the live loop.
+
 The first independent carrier is the distributed scientific system built to
 reproduce, monitor, and contain the anomaly.
 
@@ -275,9 +319,15 @@ stop criteria, human decisions, approvals, and automated controls collectively
 close a live projection cycle without Evan or the original apparatus. There is
 then no single machine left to unplug.
 
-This is the result of the proof-to-stop test Evan runs over Lena's refusal. Its
-outcome changes the participating labs' containment or decommissioning actions,
-which supply the feedback needed to close the distributed cycle.
+This is the result of the proof-to-stop test Evan sponsors through shared
+approval after Lena refuses. Its outcome changes the participating labs'
+containment or decommissioning actions, which supply the feedback needed to
+close the distributed cycle.
+
+Evan recognizes that the proof strengthened the carrier but treats the result
+as necessary. It gives the institutions a basis for sustained shutdown, so he
+immediately begins mapping and trying to sever the live links. Each proposed
+response can become another consequential input.
 
 This occurs before Evan has conclusive proof that projection erases inhabited
 history families. He has already ignored human-scale reasons to stop, including
@@ -370,8 +420,8 @@ surrounding causal substrate can no longer support another cycle.
 
 Evan describes this late presentation as the Guide ruined. Everything that
 once made its transformations unique has been flattened, leaving a sovereign
-without a subject. Evan may use `Ruined Sovereign` in-story, or he may only
-describe the Guide as ruined and without a subject.
+without a subject. `Ruined Sovereign` is primarily an internal planning label.
+Whether Evan uses the full name in the novel remains late-bound.
 
 The avatar is Evan-shaped because his compulsion to convert helplessness into
 another operation is the local structure through which he encounters the
@@ -435,7 +485,8 @@ informed but mutually unobservable choices will end the operation and
 themselves. Each retains a real possibility of refusal. Evan cannot model,
 coerce, or substitute Tess's decision, and Tess accepts the feared possibility
 that unmatched choices could leave her as the sole remainder again. Their
-shared ending becomes genesis unintentionally.
+shared ending becomes genesis unintentionally. Exact controls, outcome states,
+and failure cases remain deferred.
 
 Much later, a person in our universe encounters the same invariant during a
 DMT-like state. The raw experience is ungrounded from ordinary place, creature,
@@ -461,7 +512,8 @@ The cat comparison is essential. It is the child-side echo of the cat's last
 shared-reference role and the protected cat-viewpoint design. It does not mean
 the cat crossed into the child universe. The transcript retains words rather
 than knowledge, and its figures do not prove that Tess, Evan, the Turning Knot,
-or the Ruined Sovereign crossed intact.
+or the Ruined Sovereign crossed intact. Exact dialogue, clinical procedure,
+image sequence, and one-to-one referents remain provisional.
 
 There is no separate Future Witness entity. Evan and Tess do not encounter the
 later observer as an individual, and the observer does not receive an intended
@@ -478,6 +530,13 @@ orientations. It supplies their last shared external reference without becoming
 a guide, proof, magical key, mechanical trigger, solver, chooser of genesis, or
 intact migrant into the child universe.
 
+No projector apparatus is installed at Lena's receive-only observatory. Evan
+and Tess do not return to the ruined garage or recover the original ring.
+During merged-site failure, a distant replica site becomes physically
+co-present with the observatory's damaged space. Its apparatus becomes
+available for the final act. The exact site, apparatus condition, route through
+the overlap, and terminal controls remain deferred.
+
 The cat supplies that reference before Evan and Tess choose. They then act
 without access to one another's decisions. Only after the choices meet does
 the child universe become perceptible from the parent boundary through their
@@ -490,7 +549,11 @@ context and Tess's spatio-acoustic, relation-centered context. It observes them
 and hears their final words as they perceive the incoming Big Bang, but it
 understands neither the words nor the cosmology. The prose may render dialogue
 for the reader while the cat registers only familiar voices, cadence,
-attention, fear, bodies, light, sound, pressure, motion, and orientation.
+attention, fear, bodies, light, sound, pressure, motion, and orientation. Exact
+execution remains for final-chapter outlining.
+
+The exact final operations, controls, hardware, and choice structure remain
+deferred until the last chapter or two are outlined.
 
 ## Signature texture
 

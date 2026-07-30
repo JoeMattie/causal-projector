@@ -3,13 +3,13 @@ schema: authorbot.character/v1
 id: character:turning-knot
 name: The Turning Knot
 image: public/characters/turning-knot.png
-summary: >-
-  A displaced family of nonhuman histories whose impossible kata-ward turn
-  remains recognizable as sound, geometry, meaning, and orientation exchange
-  roles.
+summary: A coherent family of histories carried on a nonhuman, incompatible substrate, perceived as a turning topological organism whose contact makes sound, geometry, meaning, and orientation exchange roles.
 ---
 
 # The Turning Knot
+
+Retained as the second true recurring entity. `Turning Knot` is a working
+human label rather than a literal or final name.
 
 ## One-sentence description
 
@@ -33,7 +33,7 @@ one body, one room, and one causal order.
 Projector exposure changes which causal relations are locally accessible and
 brings observers into repeated contact with the same history-family. The
 projector reveals this coupling but does not create, control, or carry the
-Knot.
+Knot. What first displaced those histories remains open.
 
 ## Mutual substrate alienness
 
@@ -55,8 +55,8 @@ creature that owes them an intention.
 
 Apparent curiosity, invitation, hunger, warning, or hostility belongs to human
 reconstruction unless later evidence makes one of those distinctions
-necessary. The Knot has an ontological condition rather than a human
-motivation: continuity across substrate translation.
+necessary. For Step 3 purposes, the Knot has an ontological condition rather
+than a human motivation: continuity across substrate translation.
 
 ## Escalation through lost causal insulation
 
@@ -89,7 +89,7 @@ the turn, not views of the whole history-family.
 
 `Kata-ward` is the observers' name for a stable feature of the experience. It
 does not establish that the Knot literally inhabits a simple Euclidean
-four-space.
+four-space. Its exact topology remains open.
 
 ## Evan and Tess: object and reciprocity
 
@@ -116,13 +116,13 @@ both descriptions, so neither can be dismissed as private experience.
 
 Merged replica sites become overlap regions between the atlases. As those
 overlaps multiply, place, object, observer, and contact can no longer be
-assigned independently. This advances into the Knot's loss of
+assigned independently. This advances into the Knot's already locked loss of
 separability without making Evan's and Tess's inner orientations identical.
 
 ## Syntax-like contact
 
-Syntax-like presentation is part of the Knot rather than a second substrate or
-partner entity.
+The Knot incorporates presentation elements from the provisional Syntax Bloom
+concept without gaining a second substrate or partner entity.
 
 During direct contact, sound, color, meaning, geometry, and felt orientation
 can transform into one another. The transformations behave as though they have
@@ -165,8 +165,17 @@ solution to genesis.
 - It does not explain the cosmology or provide usable genesis instructions.
 - The Syntax Bloom does not survive as a separate entity.
 - Visible language and constructed objects belong to human reconstruction.
+- The impossible turn is fixed, but its exact physical topology remains open.
 - It need not disclose a motive or recognize the observers in return.
 - Escalation comes from loss of causal insulation, not action by the Knot.
 - Evan's visual and Tess's spatio-acoustic renderings are fixed.
 - Its last humanly available state is loss of separability. Its objective fate
   remains unknowable.
+- What displaced its histories onto the incompatible substrate remains open.
+
+## Late-bound details
+
+- Exact visual and spatio-acoustic symbols recovered after contact.
+- Exact physical topology beyond the impossible-turn invariant.
+- What first displaced the histories onto their incompatible substrate.
+- The precise point at which a separate entity can no longer be rendered.

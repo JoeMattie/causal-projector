@@ -2,9 +2,7 @@
 schema: authorbot.character/v1
 id: character:ruth-hale
 name: Ruth Hale
-summary: >-
-  A retired mathematician losing access to her own continuity, yet often
-  seeing Evan's mistakes more clearly than he does.
+summary: A retired mathematician losing access to her own continuity, yet often seeing Evan's mistakes more clearly than he does.
 ---
 
 # Ruth Hale
@@ -23,7 +21,7 @@ Keep working beside Evan, preserve as much independence as possible, and maintai
 
 ## False belief or flaw
 
-Ruth does not require a conventional fatal flaw. Her limits are neurological and practical, not moral punishment. Her stubbornness can create conflict, but it is also one of the ways she protects her agency.
+Ruth does not require a conventional fatal flaw at this stage. Her limits are neurological and practical, not moral punishment. Her stubbornness can create conflict, but it is also one of the ways she protects her agency.
 
 ## Primary conflict
 
@@ -91,7 +89,15 @@ Evan responds by defining a concordance window in which her clarity counts as
 successful only while her autobiography agrees with his record family. Lena
 objects that agreement cannot authenticate Ruth. The proposal turns Ruth's
 identity into a control variable and makes Evan's history the standard without
-settling Ruth's own view or consent.
+settling Ruth's own view or consent. Her response to the proposed next run
+remains open.
+
+Evan never receives a later answer that settles Ruth's experience. He cannot
+learn what the lucid intervals felt like to her, whether she understood them
+as rescue, or which autobiography she experienced as her own. Records, entity
+contact, the erasure proof, and terminal cosmology cannot authenticate a
+correct Ruth. His eventual change is to stop trying to define one. Ruth does
+not return as a message or authority who resolves his guilt.
 
 ## Entity contact
 
@@ -106,7 +112,7 @@ whether it corresponds to a recoverable history, remain uncertain.
 
 ## Essential backstory
 
-1. Retired mathematician.
+1. Retired mathematician or community-college mathematics professor.
 2. Formerly sharp, practical, committee-weary, and capable of puncturing inflated claims with one question.
 3. Lives in her own house; Evan moves in when she can no longer live alone.
 4. Sometimes remembers the miscarriage and its consequences only peripherally, which makes her later alternate-granddaughter question casual rather than theatrical.

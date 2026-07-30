@@ -2,10 +2,7 @@
 schema: authorbot.character/v1
 id: character:evan-hale
 name: Evan Hale
-summary: >-
-  A workaholic controls engineer who responds to helplessness by solving
-  problems, even when the work itself becomes the thing destroying what he
-  hopes to save.
+summary: A workaholic controls engineer who responds to helplessness by solving problems, even when the work itself becomes the thing destroying what he hopes to save.
 ---
 
 # Evan Hale
@@ -72,8 +69,63 @@ Lena is his skeptical collaborator and scientific conscience. She validates the 
 When Lena suspects the distributed containment system is a carrier, she refuses
 the live proof whose result would determine the participating labs' containment
 or decommissioning response. Evan argues that suspicion will not make the
-institutions disengage and runs the test anyway. The resulting decisions close
-a cycle without him or the garage apparatus and end their collaboration.
+institutions disengage. He sponsors the test through shared consortium
+approval, and participating sites execute it under local control. The
+resulting decisions close a cycle without him or the garage apparatus and end
+their collaboration.
+
+After the fatal replica-site accident, Evan accepts the network hold. He
+voluntarily powers down the garage apparatus and keeps the original ring. No
+institution has legal or physical control over his private garage, so he
+remains technically able to restart it, but he does not request an exception
+and his garage is excluded from the selected-site restart.
+
+He treats the death as an engineering and containment failure. The survivor's
+selective autobiographical loss is real and deeply troubling, but the physical
+trauma keeps its cause medically ambiguous. Evan's compliance with the hold is
+sincere. Once selected sites can restart under stronger controls, he believes
+continued measurement is the responsible way to find the failure and prevent
+another death.
+
+Evan joins the restart as a technical adviser with full access to shared data,
+controller logs, and containment records. He helps design safeguards and
+interpret results, but he cannot approve or operate a consequential run alone.
+When Lena refuses the proof-to-stop test, he formulates and sponsors it through
+the consortium's shared approval process. Participating sites authorize and
+execute it under local control. Evan follows the formal procedure, and that
+procedure becomes part of the carrier.
+
+Evan discloses the carrier hypothesis, the risk that the test's own response
+may complete it, and Lena's stated reason for refusing. Reviewers, site leads,
+and operators approve with that information. He believes their informed
+consent and shared authority make the test legitimate. He does not yet
+understand that a legitimate decision can still supply the operation's next
+closure.
+
+The result proves that the approval process and the sites' response were
+already parts of the carrier. Evan feels grimly vindicated. Lena was right
+about the recursive risk, and he was right that the institutions needed proof.
+He still considers the test necessary and moves directly into coordinated
+shutdown work. He does not yet regret sponsoring it.
+
+Evan expects Lena to stay. He disclosed her objection accurately, proved her
+right, and believes they now share a duty to contain the result. Her withdrawal
+from active work surprises him. He recognizes that she has drawn a moral
+boundary but initially experiences it as leaving when the work matters most.
+He does not yet understand her departure as a complete refusal to supply
+another live input.
+
+That understanding comes only after Ruth's death. When Evan refuses to inspect
+the crater or begin another investigation, he finally sees that Lena did not
+abandon necessary work. She refused a definition of duty that turned every
+attempted stop into another live input. At the observatory, he proves that the
+understanding lasts by honoring her final refusal.
+
+Ruth remains unknowable to him in the one way that matters most. Evan never
+learns what the lucid intervals felt like to her, whether she experienced them
+as rescue, or which autobiography she understood as her own. No record,
+encounter, or cosmological explanation authenticates a correct Ruth. His change
+is that he stops trying to define one.
 
 ## Connection to the science
 
@@ -84,6 +136,8 @@ at work. In the unobservable band where back electromotive force vanishes into
 noise, he stops forcing one electrical-angle estimate and carries both valid
 hypotheses until measurement can distinguish them again. The insight uses
 knowledge he already has and survives independent testing after clarity ends.
+Retain this concept from the legacy draft, but rewrite the surrounding material
+substantially and leave its thematic irony unstated.
 
 Evan initially takes the clarity for his own epiphany or an unusually deep flow
 state. He does not suspect that the apparatus is affecting his cognition. The
@@ -106,8 +160,8 @@ lucid state in which her autobiography still agrees with his record family.
 This makes his history the operational standard for the correct Ruth. When
 Lena objects that agreement cannot authenticate identity, he treats her
 objection as a need for better controls and begins formalizing another reduced
-run. The proposal does not settle Ruth's response or consent, and Evan does not
-get to presume either.
+run. Ruth's response remains open, and Evan does not get to presume her
+consent.
 
 The conclusive erasure proof is paired loss and echo. A particular
 autobiographical distinction disappears from waking people and ordinary
@@ -156,8 +210,8 @@ unique has been flattened until it feels like a sovereign without a subject.
 This is an Evan-shaped expression of the projector operation. As the operation
 exhausts its own counterfactual support, the presence loses degrees of movement
 until one simple unfold can only recreate and repeat itself. `Ruined
-Sovereign` may be Evan's full in-story name for it, or he may only describe the
-Guide as ruined and without a subject.
+Sovereign` is primarily an internal planning label, and whether Evan uses the
+full name remains late-bound.
 
 During shared Sovereign contact, Tess recovers the same converted interruption
 as a reply made on her behalf. Evan's sense of guidance and Tess's sense of
@@ -169,9 +223,19 @@ operation has not absorbed.
 
 1. Controls engineer and garage citizen scientist; the MRI flux project is plausible within his skills but depends on scavenged hardware, cross-domain reading, and stubborn instrumentation rather than universal genius.
 2. Moves in with Ruth when she can no longer live alone.
-3. A prior miscarriage exposed his habit of converting pain into work. He yelled while his wife grieved, helped bury the miscarriage in a planter, neglected the flowers, and contributed to the marriage's collapse by disappearing into labor.
+3. A prior miscarriage exposed his habit of converting pain into work. His wife
+   cried in the bathroom. Evan yelled from pain rather than anger, a distinction
+   that did not make the experience less damaging. They retrieved the
+   miscarriage from the toilet and buried it in a planter. Flowers grew, but
+   both of them neglected the planter while Evan buried himself in work. His
+   workaholism and emotional absence contributed to the marriage's collapse,
+   although the marriage is not a lost ideal family he must recover. The book
+   is not a search for a daughter he never knew, and Ruth's alternate memory of
+   a surviving granddaughter does not begin an alternate-child quest. The dead
+   flowers can return when Evan recognizes that he is repeating the same
+   response: working through grief while the person beside him needs presence.
 4. Builds an air liquefier from a salvaged cellular-rack cryocooler.
-5. Recognizes the machine's later residual geometry from prior DMT experience.
+5. Has prior DMT experience or participation in a controlled study, giving him a visual reference for the machine's later residual geometry.
 
 ## Arc landmarks
 
@@ -188,9 +252,19 @@ operation has not absorbed.
   starts optimizing for autobiographical concordance with his own record
   family.
 - **Addiction:** Continued runs become euphoric and ontologically self-selecting.
+- **Formalization:** Lena's independent replicas turn the discovery into a
+  multi-site study. A local accident kills one researcher and leaves another
+  unable to remember the dead collaborator or their shared years. Evan accepts
+  the evidence hold and voluntarily powers down the garage while retaining the
+  original ring. He treats the death as an engineering failure and the memory
+  loss as medically confounded, then supports a bounded restart as the
+  responsible way to prevent another death. He joins as a technical adviser
+  with full shared-data access but no unilateral run authority.
 - **Loss of control:** The distributed containment and replication system
   becomes an active carrier before he understands the full cosmological cost.
-  Evan establishes this by running the proof-to-stop test Lena refuses.
+  Evan establishes this by sponsoring the proof-to-stop test Lena refuses. He
+  responds with grim vindication and immediately treats the result as a new
+  stopping problem.
 - **Recognition:** Entity contact and independent evidence reveal that the
   apparent presences are tied to dying history families and alien
   implementations of causal patterns. The Guide is revealed as the early
@@ -204,7 +278,8 @@ operation has not absorbed.
   refusal after returning to find Ruth dead, Tess still angry, the garage and
   neighborhood ruined, and the cat unscathed. He does not investigate, salvage,
   measure, reconstruct, or recruit Tess into another response. He stays. The
-  independent carrier continues without him.
+  independent carrier continues without him. Making this refusal lets him
+  understand Lena's earlier departure for the first time.
 - **Lena search:** During the several weeks of terminal brittleness, he travels
   with Tess to reach Lena. He chooses Lena as a person rather than pursuing her
   work, data, or another explanation. The journey tests whether his refusal can
@@ -217,10 +292,15 @@ operation has not absorbed.
 - **Ending:** He and Tess believe they are choosing a shared ending for
   themselves and the projector. Evan gives her the full truth, then accepts
   that he cannot inspect, model, control, or replace her decision. She may
-  refuse. Their independent choices unintentionally become genesis. The final
-  portion of the genesis-operation chapter shifts to the literal viewpoint of
-  Tess's cat, which hears without comprehending Evan and Tess's last words as
-  they perceive the incoming Big Bang.
+  refuse. This acceptance extends the change Ruth's absence forced: he no
+  longer defines another person's correct answer for them. During merged-site
+  failure, a distant replica site becomes
+  physically co-present with the damaged space around Lena's receive-only
+  observatory, making its apparatus available for the final act without a
+  return to the garage. Their independent choices unintentionally become
+  genesis. The final portion of the genesis-operation chapter shifts to the
+  literal viewpoint of Tess's cat, which hears without comprehending Evan and
+  Tess's last words as they perceive the incoming Big Bang.
 
 ## Signature texture
 

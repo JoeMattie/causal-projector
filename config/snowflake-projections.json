@@ -1,0 +1,188 @@
+{
+  "schema": "causal-projector.snowflake-projections/v1",
+  "contract": {
+    "catalogPath": "exports/authorbot.json",
+    "schemaPath": "contracts/snowflake-export.schema.json",
+    "version": "causal-projector.snowflake-export/v1",
+    "workPointer": {
+      "id": "workflow:current-work",
+      "path": "work/README.md"
+    }
+  },
+  "snapshotRoot": "story/methods/snowflake",
+  "exactCopies": [
+    {
+      "sourceId": "integration:authorbot:story-graph",
+      "sourcePath": "mirrors/authorbot/story-graph.yaml",
+      "target": "story/outline.yml"
+    },
+    {
+      "sourceId": "history:decision-log",
+      "sourcePath": "archive/decision-log.md",
+      "target": "story/decision-log.md"
+    }
+  ],
+  "openQuestions": {
+    "target": "story/open-questions.md",
+    "sources": [
+      {
+        "sourceId": "questions:character:esther-tess-kertesz",
+        "sourcePath": "canon/characters/esther-tess-kertesz/open-questions.md"
+      },
+      {
+        "sourceId": "questions:character:evan-hale",
+        "sourcePath": "canon/characters/evan-hale/open-questions.md"
+      },
+      {
+        "sourceId": "questions:character:lena-varga",
+        "sourcePath": "canon/characters/lena-varga/open-questions.md"
+      },
+      {
+        "sourceId": "questions:character:mouse",
+        "sourcePath": "canon/characters/mouse/open-questions.md"
+      },
+      {
+        "sourceId": "questions:character:projector-operation",
+        "sourcePath": "canon/characters/projector-operation/open-questions.md"
+      },
+      {
+        "sourceId": "questions:character:ruth-hale",
+        "sourcePath": "canon/characters/ruth-hale/open-questions.md"
+      },
+      {
+        "sourceId": "questions:motifs",
+        "sourcePath": "work/open-questions/motifs.md"
+      },
+      {
+        "sourceId": "questions:naming",
+        "sourcePath": "work/open-questions/naming.md"
+      },
+      {
+        "sourceId": "questions:plot",
+        "sourcePath": "work/open-questions/plot.md"
+      },
+      {
+        "sourceId": "questions:science",
+        "sourcePath": "work/open-questions/science.md"
+      }
+    ]
+  },
+  "synopsis": {
+    "target": "story/synopsis.md",
+    "sources": [
+      {
+        "sourceId": "story:five-sentence-summary",
+        "sourcePath": "canon/story/02-five-sentence-summary.md"
+      },
+      {
+        "sourceId": "story:expanded-summary",
+        "sourcePath": "canon/story/04-expanded-summary.md"
+      }
+    ],
+    "optionalSources": [
+      {
+        "sourceId": "story:long-synopsis",
+        "sourcePath": "canon/story/06-long-synopsis.md"
+      }
+    ]
+  },
+  "characters": [
+    {
+      "sourceId": "character:esther-tess-kertesz:summary-sheet",
+      "sourcePath": "canon/characters/esther-tess-kertesz/03-summary-sheet.md",
+      "target": "story/characters/esther-tess-kertesz.md",
+      "authorbotId": "character:esther-tess-kertesz"
+    },
+    {
+      "sourceId": "character:evan-hale:summary-sheet",
+      "sourcePath": "canon/characters/evan-hale/03-summary-sheet.md",
+      "target": "story/characters/evan-hale.md",
+      "authorbotId": "character:evan-hale"
+    },
+    {
+      "sourceId": "character:lena-varga:summary-sheet",
+      "sourcePath": "canon/characters/lena-varga/03-summary-sheet.md",
+      "target": "story/characters/lena-varga.md",
+      "authorbotId": "character:lena-varga"
+    },
+    {
+      "sourceId": "character:mouse:summary-sheet",
+      "sourcePath": "canon/characters/mouse/03-summary-sheet.md",
+      "target": "story/characters/mouse.md",
+      "authorbotId": "character:mouse"
+    },
+    {
+      "sourceId": "character:projector-operation:summary-sheet",
+      "sourcePath": "canon/characters/projector-operation/03-summary-sheet.md",
+      "target": "story/characters/projector-operation.md",
+      "authorbotId": "character:projector-operation"
+    },
+    {
+      "sourceId": "character:ruth-hale:summary-sheet",
+      "sourcePath": "canon/characters/ruth-hale/03-summary-sheet.md",
+      "target": "story/characters/ruth-hale.md",
+      "authorbotId": "character:ruth-hale"
+    },
+    {
+      "sourceId": "entity:ruined-sovereign:summary-sheet",
+      "sourcePath": "canon/entities/ruined-sovereign/03-summary-sheet.md",
+      "target": "story/characters/ruined-sovereign.md",
+      "authorbotId": "character:ruined-sovereign"
+    },
+    {
+      "sourceId": "entity:turning-knot:summary-sheet",
+      "sourcePath": "canon/entities/turning-knot/03-summary-sheet.md",
+      "target": "story/characters/turning-knot.md",
+      "authorbotId": "character:turning-knot"
+    }
+  ],
+  "canon": {
+    "target": "story/canon.md",
+    "sources": [
+      {
+        "sourceId": "story:foundation",
+        "sourcePath": "canon/story/foundation.md"
+      },
+      {
+        "sourceId": "story:escalation",
+        "sourcePath": "canon/story/escalation.md"
+      },
+      {
+        "sourceId": "story:genesis-boundaries",
+        "sourcePath": "canon/story/genesis-boundaries.md"
+      },
+      {
+        "sourceId": "science:apparatus-and-discovery",
+        "sourcePath": "canon/science/apparatus-and-discovery.md"
+      },
+      {
+        "sourceId": "science:causal-substrate",
+        "sourcePath": "canon/science/causal-substrate.md"
+      },
+      {
+        "sourceId": "science:contact-model",
+        "sourcePath": "canon/science/contact-model.md"
+      },
+      {
+        "sourceId": "science:replication-and-containment",
+        "sourcePath": "canon/science/replication-and-containment.md"
+      }
+    ]
+  },
+  "reviewOnly": {
+    "steps": [
+      "05",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "families": [
+      "scene-list",
+      "scene-briefs",
+      "timeline",
+      "manuscript"
+    ],
+    "message": "Semantic extraction, timeline changes, public dossiers, and chapters require explicit review and mapping."
+  }
+}

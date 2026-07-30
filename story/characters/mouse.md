@@ -3,12 +3,13 @@ schema: authorbot.character/v1
 id: character:mouse
 name: Mouse
 image: public/characters/mouse.png
-summary: >-
-  Mouse is Tess's tiny, elderly, fearlessly curious cat, who watches humans,
-  animals, and impossible events with the same calm attention.
+summary: Mouse is Tess's tiny, elderly, fearlessly curious cat, who watches humans, animals, and impossible events with the same calm attention.
 ---
 
 # Mouse
+
+Mouse's exact terminal action stays late-bound until the final chapter or two
+are outlined.
 
 ## One-sentence description
 

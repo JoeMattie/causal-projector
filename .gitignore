@@ -12,3 +12,7 @@ _site/
 
 node_modules/
 .DS_Store
+
+# Same-filesystem staging used by atomic Snowflake imports. Successful
+# transactions remove these; an interrupted one stays local for recovery.
+.snowflake-transaction-*/

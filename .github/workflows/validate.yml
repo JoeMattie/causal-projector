@@ -45,19 +45,29 @@ on:
       - "book.yml"
       - "chapters/**"
       - "story/**"
+      - "story/methods/snowflake/**"
       - "public/**"
+      - "config/**"
+      - "scripts/**"
+      - "tests/**"
       - ".authorbot/**"
       - "package.json"
       - "package-lock.json"
+      - ".github/workflows/validate.yml"
   pull_request:
     paths:
       - "book.yml"
       - "chapters/**"
       - "story/**"
+      - "story/methods/snowflake/**"
       - "public/**"
+      - "config/**"
+      - "scripts/**"
+      - "tests/**"
       - ".authorbot/**"
       - "package.json"
       - "package-lock.json"
+      - ".github/workflows/validate.yml"
 
 permissions:
   contents: read
@@ -86,6 +96,12 @@ jobs:
       - name: Validate the book repository
         run: npx authorbot validate .
 
+      - name: Test the Snowflake importer
+        run: npm run test:snowflake
+
+      - name: Validate the Snowflake import
+        run: npm run validate:snowflake
+
       # Build smoke test (design §17.1): catches anything that validates but
       # cannot publish before it lands on main. Nothing is deployed. The
       # --base-url handling mirrors publish.yml exactly so the two builds
@@ -96,6 +112,8 @@ jobs:
         run: |
           if [ -n "$BASE_URL" ]; then
             npx authorbot build . --out "$RUNNER_TEMP/site" --base-url "$BASE_URL"
+            npm run generate:snowflake -- --out "$RUNNER_TEMP/site" --base-path "$BASE_URL"
           else
             npx authorbot build . --out "$RUNNER_TEMP/site"
+            npm run generate:snowflake -- --out "$RUNNER_TEMP/site"
           fi

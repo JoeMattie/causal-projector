@@ -3,13 +3,13 @@ schema: authorbot.character/v1
 id: character:ruined-sovereign
 name: The Ruined Sovereign
 image: public/characters/ruined-sovereign.png
-summary: >-
-  The projector operation's Evan-shaped encounter-avatar, whose meaningful
-  complexity collapses into one non-halting unfold that can only recreate and
-  repeat itself.
+summary: An Evan-shaped perceptual cross-section of the projector operation whose movement begins with almost uncountable meaningful complexity and collapses into one non-halting unfold that can only repeat.
 ---
 
 # The Ruined Sovereign
+
+Retained recurring entity. The former Guide concept is folded into its early
+presentation. `Ruined Sovereign` is primarily an internal planning label.
 
 ## One-sentence description
 
@@ -84,10 +84,10 @@ appearance.
 
 At first its movement feels almost infinite in complexity. This is
 phenomenological, not a claim that the finite multiverse contains literal
-infinity. Each transformation remains meaningfully distinct. It changes causal
-adjacency, semantic relation, orientation, and possibility without falling
-into repetition. Evan recovers this as an impossible demonstration and mistakes
-the feeling it leaves behind for guidance.
+infinity. Each transformation remains meaningfully distinct. It changes
+causal adjacency, semantic relation, orientation, and possibility without
+falling into repetition. Evan recovers this as an impossible demonstration and
+mistakes the feeling it leaves behind for guidance.
 
 Across later encounters, independent degrees of movement disappear. The
 Sovereign does not merely become blockier or less ornate. Its transformations
@@ -102,14 +102,17 @@ independent enough to surprise it.
 ## Later presentation: a sovereign without a subject
 
 Late contact does not need a new figure, place, or symbolic costume. Evan
-recognizes the same presence he called the Guide, but ruined somehow.
-Everything that once made its transformations unique has been flattened.
-Formerly distinct interruptions now return to the same relation, until the
-movement has nothing independent left to answer, surprise, or refuse it.
+recognizes the same presence he called the Guide, but ruined somehow. Everything
+that once made its transformations unique has been flattened. Formerly distinct
+interruptions now return to the same relation, until the movement has nothing
+independent left to answer, surprise, or refuse it.
 
 What remains feels like a sovereign without a subject. Its authority is
 complete because every outside relation has been converted into itself, but
-that same completion has emptied it of meaningful rule.
+that same completion has emptied it of meaningful rule. `Ruined Sovereign` is
+primarily the internal planning name for this condition. Evan may use the full
+term or may only describe the Guide as ruined. His exact wording remains
+late-bound.
 
 ## Relationship with Evan
 
@@ -123,9 +126,9 @@ operation expressing itself through the same pattern he has enacted throughout
 his life. The more completely it becomes Evan-shaped, the less meaningful
 personhood remains within it.
 
-The Sovereign externalizes both sides of Evan's tragedy: the genuine richness
-that makes continued work seductive and the final conversion of every possible
-response into one repeated operation.
+The Sovereign therefore externalizes both sides of Evan's tragedy: the genuine
+richness that makes continued work seductive and the final conversion of every
+possible response into one repeated operation.
 
 ## Relationship with Tess
 
@@ -169,13 +172,15 @@ make, substitute, or verify for her.
 
 ## Boundaries
 
-- The Guide is not a separate entity.
+- The Guide does not survive as a separate entity.
 - Early complexity is not literal infinity.
 - The Sovereign does not know the future, choose goals, or communicate as an
   ordinary mind.
 - The Guide supplies no recoverable lesson, command, or protocol.
+- `Ruined Sovereign` need not become a fixed in-story title.
 - Tess's reply is a relational afterimage, not literal language.
 - Contact does not remove the real possibility of Tess's refusal.
 - Cosmological lore received through it remains unauthenticated.
 - Its late repetition expresses the operation's self-exhaustion. It does not
   imply eternal motion or an infinite universe.
+- Its exact sensory reconstruction and scene placement remain late-bound.

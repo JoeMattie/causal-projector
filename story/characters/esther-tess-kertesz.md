@@ -2,11 +2,7 @@
 schema: authorbot.character/v1
 id: character:esther-tess-kertesz
 name: Esther "Tess" Kertesz
-summary: >-
-  Esther "Tess" Kertesz is a catastrophe modeler and the neurologically intact
-  sole survivor of a childhood Alaska ferry disaster, whose near-unique causal
-  history makes her almost impossible for Evan's machine to rewrite and leaves
-  her as the only person capable of loving him without becoming part of him.
+summary: Esther "Tess" Kertesz is a catastrophe modeler and the neurologically intact sole survivor of a childhood Alaska ferry disaster, whose near-unique causal history makes her almost impossible for Evan's machine to rewrite and leaves her as the only person capable of loving him without becoming part of him.
 ---
 
 # Esther "Tess" Kertesz
@@ -20,7 +16,7 @@ Esther "Tess" Kertesz is a catastrophe modeler and the neurologically intact sol
 - Full name: Esther Kertesz
 - Everyday name: Tess
 - People routinely hear or spell `Kertesz` as `Curtis`; she corrects them automatically.
-- The surname is Hungarian-American. The unaccented spelling is `Kertesz`.
+- The surname is Hungarian-American. The unaccented spelling `Kertesz` is canon.
 
 ## Age
 
@@ -76,7 +72,7 @@ A catastrophic sequence involving severe weather, progressive flooding or struct
 
 Her entire immediate family dies.
 
-No single miracle carries the entire survival. Her rarity comes from the compound bottleneck and the survival of this substantially continuous adult identity.
+The exact vessel, route, failure sequence, and rescue mechanics remain open for later technical development. It should be plausible enough that no single miracle carries the entire survival. Her rarity comes from the compound bottleneck and the survival of this substantially continuous adult identity.
 
 ## Degree of causal rarity
 
@@ -89,7 +85,7 @@ The disaster alone is not the whole bottleneck. Most nearby histories contain:
 - a different guardian, education, and adult identity;
 - later death or a dramatically different adaptation.
 
-The adult Tess Evan meets occupies an exceptionally narrow history bundle. `Effective bits of rarity` is a fictional history-support measure, not an ordinary actuarial probability.
+The adult Tess Evan meets is provisionally **more than one hundred effective bits rarer than a typical identity bundle**, with a working estimate in the 120-160 bit range. This is a fictional history-support measure, not an ordinary actuarial probability.
 
 Rarity does not make her immune. It means the projector has almost no compliant neighboring versions to substitute. It must keep her recognizable or remove her entirely.
 
@@ -190,10 +186,11 @@ Objects, signals, and physical traces still cross between her atlas and Evan's
 visual, object-centered one. Merged replica sites become overlap regions
 between them.
 
-Tess does not receive an abstract diagram, use sonar, or retreat into
-decorative synesthesia. Her geometry is carried by specific audible sources and
-continuing physical traces. It remains as objective as Evan's account while
-including her position inside the relation he tries to observe from outside.
+This must stay concrete in execution. Tess does not receive an abstract
+diagram, use sonar, or retreat into decorative synesthesia. Her geometry is
+carried by specific audible sources and continuing physical traces. It remains
+as objective as Evan's account while including her position inside the
+relation he tries to observe from outside.
 
 Tess reconstructs the Ruined Sovereign's converted interruption as a reply
 made on her behalf. This is not a literal voice or sentence. Each objection,
@@ -216,7 +213,8 @@ Mouse survives the local catastrophe miraculously unscathed. Later, during
 loss of separability, she moves through a badly perturbed region and settles
 somewhere Tess and Evan can both identify from their incompatible orientations.
 Mouse supplies one last shared external fact without becoming a magical key,
-mechanical trigger, solver, or chooser of genesis.
+mechanical trigger, solver, or chooser of genesis. The exact action remains
+late-bound.
 
 This anchoring happens before Tess and Evan make their mutually unobservable
 terminal choices. It establishes that their incompatible atlases still belong
@@ -279,6 +277,8 @@ Chosen meaning does not redeem the disaster, excuse Evan, or turn the dead into 
 
 ## Genesis role
 
+High-level canon:
+
 - Evan cannot create or repair the terminal state alone.
 - Tess must remain a genuinely independent, nonparallel causal vector.
 - Their final choices must preserve the real possibility of refusal and cannot be verified or coerced in advance.
@@ -295,13 +295,15 @@ Chosen meaning does not redeem the disaster, excuse Evan, or turn the dead into 
 - During loss of separability, the cat acts as their last shared external
   reference. It is not a participant in the terminal decision.
 
+A mutual-veto assurance-game structure is the leading candidate because it directly resolves Tess's active false belief and reverses Evan's earlier use of her as an uninformed control. Exact terminal operations, payoff states, and physical control logic are deliberately deferred until the final chapter or two are outlined.
+
 The final portion of the genesis-operation chapter is locked as the novel's
 only literal cat viewpoint. The cat bridges Tess's spatio-acoustic context and
 Evan's visual, object-centered context, observes them, and hears their final
 words as they perceive the incoming Big Bang. It does not comprehend the words
 or cosmology. The dialogue may be available verbatim to the reader while the
 cat knows only familiar voices, cadence, attention, fear, bodies, and sensory
-change.
+change. Exact execution remains for final-chapter outlining.
 
 ## Arc landmarks
 
@@ -336,4 +338,4 @@ change.
   knowledge but loses alternative next responses in a fixed-successor collapse.
   Tess remains with her as Lena makes one last refusal to be tested.
 - **Reconciliation:** Evan must ultimately give her every relevant fact and surrender the ability to verify her choice.
-- **Ending:** Tess and Evan make genuinely independent terminal choices that neither can verify in advance. Their difference seeds genesis.
+- **Ending:** Tess and Evan make genuinely independent terminal choices that neither can verify in advance. Their difference seeds genesis; the exact operation remains deliberately unplanned until late outlining.
