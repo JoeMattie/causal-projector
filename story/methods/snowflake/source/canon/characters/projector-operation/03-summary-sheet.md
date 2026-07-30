@@ -1,12 +1,7 @@
----
-schema: authorbot.character/v1
-id: character:projector-operation
-name: The projector operation
-image: public/characters/projector-operation.png
-summary: A mindless, lineage-bound feedback pattern that rewards Evan's attempt to turn helplessness into work, reproduces through the systems built to contain it, and consumes the alternatives required for its own next act of closure.
----
-
 # The projector operation
+
+Status: accepted
+Snowflake step: 03
 
 The operation is a character-like antagonist because it has continuity,
 propagation, a motivation-equivalent, relationships, limits, and an arc. It is

@@ -1,12 +1,7 @@
----
-schema: authorbot.character/v1
-id: character:ruined-sovereign
-name: The Ruined Sovereign
-image: public/characters/ruined-sovereign.png
-summary: An Evan-shaped perceptual cross-section of the projector operation whose movement begins with almost uncountable meaningful complexity and collapses into one non-halting unfold that can only repeat.
----
-
 # The Ruined Sovereign
+
+Status: accepted
+Snowflake step: 03
 
 Retained recurring entity. The former Guide concept is folded into its early
 presentation. `Ruined Sovereign` is primarily an internal planning label.

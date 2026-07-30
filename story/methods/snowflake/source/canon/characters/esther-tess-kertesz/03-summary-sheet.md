@@ -1,11 +1,7 @@
----
-schema: authorbot.character/v1
-id: character:esther-tess-kertesz
-name: Esther "Tess" Kertesz
-summary: Esther "Tess" Kertesz is a catastrophe modeler and the neurologically intact sole survivor of a childhood Alaska ferry disaster, whose near-unique causal history makes her almost impossible for Evan's machine to rewrite and leaves her as the only person capable of loving him without becoming part of him.
----
-
 # Esther "Tess" Kertesz
+
+Status: accepted
+Snowflake step: 03
 
 ## One-sentence description
 

@@ -1,11 +1,7 @@
----
-schema: authorbot.character/v1
-id: character:ruth-hale
-name: Ruth Hale
-summary: A retired mathematician losing access to her own continuity, yet often seeing Evan's mistakes more clearly than he does.
----
-
 # Ruth Hale
+
+Status: accepted
+Snowflake step: 03
 
 ## One-sentence description
 

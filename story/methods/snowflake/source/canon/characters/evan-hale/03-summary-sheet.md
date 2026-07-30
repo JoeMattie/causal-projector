@@ -1,11 +1,7 @@
----
-schema: authorbot.character/v1
-id: character:evan-hale
-name: Evan Hale
-summary: A workaholic controls engineer who responds to helplessness by solving problems, even when the work itself becomes the thing destroying what he hopes to save.
----
-
 # Evan Hale
+
+Status: accepted
+Snowflake step: 03
 
 ## One-sentence description
 

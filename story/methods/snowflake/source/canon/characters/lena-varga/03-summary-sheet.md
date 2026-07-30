@@ -1,11 +1,7 @@
----
-schema: authorbot.character/v1
-id: character:lena-varga
-name: Lena Varga
-summary: A shared-facility experimental physicist who believes Evan's data before she believes his interpretation and becomes the person most willing to stop a fascinating experiment while its meaning is still uncertain.
----
-
 # Lena Varga
+
+Status: accepted
+Snowflake step: 03
 
 ## Dramatic role
 

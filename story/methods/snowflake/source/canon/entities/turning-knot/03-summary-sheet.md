@@ -1,12 +1,7 @@
----
-schema: authorbot.character/v1
-id: character:turning-knot
-name: The Turning Knot
-image: public/characters/turning-knot.png
-summary: A coherent family of histories carried on a nonhuman, incompatible substrate, perceived as a turning topological organism whose contact makes sound, geometry, meaning, and orientation exchange roles.
----
-
 # The Turning Knot
+
+Status: accepted
+Snowflake step: 03
 
 Retained as the second true recurring entity. `Turning Knot` is a working
 human label rather than a literal or final name.

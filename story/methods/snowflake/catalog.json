@@ -1,0 +1,497 @@
+{
+  "schema": "causal-projector.snowflake-export/v1",
+  "excludedRoots": [
+    {
+      "path": ".agents/",
+      "reason": "Agent-local instructions and settings are never exportable."
+    },
+    {
+      "path": ".claude/",
+      "reason": "Agent-local instructions and settings are never exportable."
+    },
+    {
+      "path": ".codex/",
+      "reason": "Agent-local instructions and settings are never exportable."
+    },
+    {
+      "path": ".git/",
+      "reason": "Git metadata is the source integrity layer, not exported content."
+    },
+    {
+      "path": ".github/",
+      "reason": "Repository automation is not book-planning content."
+    },
+    {
+      "path": ".idea/",
+      "reason": "Local editor settings are never exportable."
+    },
+    {
+      "path": ".vscode/",
+      "reason": "Local editor settings are never exportable."
+    },
+    {
+      "path": "archive/",
+      "except": [
+        "archive/decision-log.md"
+      ],
+      "reason": "Exploratory and superseded archives stay internal to the source repository."
+    },
+    {
+      "path": "contracts/",
+      "reason": "Contract implementation files are tooling, not exported planning documents."
+    },
+    {
+      "path": "exports/",
+      "reason": "The catalog controls export and is not itself an exported planning document."
+    },
+    {
+      "path": "handoff/",
+      "reason": "Handoff material is never exportable."
+    },
+    {
+      "path": "handoffs/",
+      "reason": "Handoff material is never exportable."
+    },
+    {
+      "path": "legacy/",
+      "reason": "Raw legacy sources are noncanonical and never exportable."
+    },
+    {
+      "path": "node_modules/",
+      "reason": "Installed tooling dependencies are never exportable."
+    },
+    {
+      "path": "prompts/",
+      "reason": "Prompts are instructions, not planning documents."
+    },
+    {
+      "path": "scripts/",
+      "reason": "Validation tooling is not exported planning content."
+    },
+    {
+      "path": "tests/",
+      "reason": "Validation fixtures and tests are not exported planning content."
+    },
+    {
+      "path": "work/research/",
+      "reason": "Research extracts are explicitly noncanonical and never exportable."
+    }
+  ],
+  "excludedPaths": [
+    {
+      "path": ".env",
+      "reason": "Local settings and secrets are never exportable."
+    },
+    {
+      "path": ".gitignore",
+      "reason": "Repository configuration is not planning content."
+    },
+    {
+      "path": "AGENTS.md",
+      "reason": "Agent instructions are never exportable."
+    },
+    {
+      "path": "README.md",
+      "reason": "The repository entry point is a routing index, not an export document."
+    },
+    {
+      "path": "archive/README.md",
+      "reason": "Archive routing indexes are not export documents."
+    },
+    {
+      "path": "canon/README.md",
+      "reason": "Canon routing indexes are not export documents."
+    },
+    {
+      "path": "canon/characters/README.md",
+      "reason": "Character routing indexes are not export documents."
+    },
+    {
+      "path": "legacy/README.md",
+      "reason": "Legacy routing indexes are not export documents."
+    },
+    {
+      "path": "package-lock.json",
+      "reason": "Validation dependency metadata is not planning content."
+    },
+    {
+      "path": "package.json",
+      "reason": "Validation tooling configuration is not planning content."
+    }
+  ],
+  "documents": [
+    {
+      "id": "history:decision-log",
+      "path": "archive/decision-log.md",
+      "domain": "history",
+      "role": "decision-log",
+      "family": "decision-history",
+      "visibility": "internal",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:esther-tess-kertesz:summary-sheet",
+      "path": "canon/characters/esther-tess-kertesz/03-summary-sheet.md",
+      "domain": "character",
+      "role": "deliverable",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "esther-tess-kertesz",
+      "step": "03",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:character:esther-tess-kertesz",
+      "path": "canon/characters/esther-tess-kertesz/open-questions.md",
+      "domain": "character",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "subject": "esther-tess-kertesz",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:evan-hale:summary-sheet",
+      "path": "canon/characters/evan-hale/03-summary-sheet.md",
+      "domain": "character",
+      "role": "deliverable",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "evan-hale",
+      "step": "03",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:evan-hale:full-character-synopsis",
+      "path": "canon/characters/evan-hale/05-full-character-synopsis.md",
+      "domain": "character",
+      "role": "deliverable",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "evan-hale",
+      "step": "05",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:evan-hale:full-character-synopsis-planning",
+      "path": "canon/characters/evan-hale/05-supporting-planning.md",
+      "domain": "character",
+      "role": "supporting-planning",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "evan-hale",
+      "step": "05",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:character:evan-hale",
+      "path": "canon/characters/evan-hale/open-questions.md",
+      "domain": "character",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "subject": "evan-hale",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:lena-varga:summary-sheet",
+      "path": "canon/characters/lena-varga/03-summary-sheet.md",
+      "domain": "character",
+      "role": "deliverable",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "lena-varga",
+      "step": "03",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:character:lena-varga",
+      "path": "canon/characters/lena-varga/open-questions.md",
+      "domain": "character",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "subject": "lena-varga",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:mouse:summary-sheet",
+      "path": "canon/characters/mouse/03-summary-sheet.md",
+      "domain": "character",
+      "role": "deliverable",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "mouse",
+      "step": "03",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:character:mouse",
+      "path": "canon/characters/mouse/open-questions.md",
+      "domain": "character",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "subject": "mouse",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:projector-operation:summary-sheet",
+      "path": "canon/characters/projector-operation/03-summary-sheet.md",
+      "domain": "character",
+      "role": "deliverable",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "projector-operation",
+      "step": "03",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:character:projector-operation",
+      "path": "canon/characters/projector-operation/open-questions.md",
+      "domain": "character",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "subject": "projector-operation",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:ruth-hale:summary-sheet",
+      "path": "canon/characters/ruth-hale/03-summary-sheet.md",
+      "domain": "character",
+      "role": "deliverable",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "ruth-hale",
+      "step": "03",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:character:ruth-hale",
+      "path": "canon/characters/ruth-hale/open-questions.md",
+      "domain": "character",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "subject": "ruth-hale",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "entity:ruined-sovereign:summary-sheet",
+      "path": "canon/entities/ruined-sovereign/03-summary-sheet.md",
+      "domain": "entity",
+      "role": "deliverable",
+      "family": "entity-development",
+      "visibility": "public",
+      "subject": "ruined-sovereign",
+      "step": "03",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "entity:turning-knot:summary-sheet",
+      "path": "canon/entities/turning-knot/03-summary-sheet.md",
+      "domain": "entity",
+      "role": "deliverable",
+      "family": "entity-development",
+      "visibility": "public",
+      "subject": "turning-knot",
+      "step": "03",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "science:apparatus-and-discovery",
+      "path": "canon/science/apparatus-and-discovery.md",
+      "domain": "science",
+      "role": "stable-reference",
+      "family": "science-reference",
+      "visibility": "public",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "science:causal-substrate",
+      "path": "canon/science/causal-substrate.md",
+      "domain": "science",
+      "role": "stable-reference",
+      "family": "science-reference",
+      "visibility": "public",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "science:contact-model",
+      "path": "canon/science/contact-model.md",
+      "domain": "science",
+      "role": "stable-reference",
+      "family": "science-reference",
+      "visibility": "public",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "science:replication-and-containment",
+      "path": "canon/science/replication-and-containment.md",
+      "domain": "science",
+      "role": "stable-reference",
+      "family": "science-reference",
+      "visibility": "public",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "story:one-sentence-summary",
+      "path": "canon/story/01-one-sentence-summary.md",
+      "domain": "story",
+      "role": "deliverable",
+      "family": "book-summary",
+      "visibility": "public",
+      "step": "01",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "story:five-sentence-summary",
+      "path": "canon/story/02-five-sentence-summary.md",
+      "domain": "story",
+      "role": "deliverable",
+      "family": "book-summary",
+      "visibility": "public",
+      "step": "02",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "story:expanded-summary",
+      "path": "canon/story/04-expanded-summary.md",
+      "domain": "story",
+      "role": "deliverable",
+      "family": "book-summary",
+      "visibility": "public",
+      "step": "04",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "story:expanded-summary-planning",
+      "path": "canon/story/04-supporting-planning.md",
+      "domain": "story",
+      "role": "supporting-planning",
+      "family": "book-summary",
+      "visibility": "public",
+      "step": "04",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "story:escalation",
+      "path": "canon/story/escalation.md",
+      "domain": "story",
+      "role": "stable-reference",
+      "family": "story-reference",
+      "visibility": "public",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "story:foundation",
+      "path": "canon/story/foundation.md",
+      "domain": "story",
+      "role": "stable-reference",
+      "family": "story-reference",
+      "visibility": "public",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "story:genesis-boundaries",
+      "path": "canon/story/genesis-boundaries.md",
+      "domain": "story",
+      "role": "stable-reference",
+      "family": "story-reference",
+      "visibility": "public",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "integration:authorbot:story-graph",
+      "path": "mirrors/authorbot/story-graph.yaml",
+      "domain": "integration",
+      "role": "graph-mirror",
+      "family": "story-graph",
+      "visibility": "internal",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "workflow:current-work",
+      "path": "work/README.md",
+      "domain": "workflow",
+      "role": "supporting-planning",
+      "family": "current-work",
+      "visibility": "internal",
+      "step": "05",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:motifs",
+      "path": "work/open-questions/motifs.md",
+      "domain": "story",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:naming",
+      "path": "work/open-questions/naming.md",
+      "domain": "story",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:plot",
+      "path": "work/open-questions/plot.md",
+      "domain": "story",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "questions:science",
+      "path": "work/open-questions/science.md",
+      "domain": "science",
+      "role": "open-questions",
+      "family": "open-questions",
+      "visibility": "internal",
+      "supersedes": [],
+      "extensions": {}
+    }
+  ],
+  "retiredDocuments": [],
+  "extensions": {}
+}

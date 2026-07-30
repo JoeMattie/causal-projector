@@ -1,24 +1,9 @@
-# Synopsis
+# Expanded summary
 
-Generated from accepted book-level Snowflake summaries without added prose.
+Status: accepted
+Snowflake step: 04
 
-## Five-sentence summary
-
-
-1. **Months into caring for his mother Ruth, controls engineer Evan Hale is building a garage-scale MRI flux source with her when a defective superconducting ring begins producing measurements that should not agree.**
-
-2. **While testing the anomaly, Evan experiences impossible clarity and discovers that the machine can force the improbable to happen, turning the project he shares with Ruth into an obsession that steals their remaining time together.**
-
-3. **When Evan exposes Ruth to the machine, she becomes lucid and casually asks after the granddaughter who survived in her memories but was miscarried in his; Evan treats the impossible detail as a calibration error rather than confront what the machine has selected.**
-
-4. **Addicted to the machine and haunted by entities that prove to be echoes of dying realities, Evan realizes each run is erasing entire universes; yet every attempt to stop becomes another impossible link in the chain that keeps it operating while Ruth's last lucid hours pass without him.**
-
-5. **As reality collapses around them into a fractal singularity, Evan and Esther "Tess" Kertesz, the one person too causally rare to be smoothly rewritten, make a final independent choice intended to erase his mistake, only for their act to become the genesis of our universe.**
-
-## Expanded summary
-
-
-### Paragraph 1: setup and anomaly
+## Paragraph 1: setup and anomaly
 
 > Months into caring for Ruth, who on bad days cannot place him as her son,
 > controls engineer Evan Hale keeps her involved in their garage flux-pump
@@ -33,7 +18,7 @@ Generated from accepted book-level Snowflake summaries without added prose.
 > finally arrives, meets the field target, and clears the anomaly. Late that
 > night, he reinstalls the defective ring. The cold notch returns.
 
-### Paragraph 2: clarity, control, and obsession
+## Paragraph 2: clarity, control, and obsession
 
 > While trying to isolate the cold notch, Evan slips into the deepest flow
 > state he has ever known: each observation seems to have one correct
@@ -52,7 +37,7 @@ Generated from accepted book-level Snowflake summaries without added prose.
 > When Ruth wanders away before the next run, he starts without her, and the
 > shared part of their project quietly falls away.
 
-### Paragraph 3: Ruth's lucidity and contradiction
+## Paragraph 3: Ruth's lucidity and contradiction
 
 > Lena matches Evan's operator log and spoken reasoning to the sensor anomaly:
 > only during its window do his corrections stop reversing and his alternatives
@@ -70,7 +55,7 @@ Generated from accepted book-level Snowflake summaries without added prose.
 > strongest lucidity whose memories agree with his records. He begins
 > formalizing the next run.
 
-### Paragraph 4: erasure and failed stopping
+## Paragraph 4: erasure and failed stopping
 
 > Across the replica labs, Tess finds that impossible chains converge on
 > decisions tied to the projector: one site's failed run supplies what another
@@ -96,7 +81,7 @@ Generated from accepted book-level Snowflake summaries without added prose.
 > not forgiven him, but his refusal to turn their loss into more work ends his
 > alignment with the operation while it continues without him.
 
-### Paragraph 5: collapse and genesis
+## Paragraph 5: collapse and genesis
 
 > Over the next several weeks, millions speak the same sentence at once, and
 > collision-avoidance maneuvers drive satellites into one another as Evan and
