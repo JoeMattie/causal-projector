@@ -384,7 +384,12 @@ h1 {
 .stage-toolbar p {
   margin: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.stage-toolbar .data-state {
+  font-size: 10px;
 }
 
 .data-state,
@@ -974,10 +979,10 @@ kbd {
 .tree-row {
   display: grid;
   width: 100%;
-  min-height: 2.65rem;
-  grid-template-columns: 0.8rem 1.55rem minmax(0, 1fr);
+  min-height: 3.1rem;
+  grid-template-columns: 0.9rem 2rem minmax(0, 1fr);
   align-items: center;
-  gap: 0.38rem;
+  gap: 0.48rem;
   padding: 0.38rem 0.46rem;
   color: var(--muted);
   border: 0;
@@ -1011,13 +1016,13 @@ kbd {
 .tree-chevron,
 .tree-spacer {
   display: grid;
-  width: 0.8rem;
+  width: 0.9rem;
   place-items: center;
 }
 
 .tree-chevron {
   color: var(--quiet);
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   line-height: 1;
   transform-origin: center;
   transition: transform 120ms ease;
@@ -1029,13 +1034,15 @@ kbd {
 
 .tree-symbol {
   display: grid;
-  width: 1.45rem;
-  height: 1.45rem;
-  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  place-content: center;
   color: var(--accent);
-  border: 1px solid var(--surface-selected);
-  border-radius: 50%;
-  font: 700 10px/1 var(--font-mono);
+  border: 1px solid var(--blue-500);
+  border-radius: 0.52rem;
+  background: var(--tint-primary);
+  font: 800 14px/1 var(--font-mono);
+  text-align: center;
 }
 
 .tree-copy {
@@ -1068,7 +1075,7 @@ kbd {
 }
 
 .tree-document {
-  min-height: 2.85rem;
+  min-height: 3rem;
 }
 
 .tree-document .tree-copy strong {
@@ -1080,8 +1087,8 @@ kbd {
 }
 
 .tree-status {
-  width: 0.48rem;
-  height: 0.48rem;
+  width: 0.68rem;
+  height: 0.68rem;
   justify-self: center;
   border: 1px solid var(--quiet);
   border-radius: 50%;

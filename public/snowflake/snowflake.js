@@ -308,32 +308,50 @@
 
   const syncNavigation = () => {
     const items = [...viewNavigation.querySelectorAll('[role="treeitem"]')];
-    let activeItem = null;
+    const inActiveView = (item) =>
+      (item.dataset.treeView ?? item.dataset.view) === state.activeView;
+    let activeItem =
+      (state.activeDocumentId
+        ? items.find(
+            (item) =>
+              item.dataset.recordId === state.activeDocumentId &&
+              inActiveView(item),
+          )
+        : null) ??
+      (state.activeGroup !== null
+        ? items.find(
+            (item) =>
+              item.dataset.treeGroup === String(state.activeGroup) &&
+              inActiveView(item),
+          )
+        : null) ??
+      items.find(
+        (item) =>
+          item.dataset.view === state.activeView &&
+          !item.dataset.treeGroup &&
+          !item.dataset.recordId,
+      ) ??
+      items[0] ??
+      null;
+
+    const contextItems = new Set();
+    let parentGroup = activeItem?.closest('[role="group"]') ?? null;
+    while (parentGroup && viewNavigation.contains(parentGroup)) {
+      const parentRow = parentGroup.parentElement?.querySelector(
+        ":scope > [role='treeitem']",
+      );
+      if (parentRow && parentRow !== activeItem) contextItems.add(parentRow);
+      parentGroup =
+        parentGroup.parentElement?.parentElement?.closest('[role="group"]') ??
+        null;
+    }
 
     for (const item of items) {
-      const itemView = item.dataset.treeView ?? item.dataset.view;
-      const context = itemView === state.activeView;
-      const isDocument =
-        Boolean(item.dataset.recordId) &&
-        item.dataset.recordId === state.activeDocumentId &&
-        context;
-      const isGroup =
-        !state.activeDocumentId &&
-        Boolean(item.dataset.treeGroup) &&
-        context &&
-        String(item.dataset.treeGroup) === String(state.activeGroup);
-      const isView =
-        !state.activeDocumentId &&
-        !state.activeGroup &&
-        Boolean(item.dataset.view) &&
-        item.dataset.view === state.activeView;
-      const active = isDocument || isGroup || isView;
-
+      const active = item === activeItem;
       item.classList.toggle("is-active", active);
-      item.classList.toggle("is-context", context && !active);
+      item.classList.toggle("is-context", contextItems.has(item));
       if (active) {
         item.setAttribute("aria-current", "page");
-        activeItem ??= item;
       } else {
         item.removeAttribute("aria-current");
       }
