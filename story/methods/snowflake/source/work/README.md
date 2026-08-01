@@ -1,8 +1,8 @@
 ---
 schema: causal-projector.snowflake-work/v1
 activeStep: "05"
-currentDocumentId: character:evan-hale:full-character-synopsis
-supportingDocumentId: character:evan-hale:full-character-synopsis-planning
+currentDocumentId: character:mouse:full-character-synopsis
+supportingDocumentId: character:mouse:full-character-synopsis-planning
 currentStatus: provisional
 ---
 
@@ -13,29 +13,29 @@ link here instead of repeating current status.
 
 - Active Snowflake step: 05
 - Current deliverable:
-  [`canon/characters/evan-hale/05-full-character-synopsis.md`](../canon/characters/evan-hale/05-full-character-synopsis.md)
+  [`canon/characters/mouse/05-full-character-synopsis.md`](../canon/characters/mouse/05-full-character-synopsis.md)
 - Deliverable status: provisional, awaiting review
 - Supporting planning:
-  [`canon/characters/evan-hale/05-supporting-planning.md`](../canon/characters/evan-hale/05-supporting-planning.md)
+  [`canon/characters/mouse/05-supporting-planning.md`](../canon/characters/mouse/05-supporting-planning.md)
 
 ## Immediate review decision
 
-The institutional middle of Evan's provisional synopsis is deliberately
-deferred. Its explicit stub preserves the locked casualties, Evan's response,
-and the later proof-to-stop boundary without pretending that the replica
-laboratories, their commercial projects, containment, or the fatal causal
-chain have been solved. The abandoned branches and physical safety checks are
-preserved in the science and plot archive, and the unresolved decisions are
-owned by the projector operation's open questions.
+Mouse's provisional treatment now opens with her birth in an unknown cabin
+loft in Fairbanks, her unstable first seven years and long outdoor period near
+Ester, Tess's adoption of her from the shelter, and their move to the Pacific
+Northwest. The treatment follows Mouse through the whole story by way of
+familiar people, rooms, voices, surfaces, routines, and immediate sensation.
 
-Outside that stub, Joe's handwritten pass and later clarifications govern the
-synopsis. The current revision carries the guardrail-leakage pass through the
-resolved material while preserving his intentional wording and the arc from
-connection, through substitution and formalization, to presence and accepted
-uncertainty.
+Its organizing spine is the set of places and people Mouse learns to find.
+Tess becomes her first durable home, Ruth becomes the first person in Evan's
+house whom Mouse chooses for herself, and the final loss of stable location
+tests the same ordinary habit of following local cues. The treatment does not
+give her human understanding or special access to the projector.
 
-Does the resolved material in Evan's synopsis now carry that arc with enough
-human weight, apart from the deliberately deferred institutional middle?
+Evan's provisional synopsis remains intact for Joe's later full-read feedback.
+
+Does Mouse's draft remain convincingly animal while giving her whole life
+enough shape to earn the final viewpoint?
 
 ## Open-question destinations
 

@@ -24,8 +24,23 @@ animals, and impossible events with the same calm attention.
 - She weighs about five pounds.
 - Before Tess adopted her, frostbite destroyed the tips of both ears. Their
   shortened outline looks vaguely mouse-like, which is the basis of her name.
-- Her exact breed, coat pattern, age at adoption, and adoption circumstances
-  remain open.
+- Her exact breed and coat pattern remain open.
+
+## Early life and adoption
+
+Mouse is born in the loft of a cabin in Fairbanks. Her mother is gone before
+Mouse retains a lasting memory of her, and the cabin's owner never knows Mouse
+exists.
+
+During her first seven years, Mouse bops from one temporary home to another and
+spends a prolonged stretch living in the woods around Ester. By the time she
+reaches the shelter, frostbite has destroyed the tips of both ears.
+
+Tess adopts Mouse from the shelter when Mouse is seven. Tess then moves with
+her to the Pacific Northwest. Mouse is seventeen during the main story, so
+they have lived together for about ten years. The exact temporary homes,
+outdoor sequence, shelter history, adoption scene, and timing of the move
+remain open.
 
 ## Temperament
 
@@ -47,8 +62,9 @@ or helpless, and her fearlessness does not make her invulnerable.
 
 ## Relationship with Tess
 
-Tess adopted Mouse after the frostbite injury. The exact rescue, timing, and
-length of their life together remain open.
+Tess adopts Mouse from the shelter after the frostbite injury and takes her to
+the Pacific Northwest. Their ten years together make Tess the first durable
+home in Mouse's life.
 
 Mouse belongs to Tess's small, ordinary life before the project. She later
 moves into Evan and Ruth's house with Tess when the research becomes
@@ -132,8 +148,8 @@ viewpoint. This is the novel's only cat viewpoint.
 ## Arc landmarks
 
 - **Ordinary life:** Mouse is already an old, tiny, fearless observer in
-  Tess's life. She follows Tess anywhere, curled up in a little bag or perched
-  on her shoulder.
+  Tess's life after an unstable first seven years in Alaska. She follows Tess
+  anywhere, curled up in a little bag or perched on her shoulder.
 - **Domestic arrival:** She moves into Evan and Ruth's house with Tess, chooses
   Ruth as her preferred resting companion, and frequently looks up at Ruth and
   meows once for her attention.

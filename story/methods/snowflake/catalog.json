@@ -236,6 +236,30 @@
       "extensions": {}
     },
     {
+      "id": "character:mouse:full-character-synopsis",
+      "path": "canon/characters/mouse/05-full-character-synopsis.md",
+      "domain": "character",
+      "role": "deliverable",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "mouse",
+      "step": "05",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
+      "id": "character:mouse:full-character-synopsis-planning",
+      "path": "canon/characters/mouse/05-supporting-planning.md",
+      "domain": "character",
+      "role": "supporting-planning",
+      "family": "character-development",
+      "visibility": "public",
+      "subject": "mouse",
+      "step": "05",
+      "supersedes": [],
+      "extensions": {}
+    },
+    {
       "id": "questions:character:mouse",
       "path": "canon/characters/mouse/open-questions.md",
       "domain": "character",

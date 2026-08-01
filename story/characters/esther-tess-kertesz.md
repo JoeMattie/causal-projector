@@ -102,7 +102,8 @@ Rarity does not make her immune. It means the projector has almost no compliant 
 - An aunt and cousins decline to take her in; Tess has little or no relationship with them afterward.
 - Close family friends become her legal guardians and raise her in Fairbanks.
 - She attends the University of Alaska Fairbanks.
-- She moves to the Portland area after college.
+- She remains in Alaska into her late twenties. Around twenty-eight, after
+  adopting seven-year-old Mouse, she moves with her to the Portland area.
 
 ## Ordinary life before Evan
 
@@ -110,13 +111,11 @@ Tess is a mildly eccentric amateur naturalist.
 
 - Catalogs mushrooms, tide-pool organisms, rocks, weather, and birds she cannot reliably identify by sound.
 - Owns field guides, binoculars, labeled specimens, small weather instruments, and abandoned attempts at watercolor.
-- Has a seventeen-year-old, long-haired black-and-brown cat named Mouse. Mouse
-  weighs about five pounds. Frostbite destroyed the tips of her ears before
-  Tess adopted her, leaving them vaguely mouse-like. She is intensely curious
-  about humans and other animals, afraid of nothing, and calmly watches strange
-  events. Mouse later moves into Evan and Ruth's house with Tess when the
-  research becomes intensive. She follows Tess anywhere, curled up in a little
-  bag or perched on Tess's shoulder.
+- Has a seventeen-year-old, long-haired black-and-brown cat named Mouse. Tess
+  adopted Mouse from a Fairbanks-area shelter when the cat was seven, then
+  moved with her to the Pacific Northwest. Mouse later moves into Evan and
+  Ruth's house with Tess when the research becomes intensive. She follows Tess
+  anywhere, curled up in a little bag or perched on Tess's shoulder.
 - Plays pub trivia with Lena.
 - Has a small, ordinary, inhabited life that contrasts with the mythic rarity of her survival.
 
