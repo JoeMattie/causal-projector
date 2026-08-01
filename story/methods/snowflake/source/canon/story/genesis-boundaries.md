@@ -48,9 +48,9 @@ The ending is fixed only at the level required by the tragedy:
   the first stable-reality failure. Primed volcanic eruptions may accompany
   it, but exact sites, timing, and consequences remain late-bound.
 - Evan and Tess's human objective through the several-week corridor is to reach
-  Lena. Tess seeks her friend, and Evan chooses a person rather than Lena's
-  work, data, or an explanation. The journey cannot restore control of the
-  operation or make Lena a third terminal chooser.
+  Lena. Tess seeks her friend, and Evan goes knowing Lena may have no answer
+  left to offer. The journey cannot restore control of the operation or make
+  Lena a third terminal chooser.
 - Lena has left the implicated shared facility for a remote university
   geomagnetic observatory. She converts it to strictly receive-only operation:
   passive instruments, independent clocks, incoming data, and local storage,
@@ -85,11 +85,15 @@ The ending is fixed only at the level required by the tragedy:
   sites, transition, and physical presentation remain late-bound.
 - Lena's observatory contains no projector apparatus and remains strictly
   receive-only until stable geometry fails. Evan and Tess do not return to the
-  ruined garage or recover the original ring. During merged-site failure, a
-  distant replica site becomes physically co-present with the observatory's
-  damaged space, making its apparatus accessible for the final act. The exact
-  site, apparatus condition, route through the overlap, and terminal controls
-  remain late-bound.
+  ruined garage. The powered-down original apparatus remains at the remote test
+  site where Evan attempted the earlier shutdown. During merged-site failure,
+  that site becomes physically co-present with the observatory's damaged space,
+  making the rig accessible for the final act.
+- The original ring is not metaphysically privileged. It is an accessible
+  working implementation in the projector lineage, and another working
+  implementation could have served the same role. The exact apparatus
+  condition, route through the overlap, terminal controls, outcome states, and
+  failure cases remain deferred until the final chapter or two are outlined.
 - The progression uses incompatible atlases within one damaged reality. Evan
   retains a primarily visual, object-centered geometry. Tess experiences
   adjacency, depth, and her own orientation through concrete acoustic
@@ -107,10 +111,10 @@ The ending is fixed only at the level required by the tragedy:
   intend, design, or knowingly choose a successor universe.
 - Each receives the full relevant truth before choosing, then has no way to
   inspect, model, coerce, or influence the other's decision. Refusal remains
-  real. Their love is expressed by preserving that freedom rather than by
-  guaranteeing agreement.
-- Evan's terminal change is accepting that Tess may refuse and that he cannot
-  decide for her. Tess chooses despite the feared possibility that unmatched
+  real, and neither knows the other's answer before acting.
+- Evan's terminal change is accepting uncertainty. He acts knowing that Tess
+  may refuse and that no further observation or procedure can settle her
+  answer first. Tess chooses despite the feared possibility that unmatched
   choices could leave her as the sole remainder again.
 - Genesis is the unintended result when their independently chosen shared
   ending meets the exhausted parent boundary. Exact controls, outcome states,
@@ -132,7 +136,7 @@ The ending is fixed only at the level required by the tragedy:
   replace her with a compliant neighboring version.
 - The final act must require both Evan and Tess to make consequential choices
   that neither can pre-verify, coerce, or reduce to one will.
-- Their love is proved by remaining distinct, not by converging.
+- Their choices remain distinct even if they converge on the same ending.
 - Their attempt to erase or repair the mistake becomes the genesis of our
   universe.
 - Neither survives as an intact personal self in the parent history.
@@ -209,9 +213,10 @@ The ending is fixed only at the level required by the tragedy:
   closure dominant.
 
 The **mutual-veto / noncommuting-operation** design remains a strong candidate
-because it resolves Tess's false belief about unverifiable trust and Evan's
-compulsion to decide for others. It is not yet locked as hardware, protocol,
-payoff matrix, or chapter sequence. Do not design the terminal operation in
-detail until the final chapter or two are being outlined. The story should
-earn the mechanism from the characters and established physics rather than
-reverse-engineering twenty chapters to serve an elegant endgame diagram.
+because it can make Evan act under irreducible uncertainty while keeping
+Tess's answer independent and refusal possible. It is not yet locked as
+hardware, protocol, payoff matrix, or chapter sequence. Do not design the
+terminal operation in detail until the final chapter or two are being
+outlined. The story should earn the mechanism from the characters and
+established physics rather than reverse-engineering twenty chapters to serve
+an elegant endgame diagram.

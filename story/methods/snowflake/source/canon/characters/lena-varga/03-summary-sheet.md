@@ -120,10 +120,10 @@ cooperative safeguards, not an attempt to stop the work.
 
 Evan calls the interval an overshoot and proposes optimizing for the strongest
 lucid state whose autobiography agrees with his record family. Lena rejects
-that as authentication. It can select a Ruth who conforms to Evan's history,
-but it cannot establish that she is the original or correct Ruth. Evan turns
-this objection into a reason for better controls and begins formalizing
-another reduced run.
+the proposal because concordance only measures conformity to Evan's records.
+It cannot show that Ruth has been restored, establish that another exposure is
+safe, or answer whether Ruth wants it. Evan turns this objection into a reason
+for better controls and begins formalizing another reduced run.
 
 ## Entity contact
 
@@ -160,19 +160,21 @@ the test through the consortium's approval process. Lena refuses her
 participation and endorsement, but she cannot veto the other sites.
 Evan includes the carrier hypothesis, its recursive risk, and Lena's stated
 reason for refusing in the proposal. Reviewers, site leads, and operators
-knowingly authorize and execute the test under local control. Its outcome
-determines their next containment or decommissioning action.
-Measurements, decisions, approvals, and responses close a live projection
-cycle without Evan or the original garage apparatus. Lena chooses ethical
-uncertainty, Evan still needs the answer, and the result proves her suspected
-carrier by strengthening it. Their scientific disagreement becomes a decisive
-rupture. Evan acknowledges that Lena was right about the recursive risk but
-still calls the proof necessary, then moves directly into coordinated shutdown
-work. He expects her to remain because he sees containment as their shared
-duty. Lena instead ends their active collaboration and refuses to supply
-another live response. Evan recognizes the boundary but initially experiences
-it as leaving when the work matters most. Exact governance, test mechanics, and
-their exchange remain late-bound.
+knowingly authorize and execute the test under local control. The initial
+readout fails to show an independent carrier, so the sites carry out the
+containment and decommissioning response assigned to that result. Those
+actions change later conditions and decisions elsewhere. Only the aftermath
+shows that the review, negative readout, and promised response together closed
+a live projection cycle without Evan or the original garage apparatus. Lena
+chooses ethical uncertainty, while Evan still needs the answer, and the full
+protocol proves the carrier by completing it. Their scientific disagreement
+becomes a decisive rupture. Evan acknowledges that Lena was right about the
+recursive risk but still calls the proof necessary, then moves directly into
+coordinated shutdown work. He expects her to remain because he sees
+containment as their shared duty. Lena instead ends their active collaboration
+and refuses to supply another live response. Evan recognizes the boundary but
+initially experiences it as leaving when the work matters most. Exact
+governance, test mechanics, and their exchange remain late-bound.
 
 ## Relationship with Tess
 
@@ -221,11 +223,11 @@ limited to passive analysis that cannot guide the system's next response. This
 allows her to recognize the operation's self-exhaustion without undoing her
 refusal or becoming a third terminal chooser.
 
-Evan does not understand this boundary when she first leaves. Only after Ruth's
-death, when he makes his own non-instrumental refusal, does he recognize that
-Lena did not abandon necessary work. She refused to turn stopping into another
-live input. This later allows him to honor her final refusal at the
-observatory.
+Evan does not understand this boundary when she first leaves. After Ruth's
+death, he recognizes his repeated loop of converting helplessness into work and
+consciously chooses not to repeat it. That change lets him understand that Lena
+did not abandon necessary work. She refused to turn stopping into another live
+input. This later allows him to honor her final refusal at the observatory.
 
 During the several weeks of terminal brittleness, Evan and Tess try to reach
 her. Tess seeks her friend. Evan chooses Lena as a person rather than her work,
@@ -280,7 +282,9 @@ decision.
 - Helps identify residual entities and finite effective support.
 - Experiences direct entity contact and can no longer treat the anomaly as
   only a measurement problem.
-- Recognizes earlier than Evan that coherence is not authentication and that continued observation may itself cause damage.
+- Recognizes earlier than Evan that agreement with an existing record is not
+  evidence of restoration or safety, and that continued observation may itself
+  cause damage.
 - Attempts shutdown or containment.
 - Brings Tess into the project.
 - Refuses the live test needed to prove that the containment system is itself a

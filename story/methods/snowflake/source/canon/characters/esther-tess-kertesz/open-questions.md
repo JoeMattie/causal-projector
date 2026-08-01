@@ -8,9 +8,11 @@ Status: unresolved
 - Exact records that first contradict her survival history, including their
   timing, degree, and visibility.
 - How she moves from professional audit to living in Evan and Ruth's house.
-- The precise experiment in which Evan secretly uses her choices.
-- Exact scene mechanics of Evan's admission, their rupture, and the renewed
-  trust that begins after Ruth's death without becoming immediate forgiveness.
+- The precise trials and carrier-protocol decisions in which Evan continues
+  using Tess's audits after he suspects her choices may be causally active.
+- Exact scene mechanics of Evan's admission, the damage to Tess's trust, and
+  the small choices through which they remain together after Ruth's death
+  without pretending the breach is settled.
 - Whether Tess knows Evan remembers her childhood disaster from the news before
   he tells her.
 - Exact visual and spatio-acoustic symbols Evan and Tess recover after sharing

@@ -7,6 +7,8 @@ Status: accepted
 Real-science ancestry:
 
 - melt-textured YBCO high-temperature superconductor;
+- an LN2 bath or stage that holds the YBCO below its superconducting
+  transition, without a liquid-helium magnet system;
 - type-II vortices and flux pinning;
 - a thermally actuated traveling-wave flux pump;
 - a Prussian-blue magnetic material whose permeability changes with
@@ -45,6 +47,21 @@ Opening diagnostic sequence:
   the trapped-field target, and makes the temperature anomaly disappear.
 - Late that night, Evan puts the defective ring back into the apparatus. The
   same anomaly returns.
+- Evan then advances the pulse timing in an attempt to move the notch toward
+  another sensor. During the resulting clarity state, a better phase sequence
+  for the ordinary flux-pump cycle becomes obvious to him. It increases the
+  trapped field enough to keep the defective ring technically useful.
+- The timing change moves the notch between the installed sensors, making the
+  original diagnostic appear to disappear. Evan initially treats this as
+  successful isolation rather than recognizing that he has moved the
+  measurement window.
+- The same clarity interval supplies the zero-speed motor-estimator insight
+  from his day job. Both the ordinary flux-pump improvement and the motor fix
+  survive the altered state, giving him two valid technical reasons to trust
+  it before he recognizes that the garage run caused it.
+- Related altered states recur during later timing work. Their repetition,
+  rather than the first experience alone, forces Evan to acknowledge that the
+  project is doing something to him.
 - The exact depth and duration of the notch remain open. It must defeat known
   cryogenic sensor and material effects without establishing a literal
   violation of thermodynamics. Phase collapse remains a fallback if the

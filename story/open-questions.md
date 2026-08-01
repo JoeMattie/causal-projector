@@ -11,9 +11,11 @@ Generated deterministically from the internal Snowflake question owners.
 - Exact records that first contradict her survival history, including their
   timing, degree, and visibility.
 - How she moves from professional audit to living in Evan and Ruth's house.
-- The precise experiment in which Evan secretly uses her choices.
-- Exact scene mechanics of Evan's admission, their rupture, and the renewed
-  trust that begins after Ruth's death without becoming immediate forgiveness.
+- The precise trials and carrier-protocol decisions in which Evan continues
+  using Tess's audits after he suspects her choices may be causally active.
+- Exact scene mechanics of Evan's admission, the damage to Tess's trust, and
+  the small choices through which they remain together after Ruth's death
+  without pretending the breach is settled.
 - Whether Tess knows Evan remembers her childhood disaster from the news before
   he tells her.
 - Exact visual and spatio-acoustic symbols Evan and Tess recover after sharing
@@ -66,19 +68,42 @@ whether that viewpoint is used.
 
 
 - In-world technical and colloquial names for the operation.
-- The exact live implementation of the proof-to-stop test, within the locked
-  constraint that it closes the first distributed projection cycle without
-  Evan or the original garage apparatus.
+- The exact initial readout, precommitted containment or decommissioning
+  response, and aftermath of the proof-to-stop protocol, within the locked
+  constraint that the readout alone fails to show an independent carrier and
+  the complete protocol proves and completes the first distributed carrier
+  without Evan or the original apparatus.
 - Which labs, agencies, companies, or other institutions become later
   carriers after the scientific containment system becomes the first
   independent carrier.
 - How widely the operation itself is recognized before terminal convergence.
 - Exact participating facilities, site count, study administration, and
   replication schedule.
+- The real physical projects pursued by the replica laboratories, the human
+  and financial stakes behind each one, and how those projects depend on the
+  projector without reducing the goal to a favorable report or test reading.
+- A concrete reader-facing definition of containment and the first operation
+  outside it. Simultaneous replica operation is neither forbidden nor enough
+  by itself. The unresolved issue is how consequences from separate
+  lineage-linked operations become causally connected.
 - The resource and full contingency chain in the representative cross-lab
   handoff.
-- The exact stored-energy source, hardware failure, physical injury mechanics,
-  site, geography, and ejecta of the local compound catastrophe.
+- The exact composition, transport, remote site, and interlocks of the complete
+  original active core. Moving the ring alone is not enough.
+- The exact controlled above-Tc warming, pinned-flux depinning and decay, and
+  open-or-disabled-feedback sequence in Evan's attempted remote shutdown.
+- Which monitored garage and home conditions feed the precommitted distributed
+  response, and the exact fallback verification run entered when loss of that
+  safety state halts synchronized decommissioning.
+- The exact LN2, pressure, RF, electrical, or brittle-failure chain and
+  physical injury mechanics of the fatal replica-site accident.
+- Whether the fatal accident remains local to one replica or results from
+  overlap between two operations. Exploratory project pairs, stop-and-continue
+  coupling, return-path requirements, and dewar-based casualty checks are
+  preserved in the
+  [science and plot archive](../../../archive/science-and-plot-archive.md#r-deferred-containment-and-cross-lab-accident-exploration).
+- The exact stored-energy source, site, geography, and ejecta of the later
+  compound collapse and explosion at the ringless garage.
 - Whether the dead researcher and surviving close professional collaborator
   had any further personal relationship.
 - How the DMT observer renders the invariant in sensory and symbolic terms.
@@ -88,12 +113,15 @@ whether that viewpoint is used.
 - How narration preserves preconceptual, extra-spatial contact and perturbative
   sensory effects without reducing them to an ordinary scene with unfamiliar
   decorations.
-- Exact replica site, apparatus condition, and route through the merged-site
-  overlap.
-- Whether mutual veto is the final terminal structure or only an emotional
-  model.
+- The exact route by which the remote original-apparatus site becomes
+  co-present with Lena's observatory, and the condition in which the
+  powered-down rig becomes accessible. The original ring's lack of
+  metaphysical privilege is locked, not an open question.
+- Whether mutual veto remains the final terminal structure or gives way to a
+  different independent-choice design that preserves real refusal and Evan's
+  inability to know Tess's answer before acting.
 - Exact noncommuting operations controlled by Evan and Tess, including
-  game-theoretic payoff states and permit/veto combinations.
+  game-theoretic payoff states and outcome combinations.
 - Exact terminal hardware, waveform, protocol, and physical mechanism of
   genesis (deliberately deferred).
 
@@ -212,7 +240,11 @@ whether that viewpoint is used.
   language.
 - Exact finite-history formalism and what can be measured locally.
 - Exact exposure variable, memory checks, and stopping rule for Evan's
-  concordance window.
+  concordance window, with measurements explicitly limited to conformity with
+  Evan's records rather than restoration, safety, or Ruth's wishes.
+- How the later erasure evidence reclassifies the granddaughter memory as
+  access to a real autobiographical history being stripped away, while keeping
+  Ruth's subjective experience unknowable.
 - What measurable signature distinguishes causal lineage from an unrelated
   system with the same abstract topology.
 - What `effective bits of rarity` means operationally.
@@ -254,7 +286,16 @@ whether that viewpoint is used.
 ### Replication implementation
 
 - Exact custody, characterization, fabrication, and transport procedures for
-  the original ring and Lena's first deliberate analogue.
+  the original ring, Lena's first deliberate analogue, and the later move of
+  the complete original active core to the remote shutdown site.
+- Exact physical safe-state procedure for the remote rig, including controlled
+  warming of the YBCO above Tc, pinned-flux depinning and decay, controller
+  feedback isolation, interlocks, and verification that the apparatus remains
+  powered down.
+- Exact garage and home monitoring, loss criteria, and distributed fallback
+  mapping that allow destruction of the ringless garage to change live
+  containment decisions elsewhere by halting decommissioning and starting a
+  verification run.
 
 ### Genesis model
 
@@ -265,6 +306,7 @@ whether that viewpoint is used.
 
 - [The projector operation](../../canon/characters/projector-operation/open-questions.md)
   owns the exact proof-to-stop test, cross-lab carrier implementation,
-  apparatus-linked catastrophe, and terminal protocol.
+  remote active-core shutdown, garage-triggered fallback, apparatus-linked
+  catastrophe, merged-site access, and terminal protocol.
 - [Mouse](../../canon/characters/mouse/open-questions.md) owns the animal,
   sensory execution of the genesis chapter's ending.

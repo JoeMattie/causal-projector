@@ -143,8 +143,15 @@ Locked closing turn:
 - The paragraph closes on a small instance of this new rule: Ruth wanders or
   is out, and Evan begins the next consequential run instead of waiting.
 
-Locked external result:
+Locked first clarity results:
 
+- Evan advances the pulse timing in an attempt to move the cold notch toward
+  another sensor. During clarity, a better ordinary phase sequence becomes
+  obvious. It improves the trapped field enough to keep the defective ring
+  useful.
+- The timing change moves the notch between installed sensors, where the
+  original diagnostic appears to disappear. Evan initially treats this as
+  successful isolation.
 - Retain the zero-speed motor-estimator concept from the legacy draft, but not
   its scene structure, wording, or exact placement.
 - Evan has been unable to eliminate an intermittent torque spike in a
@@ -158,11 +165,13 @@ Locked external result:
   should trip rather than invent certainty.
 - The insight uses information and skills Evan already has. It does not give
   him unknown facts.
-- The rewritten fix survives simulation, review, and an external work-bench
-  test after the clarity state ends.
+- The phase-sequence improvement and rewritten motor fix both survive after
+  the clarity state ends. The motor fix also survives simulation, review, and
+  an external work-bench test.
 - Evan experiences the clarity as an epiphany or unusually deep flow state. He
-  claims the motor insight as his own and does not yet suspect that the
-  apparatus has affected his mind.
+  claims both insights as his own and does not yet suspect that the apparatus
+  has affected his mind. Related states recur during later timing work before
+  he admits the connection.
 - The thematic parallel is left implicit. Nobody explains that preserving
   alternatives solves the motor problem while Evan is learning to destroy
   alternatives elsewhere.
@@ -288,24 +297,33 @@ Locked deepening-restoration progression:
   memory enters as an ordinary fact within that otherwise coherent state. Ruth
   does not experience it as new, strange, or separate from the rest of her
   memory.
-- The pattern is not proof of a cure or of an authenticated original Ruth. The
-  exact number of runs and clock duration of each interval remain late-bound.
+- The pattern is not proof of a cure. Ruth's interior remains unknowable: the
+  story does not settle how she experiences the interval, whether she
+  understands the change as rescue, or what she wants after the granddaughter
+  contradiction. The exact number of runs and clock duration of each interval
+  remain late-bound.
 
 Locked concordance-window response:
 
 - Evan calls the latest interval an overshoot. He treats the granddaughter
   memory as evidence that the run passed beyond a usable setting, not as a
-  reason to question whether clarity and identity can come apart.
+  reason to question whether lucidity and agreement with his history can come
+  apart.
 - He defines the target as the strongest lucid interval in which Ruth's
   autobiographical reports remain concordant with his record family. In
-  practice, his history becomes the standard for deciding which Ruth counts as
-  correct.
+  practice, concordance measures conformity to Evan's surviving records.
 - He proposes another reduced run with precommitted memory checks to locate
   that window. The exact exposure variable, cognitive battery, run count, and
   stopping rule remain late-bound.
-- Lena objects that concordance with Evan's records cannot authenticate Ruth.
-  At most, it selects a coherent version who agrees with the history Evan
-  already occupies.
+- Lena objects that agreement with Evan's records cannot tell them how Ruth
+  experiences the interval or whether selecting against disagreement benefits
+  her. At most, it selects a coherent autobiographical report that conforms to
+  the history Evan already occupies.
+- The later paired loss and echo establishes that the incompatible
+  granddaughter memory was access to a real autobiographical history while
+  that history was being stripped from accessible people and records. In light
+  of that evidence, Evan's proposed protocol would suppress a real distinction
+  precisely because it disagreed with his records.
 - Evan turns the objection into a demand for better controls and begins
   formalizing the next run. That conversion, rather than the granddaughter
   question itself, closes the paragraph.
@@ -346,23 +364,36 @@ Locked structure:
   contingencies delivers it before a precommitted cutoff. The second site
   completes its blocked task. Every link is physically ordinary, but one lab's
   failure has become another lab's success.
+- A later local accident kills one researcher. A surviving close collaborator
+  retains technical competence but permanently loses every autobiographical
+  memory of the dead person and their shared years. Evan treats the death as an
+  engineering and containment failure. He accepts the evidence hold, then
+  helps turn the loss into a bounded restart plan meant to find the failure and
+  prevent another death. This is the third major instance of his defense after
+  formalizing Ruth's incompatible memory and secretly measuring Tess's rare
+  survival.
 - Lena suspects that the distributed containment system is itself a carrier.
-  Proving this requires a live test whose outcome will determine how
-  participating labs contain or decommission their systems. Lena refuses
-  because the proof would strengthen the suspected loop. Evan argues that
+  The proposed test pairs an initial readout with a precommitted containment or
+  decommissioning response. Lena refuses the complete protocol because the
+  response to its result could complete the suspected loop. Evan argues that
   suspicion will not make institutions disengage. As a technical adviser
-  without unilateral run authority, he sponsors the test through shared
+  without unilateral run authority, he sponsors the protocol through shared
   consortium approval. Participating sites execute it under local control.
   Reviewers, site leads, and operators receive the carrier hypothesis, its
   recursive risk, and Lena's stated reason for refusing before they approve.
-  Measurements, decisions, approvals, and containment responses close a cycle
-  without Evan or the garage apparatus. This establishes the first independent
-  carrier and ends Lena's collaboration before the full cosmological cost is
-  proved. Evan reads the result as grim vindication: Lena was right about the
-  recursive danger, but the institutions needed proof before they would sustain
-  shutdown. He moves directly into coordinated stopping work and expects Lena
-  to remain because he now sees containment as their shared duty. Her
-  withdrawal from every live response surprises him.
+  The initial readout fails to show an independent carrier. The sites
+  nevertheless carry out the response assigned to that result. Their physical
+  and institutional actions alter later conditions and decisions across the
+  network, and the full aftermath shows that the readout and response together
+  closed a live cycle without Evan or the garage apparatus. The protocol does
+  not merely detect a carrier that was already independent; it proves and
+  completes the first independent carrier. This ends Lena's collaboration
+  before the full cosmological cost is proved. Evan reads the result as grim
+  vindication: Lena was right about the recursive danger, but the institutions
+  needed proof before they would sustain shutdown. He moves directly into
+  coordinated stopping work and expects Lena to remain because he now sees
+  containment as their shared duty. Her withdrawal from every live response
+  surprises him.
 - The conclusive erasure proof is paired loss and echo. After a run, one
   specific autobiographical distinction disappears from waking people and
   ordinary records. Tess retains enough continuity to establish a before-state.
@@ -373,20 +404,53 @@ Locked structure:
   of freedom from it. The entities do not explain what happened. Evan and Tess
   infer disappearance from accessible reality, persistence in contact, and
   degradation under continued projection.
+- The same proof recontextualizes Ruth's incompatible granddaughter memory as
+  access to a real autobiographical history while that history was being
+  stripped away. It does not reveal Ruth's interior, but it does establish that
+  Evan's concordance window would have suppressed a real distinction for
+  failing to match his records.
 - Do not make the Turning Knot's apparent fate carry this proof. Its objective
   fate remains unknowable. Do not make the Ruined Sovereign alone prove that
   histories were inhabited. The residual contact may remain unnamed.
-- As the proof lands, Evan voluntarily admits that he secretly used Tess's
-  ordinary uninformed choices as a live control for resistance to pruning and
-  mined ferry, rescue, and medical records to estimate her rarity. She does not
-  catch him. The admission matters, but it does not undo the violation. He
-  worsens it by reaching for inevitability and treating their meeting and love
-  as something that was supposed to happen.
-- Tess and Evan's conflict therefore begins before Ruth's final decline. Evan
-  leaves to follow the proof-to-stop chain across labs and institutions and try
-  to sever the independent carrier. His goal is defensible, but he once again
-  converts helpless presence into work. Tess remains with Ruth while still
-  angry with him.
+- As the proof lands, Evan voluntarily admits that after he began to suspect
+  Tess's rare history might matter to the anomaly, he continued running live
+  projector work in her presence, compared her ordinary choices with active
+  trials, and mined ferry, rescue, and medical records to estimate her rarity.
+  He folded that analysis into the evidence and design work leading to the
+  proof-to-stop protocol that completed the first independent carrier. She does
+  not catch him. The admission matters, but it does not undo the violation.
+- The independent analogue rules Tess out as a necessary cause of the basic
+  apparatus effect. It cannot establish that her presence had no influence on
+  the particular projector lineage before Evan formed and tested his
+  hypothesis. That ambiguity remains real.
+- Tess's central objection is that Evan used the most private fact of her life
+  as an undisclosed experimental variable and continued exposing her to live
+  work after he suspected it mattered. A claim that their meeting was
+  inevitable may still reveal Evan's state of mind, but it is not the cause of
+  the breach.
+- Tess and Evan's conflict begins before Ruth's final decline. Her trust in
+  Evan is damaged, not destroyed, and their love remains real. She stays with
+  Ruth while still angry with him. Evan answers fear and guilt through his own
+  familiar defense: he moves the complete active core of the original apparatus
+  from the garage to a remote test site and tries to sever the independent
+  carrier from there.
+- The defective ring alone is inert. The moved core includes the ring, its
+  LN2 stage, the thermal and RF drive, the controller state, the sensors,
+  and a fresh live consequence mapping. He chooses a remote industrial or test
+  site because he believes physical danger will remain near the energized
+  hardware and participating laboratories. Exact site, transport, and
+  supporting utilities remain late-bound.
+- The remote procedure combines controlled warming of the YBCO above Tc so
+  pinned flux depins and decays with opening or disabling the feedback loop so
+  fresh consequential input cannot close another local cycle. Exact
+  temperatures, field-decay thresholds, waveforms, interlocks, and timing
+  remain late-bound.
+- The procedure is part of a precommitted distributed response rather than a
+  private bench shutdown. Evan adds monitored garage and home safety status to
+  its declared inputs to protect Ruth and Tess. Loss of that status requires
+  participating sites to halt synchronized decommissioning and enter a fallback
+  verification run. This mapping is what lets an event at the ringless garage
+  affect a live decision in the projector lineage.
 - Ruth's final lucidity is natural rather than projector-generated. It is
   terminal or paradoxical lucidity, followed by progressive tiredness, trouble
   speaking and swallowing, intermittent responsiveness, unconsciousness, and
@@ -405,32 +469,43 @@ Locked structure:
   points falling like molten glass or fire. The shockwave follows. `Molten
   glass` is Tess's immediate perception, not a settled material fact. The exact
   ejecta remains late-bound.
-- Evan's attempt to destroy or isolate the garage succeeds locally through the
-  catastrophe while the independent carrier continues elsewhere. The garage is
-  destroyed or inaccessible, but the house survives well enough for Tess to
-  remain with Ruth. Roads, utilities, communications, and emergency access
-  fail. Ruth survives the blast long enough for her death to remain natural.
-  The cat is miraculously unscathed.
-- Evan abandons the proof-to-stop pursuit and returns to find Ruth dead, Tess
-  alive and still angry, the garage and neighborhood ruined, and the cat
-  unharmed. He does not inspect the crater, recover data, salvage the ring,
-  reconstruct the chain, or ask Tess to help him understand it. He stays. This
-  is his first sincere, non-instrumental refusal and ends his alignment with the
-  operation, though it does not stop the independent carrier. Making that
-  refusal lets him understand Lena's earlier departure: she had refused to
-  turn stopping into another live input rather than abandoning necessary work.
-- Tess does not forgive him on the spot. Her staying with Ruth and his choice of
-  presence begin renewed trust without absolution. Their mutual fear for one
-  another and recognition that the situation is no longer controllable form
-  their shared trajectory into the final act.
+- The selected catastrophe destroys or isolates the now ringless garage. The
+  ring and the rest of the active core are already at the remote site. The
+  garage event trips the precommitted fallback, and the complete response
+  closes another distributed cycle while the independent carrier continues
+  elsewhere. The house survives well enough for Tess to remain with Ruth.
+  Roads, utilities, communications, and emergency access fail. Ruth survives
+  the blast long enough for her death to remain natural. The cat is
+  miraculously unscathed.
+- Evan aborts the remote procedure, leaves the original rig powered down at the
+  test site, and returns to find Ruth dead, Tess alive and still angry, the
+  garage and neighborhood ruined, and the cat unharmed. He recognizes the
+  repeated loop in his conduct: whenever loss, grief, or even their threat
+  leaves him helpless, he turns the feeling into a problem, then the problem
+  into work. The work creates the next consequential branch. He consciously
+  stays with Tess instead of finishing the shutdown, inspecting the disaster,
+  reconstructing the chain, restarting the rig, or asking her to help him
+  understand it. He accepts that the unanswered questions may remain
+  unanswered. That breaks his alignment with the operation, though it does not
+  stop the independent carrier. It also lets him understand Lena's earlier
+  departure as a refusal to make another response part of the live loop.
+- Tess remains angry, and her trust in Evan must be rebuilt.
+  The breach does not end their love or become the final act's governing
+  conflict. They remain together while both recognize that the operation is no
+  longer controllable.
 
 Late-bound within this structure:
 
 - the exact lost autobiographical distinction and its ordinary before-state;
 - the exact verification that links the missing distinction to the contact
   residue;
-- the exact live test that proves the containment system is a carrier;
+- the exact initial readout, response mapping, and aftermath that prove and
+  complete the first independent carrier;
 - the resource and full chain in the representative cross-lab handoff;
+- the exact remote active-core configuration, shutdown site, physical
+  above-Tc warming and pinned-flux-loss procedure, feedback isolation, and
+  distributed fallback;
+- the exact garage and home telemetry that triggers the fallback;
 - the exact geography, stored energy source, and ejecta of the local
   catastrophe;
 - Ruth and Tess's final exchange;
@@ -492,9 +567,9 @@ failure**.
   the failure changes category from physically possible but wildly improbable
   events to broken global composition.
 - The corridor unfolds over several weeks. This is long enough for distinct
-  events, institutional and public responses, and real development in Evan and
-  Tess's renewed trust. It is short enough that the world never establishes a
-  durable new normal before stable reality fails.
+  events, institutional and public responses, and for Evan and Tess to live
+  inside damaged trust without ceasing to be lovers. It is short enough that
+  the world never establishes a durable new normal before stable reality fails.
 - Before that boundary, even enormous events must remain locally possible and
   forward-caused. They draw energy from existing geologic stress, weather,
   infrastructure, machines, orbital motion, and other physical reservoirs.
@@ -506,13 +581,13 @@ failure**.
   reality.
 - Evan, Tess, and other human witnesses must remain the emotional measure of
   the escalation. Ruth's death cannot disappear beneath spectacle, and Evan
-  and Tess's renewed trust must develop through what they choose while the
-  larger world fails.
+  and Tess's damaged trust must remain part of how they move together while
+  the larger world fails.
 - Evan and Tess's main objective through the corridor is to reach Lena. Tess
-  goes because Lena is her friend. Evan chooses to reach a person rather than
-  retrieve her work, recover data, or turn Lena into another source of
-  explanation. Their journey tests his new commitment to presence while giving
-  the escalation a human destination.
+  goes because Lena is her friend. Evan goes knowing Lena may have no answer
+  left to give. Their journey tests whether he can
+  remain present without converting uncertainty into another system while
+  giving the escalation a human destination.
 - The first globally undeniable event is millions of people independently
   choosing to speak the same sentence at the same instant. The exact sentence,
   population, cadence, locations, and means by which Evan and Tess establish
@@ -613,13 +688,16 @@ Locked later escalation: **merged sites**.
 - This is a later amplification of the nonclosing map rather than the first
   crack. The exact sites, transition, and physical presentation remain
   late-bound.
-- One merged replica site becomes physically co-present with the damaged space
-  around Lena's observatory and makes its apparatus accessible for the final
-  act. No projector apparatus is installed at the receive-only observatory
-  beforehand, and Evan and Tess do not return to recover the original garage
-  ring.
-- The exact replica site, apparatus condition, route through the overlap, and
-  terminal operation remain late-bound.
+- The remote test site holding the powered-down original apparatus becomes
+  physically co-present with the damaged space around Lena's observatory and
+  makes that rig accessible for the final act. No projector apparatus is
+  installed at the receive-only observatory beforehand, and Evan and Tess do
+  not return to the ruined garage.
+- The original ring is not metaphysically privileged. It is an accessible
+  working implementation in the projector lineage, and another working
+  implementation could have served the same role. The exact apparatus
+  condition, route through the overlap, terminal controls, outcome states, and
+  failure cases remain late-bound.
 - Double-history matter was not selected for the first failure and has no
   assigned later function.
 
@@ -651,14 +729,14 @@ Locked final-choice dilemma: **shared ending, independently chosen**.
 - Each receives the full relevant truth before choosing. Once the choice
   begins, neither can inspect, model, coerce, or influence the other's
   decision.
-- Refusal remains real. Their love is expressed by preserving the other's
-  freedom to refuse rather than by guaranteeing agreement.
-- Evan must accept that Tess may refuse and that he cannot choose for her.
+- Refusal remains real. Neither learns the other's answer before acting.
+- Evan's terminal change is acceptance of uncertainty. He acts knowing Tess
+  may refuse and knowing he cannot resolve that uncertainty first.
 - Tess chooses despite the feared possibility that unmatched choices could
   leave her as the sole remainder again.
 - Their independently chosen shared ending becomes genesis at the exhausted
   parent boundary. This result is unintended.
-- This locks emotional logic, not mechanics. Exact controls, permit or veto
+- This locks emotional logic, not mechanics. Exact controls, response
   states, outcome table, hardware, waveform, and failure cases remain deferred
   until the final chapter or two are outlined.
 

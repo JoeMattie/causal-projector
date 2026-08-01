@@ -21,7 +21,10 @@ Ruth does not require a conventional fatal flaw at this stage. Her limits are ne
 
 ## Primary conflict
 
-Evan genuinely loves her but increasingly treats coherence as more important than identity, experimental results as more important than consent, and the possibility of restoring her as more valuable than being present with the woman who remains.
+Evan genuinely loves her but increasingly treats coherence as more important
+than Ruth's own account and the possibility of restoring her as more valuable
+than being present with the woman who remains. When her memory contradicts his
+history, he turns the uncertainty into a protocol he can control.
 
 ## Relationship with Evan
 
@@ -83,17 +86,20 @@ disturbing thought.
 
 Evan responds by defining a concordance window in which her clarity counts as
 successful only while her autobiography agrees with his record family. Lena
-objects that agreement cannot authenticate Ruth. The proposal turns Ruth's
-identity into a control variable and makes Evan's history the standard without
-settling Ruth's own view or consent. Her response to the proposed next run
-remains open.
+objects that this measures conformity to Evan's records, not restoration,
+safety, or Ruth's wishes. It makes his history the standard for another
+exposure without settling what Ruth wants or what the interval is doing to her.
+Her response to the proposed next run remains open.
 
-Evan never receives a later answer that settles Ruth's experience. He cannot
-learn what the lucid intervals felt like to her, whether she understood them
-as rescue, or which autobiography she experienced as her own. Records, entity
-contact, the erasure proof, and terminal cosmology cannot authenticate a
-correct Ruth. His eventual change is to stop trying to define one. Ruth does
-not return as a message or authority who resolves his guilt.
+Later paired loss and echo evidence establishes that Ruth's incompatible
+granddaughter memory gave her access to a real history being stripped away. It
+does not settle her interior experience. Evan cannot learn what the lucid
+intervals felt like to her, whether she understood them as rescue, or what
+meaning she gave the memories that surfaced. After Ruth's death, he recognizes
+the repeated loop in which he converts helplessness into work. He consciously
+chooses not to repeat it, turns toward Tess, and remains present without
+claiming that this settles Ruth's experience. Ruth does not return as a message
+or authority who resolves his guilt.
 
 ## Entity contact
 
@@ -103,8 +109,11 @@ then lost. She may be less frightened by the failure of ordinary continuity
 because continuity already fails her in daily life.
 
 This does not make dementia a mystical gift or give Ruth privileged factual
-knowledge. Her familiarity is phenomenological. What she recognizes, and
-whether it corresponds to a recoverable history, remain uncertain.
+knowledge. Her familiarity is phenomenological. What she recognizes in contact
+remains uncertain. Later erasure evidence establishes only that her
+incompatible granddaughter memory gave her access to a real history being
+stripped away; it does not make Ruth an oracle or explain her interior
+experience.
 
 ## Essential backstory
 
@@ -124,20 +133,23 @@ whether it corresponds to a recoverable history, remain uncertain.
   reduced repeat runs. Each interval restores more continuity and lasts
   longer. Her clearest interval then produces the incompatible family memory
   without any prior warning contradiction.
-- **Recognition:** Ruth understands that the machine selected a coherent version rather than restoring an authenticated original.
+- **Recognition:** Her incompatible granddaughter memory is later established
+  as access to a real history being stripped away. This does not explain what
+  the interval felt like to Ruth or make the memory an instruction.
 - **Contact:** The entity state feels less like entry into the unknown than
   return to something familiar but inaccessible.
 - **Resistance:** She insists on agency, corrects Evan's language, and refuses to let his measurements define what remains of her.
 - **Tragedy:** Her last lucid interval is natural terminal or paradoxical
-  lucidity, not a projector restoration. It passes with Tess while Evan follows
-  the proof-to-stop chain he believes might save everyone.
+  lucidity, not a projector restoration. It passes with Tess while Evan runs
+  the remote shutdown procedure he believes might save everyone.
 - **Death:** Her physical decline ends in increasing fatigue, difficulty
   speaking and swallowing, intermittent responsiveness, unconsciousness, and
   death. A local catastrophe isolates the house but does not medically cause
   her death. Earlier material must foreshadow worsening mobility, eating, and
   swallowing.
-- **Moral aftermath:** Evan returns too late and, for the first time, does not
-  convert the loss into investigation or repair. His choice to stay cannot give
+- **Moral aftermath:** Evan returns too late and recognizes that he has repeated
+  the same move of turning helplessness into work. He consciously chooses not
+  to repeat it, turns toward Tess, and stays present. That choice cannot give
   Ruth back the time he missed.
 
 ## Signature texture

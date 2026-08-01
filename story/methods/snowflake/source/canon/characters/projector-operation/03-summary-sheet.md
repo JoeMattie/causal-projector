@@ -160,8 +160,8 @@ task. Exact resource and links remain late-bound.
   mapping, and interpretation.
 - Causal participation matters more than spatial distance.
 - Growing dominance makes it more brittle because fewer alternatives remain.
-- It cannot smoothly replace Tess with a nearby compliant version. It must
-  preserve her substantially intact or erase her.
+- It cannot smoothly replace Tess with a nearby version whose response closes
+  the desired branch. It must preserve her substantially intact or erase her.
 
 ## Primary conflict
 
@@ -171,18 +171,23 @@ decommissioning all create consequential branches whose results determine the
 next action.
 
 The operation does not defeat resistance by arguing with anyone. It absorbs
-measured resistance as feedback. By the time Evan makes a refusal that is not
-another attempted intervention, the lineage no longer depends on him.
+measured resistance as feedback. By the time Evan recognizes his repeated
+habit of turning helplessness into another intervention and consciously
+chooses not to repeat it, the lineage no longer depends on him.
 
 The representative proof-to-stop begins when Lena suspects that the distributed
-containment system is a carrier. Proving it requires a live test whose result
-will determine participating labs' containment or decommissioning response.
-Lena refuses because the test may strengthen the suspected loop. Evan argues
-that suspicion will not make institutions disengage. He sponsors the test
-through shared consortium approval, and participating sites execute it under
-local control. Measurements, decisions, approvals, and responses close a cycle
-without him or the garage apparatus. A locally successful shutdown can
-therefore become the next continuation link.
+containment system is a carrier. The proposed test includes a precommitted
+containment or decommissioning response to its result. Lena refuses because
+executing the full protocol may complete the suspected loop. Evan argues that
+suspicion will not make institutions disengage. He sponsors the test through
+shared consortium approval, and participating sites execute it under local
+control. The initial readout does not independently reveal a carrier. The
+protocol does not end there: the sites carry out the response assigned to that
+readout, and their physical and institutional actions change later conditions
+and decisions across the network. Only the aftermath of the complete
+readout-and-response protocol shows that a live cycle closed without Evan or
+the garage apparatus. A locally successful containment response can therefore
+become the next continuation link.
 
 Its victory also contains its failure. Total closure would remove the
 independent differences and fresh contingencies that let it operate at all.
@@ -200,40 +205,69 @@ Evan first thinks the apparatus is a tool, then suspects he is the dominant
 attractor. The deeper truth is that his stable habit of converting helplessness
 into work makes him useful to a pattern that can eventually route around him.
 
-Their alignment ends when he makes a sincere, non-instrumental refusal and
-chooses helpless presence over another attempt to run, fix, or control the
-operation. The independent carrier continues. His change matters morally, but
-it does not erase what he has done or restore the ordinary shutdown point he
-helped remove.
+Their alignment ends when he recognizes the repeated loop in his own conduct:
+whenever loss, grief, or even their threat leaves him helpless, he turns the
+feeling into a problem, then the problem into work. The work supplies the next
+live consequential branch. He consciously chooses to stay with Tess instead of
+beginning the next investigation or intervention. He accepts that the
+unanswered questions may remain unanswered. The independent carrier continues.
+His change matters morally, but it does not erase what he has done or restore
+the ordinary shutdown point he helped remove.
 
-The practical refusal occurs after Evan leaves Tess with Ruth to follow the
-proof-to-stop chain. His effort to make the garage part of the shutdown gives
-the operation another result to select. It aligns ordinary infrastructure
-failures with a plausible subsurface trigger, and geologic or industrial energy
-already stored below the neighborhood supplies the collapse and blast. The
-garage is destroyed or isolated while the independent operation continues
-elsewhere. Evan returns to find Ruth dead, Tess alive and still angry, the
-neighborhood ruined, and the cat unscathed. He does not inspect, salvage,
-measure, reconstruct, or recruit Tess into another response. He stays.
+After the erasure proof damages Tess's trust in him, Evan moves the complete
+active core of the original apparatus from the garage to a remote test site.
+The defective ring alone is inert. The moved core includes the ring, its
+LN2 stage, the thermal and RF drive, the controller state, the sensors,
+and the live consequence mapping needed for another cycle. He chooses a remote
+site because he believes physical danger will remain near the energized
+hardware and participating laboratories. Evan attempts a controlled shutdown:
+warm the YBCO above Tc so the pinned flux depins and decays, then open or
+disable the feedback loop so fresh consequential input can no longer close
+another cycle.
+
+The shutdown belongs to a precommitted distributed response rather than a
+private bench procedure. Evan adds monitored garage and home safety status to
+its declared inputs to protect Ruth and Tess. Loss of that status requires the
+sites to halt synchronized decommissioning and enter a fallback verification
+run. While the active core is remote, an ordinary chain of infrastructure and
+subsurface failures destroys the now ringless garage and removes the safety
+state. The operation creates no energy and grants no special status to the
+garage; the selected valid disaster matters because Evan's protocol made its
+monitored consequence part of the next decision. The fallback response closes
+another cycle while the independent carrier continues elsewhere.
+
+Evan aborts the remote procedure, leaves the original rig powered down at the
+test site, and returns to find Ruth dead, Tess alive and still angry, the
+neighborhood ruined, and the cat unscathed. He recognizes that finishing the
+shutdown, investigating the garage, reconstructing the chain, or restarting
+the remote rig would repeat the same conversion of loss into work. He stays
+with Tess.
 
 ## Relationship with Ruth
 
 Ruth is the first person for whom the operation appears to offer something
 Evan cannot reasonably dismiss. Each requested run gives her more continuity
 and a longer lucid interval before the gain fades. The early intervals contain
-no warning contradiction. Her clearest interval is real, but its selected
-coherent implementation contains a granddaughter absent from Evan's history
-family.
+no warning contradiction. Her clearest interval gives her access to an
+inhabited history in which the granddaughter lived. The later paired loss and
+echo establishes that this history was real and was being stripped from the
+record family Evan occupied.
 
-The operation has not cured, copied, or deliberately baited her. It has exposed
-the difference between coherence and authentication. Ruth's insistence on
-remaining a participant also makes the human cost of pruning visible before
-Evan understands the cosmological cost.
+The operation has not cured, copied, or deliberately baited her. Ruth's
+insistence on remaining a participant also makes the human cost of pruning
+visible before Evan understands the cosmological cost. Her interior remains
+unknowable: the story does not settle how she experienced the interval,
+whether she understood the change as rescue, or what she wanted after the
+granddaughter contradiction.
 
-Evan answers that difference with a concordance window. He tries to maximize
-lucidity while requiring Ruth's autobiography to agree with his record family.
-The operation needs no deception of its own. Evan supplies the rule that
-converts Lena's objection and Ruth's difference into the next controlled run.
+Evan answers the difference with a concordance window. He tries to maximize
+lucidity while requiring Ruth's autobiography to conform to his records. The
+window measures agreement with Evan's surviving record family, not identity,
+truth, or Ruth's wellbeing. In light of the later erasure evidence, the
+protocol would suppress a real autobiographical distinction precisely because
+it disagrees with his history. The operation needs no deception of its own.
+Evan supplies the rule that converts Lena's objection and Ruth's difference
+into the next controlled run.
 
 Ruth's final lucidity is a natural terminal or paradoxical interval rather than
 another projector selection. The operation causes Evan's absence and the
@@ -258,10 +292,27 @@ Tess is the operation's cleanest limit. Her history bundle is too narrow for
 smooth substitution. Records and surrounding lives can change while she
 remains recognizably nonparallel.
 
+Before the first hardware-independent replication, Evan suspects that Tess's
+statistically rare survival might influence the anomaly or the projector
+lineage forming around it. He secretly continues running live work in her
+presence, compares her ordinary choices with active trials, and mines ferry,
+rescue, and medical records without her informed consent. He folds that
+analysis into the work leading to the proof-to-stop protocol and continues
+exposing her after he suspects her presence may matter. This is a hypothesis
+and a violation, not an accepted mechanism. The independently fabricated
+analogue later reproduces with neither Evan nor Tess present, ruling both of
+them out as necessary for the basic apparatus effect. It cannot show whether
+Tess's presence influenced the particular lineage before Evan began measuring
+her.
+
+Tess's trust is damaged because Evan used the private contingency of her
+survival as experimental material and continued live work in her presence
+without telling her what he suspected. Their love survives the breach.
+
 The operation can preserve her substantially intact or remove her. It cannot
-produce an abundant family of nearby versions who freely make the choice Evan
-wants. Her resistance is not immunity, and it does not make her a numerical
-key.
+produce an abundant family of nearby versions whose responses freely close the
+preferred branch. Her resistance is not immunity, and it does not make her a
+numerical key.
 
 At the terminal boundary, her continued difference from Evan prevents their
 choices from collapsing into one will. Exact terminal mechanics remain
@@ -280,16 +331,24 @@ combined evidence rather than receiving an explanation from an entity.
 Before independence, replication and containment formalize the operation as a
 distributed scientific process.
 
-Lena first confirms the original ring outside Evan's garage, returns it, and
-builds a deliberate analogue. A closed, preregistered multi-site study then
-reproduces the operator effect and live-consequence bias across independently
-built apparatuses.
+Lena first confirms the original ring outside Evan's garage and returns it.
+Her group then builds a deliberate hardware-independent analogue. It
+reproduces the operator effect with neither Evan nor Tess present, ruling both
+of them out as necessary for the basic apparatus effect. It leaves open whether
+Tess's presence influenced the original lineage before Evan began measuring
+her. A closed, preregistered multi-site study then reproduces the operator
+effect and live-consequence bias across independently built apparatuses.
 
 The study initially responds with ordinary safeguards. A later local accident
-reaches its precommitted valid target before stored magnetic, thermal, or
-cryogenic energy destroys the site's replica. One researcher dies. Another
-retains technical competence but permanently loses every autobiographical
-memory of the dead collaborator and their years together.
+reaches its precommitted valid target before a failure involving LN2 handling,
+pressure in an inadequately vented vessel, or RF and electrical hardware
+destroys or disables the site's replica. One researcher dies. Another retains
+technical competence but permanently loses every autobiographical memory of
+the dead collaborator and their years together.
+
+Evan treats the death as an engineering and containment failure. The evidence
+hold is sincere, but once a bounded restart becomes possible he helps turn the
+loss into new safeguards, measurements, and another program of work.
 
 The labs hold and preserve every replica, then restart only selected sites
 under common approvals, exposure limits, monitoring, stop rules, and
@@ -304,7 +363,7 @@ test, he sponsors it through consortium review. Participating sites authorize
 and execute it under local control after receiving the carrier hypothesis, its
 recursive risk, and Lena's reason for refusing. The formal route matters
 because its informed proposal, approvals, operations, measurements, and
-containment responses become parts of the live loop.
+precommitted containment responses can all become parts of the live loop.
 
 The first independent carrier is the distributed scientific system built to
 reproduce, monitor, and contain the anomaly.
@@ -314,21 +373,26 @@ stop criteria, human decisions, approvals, and automated controls collectively
 close a live projection cycle without Evan or the original apparatus. There is
 then no single machine left to unplug.
 
-This is the result of the proof-to-stop test Evan sponsors through shared
-approval after Lena refuses. Its outcome changes the participating labs'
-containment or decommissioning actions, which supply the feedback needed to
-close the distributed cycle.
+This is the aftermath of the proof-to-stop protocol Evan sponsors through
+shared approval after Lena refuses. Its initial readout fails to show an
+independent carrier. The participating sites nevertheless execute the
+precommitted containment or decommissioning response assigned to that readout.
+Those actions alter later conditions and decisions across the network. Only
+the completed protocol reveals that its readout and response together supplied
+the feedback needed to close the distributed cycle. The response does not
+merely demonstrate a carrier that already existed independently; it proves and
+completes the first independent carrier.
 
-Evan recognizes that the proof strengthened the carrier but treats the result
-as necessary. It gives the institutions a basis for sustained shutdown, so he
-immediately begins mapping and trying to sever the live links. Each proposed
-response can become another consequential input.
+Evan recognizes that the approved protocol completed the carrier but treats
+the result as necessary. It gives the institutions a basis for sustained
+shutdown, so he immediately begins mapping and trying to sever the live links.
+Each proposed response can become another consequential input.
 
 This occurs before Evan has conclusive proof that projection erases inhabited
 history families. He has already ignored human-scale reasons to stop, including
-Ruth's incompatible memory, consent violations, and the collapse of personal
-differences. The later revelation expands the cost of those choices rather than
-creating his first moral warning.
+Ruth's incompatible memory, his secret use and continued exposure of Tess, and
+the collapse of personal differences. The later revelation expands the cost of
+those choices rather than creating his first moral warning.
 
 ## False appearances and true nature
 
@@ -356,20 +420,25 @@ creating his first moral warning.
    results. Each success supplies a reasonable motive for another run.
 3. **Local attractor:** Evan's cognition, decisions, and immediate environment
    increasingly favor continuation. Ruth's incompatible memory and the first
-   consent injuries reveal that coherence is being purchased by removing
+   injury to Tess's trust reveal that coherence is being purchased by removing
    difference.
 4. **Formalization:** Independent replication and containment turn the anomaly
    into a distributed scientific process.
-5. **Independence:** The distributed system closes a live projection cycle
-   without Evan or the original apparatus, before anyone has conclusive proof
-   that the discarded alternatives are inhabited histories.
+5. **Independence:** The test's initial readout fails to show an independent
+   carrier, but the precommitted containment response changes later conditions
+   across the network. The full protocol closes a live projection cycle without
+   Evan or the original apparatus and thereby proves and completes the first
+   independent carrier, before anyone has conclusive proof that the discarded
+   alternatives are inhabited histories.
 6. **Revelation and resistance:** Paired loss and echo joins record
    disappearance to structured contact residue and establishes the true cost.
    Tess remains recognizably nonparallel while records and people around her
    converge. Shutdown attempts provide further consequential feedback.
-7. **Separation from Evan:** Evan makes a sincere refusal and chooses helpless
-   presence over another intervention. The operation routes around him through
-   its independent carriers.
+7. **Separation from Evan:** After the remote shutdown and its catastrophic
+   fallback close another cycle, Evan recognizes how fear, grief, and the threat
+   of loss drive him into work. He consciously stays with Tess instead of
+   starting the next investigation and accepts that uncertainty will remain.
+   The operation routes around him through its independent carriers.
 8. **Terminal eigenoperation:** Hardware, software, institutional process, and
    ordinary causal history become different expressions of the same closure
    pattern. The operation dominates by consuming the novelty and
@@ -477,11 +546,12 @@ their existence they glimpse the universe-that-will-be from the parent side.
 
 Evan and Tess do not set out to create that child. They believe their fully
 informed but mutually unobservable choices will end the operation and
-themselves. Each retains a real possibility of refusal. Evan cannot model,
-coerce, or substitute Tess's decision, and Tess accepts the feared possibility
-that unmatched choices could leave her as the sole remainder again. Their
-shared ending becomes genesis unintentionally. Exact controls, outcome states,
-and failure cases remain deferred.
+themselves. Each retains a real possibility of refusal. Evan acts without
+knowing Tess's answer and accepts that no further observation can settle it
+first. Tess accepts the feared possibility that unmatched choices could leave
+her as the sole remainder again. Their shared ending becomes genesis
+unintentionally. Exact controls, outcome states, and failure cases remain
+deferred.
 
 Much later, a person in our universe encounters the same invariant during a
 DMT-like state. The raw experience is ungrounded from ordinary place, creature,
@@ -526,11 +596,15 @@ a guide, proof, magical key, mechanical trigger, solver, chooser of genesis, or
 intact migrant into the child universe.
 
 No projector apparatus is installed at Lena's receive-only observatory. Evan
-and Tess do not return to the ruined garage or recover the original ring.
-During merged-site failure, a distant replica site becomes physically
-co-present with the observatory's damaged space. Its apparatus becomes
-available for the final act. The exact site, apparatus condition, route through
-the overlap, and terminal controls remain deferred.
+and Tess do not return to the ruined garage. The original apparatus remains
+powered down at the remote shutdown site where Evan left it before returning
+home, and it stays there after Ruth's death. During merged-site failure, that
+site becomes physically co-present with the observatory's damaged space,
+making the powered-down rig available as the final hardware. The original ring
+is not metaphysically privileged; it is an accessible working implementation
+in the projector lineage, and another working implementation could have served
+the same role. The exact apparatus condition, route through the overlap,
+terminal controls, outcome states, and failure cases remain deferred.
 
 The cat supplies that reference before Evan and Tess choose. They then act
 without access to one another's decisions. Only after the choices meet does

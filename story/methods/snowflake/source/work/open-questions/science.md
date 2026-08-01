@@ -9,7 +9,11 @@ Status: unresolved
   language.
 - Exact finite-history formalism and what can be measured locally.
 - Exact exposure variable, memory checks, and stopping rule for Evan's
-  concordance window.
+  concordance window, with measurements explicitly limited to conformity with
+  Evan's records rather than restoration, safety, or Ruth's wishes.
+- How the later erasure evidence reclassifies the granddaughter memory as
+  access to a real autobiographical history being stripped away, while keeping
+  Ruth's subjective experience unknowable.
 - What measurable signature distinguishes causal lineage from an unrelated
   system with the same abstract topology.
 - What `effective bits of rarity` means operationally.
@@ -51,7 +55,16 @@ Status: unresolved
 ## Replication implementation
 
 - Exact custody, characterization, fabrication, and transport procedures for
-  the original ring and Lena's first deliberate analogue.
+  the original ring, Lena's first deliberate analogue, and the later move of
+  the complete original active core to the remote shutdown site.
+- Exact physical safe-state procedure for the remote rig, including controlled
+  warming of the YBCO above Tc, pinned-flux depinning and decay, controller
+  feedback isolation, interlocks, and verification that the apparatus remains
+  powered down.
+- Exact garage and home monitoring, loss criteria, and distributed fallback
+  mapping that allow destruction of the ringless garage to change live
+  containment decisions elsewhere by halting decommissioning and starting a
+  verification run.
 
 ## Genesis model
 
@@ -62,6 +75,7 @@ Status: unresolved
 
 - [The projector operation](../../canon/characters/projector-operation/open-questions.md)
   owns the exact proof-to-stop test, cross-lab carrier implementation,
-  apparatus-linked catastrophe, and terminal protocol.
+  remote active-core shutdown, garage-triggered fallback, apparatus-linked
+  catastrophe, merged-site access, and terminal protocol.
 - [Mouse](../../canon/characters/mouse/open-questions.md) owns the animal,
   sensory execution of the genesis chapter's ending.

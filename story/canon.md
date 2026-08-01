@@ -74,8 +74,7 @@ now belong to the character summary sheets:
 - [Ruth Hale](../characters/ruth-hale/03-summary-sheet.md), including her work
   in the garage, requested exposures, natural final lucidity, and death.
 - [Esther "Tess" Kertesz](../characters/esther-tess-kertesz/03-summary-sheet.md),
-  including the ferry disaster, causal rarity, relationship rupture, and love
-  story.
+  including the ferry disaster, causal rarity, damage to trust, and love story.
 - [Lena Varga](../characters/lena-varga/03-summary-sheet.md), including her
   scientific role, objections, refusal, and late-story continuity loss.
 - [Mouse](../characters/mouse/03-summary-sheet.md), including her ordinary
@@ -117,21 +116,35 @@ deliver it before a precommitted cutoff, allowing the second site to complete
 a blocked task. Every link remains locally ordinary and forward-caused. The
 exact resource and chain remain late-bound.
 
-The local culmination is a compound subsurface collapse with an explosion. The
-operation does not create the energy for either event. It selects a chain of
-ordinary infrastructure and institutional failures that reaches a plausible
-local trigger, while geologic or industrial energy already stored below the
-neighborhood supplies the collapse and blast. The exact source and geography
-remain late-bound. It may involve a buried munitions site or storage cavern,
-coal seam, abandoned mine, karst collapse, stressed shallow fault, or a
-plausible hybrid. Natural phenomena remain eligible when every local link
-follows ordinary cause and effect.
+Before the local culmination, Evan moves the complete active core of the
+original apparatus to a remote test site. The ring alone is inert. He attempts
+a controlled shutdown by warming the YBCO above Tc so pinned flux depins and
+decays while opening or disabling the live feedback loop. To protect Ruth and
+Tess, he adds monitored garage and home safety status to the precommitted
+distributed response. Loss of that status requires participating sites to halt
+decommissioning and enter a fallback verification run.
+
+The local culmination is a compound subsurface collapse with an explosion at
+the now ringless garage. The operation does not create the energy for either
+event. It selects a chain of ordinary infrastructure and institutional failures
+that reaches a plausible local trigger, while geologic or industrial energy
+already stored below the neighborhood supplies the collapse and blast. The
+garage's destruction triggers the distributed fallback, and the resulting
+response closes another cycle instead of stopping the independent carrier. The
+exact source and geography remain late-bound. It may involve a buried munitions
+site or storage cavern, coal seam, abandoned mine, karst collapse, stressed
+shallow fault, or a plausible hybrid. Natural phenomena remain eligible when
+every local link follows ordinary cause and effect.
 
 From Tess's immediate perspective, the event resembles a mushroom cloud or a
 blackened sky with glowing points falling like molten glass or fire before the
 shockwave arrives. `Molten glass` is perception, not settled material fact.
 The garage is destroyed or inaccessible, the house remains survivable, and
 roads, utilities, communications, and emergency access fail.
+
+Evan aborts the remote procedure and returns. The original rig remains powered
+down at the remote site after Ruth's death. The garage catastrophe does not
+destroy the ring or make the original hardware metaphysically special.
 
 The original example involving a metal sliver, trash bag, false twenty-dollar
 scrap, bicycle child, fatal crash, and bereaved mother is **not canon**. It was
@@ -199,9 +212,9 @@ The ending is fixed only at the level required by the tragedy:
   the first stable-reality failure. Primed volcanic eruptions may accompany
   it, but exact sites, timing, and consequences remain late-bound.
 - Evan and Tess's human objective through the several-week corridor is to reach
-  Lena. Tess seeks her friend, and Evan chooses a person rather than Lena's
-  work, data, or an explanation. The journey cannot restore control of the
-  operation or make Lena a third terminal chooser.
+  Lena. Tess seeks her friend, and Evan goes knowing Lena may have no answer
+  left to offer. The journey cannot restore control of the operation or make
+  Lena a third terminal chooser.
 - Lena has left the implicated shared facility for a remote university
   geomagnetic observatory. She converts it to strictly receive-only operation:
   passive instruments, independent clocks, incoming data, and local storage,
@@ -236,11 +249,15 @@ The ending is fixed only at the level required by the tragedy:
   sites, transition, and physical presentation remain late-bound.
 - Lena's observatory contains no projector apparatus and remains strictly
   receive-only until stable geometry fails. Evan and Tess do not return to the
-  ruined garage or recover the original ring. During merged-site failure, a
-  distant replica site becomes physically co-present with the observatory's
-  damaged space, making its apparatus accessible for the final act. The exact
-  site, apparatus condition, route through the overlap, and terminal controls
-  remain late-bound.
+  ruined garage. The powered-down original apparatus remains at the remote test
+  site where Evan attempted the earlier shutdown. During merged-site failure,
+  that site becomes physically co-present with the observatory's damaged space,
+  making the rig accessible for the final act.
+- The original ring is not metaphysically privileged. It is an accessible
+  working implementation in the projector lineage, and another working
+  implementation could have served the same role. The exact apparatus
+  condition, route through the overlap, terminal controls, outcome states, and
+  failure cases remain deferred until the final chapter or two are outlined.
 - The progression uses incompatible atlases within one damaged reality. Evan
   retains a primarily visual, object-centered geometry. Tess experiences
   adjacency, depth, and her own orientation through concrete acoustic
@@ -258,10 +275,10 @@ The ending is fixed only at the level required by the tragedy:
   intend, design, or knowingly choose a successor universe.
 - Each receives the full relevant truth before choosing, then has no way to
   inspect, model, coerce, or influence the other's decision. Refusal remains
-  real. Their love is expressed by preserving that freedom rather than by
-  guaranteeing agreement.
-- Evan's terminal change is accepting that Tess may refuse and that he cannot
-  decide for her. Tess chooses despite the feared possibility that unmatched
+  real, and neither knows the other's answer before acting.
+- Evan's terminal change is accepting uncertainty. He acts knowing that Tess
+  may refuse and that no further observation or procedure can settle her
+  answer first. Tess chooses despite the feared possibility that unmatched
   choices could leave her as the sole remainder again.
 - Genesis is the unintended result when their independently chosen shared
   ending meets the exhausted parent boundary. Exact controls, outcome states,
@@ -283,7 +300,7 @@ The ending is fixed only at the level required by the tragedy:
   replace her with a compliant neighboring version.
 - The final act must require both Evan and Tess to make consequential choices
   that neither can pre-verify, coerce, or reduce to one will.
-- Their love is proved by remaining distinct, not by converging.
+- Their choices remain distinct even if they converge on the same ending.
 - Their attempt to erase or repair the mistake becomes the genesis of our
   universe.
 - Neither survives as an intact personal self in the parent history.
@@ -360,12 +377,13 @@ The ending is fixed only at the level required by the tragedy:
   closure dominant.
 
 The **mutual-veto / noncommuting-operation** design remains a strong candidate
-because it resolves Tess's false belief about unverifiable trust and Evan's
-compulsion to decide for others. It is not yet locked as hardware, protocol,
-payoff matrix, or chapter sequence. Do not design the terminal operation in
-detail until the final chapter or two are being outlined. The story should
-earn the mechanism from the characters and established physics rather than
-reverse-engineering twenty chapters to serve an elegant endgame diagram.
+because it can make Evan act under irreducible uncertainty while keeping
+Tess's answer independent and refusal possible. It is not yet locked as
+hardware, protocol, payoff matrix, or chapter sequence. Do not design the
+terminal operation in detail until the final chapter or two are being
+outlined. The story should earn the mechanism from the characters and
+established physics rather than reverse-engineering twenty chapters to serve
+an elegant endgame diagram.
 
 ## Apparatus and discovery
 
@@ -375,6 +393,8 @@ reverse-engineering twenty chapters to serve an elegant endgame diagram.
 Real-science ancestry:
 
 - melt-textured YBCO high-temperature superconductor;
+- an LN2 bath or stage that holds the YBCO below its superconducting
+  transition, without a liquid-helium magnet system;
 - type-II vortices and flux pinning;
 - a thermally actuated traveling-wave flux pump;
 - a Prussian-blue magnetic material whose permeability changes with
@@ -413,6 +433,21 @@ Opening diagnostic sequence:
   the trapped-field target, and makes the temperature anomaly disappear.
 - Late that night, Evan puts the defective ring back into the apparatus. The
   same anomaly returns.
+- Evan then advances the pulse timing in an attempt to move the notch toward
+  another sensor. During the resulting clarity state, a better phase sequence
+  for the ordinary flux-pump cycle becomes obvious to him. It increases the
+  trapped field enough to keep the defective ring technically useful.
+- The timing change moves the notch between the installed sensors, making the
+  original diagnostic appear to disappear. Evan initially treats this as
+  successful isolation rather than recognizing that he has moved the
+  measurement window.
+- The same clarity interval supplies the zero-speed motor-estimator insight
+  from his day job. Both the ordinary flux-pump improvement and the motor fix
+  survive the altered state, giving him two valid technical reasons to trust
+  it before he recognizes that the garage run caused it.
+- Related altered states recur during later timing work. Their repetition,
+  rather than the first experience alone, forces Evan to acknowledge that the
+  project is doing something to him.
 - The exact depth and duration of the notch remain open. It must defeat known
   cryogenic sensor and material effects without establishing a literal
   violation of thermodynamics. Phase collapse remains a fallback if the
@@ -516,18 +551,21 @@ the Step 4 synopsis:
 - Dementia in the fictional theory is uneven loss of overlap among the history
   bundles supporting memory, language, recognition, emotion, and selfhood.
 - Ruth's deepening lucid intervals are meaningful temporary benefits, but they
-  do not prove restoration. The later interval selects a coherent
-  implementation that contains memories absent from Evan's record family.
+  do not prove a cure. The later interval gives her access to a coherent
+  inhabited history containing memories absent from Evan's record family.
+- The granddaughter memory is cross-history autobiographical access within
+  Ruth's existing bundle.
 - Evan's proposed concordance window can measure agreement with his record
-  family. It cannot establish that a matching implementation is the original
-  or correct Ruth.
+  family. It cannot establish restoration, safety, or that a contradictory
+  memory is false. Used as a control target, it would select against real
+  autobiographical distinctions that disagree with him.
+- Paired loss and contact echo later establish that Ruth's granddaughter memory
+  came from an inhabited history the operation was stripping away. The proof
+  gives the contradiction objective stakes without recovering the lost history
+  or excusing Evan's response.
 - Evan never learns what the lucid intervals felt like to Ruth, whether she
-  experienced them as rescue, or which autobiography she understood as her
-  own. Records, entity contact, the later erasure proof, and terminal cosmology
-  cannot authenticate a correct Ruth for him.
-- Evan's change includes giving up the attempt to settle that uncertainty. He
-  no longer defines which Ruth counted or converts her unmeasured experience
-  into another test, explanation, or claim on her behalf.
+  experienced them as rescue, or what she wanted after the contradiction. No
+  later contact supplies her missing consent or resolves his guilt.
 - This is fictional cosmology, not a claim about real dementia.
 
 ### Related owners
@@ -547,17 +585,20 @@ the Step 4 synopsis:
 - The first exposure is mental quiet, not speed.
 - Each observation seems to have one correct successor.
 - Evan solves real problems and gains objective benefits.
-- The first externally validated benefit is a solution to an intermittent
-  zero-speed motor-control failure at work. When back electromotive force
-  disappears into noise, two opposing electrical-angle hypotheses remain
-  compatible with the measurements. The old estimator forces one answer and
-  can produce a torque spike.
+- The same first clarity state supplies a better ordinary phase sequence for
+  the flux pump and a solution to an intermittent zero-speed motor-control
+  failure at work. The phase sequence improves trapped field and moves the
+  cold notch between installed sensors. The motor fix is the first benefit
+  validated away from the projector apparatus.
+- When back electromotive force disappears into noise, two opposing
+  electrical-angle hypotheses remain compatible with the measurements. The
+  old estimator forces one answer and can produce a torque spike.
 - During clarity, Evan realizes that the estimator must carry both hypotheses
   through the unobservable interval, defer commitment until the signal
   returns, and trip if they do not rejoin within tolerance.
-- The fix uses existing information, survives simulation and independent
-  testing after the clarity state ends, and does not supply Evan with facts he
-  could not have known.
+- Both insights use existing information and survive the clarity state. The
+  motor fix survives simulation and independent testing. Neither supplies Evan
+  with facts he could not have known.
 - Evan initially understands the clarity as his own epiphany or flow state. He
   does not suspect that the apparatus has changed his cognition.
 - This retains a concept from the legacy draft. Its scene structure, prose,
@@ -619,7 +660,7 @@ the Step 4 synopsis:
   intention. A recovered memory may personify the contact, but no recurring
   identity or named replacement inhabits it.
 - This contact can preserve evidence and moral injury without turning Evan's
-  eventual refusal into a verdict delivered by the cosmos.
+  later recognition and choice into a verdict delivered by the cosmos.
 - Hold the target roster to two. Add another true entity only if a later story
   function cannot be carried by either retained entity or by an unnamed
   encounter phenomenon.
@@ -671,12 +712,23 @@ Character-specific contact rules belong to [Evan](../characters/evan-hale/03-sum
 - Moving the original ring establishes that the garage is not the cause. It is
   outside-site confirmation, not hardware-independent replication.
 - Lena returns the original ring to Evan. Her facility does not retain the
-  unique component.
-- Lena's group fabricates the first hardware-independent analogue. After it
-  reproduces the effect, she organizes a small, closed, preregistered study
-  through facilities in her professional network. The analogue remains
-  causally descended from the garage discovery through the transferred
-  measurements and specification.
+  original component.
+- Before the first hardware-independent replication, Evan suspects that Tess's
+  statistically rare survival might influence the anomaly or the projector
+  lineage forming around it. Without her informed consent, he continues
+  running live work in her presence, compares her ordinary choices with active
+  trials, and mines ferry, rescue, and medical records. He folds that analysis
+  into the evidence and design work leading to the proof-to-stop protocol and
+  continues exposing her after he suspects that her presence may matter. This
+  is Evan's hypothesis and violation, not an accepted mechanism.
+- Lena's group fabricates the first hardware-independent analogue and runs it
+  with neither Evan nor Tess present. It reproduces the effect, falsifying
+  any claim that Tess or Evan is necessary for the basic apparatus effect. It
+  does not establish whether Tess's presence influenced the particular
+  projector lineage before Evan began measuring her. Lena then organizes a
+  small, closed, preregistered study through facilities in her professional
+  network. The analogue remains causally descended from the garage discovery
+  through the transferred measurements and specification.
 - Each participating site fabricates its own analogue from the controlled
   specification and operates it with an independent measurement and control
   implementation. The sites share fixed comparison conditions and commit
@@ -687,17 +739,11 @@ Character-specific contact rules belong to [Evan](../characters/evan-hale/03-sum
 - Several sites reproduce the operator effect and live-consequence bias. Lena
   responds with exposure limits, shared monitoring, common stop rules, and
   tighter approval for consequential runs.
-- A later local accident occurs during a run with a consequential stop branch.
-  The apparatus reaches its precommitted valid result through ordinary
-  within-tolerance events, but the selected path leaves stored magnetic,
-  thermal, or cryogenic energy in a dangerous state. The target registers
-  before a quench, fracture, pressure release, or related failure destroys or
-  disables the replica.
-- The accident's live causal chain remains within that site's apparatus,
-  operators, and immediate safety response. Other sites react afterward, so
-  the incident does not establish cross-site carrier behavior. Individual
-  safety systems can operate within their specified limits while failing to
-  cover the dangerous selected chain as a whole.
+- A later serious accident occurs during replica work whose result is tied to
+  a live physical consequence. The exact projects, apparatus involvement, and
+  ordinary failure chain remain unresolved. It is also unresolved whether the
+  accident's causal chain stays within one replica operation or passes through
+  another lineage-linked operation.
 - One researcher dies. A second retains technical competence but permanently
   loses every autobiographical memory of the dead collaborator and their years
   of shared work. Joint records and other people preserve the relationship,
@@ -708,8 +754,8 @@ Character-specific contact rules belong to [Evan](../characters/evan-hale/03-sum
   study becomes a formal containment program with coordinated risk review and
   cross-site decisions about pausing, continuing, isolating, or
   decommissioning each system. Those measurements, rules, approvals, people,
-  and controls can later become a carrier, but the incident itself does not
-  prove independence.
+  and controls can later become a carrier. Whatever the accident's eventual
+  mechanism, it does not establish the first independent carrier.
 - Every replica site enters an immediate evidence hold. Systems are powered
   down, placed in a safe physical state, isolated from ordinary control access,
   and preserved with their data and controller states. The cause is unresolved,
@@ -736,9 +782,38 @@ Character-specific contact rules belong to [Evan](../characters/evan-hale/03-sum
   and interpret results. Local teams retain physical control, and
   consequential tests require shared consortium approval.
 - Replication and containment formalize the operation, but distribution alone
-  does not make the system an independent carrier. Independence occurs later
-  when shared measurements and decisions close another live cycle without Evan
-  or the original apparatus.
+  does not make the system an independent carrier. In the later proof-to-stop
+  protocol, the initial readout fails to show an independent carrier.
+  Participating sites then execute the precommitted containment or
+  decommissioning response assigned to that result. Only the aftermath shows
+  that the readout and response together changed later conditions and decisions
+  enough to close a live cycle without Evan or the original apparatus. The
+  complete protocol therefore proves and completes the first independent
+  carrier.
+- After the later erasure proof, Evan moves the complete active core of the
+  original apparatus to a remote test site. Moving only the defective ring
+  would not preserve a working implementation. The core includes the ring, LN2
+  stage, thermal and RF drive, controller state, sensors, and a fresh mapping
+  from live contingency to consequence. He chooses a remote industrial or test
+  site because he expects ordinary physical hazards to remain near the
+  energized hardware and participating laboratories.
+- Evan's attempted safe state combines controlled warming of the YBCO above Tc,
+  allowing pinned flux to depin and decay, with opening or disabling the
+  controller feedback loop so fresh consequential input cannot close another
+  local cycle. The exact temperatures, field-decay threshold, interlocks,
+  timing, and controller implementation remain open.
+- The remote procedure participates in a precommitted distributed response.
+  Evan adds monitored garage and home safety status as a declared input to
+  protect Ruth and Tess. Loss of that status requires participating sites to
+  halt synchronized decommissioning and enter a fallback verification run.
+  Destruction of the now ringless garage therefore changes live decisions
+  elsewhere. The fallback closes another cycle even though Evan aborts the
+  remote procedure and leaves the original apparatus powered down.
+- The original rig remains powered down at the remote site after Ruth's death.
+  During later stable-geometry failure, that site becomes physically
+  co-present with Lena's observatory and supplies the final hardware. This is
+  availability, not privilege: the original ring has no unique metaphysical
+  role, and another working lineage-linked apparatus could have served.
 
 The later carrier proof, consortium consent, and point of independence belong
 to the [projector-operation summary sheet](../characters/projector-operation/03-summary-sheet.md).

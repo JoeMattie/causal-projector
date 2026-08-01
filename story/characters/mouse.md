@@ -19,7 +19,8 @@ animals, and impossible events with the same calm attention.
 ## Identity and appearance
 
 - Mouse is female and seventeen years old during the main story.
-- She is a long-haired black-and-brown cat.
+- She is a long-haired black-and-brown cat. Her aging coat can look scraggly
+  enough to hide how small she is.
 - She weighs about five pounds.
 - Before Tess adopted her, frostbite destroyed the tips of both ears. Their
   shortened outline looks vaguely mouse-like, which is the basis of her name.
@@ -93,8 +94,10 @@ survival is striking and unexplained, but it does not prove that the operation
 protected or selected her.
 
 When Evan returns to find Ruth dead, Tess alive and still angry, the
-neighborhood ruined, and Mouse unharmed, he does not turn Mouse's survival into
-another anomaly to investigate. He stays.
+neighborhood ruined, and Mouse unharmed, her survival is one unexplained fact in
+the aftermath. Evan recognizes his repeated loop of converting helplessness
+into work, turns toward Tess, and stays with her. Mouse neither causes that
+recognition nor explains it.
 
 ## Ending function
 

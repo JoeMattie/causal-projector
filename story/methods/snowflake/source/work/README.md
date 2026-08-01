@@ -20,17 +20,22 @@ link here instead of repeating current status.
 
 ## Immediate review decision
 
-Evan's planning decisions are accepted. His first treatment was judged too
-stilted and list-like, so it was expanded to remove orphaned references,
-explain causal transitions within the treatment, and carry his relationships
-without a page-length constraint. The current pass moves events and their
-immediate consequences ahead of after-the-fact explanation throughout the
-synopsis, except where setup is needed to understand a choice, an experiment,
-or its stakes.
+The institutional middle of Evan's provisional synopsis is deliberately
+deferred. Its explicit stub preserves the locked casualties, Evan's response,
+and the later proof-to-stop boundary without pretending that the replica
+laboratories, their commercial projects, containment, or the fatal causal
+chain have been solved. The abandoned branches and physical safety checks are
+preserved in the science and plot archive, and the unresolved decisions are
+owned by the projector operation's open questions.
 
-Does the revised treatment now read continuously, with its explanations
-arriving where the reader needs them rather than before the events they
-explain?
+Outside that stub, Joe's handwritten pass and later clarifications govern the
+synopsis. The current revision carries the guardrail-leakage pass through the
+resolved material while preserving his intentional wording and the arc from
+connection, through substitution and formalization, to presence and accepted
+uncertainty.
+
+Does the resolved material in Evan's synopsis now carry that arc with enough
+human weight, apart from the deliberately deferred institutional middle?
 
 ## Open-question destinations
 

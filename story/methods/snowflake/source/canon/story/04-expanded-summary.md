@@ -20,14 +20,17 @@ Snowflake step: 04
 
 ## Paragraph 2: clarity, control, and obsession
 
-> While trying to isolate the cold notch, Evan slips into the deepest flow
-> state he has ever known: each observation seems to have one correct
-> successor. He treats it as an epiphany, and in it he solves an intermittent
+> While trying to move the cold notch toward another sensor, Evan advances the
+> pulse timing and slips into the deepest flow state he has ever known: each
+> observation seems to have one correct successor. A better ordinary phase
+> sequence becomes obvious. It improves the trapped field enough to keep the
+> defective ring useful and moves the notch between installed sensors, where
+> it appears to disappear. In the same state, he solves an intermittent
 > motor-control failure from work. At low speed, when back electromotive force
 > vanishes into noise, the estimator should preserve both valid
 > electrical-angle possibilities until the signal returns instead of forcing
-> one. The fix survives simulation, review, and bench testing after the state
-> fades, so Evan counts the insight as his own. He then lets fresh random bits
+> one. The flux-pump improvement and motor fix both survive after the state
+> fades, so Evan counts the insights as his own. He then lets fresh random bits
 > choose between two safe actions in the flux pump's live control loop.
 > Record-only bits stay fair, and replayed commands do nothing. When fresh bits
 > control the apparatus, the same physical action is selected too often even
@@ -52,34 +55,60 @@ Snowflake step: 04
 > her memories, though Evan remembers the pregnancy ending in miscarriage.
 > Lena says they cannot call this restoration and objects to another exposure.
 > Evan calls the run an overshoot and proposes a concordance window, the
-> strongest lucidity whose memories agree with his records. He begins
-> formalizing the next run.
+> strongest lucidity whose autobiographical reports conform to his records.
+> He begins formalizing the next run.
 
 ## Paragraph 4: erasure and failed stopping
 
 > Across the replica labs, Tess finds that impossible chains converge on
 > decisions tied to the projector: one site's failed run supplies what another
-> needs before a precommitted cutoff. After direct contact, Lena suspects the
-> containment network is a carrier and refuses a test whose result would
-> determine its own shutdown response. Evan runs it anyway. The labs'
-> measurements, approvals, and decisions close a projection cycle without him
-> or the garage machine. A shared encounter then supplies the missing proof of
+> needs before a precommitted cutoff. A later run kills one researcher and
+> leaves another technically competent but permanently unable to remember the
+> dead collaborator or their years together. Evan treats the death as a
+> containment failure, helps preserve the sites, and supports a bounded restart
+> under stronger safeguards. After direct contact, Lena suspects the containment
+> network is a carrier and refuses a test whose result would determine its own
+> shutdown response. Evan sponsors the protocol through consortium approval,
+> and participating sites execute it under local authority. Its initial readout
+> fails to show an independent carrier, but the
+> sites carry out the response assigned to that result. Their containment
+> actions alter later conditions across the network, and only the full protocol
+> aftermath shows that another projection cycle has closed without Evan or the
+> garage machine. A shared encounter then supplies the missing proof of
 > erasure. An autobiographical distinction Tess remembers has vanished from
 > every other person and record, yet Evan sees its residue while Tess hears it
 > as spatial relation. It contains details Evan never knew, and the next
 > distributed projection begins to flatten it. They realize the contacts
-> preserve echoes of lives the machine erased. Evan admits using Tess's choices
-> as an uninformed control and mining the records of her family's deaths, then
-> still calls their meeting inevitable. Furious, Tess stays with Ruth while Evan
-> leaves to follow the distributed stop chain. Ruth enters a natural final
-> lucidity as his attempt to isolate the garage becomes a subsurface collapse
-> and explosion. Tess reaches for 911, but the phone is dead; the sky blackens,
-> fire falls like molten glass, and the shockwave hits. Ruth fades and dies
-> beside her. Evan abandons the chase and returns to find Ruth dead, the
-> neighborhood ruined, and the cat unhurt. He does not inspect the crater,
-> salvage the ring, or reconstruct what happened. He stays with Tess. She has
-> not forgiven him, but his refusal to turn their loss into more work ends his
-> alignment with the operation while it continues without him.
+> preserve echoes of real lives the machine erased. This reclassifies Ruth's
+> granddaughter memory as access to a history being stripped away. Evan's
+> concordance window would have suppressed that real difference because it did
+> not match his records. He admits that after he began to suspect Tess's rare
+> history might matter to the anomaly, he continued running live work in her
+> presence, compared her ordinary choices with active trials, mined the records
+> of her family's deaths without telling her, and folded the analysis into the
+> program that led to the carrier protocol. Furious that he used the most
+> private fact of her life and continued to expose her after he suspected it
+> mattered, Tess stays with Ruth. The independent analogue has shown that
+> neither of them is required for the basic effect, but it cannot show whether
+> her presence shaped the original lineage before he began measuring it. Evan
+> moves the complete active core of the original apparatus to a remote test
+> site. He tries to stop it by warming the YBCO above
+> Tc so its pinned flux depins and decays, then opening or disabling its live
+> feedback loop under a precommitted distributed response. To protect Ruth and
+> Tess, Evan makes monitored garage and home safety status an input to that
+> response. Ruth enters a natural final lucidity while an ordinary
+> infrastructure and subsurface chain destroys the now ringless garage,
+> removing the safety state. The participating sites halt decommissioning and
+> enter the promised fallback verification run, closing another cycle. Tess
+> reaches for 911, but the phone is dead; the sky blackens, fire falls like
+> molten glass, and the shockwave hits. Ruth fades and dies beside her. Evan
+> aborts the remote procedure, leaves the original rig powered down at the test
+> site, and returns to find Ruth dead, the neighborhood ruined, and the cat
+> unhurt. He recognizes the pattern beneath his work: whenever loss, grief, or
+> even their threat leaves him helpless, he builds a system and disappears into
+> it. He consciously stays with Tess instead of finishing the shutdown or
+> beginning another investigation. Tess is still angry. They leave the ruined
+> neighborhood together while the operation continues without him.
 
 ## Paragraph 5: collapse and genesis
 
@@ -94,12 +123,16 @@ Snowflake step: 04
 > As distant replica labs become the same place, Evan sees bounded objects
 > arranged along impossible paths while Tess locates voices, footsteps,
 > surfaces, and machinery through acoustic relations that cannot belong to one
-> room. Their incompatible atlases still describe one world, but place, object,
-> observer, and contact no longer stay separate. Evan and Tess believe the only
+> room. The remote site holding the powered-down original apparatus becomes
+> physically co-present with the damaged observatory, making that rig available
+> as the final hardware. Place, object, observer, and contact no longer stay
+> separate, though their incompatible atlases still describe one world. Evan
+> and Tess believe the only
 > remaining act will erase the projector operation and kill them with it. They
-> each understand the choice, its cost, and the real possibility of refusal,
-> but neither can see, model, or influence what the other decides. Evan accepts
-> that Tess may refuse and that he cannot choose for her. Tess, the one person
+> each understand the choice, its cost, and the real possibility of refusal.
+> Once it begins, each will pass beyond the other's ability to observe. Evan
+> accepts that Tess may refuse and that he will not know her answer before
+> giving his own. Tess, the one person
 > too causally rare to be smoothly rewritten, chooses despite the chance that a
 > mismatch will leave her as the sole remainder again. Their cat crosses the
 > broken geometry and settles where both can find it, giving them one last
