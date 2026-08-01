@@ -38,18 +38,21 @@ Status: accepted
 - Dementia in the fictional theory is uneven loss of overlap among the history
   bundles supporting memory, language, recognition, emotion, and selfhood.
 - Ruth's deepening lucid intervals are meaningful temporary benefits, but they
-  do not prove restoration. The later interval selects a coherent
-  implementation that contains memories absent from Evan's record family.
+  do not prove a cure. The later interval gives her access to a coherent
+  inhabited history containing memories absent from Evan's record family.
+- The granddaughter memory is cross-history autobiographical access within
+  Ruth's existing bundle.
 - Evan's proposed concordance window can measure agreement with his record
-  family. It cannot establish that a matching implementation is the original
-  or correct Ruth.
+  family. It cannot establish restoration, safety, or that a contradictory
+  memory is false. Used as a control target, it would select against real
+  autobiographical distinctions that disagree with him.
+- Paired loss and contact echo later establish that Ruth's granddaughter memory
+  came from an inhabited history the operation was stripping away. The proof
+  gives the contradiction objective stakes without recovering the lost history
+  or excusing Evan's response.
 - Evan never learns what the lucid intervals felt like to Ruth, whether she
-  experienced them as rescue, or which autobiography she understood as her
-  own. Records, entity contact, the later erasure proof, and terminal cosmology
-  cannot authenticate a correct Ruth for him.
-- Evan's change includes giving up the attempt to settle that uncertainty. He
-  no longer defines which Ruth counted or converts her unmeasured experience
-  into another test, explanation, or claim on her behalf.
+  experienced them as rescue, or what she wanted after the contradiction. No
+  later contact supplies her missing consent or resolves his guilt.
 - This is fictional cosmology, not a claim about real dementia.
 
 ## Related owners

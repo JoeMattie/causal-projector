@@ -8,416 +8,222 @@ continuity review and is not accepted wording. Its length is not constrained.
 
 ## Synopsis
 
-For Evan, the garage is where caring for Ruth still feels like a life they
-share instead of a sequence of losses he has to manage. Her dementia can take
-the thread from one hour to the next, but her mathematical habits remain. He
-gives her bounded jobs on their flux-pump project, an attempt to build a
-persistent magnetic field source for portable or open MRI, and checks the work
-afterward. Checking is how he keeps it safe; it does not make her contribution
-less real to him. When their defective superconducting ring produces a cold
-notch that none of the other measurements can explain, Ruth finds it every
-time and meets it fresh every time. As a traveling heat pulse crosses one fixed
-sector, the thermometer there drops below the cold-stage temperature while the
-neighboring probes warm normally. The expensive replacement ring reaches the
-field target and makes the anomaly disappear. That should be good news. Still,
-after Ruth is done for the night, Evan puts the defective ring back. One more
-run will tell him which part was wrong, and in the morning he can bring her a
-clean answer. The cold notch returns.
+For Evan, the garage is the last place where caring for Ruth still feels like a life they share rather than a sequence of losses he has been left to manage. Dementia breaks the thread of her continuity from hour to hour, but her oldest mathematical habits remain intact. In the garage, Evan and Ruth are working on a flux-pump, the first step in an attempt to build a persistent magnetic-field source for portable MRI. He gives her pieces of the project she can still follow, checking and quietly correcting it when needed after she goes inside or falls asleep on the couch in the garage.
 
-During the work that follows, Evan slips into the deepest clarity he has ever
-felt. A motor-control problem he has worried at for months suddenly becomes
-simple: near zero speed, the estimator has to carry both valid
-electrical-angle possibilities until the signal can distinguish them again.
-The fix holds after the clarity fades, including on a bench nowhere near the
-garage, which gives Evan exactly the kind of evidence he trusts. The insight
-is his. The state merely helped him reach it. To test whether the anomaly can
-affect an event instead of only a reading, Evan lets fresh random bits choose
-between two safe actions in the apparatus's live control loop. The bits favor
-the same physical action, but only when the choice changes what the apparatus
-will do. Bits that are merely recorded stay fair, and recorded commands played
-back later do nothing. Evan calls Lena Varga, a physicist he trusts to attack
-the result hard enough that her failure to break it will mean something. He
-calls because he thinks he has found new physics, not because he thinks
-anything is happening to him. From then on, whenever Ruth wanders away or
-falls asleep before a run, Evan promises himself he will catch her up. He
-isn't choosing the machine over her. He is using a clean window so that the
-next thing he brings her will be worth sharing. The project leaves her behind
-one reasonable exception at a time.
+Their first breakthrough begins as a defect, during a test of an LN2-cooled YBCO ring separated from a permanent magnet by a magnetically insulating layer of Prussian Blue. When a traveling heat pulse is passed through the insulator, a cold notch begins to appear that none of the other measurements can explain. The thermometer at that point drops below the cold-stage temperature while the neighboring probes warm normally. Replacing the temperature probe and data logger does not make the anomaly go away: Ruth notices it every time, though dementia makes each discovery feel new to her.
 
-Lena is the first to connect the anomaly with the way Evan's alternatives
-disappear while he works. During the anomalous intervals, his corrections
-become less frequent, stop reversing, and lose the alternatives visible in his
-own earlier notes. A blinded recurrence confirms the timing. They call the
-correlation an operator effect so that they can discuss it without pretending
-the name explains it. They then define, before a run, a physical outcome that
-ordinary operation almost never produces and fix the conditions under which
-they will count it. The apparatus produces it exactly. Soon chains of ordinary
-coincidences outside the garage begin completing goals tied to the project.
-Once the pattern reaches beyond the apparatus, testing it is no longer only a
-physics problem. Lena brings in Tess Kertesz, a friend from her pub-trivia
-team who models compound catastrophes for a living. Tess's first job is to find
-hidden dependence, selective use of favorable results, or convenient
-storytelling that Evan and Lena have missed.
+An expensive replacement ring, ordered months earlier, arrives and is installed. It reaches the project’s magnetic field target without producing the notch. The defect is gone. Evan and Ruth celebrate, but after Ruth has gone to bed, Evan reinstalls the original ring and runs one more test, hoping it will reveal what went wrong.
 
-Tess does not join the project by believing Evan. She joins by arguing with
-him, checking his categories, and refusing to let an unexplained remainder
-become a conclusion. Evan comes to rely on that resistance. As the audit
-expands and the runs consume more of each day, Tess spends more time at Evan
-and Ruth's house, always with Mouse, her seventeen-year-old black-and-brown cat,
-tucked into a little bag or perched on her shoulder. Mouse weighs about five
-pounds beneath her long coat. Frostbite took the tips of her ears before Tess
-adopted her, leaving them rounded enough to explain the name. Tess treats Ruth
-as a colleague and a friend rather than as another person near the apparatus
-whose behavior might become evidence. Mouse watches Evan from the corner of the
-workbench, but she chooses Ruth as her preferred resting companion and looks
-up with one small meow when she wants attention.
+The cold notch returns.
 
-Ruth's first lucid interval happens while she is doing real work on a live
-run. Nobody has proposed treating her. When she realizes what has happened,
-she asks for another reduced exposure. The early intervals restore enough
-continuity for her to rejoin conversations and finish work she had lost the
-thread of, then they fade. Each one lasts longer than the one before it.
-Tess remains skeptical of every claim made around the result, but she does not
-deny the benefit Ruth herself is asking to repeat. For a while, Evan's work
-and his care for Ruth seem to have become the same thing.
+On what seems like a whim, Evan advances the pulse timing in an attempt to move the temperature anomaly toward another sensor, and enters the deepest state of clarity he has ever experienced. A better phase sequence for the flux pump is now obvious, coming to his mind as if he is remembering it. A motor-control problem at work he has battled for months suddenly becomes simple. He tries the phase sequence immediately. It improves the trapped magnetic flux by a large margin and shifts the cold notch into a gap between the installed sensors. With nothing left to see, he lets himself call the anomaly an instrumentation problem. At work, the motor-control solution integrates perfectly. Evan doesn't directly connect either result to the project in the garage yet.
 
-The long days draw Evan and Tess together as well. He is used to explaining
-science as a form of intimacy, and Tess is one of the few people who will
-follow the explanation all the way through and still tell him where it fails.
-When she tells him about surviving the ferry catastrophe that killed her
-family, he is the first person to call her survival a statistical catastrophe
-rather than a miracle. He does not claim that her family died so she could
-live or that survival assigned her a purpose. If the event is ever to mean
-something, he tells her, the meaning has to be one she chooses afterward. Tess
-tells him the distinction matters. It leaves the dead as people rather than
-turning them into the necessary cost of her life. They become lovers without
-becoming alike. Tess's judgments do not begin to mirror Evan's, and affection
-does not make her easier to persuade. He is drawn to the fact that she remains
-difficult to predict and recognizably herself even as other people's responses
-around the apparatus become easier to anticipate.
+He continues to work on the flux pump in the garage, the altered states returning each time. Ruth begins to fall asleep or wander off unnoticed while Evan is working, and Evan keeps telling himself he'll catch her up later. The project leaves her behind one reasonable exception at a time. After a full weekend of nearly nonstop work and mounting progress, Evan can't ignore the fact that something strange is happening. When, after more adjustment of the phase timing, the temperature anomaly reappears, he is inspired to try a new experiment.
 
-Then, during her clearest interval, Ruth asks after the granddaughter who
-survived in her memory. Evan remembers the pregnancy ending in miscarriage,
-and nothing about Ruth's otherwise coherent account feels confused. He calls
-the run an overshoot because that lets the useful result remain useful. They
-need a concordance window: the strongest lucidity in which Ruth's
-autobiography still agrees with his records. Lena tells him that agreement
-with his history cannot prove which Ruth is authentic. Evan hears a precise
-objection to the protocol and begins designing a better one. He believes he is
-protecting Ruth from a bad result. In practice, he has made his own past the
-test for which version of her is allowed to be right.
+He begins testing whether the anomaly can influence an event rather than merely distort a measurement. Fresh random bits are allowed to choose between two safe actions inside the apparatus’s live control loop. The bits favor the same physical action, but only when their choice determines what the apparatus will actually do. Bits that are merely recorded remain fair. Commands recorded during a run and played back later have no effect.
 
-The argument over Ruth does not stop the rest of the work. Evan begins looking
-for unusual histories among the people closest to the runs. He starts with
-Tess, testing whether her ordinary decisions remain variable during runs that
-make other people's responses easier to predict. The coincidence chains now
-pass through people as well as equipment, and the chain of rescue, treatment,
-and later choices that kept Tess alive after the rest of her family died makes
-her the obvious candidate. Evan does not tell her. He uses choices she would
-have made anyway as a live control, then mines ferry, rescue, and medical
-records to estimate how rare her survival really was. He tells himself that
-asking permission would contaminate the control and that observing her does
-not change what she is free to choose. The reasoning allows him to keep the
-experiment separate from their relationship, at least as long as he does not
-have to explain it to her.
+Shaken, Evan calls Lena Varga, a physicist he trusts to check his result with enough rigor to dispel his growing suspicions that he may have stumbled on new physics.
 
-Evan does not let either the argument over Ruth or his secret study of Tess
-stop the physical program. Lena first takes the original ring to her shared
-facility and confirms that the effect survives outside Evan's garage. That
-rules out the garage as the cause, but it does not show that anyone can
-reproduce the effect without his one defective component. Her group measures
-the ring's asymmetric structure and operating conditions, returns it to Evan,
-and fabricates a new ring with the same relevant asymmetry. When that
-independently made analogue works in their own apparatus, Lena organizes a
-small, closed study. Each participating lab receives the same material and
-operating specification, fabricates its own replica, and runs it with local
-equipment and controls.
+Lena is the first to connect the anomaly with the way alternatives disappear while Evan works. During anomalous intervals, his self-corrections become noticeably less frequent. Competing possibilities visible in his earlier notes vanish entirely from his awareness and reasoning. A blinded recurrence confirms that the change coincides with the apparatus.
 
-At home, Ruth's early gains have not stopped her ordinary decline. Outside the
-lucid intervals she tires more easily, needs more help moving, and begins
-having trouble eating and swallowing. Evan notices each change and handles it
-as a separate problem with a schedule, a safer routine, or another call to a
-doctor. Tess spends time with Ruth that has nothing to do with collecting
-data, and Mouse increasingly settles against Ruth whenever she sits down.
-Evan is grateful for all of it. It also makes the hours he gives to the
-expanding study feel less like hours taken from Ruth.
+They call it the operator effect, a name deliberately empty enough to let them discuss the result without pretending to understand it.
 
-The first replica runs reproduce the operator effect and the bias toward live
-consequences without a major accident. Smaller hazards lead Lena and the site
-teams to add exposure limits, shared monitoring, and common stop rules. Later,
-one site begins a run whose result has been defined in advance to decide
-whether that site will continue or shut down. Shutdown begins, and the
-apparatus fails catastrophically. One researcher dies. Another survives with
-their technical ability intact but no autobiographical memory of the dead
-collaborator or of the years they worked together. Messages, recordings, and
-colleagues preserve the relationship. The survivor can learn those facts but
-cannot remember living them.
+Before another run, they define a physical outcome that ordinary operation should almost never produce and specify exactly what will count as success. The apparatus produces it. Soon, chains of ordinary coincidences beyond the garage begin completing goals associated with the project. Once the pattern extends through the outside world, testing it is no longer only a physics problem.
 
-The operation has not added energy to the apparatus or produced an impossible
-equipment state. It has selected a permissible route through ordinary
-equipment states, one that leaves magnetic, thermal, or cryogenic energy
-already in the system dangerously arranged as shutdown begins. Each
-individual reading remains inside the range the safety systems were built to
-tolerate, and each safeguard responds to the local failure it was built to
-detect. No one safeguard recognizes what the whole sequence has assembled.
-The survivor was also physically injured in the accident, so neurological
-trauma remains a possible explanation for the missing memory.
+Lena brings in Tess Kertesz, a friend from her pub-trivia team who models compound catastrophes for a living. Tess searches for the hidden dependence, favorable selection, or convenient storytelling that Evan and Lena have failed to see.
 
-Every replica is put on hold. Evan's garage falls outside the institutions'
-authority, but he powers it down too and keeps the original ring without asking
-for an exception. He could restart whenever he chose, which makes not doing so
-matter to him. He does not minimize either casualty, but he can still sort the
-damage into things that have a next step. The death is a containment failure.
-The survivor's missing life is real, but the physical trauma leaves its cause
-uncertain. When the investigation later permits a few sites to restart under a
-shared containment plan, Evan sees the decision as a way to find the failure
-and prevent another death. Once there is a procedure, he knows what to do with
-the grief. He joins as a technical adviser with access to the shared data,
-controller logs, and safety records, but no authority to approve or run a test
-whose outcome will change what a site does next.
+Tess joins the project, arguing with Evan every step of the way. She audits his categories, challenges his assumptions, and refuses to let an unexplained remainder harden into a conclusion. Evan comes to depend on that resistance.
 
-A failed run at one restarted site causes the lab to cancel planned work and
-release a resource it had reserved. Procurement, weather, transport, staffing,
-and other unremarkable contingencies carry that resource to a second lab before
-a cutoff fixed in advance, allowing a blocked task to succeed. No single link
-is impossible. Together, the links show that the replicas are becoming more
-than separate copies of the garage machine. What troubles Lena is that one
-site's failure has become part of another site's live decision, and similar
-chains are beginning to recur through the shared containment process.
+As the runs lengthen and the audit expands, Tess spends more time at Evan and Ruth’s house. She nearly always brings Mouse, her seventeen-year-old black-and-brown cat, tucked into a small bag or perched on her shoulder. Beneath her long, scraggly fur, Mouse weighs barely five pounds. Frostbite took the tips of her ears before Tess adopted her, leaving them rounded enough to explain the name.
 
-During longer runs, Evan also begins passing through intervals that he cannot
-reconstruct as an ordinary place or sequence afterward. What he retains is a
-bounded form that turns every interruption into its next movement, as if the
-failed attempt to stop it were simply the first step of what it meant to do.
-The perceptual content falls apart when he returns to ordinary awareness, but
-the sense of instruction remains. Evan privately thinks of the form as a
-Guide. Lena does not accept that residue as guidance. In the cross-site data,
-she finds the same converted interruption: every failed attempt to stop
-becomes a condition for the next continuation. If measurements from one site
-change what another site does, then the containment network may already be
-carrying the operation independently of Evan and the garage. They use the word
-carrier for a causally connected loop that can continue the same selection
-process through the laboratories' measurements, decisions, and responses even
-while the original apparatus is off.
+Tess treats Ruth as a colleague and a friend. When Ruth loses the thread, Tess waits for whatever connection comes next and follows her there. Mouse watches Evan from the corner of the workbench but chooses Ruth as her preferred resting companion. When she wants attention, she looks up and gives one small meow.
 
-Proving that suspicion would require a test whose result determines what the
-sites do next. A positive result would trigger coordinated containment or
-decommissioning, but that very response could close the loop the test is meant
-to detect. Lena refuses to take part. Evan agrees that the danger is real, but
-he also knows suspicion will not keep several institutions shut down
-indefinitely. If the sites act separately, their uncoordinated attempts to
-stop may create more live branches than one bounded test under a common plan.
+Ruth’s first lucid interval comes during a live run, while she is working beside Evan as she has from the beginning. She notices the change herself and asks for another exposure.
 
-Evan is exact about disclosure this time. He tells the reviewers, site leads,
-and operators why they think the containment network is carrying the
-operation, why the test's own approved response may complete or strengthen
-that loop, and why Lena has refused to participate. The secret control he has
-built around Tess depends on her not knowing about it. This test does not.
-The distinction feels decisive to him. These people receive the same facts and
-retain the authority to say no. They approve, and local teams carry out the
-test under the consortium's shared rules.
+The early intervals restore enough continuity for Ruth to rejoin conversations and finish work whose thread she had lost. Then they fade. Each lasts longer than the one before it. Tess remains skeptical of every explanation they offer, but she supports the repeat exposures because they are plainly helping Ruth.
 
-The pattern the consortium agreed would count as evidence appears. Under the
-plan they approved, participating sites begin the promised containment and
-shutdown actions. Those actions change conditions at other sites and help
-determine what those systems do next, closing a cycle between measurement,
-decision, and response. Their informed response has completed the carrier
-anyway.
+For a time, Evan’s research and his care for Ruth seem to have become the same thing.
 
-Evan understands the result at once. The review, the approval, and the promised
-containment actions were already part of the system, and running the test
-strengthened the thing it proved. He feels no triumph, but he does feel
-vindicated. Lena was right that proving the loop might make it stronger, and
-he was right that the institutions needed proof. Now they can coordinate a
-real shutdown. He expects Lena to be furious and expects the work between them
-to survive the fury. Instead, she withdraws from every live response. Evan
-knows she has drawn a moral boundary, but he experiences her departure as
-leaving when the work matters most.
+The long days draw Evan and Tess together. Evan has always used scientific explanation as a form of intimacy, and Tess is one of the few people willing to follow him all the way through an argument and still tell him where it fails.
 
-After a later distributed run, Tess discovers that one specific distinction
-from her own life has disappeared. It is ordinary enough to have appeared in
-messages, records, and other people's memories before the run. Now she is the
-only waking person who remembers it, and every ordinary record agrees that it
-never existed. Evan and Tess recover the missing distinction together during
-contact. Evan sees a structured visual residue. Tess locates the same residue
-through sound and spatial relation. Their accounts differ, but they contain
-corresponding details, including things Evan never knew. When another
-distributed run removes part of that structure, both accounts lose the same
-details and possible relations. The shared residue prevents Evan from
-dismissing Tess's memory as a private false memory. The survivor's missing
-years could still be blamed on the physical accident. That explanation cannot
-account for Tess's loss.
+When Tess tells him about surviving the ferry catastrophe that killed her family, Evan calls her survival a statistical catastrophe. A miracle, he says, would imply that the deaths bought something. Whatever her survival means belongs to what she does afterward.
 
-The paired loss from ordinary reality and the echo that remains in contact
-give Evan the explanation he has resisted. Contact can preserve residues of
-histories the operation has made inaccessible, and continued runs flatten
-those residues too. That evidence also strips his private Guide of its
-authority. The bounded form did not arrive with a lesson. It is the shape
-Evan's mind gave the same pattern Lena found in the network, the conversion of
-every interruption into another continuation. Now it looks ruined, with only
-that one motion left. The machine has not merely favored outcomes. It has been
-destroying the alternatives in which those outcomes did not occur.
+Tess has never heard anyone separate her life from the price of her family’s deaths so cleanly.
 
-Evan tells Tess that he used her ordinary choices as a live control and
-searched the records of her family's deaths, rescue, and treatment to measure
-her rarity. She has not discovered the work on her own. He confesses because
-the new evidence makes him understand that the secrecy was a personal
-violation, not just a flaw in the experiment. Continuing to hide it would
-repeat the act. Even then, part of him expects the confession to repair
-something. He has given her the complete record, named what he did, and
-explained why he believed the experiment mattered. That is how honest ground
-is supposed to be rebuilt.
+They become lovers. Tess keeps arguing with him, and Evan finds that he wants her there even when she is telling him he is wrong. Around the apparatus, other people’s responses are growing easier to anticipate. Tess’s next answer can still surprise him.
 
-Tess does not accept an explanation as the return of a choice she was never
-given. When Evan cannot make the disclosure repair her trust, he reaches for
-the one account of why things happened that still makes their life together
-feel coherent. He calls their meeting and their love inevitable. The word
-turns the ferry, her family's deaths, and everything he did afterward into the
-price of reaching him. What remains of her trust breaks.
+Then, during her clearest interval yet, Ruth asks about the granddaughter who survived in her memory.
 
-Ruth is already weakening. She tires quickly, speaks less, and sometimes has
-trouble swallowing, but Evan can see a new chain forming across the distributed
-shutdown work. Every attempt to sever one part of the carrier has become a
-test: its success or failure changes what the consortium tries next. The
-powered-down garage apparatus is still one part under Evan's direct control.
-He leaves to destroy it or isolate it from the rest of the shutdown work. Tess
-tells him she is staying with Ruth because Ruth is her friend and should not
-be left alone, not because she has forgiven him. Evan tells himself Ruth has
-Tess and the work is the part he can still do for them. He leaves with both
-statements arranged like a proof.
+Evan remembers the pregnancy ending in miscarriage. Nothing else about Ruth’s account seems confused. Her chronology is coherent, her emotions specific, her memories internally consistent. He calls the episode an overshoot because the word allows the useful result to remain useful, but he is shaken.
 
-The ground beneath the neighborhood collapses while Evan is still trying to
-isolate the garage. An explosion follows, and the garage disappears into a
-disaster zone he cannot reach. The house survives, but roads, phones,
-utilities, and emergency access fail while the independent carrier continues
-elsewhere.
+They need a concordance window, he decides: the strongest degree of lucidity at which Ruth’s autobiography still agrees with his records.
 
-Evan's attempt makes the garage consequential again because its result will
-determine the consortium's next shutdown decisions. That gives the operation
-another outcome it can select. It has not created an impossible blast or
-supplied energy from nowhere. Infrastructure fails in an ordinary sequence, an
-already unstable subsurface site gives way, and energy already stored below
-the neighborhood is released. The exact chain is wildly improbable, but each
-part of it can happen under ordinary physics.
+Lena points out that agreement with Evan’s records would measure only agreement with Evan’s records. It would say nothing about Ruth’s safety or what happened to the contradictory memory. Evan hears a defect in the protocol and begins designing a better one.
 
-Evan comes back to find Ruth dead, Tess alive and still angry, and Mouse
-unharmed. From Tess he learns that Ruth's final lucidity came without the
-projector. She tired, lost the strength to speak and swallow, and died beside
-Tess after the outside world became unreachable. The next investigation is
-already assembled around Evan. There is a crater to inspect, a ring to
-recover, a chain to reconstruct, and a five-pound cat whose survival should
-not make sense. Instead, he remembers the planter where he and his former wife
-buried the miscarriage, the work he fled into as their marriage failed, and
-all the time with Ruth he traded for one more useful result. He does not arrive
-at a theory of himself. He only recognizes the motion: pain, a person beside
-him, and a problem that offers him somewhere else to look. This time he does
-not look away. He stays with Tess.
+As the runs lengthen, coincidence chains begin passing through people as readily as equipment. Most people’s responses converge. Tess’s do not. By then she has already spent months auditing trials, changing how Evan and Lena interpret results, and affecting which tests they run next. Evan begins to suspect that the improbable history that left her alive may already be shaping the operation around them.
 
-The refusal cannot recover anything, but it changes what Evan understands.
-Lena did not abandon necessary work. She refused a definition of duty that
-made every attempt to stop into another live input. Ruth leaves him with a
-harder limit. He will never know what the lucid intervals felt like to her,
-whether she experienced them as rescue, or which autobiography she understood
-as her own. No record, contact, or cosmology can choose a correct Ruth for him
-now. For once, not knowing does not become permission to run another test.
+He starts logging her ordinary choices as a separate signal and mines ferry, rescue, and medical records to estimate how unusual her survival truly was. He tells himself that asking permission would change her behavior and ruin the measurement. A second question follows the first: whether he is merely observing her resistance to the coincidence chains or whether her presence has already become one of their working parts.
 
-Staying does not restore Tess's trust or turn Ruth's death into reconciliation.
-Evan and Tess move through the immediate aftermath together because there is
-no one else who shares enough of the truth, and because whatever remains
-between them is still real. Evan stops trying to make each practical decision
-prove that Tess has forgiven him. He gives her what he knows, listens when she
-sets a boundary, and accepts that she may leave when movement becomes
-possible. She does not leave. Trust begins to grow again through those repeated
-choices, but it remains incomplete.
+Meanwhile, Lena takes the original ring to her shared facility. Her group measures the ring’s asymmetric structure and operating conditions, then returns it to Evan. They fabricate a new ring with the same relevant asymmetry. The independently made analogue produces both the effect and the altered state on their own apparatus, with neither Evan nor Tess present. The base phenomenon does not require either of them. The result cannot tell Evan whether Tess’s earlier participation has already shaped the operation around them.
 
-The independent operation keeps going, and the scale of its selections grows
-over the next several weeks. Millions of people choose to speak the same
-sentence at the same instant without any broadcast or shared command. Each
-person can make the choice under ordinary physics; only their exact agreement
-is impossible to explain. Later, separate satellites receive valid collision
-warnings. Operators and autonomous systems make locally defensible avoidance
-maneuvers, but across several orbits those maneuvers converge into impacts.
-The operation does not speak through people or take control of machines. It
-selects a complete history in which their ordinary choices fit one
-catastrophic result.
+Lena organizes a small closed study. Each participating laboratory receives the same material and operating specifications, fabricates its own replica, and tests it using local equipment and controls.
 
-Before cutting her outbound links, Lena told Tess that she was withdrawing to
-a remote geomagnetic observatory. Tess still knows how to reach it while
-communications and roads work at all. Lena chose the station because its
-instruments can receive and record without sending observations back into a
-scientific or institutional response. She removed every command path to the
-replica sites and then cut the remaining outbound links. The observatory is not
-outside the operation, and Lena does not think it will save her. It is the
-place where she can continue to witness without turning what she sees into
-another control input.
+Tess’s audits now affect the study’s stop rules and determine which anomalies receive another run. By the time Evan separates her decisions from the rest of the data, they have already changed what the project does next. He keeps measuring without telling her that he thinks her resistance to convergence may itself be active in the system.
 
-Evan goes because Lena is there, not because her instruments might contain one
-more answer. Tess goes because Lena is her friend. They travel together with
-Mouse in her familiar bag or perched on Tess's shoulder. Communications fail
-and routes close around them, but the purpose of the trip stays human. Evan
-does useful things along the way without taking ownership of every decision,
-and Tess works beside him without pretending the breach between them is gone.
-They reach the observatory after the satellite collisions and before the next
-planetary failure.
+At home, Ruth’s early gains do not halt her ordinary decline. Outside the lucid intervals, she tires more easily, needs more help moving, and begins having difficulty eating and swallowing. Evan handles each change as a separate problem. He makes a schedule, devises a safer routine, or calls another doctor.
 
-Lena still recognizes them and understands why she came to the station. Her
-decline is nothing like Ruth's dementia. She retains her past, her technical
-knowledge, and the ability to see what is happening, but different new
-questions and observations are beginning to produce the same next sentence or
-action. The range of responses available to her is collapsing. While she can
-still make one distinct choice, she refuses to let Evan test the change or
-turn it into a final set of measurements. He feels the old impulse to define
-the problem and preserve what can be preserved. He also understands what she
-is asking. Evan honors the refusal and stays with her.
+Tess spends time with Ruth in the garden. Mouse increasingly settles against Ruth whenever she sits down. Evan is grateful for both of them. Their presence also makes the hours he gives to the expanding study feel less like hours taken from his mother.
 
-Continental margins already under stress rupture in one synchronized sequence.
-At the observatory, separate signals arrive from around the planet and make
-the ground itself feel like one struck object. Each fault and submarine slope
-releases energy that was already present, and each local failure remains
-physically possible. The impossible part is their timing. Lena is still
-physically present, but before the next change she loses the ability to give
-any response except the same one.
+> **Unresolved institutional-middle stub:** The reproducible apparatus spreads
+> through institutions that recognize the power and wealth available to anyone
+> who can dictate otherwise uncertain outcomes. The particular laboratories,
+> their real physical projects, the practical boundary called containment, and
+> the causal chain of the first fatal operation remain unresolved. The sequence
+> leaves one researcher dead and another technically capable but permanently
+> unable to remember the dead collaborator or their shared life. Physical
+> injury initially leaves that loss medically ambiguous. Evan powers down the
+> garage apparatus, converts the casualties into a stronger procedure, and
+> joins the limited restart as a technical adviser. The concrete
+> cross-laboratory chain that makes separate replica programs look like one
+> carrier also remains to be designed. The accident does not itself establish
+> the first independent carrier.
 
-Evan and Tess each follow an ordinary route through the same damaged
-landmarks, but when they compare what they did, the two routes cannot belong
-to one map. Neither route contains a mistake. A physical trace passes through
-both of them and proves that the contradiction exists outside either observer.
-Until this moment, every catastrophe has been an extreme selection among
-locally possible events. This is the first failure of stable reality itself.
+During longer runs, Evan also passes through intervals he cannot reconstruct afterward as an ordinary place or sequence. What remains is the impression of a bounded form that converts every interruption into its next movement, as though each attempt to stop it were merely the opening step of what it intended to do.
 
-As the failure spreads, distant replica sites become physically co-present
-with one another. One of them overlaps the damaged space around Lena's
-receive-only observatory, so a replica apparatus becomes accessible even
-though no machine was installed there and nobody has returned to the garage.
-Evan sees bounded objects and surfaces arranged along paths that cannot fit
-one space. Tess locates voices, footsteps, machinery, and her own position
-through acoustic relations that cannot belong to one room. They exchange
-enough information to know that both accounts describe the same damaged
-world, but neither can turn the other's account into a correction of their
-own.
+The perceptual content collapses when he returns to ordinary awareness, but the sense of instruction survives. Privately, Evan begins thinking of the form as a Guide. He encountered something similar during a controlled DMT trial while in college.
 
-Mouse crosses one of the worst overlap regions with the same calm curiosity
-she has brought to the garage, Ruth's chair, and every other strange place
-Tess has taken her. She settles somewhere Evan can identify as a bounded place
-and Tess can identify through sound and relation. For a moment, Mouse is one
-external fact their incompatible accounts still share. She does not solve the
-geometry or tell them what to do. Her ordinary presence only proves that Evan
-and Tess are still in one shared world, close enough for the same animal to
-reach them both.
+Evan gives Lena the part of the experience he can translate into technical language: the impression of a bounded form that turns every interruption into its next movement. He keeps the fuller visions and the DMT comparison to himself. In the records from the surviving sites, Lena begins to find the same transformation: failed attempts to stop the operation become conditions for later runs. She cannot yet trace a complete loop, but she suspects that the laboratories' measurements and responses may already be carrying the operation independently of Evan and the garage.
 
-The accessible replica gives them one remaining act that they believe can end
-the projector operation. They also believe it will kill them. Evan and Tess
-share everything they know about the act, its cost, the uncertainty around it,
-and the possibility that one of them may refuse. Once the choice begins,
-neither will be able to inspect, model, coerce, or replace the other's
-decision. A mismatch may fail to stop the operation, and Evan knows it may
-leave Tess alive and alone again, as she was after the ferry. He cannot remove
-that risk by choosing on her behalf without repeating the thing he has finally
-learned to stop doing.
+They define a carrier as a causally connected loop capable of continuing the same selection process through the laboratories’ measurements, decisions, and responses, even while the original apparatus remains off.
 
-Evan gives Tess the choice without turning it into another control and makes
-his own without knowing hers. Afterward, the damaged space admits what looks
-to him like an incoming beginning. He cannot tell whether the operation has
-ended, whether Tess chose as he did, or what their act has made. Ruth offers no
-answer from the dead. Evan turns toward what is arriving without asking it to
-answer for her.
+Proving that the suspected carrier can sustain itself would require a test whose result determines what the sites do next.
+
+Before the proposal reaches approval, Lena says the project should be shut down entirely and refuses to take part. Evan agrees that the danger is real, but knows that suspicion alone will not keep multiple institutions shut down indefinitely. Without a common test, each site will eventually decide for itself whether to resume.
+
+Evan lays the carrier hypothesis, its recursive risk, and Lena's reason for refusing before the people who control the participating sites. He proposes a test whose result will determine whether they begin decommissioning their apparatus or continue under observation. He explains that either response may complete or strengthen the loop they hope to identify, but recommends running the test anyway. He argues that one shared probe is safer than waiting for the sites to resume piecemeal.
+
+They approve the test.
+
+Researchers at the participating sites conduct the test under the plan they approved. The initial measurements fail to show a carrier operating independently. That result triggers the promised containment and decommissioning actions.
+
+Each site acts on the evidence in front of it. Those actions change conditions elsewhere and determine what other systems do next. Only after the responses propagate does the pattern become visible: measurement, decision, and containment now form a cycle that can continue without Evan or the garage.
+
+Their attempt to contain the carrier has completed it.
+
+Evan understands immediately. The review, the initial negative result, and the promised containment actions were all parts of the system. Running the test completed the thing its aftermath proved.
+
+Evan feels vindicated, but not triumphant. Lena was right that proof might make the loop stronger. He was right that the institutions would not act without proof.
+
+He begins coordinating a genuine shutdown.
+
+Lena flees.
+
+To Evan, her departure feels like abandonment at the moment the work matters most.
+
+He returns to the problem, and the shutdown plan grows around him.
+
+After a later distributed run, Tess discovers that one specific distinction from her own life has vanished. It is ordinary enough to have appeared in messages, records, and other people’s memories before the run. Now Tess is the only waking person who remembers that it ever existed. Every ordinary record agrees that it did not.
+
+Evan and Tess recover the missing distinction together during contact with a form Evan initially regards as an embodiment of the carrier. Evan perceives a structured visual residue. Tess locates the same residue through sound and spatial relation. Their accounts differ, but they contain corresponding details, including information Evan never possessed.
+
+When another distributed run removes part of the structure, both accounts lose the same details and the same possible relations.
+
+The survivor’s missing years could still be blamed on trauma from the laboratory accident. Tess’s loss cannot. In its light, Ruth’s granddaughter no longer looks like a confabulation produced by dementia. Her lucid interval had opened onto an inhabited history the operation was already stripping away, and Evan had answered by defining agreement with his own records as the limit of a successful exposure.
+
+The paired absence from ordinary reality, together with the echo that remains during contact, forces Evan toward the explanation he has resisted. Contact can preserve residues of histories the operation has made inaccessible. Continued runs flatten even those residues.
+
+The same evidence strips the Guide of its authority. Evan recognizes it as the shape his mind imposed on the pattern Lena found across the laboratory records: the conversion of every interruption into another continuation. Seen clearly, it is ruined, with only one motion left. He begins to call it the Ruined Sovereign.
+
+The machine has been destroying the alternative realities in which its selected outcomes did not occur.
+
+Evan tells Tess what he did. Her audit decisions had already changed which tests ran and which stopped before he began measuring her. Once he noticed that her choices resisted the convergence affecting everyone else, he treated that resistance as a signal. He searched the records of her family’s deaths, rescue, and treatment, and kept her in the work while he tried to learn whether the system was bending around her or using her to hold a path open.
+
+For Tess, the breach begins when Evan suspected her role and kept measuring. He chose an uncontaminated signal over telling her that the quality he loved in her might already be part of the machine.
+
+Evan tries to explain why the data had to remain clean. He also says that their meeting may have been inevitable. Tess tells him that neither argument touches what he hid from her.
+
+She tells him she still loves him, and she remains with Ruth in the house. But after learning what he hid, she no longer assumes he has told her everything that might matter.
+
+Ruth, already weakening, tires quickly, and speaks less, spending more and more time asleep on the couch in the garage, Mouse on her lap.
+
+The original apparatus remains under Evan’s direct control. He knows the independent carrier no longer needs it, but he believes a synchronized decommissioning initiated through the root of the replica lineage may still deny the operation another closure. He dismantles the active core of the garage machine, including the defective ring, LN2 stage, thermal and RF drive, sensors, and controller, and moves it to a remote industrial test site many miles from Ruth and Tess.
+
+His plan is to warm the ring through its superconducting transition, let its pinned-flux state decay, and permanently open the local feedback loop while participating sites begin their own decommissioning steps. A live safety signal from the garage and house remains on his screen throughout the procedure. If it disappears, the sites will halt the shutdown and fall back to another verification run.
+
+Tess tells him that she and Mouse are staying with Ruth. The argument between them remains unfinished.
+
+At the remote site, Evan begins the controlled warm-through. Before it completes, the safety signal from home disappears. He looks up in time to see an explosion in the distance. The ground beneath his neighborhood collapses. The garage disappears into a disaster zone Evan cannot reach. The house survives, but roads, phones, utilities, and emergency access fail while the independent carrier continues elsewhere.
+
+Evan’s safety condition turns the garage’s destruction into a live input. Its loss changes the participating sites' next shutdown decision, triggers the fallback, and gives the carrier another cycle. Infrastructure fails in an unlikely sequence, an unstable subsurface gives way, and energy stored beneath the neighborhood supplies the collapse and explosion.
+
+Evan returns to find Ruth dead, Tess alive and distraught, and Mouse unharmed.
+
+Tess tells him that Ruth’s final lucidity came without the apparatus, after the collapse isolated the house. She tired, lost the strength to speak and swallow, and died beside Tess after the outside world became unreachable.
+
+They bury Ruth, and Evan is reminded suddenly of the planter where he and his former wife buried their miscarried daughter. He remembers the work he fled into as their marriage failed. He remembers all the time with Ruth he exchanged for one more useful result.
+
+He recognizes the recurring motion: pain, a person beside him, and a problem that offers somewhere else to look.
+
+The remote rig, the original ring, its logs, and the unfinished shutdown are still waiting where he left them. Together they offer another problem large enough to disappear into. For the first time, Evan sees what the work has been doing for him. It has let him avoid facing loss and grief, and even the possibility of either one. He leaves the shutdown unfinished and turns toward Tess.
+
+Evan and Tess move through the immediate aftermath together. They sort Ruth's things and answer questions from people who do not share enough of the truth. Tess's trust in Evan begins to return as they navigate grief together.
+
+The independent operation continues without them, and over the following weeks the scale of its causal influence expands, one inexplicable occurrence after another. When millions of people suddenly speak the same sentence at precisely the same instant one night, Tess and Evan's growing fear that the experiments are shaking the very foundations of reality is confirmed.
+
+Later, separate satellites receive valid collision warnings. Operators and autonomous systems make locally defensible avoidance maneuvers, but across several orbits those maneuvers converge into simultaneous impacts. The result is the night erupting with flashes of light and debris falling from the sky.
+
+People and machines follow ordinary local reasons while the operation selects the complete history in which their choices converge on one result, often catastrophic. That result changes what the surviving systems do next and produces another run.
+
+Telecommunications networks break down. Seemingly impossible chains of coincidence converge in coordinated large-scale collapse.
+
+The garage is gone, the remote rig remains where Evan left it, and the failed shutdown has produced another cycle and left them without another plan.
+
+Before cutting her outbound links, Lena told Tess that she was withdrawing to a remote geomagnetic observatory.
+
+Lena has stripped the station down to receive-only observation. Its instruments can record what arrives, but nothing at the station can command a replica site or feed a conclusion back into an institutional response.
+
+Evan goes with Tess to find Lena. Tess knows the route to her friend, and Mouse travels in her familiar bag or perched on Tess’s shoulder. Communications fail and roads close around them.
+
+They reach the observatory after the satellite collisions and before the next planetary failure.
+
+Lena still recognizes them. She remembers why she came to the station. She retains her past, her technical knowledge, and her ability to understand what is happening. But different new questions and observations are beginning to produce the same next sentence or action.
+
+The range of responses available to her is collapsing.
+
+While she can still make one distinct choice, Lena refuses to let Evan test the change or preserve it as a final set of measurements.
+
+He feels the old impulse to define the problem and rescue whatever can still be rescued. He turns away from the instruments, sits beside Lena, and stays with her.
+
+Continental margins, already under stress, rupture in a single synchronized sequence. At the observatory, separate signals arrive from across the planet and make the ground itself ring like a bell.
+
+Lena is still physically present, but before the next change she loses the ability to give any response except the same one.
+
+Evan and Tess each travel an ordinary route through the same damaged landmarks. When they compare what they did, the routes cannot belong to a single map. Neither account contains a mistake. A physical trace passes through both paths and proves that the contradiction exists outside either observer.
+
+Until now, every catastrophe has been an extreme selection among locally possible events.
+
+This is the first failure of stable reality itself.
+
+As the failure spreads, distant sites joined by the projector lineage become physically co-present. The remote test site where Evan left the original apparatus overlaps the damaged space around Lena’s receive-only observatory. The powered-down rig and defective ring become accessible even though no machine was installed there.
+
+Evan sees bounded objects and surfaces arranged along paths that cannot fit inside one space. Tess locates voices, footsteps, machinery, and her own position through acoustic relations that cannot belong to one room.
+
+They exchange enough information to know that both accounts describe the same damaged world. Their details correspond even though the spaces they perceive remain incompatible.
+
+Mouse crosses one of the worst overlap regions with the same calm curiosity she brought to the garage, Ruth’s chair, and every other strange place Tess has carried her. She settles somewhere Evan can identify as a bounded location and Tess can identify through sound and relation.
+
+For a moment, Mouse is one external fact their incompatible accounts still share.
+
+The accessible original apparatus offers one remaining act that they believe may end the projector operation. They also believe it will kill them.
+
+Evan and Tess tell each other everything they know about the act, its likely cost, and what may happen if they choose differently. Either may refuse. Once the act begins, each will pass beyond the other’s ability to observe.
+
+A mismatch may fail to stop the operation. It may leave Tess alive and alone again, as she was after the ferry.
+
+Nothing in the apparatus can tell Evan what Tess will choose before he must act. This time, he accepts the uncertainty instead of asking the work to remove it. He makes his choice without knowing hers.
+
+Afterward, the damaged space admits what appears to Evan as an incoming beginning.
+
+He cannot tell whether the operation has ended, whether Tess chose as he did, or what their act has made.
+
+Evan turns toward what is arriving, and the universe ends.

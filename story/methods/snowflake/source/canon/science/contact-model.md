@@ -7,17 +7,20 @@ Status: accepted
 - The first exposure is mental quiet, not speed.
 - Each observation seems to have one correct successor.
 - Evan solves real problems and gains objective benefits.
-- The first externally validated benefit is a solution to an intermittent
-  zero-speed motor-control failure at work. When back electromotive force
-  disappears into noise, two opposing electrical-angle hypotheses remain
-  compatible with the measurements. The old estimator forces one answer and
-  can produce a torque spike.
+- The same first clarity state supplies a better ordinary phase sequence for
+  the flux pump and a solution to an intermittent zero-speed motor-control
+  failure at work. The phase sequence improves trapped field and moves the
+  cold notch between installed sensors. The motor fix is the first benefit
+  validated away from the projector apparatus.
+- When back electromotive force disappears into noise, two opposing
+  electrical-angle hypotheses remain compatible with the measurements. The
+  old estimator forces one answer and can produce a torque spike.
 - During clarity, Evan realizes that the estimator must carry both hypotheses
   through the unobservable interval, defer commitment until the signal
   returns, and trip if they do not rejoin within tolerance.
-- The fix uses existing information, survives simulation and independent
-  testing after the clarity state ends, and does not supply Evan with facts he
-  could not have known.
+- Both insights use existing information and survive the clarity state. The
+  motor fix survives simulation and independent testing. Neither supplies Evan
+  with facts he could not have known.
 - Evan initially understands the clarity as his own epiphany or flow state. He
   does not suspect that the apparatus has changed his cognition.
 - This retains a concept from the legacy draft. Its scene structure, prose,
@@ -79,7 +82,7 @@ Status: accepted
   intention. A recovered memory may personify the contact, but no recurring
   identity or named replacement inhabits it.
 - This contact can preserve evidence and moral injury without turning Evan's
-  eventual refusal into a verdict delivered by the cosmos.
+  later recognition and choice into a verdict delivered by the cosmos.
 - Hold the target roster to two. Add another true entity only if a later story
   function cannot be carried by either retained entity or by an unnamed
   encounter phenomenon.

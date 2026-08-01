@@ -149,9 +149,10 @@ does not establish that it has erased her capacity to choose. At the ruined
 limit, the operation produces the only apparent response it can still absorb:
 a reply without an independent respondent.
 
-This reconstruction mirrors Evan's use of Tess's uninformed choices as
-experimental material. The terminal reversal must preserve a choice he cannot
-make, substitute, or verify for her.
+This reconstruction mirrors the larger pattern in Evan's work. He converts
+Tess's unexplained difference into another signal, just as the operation turns
+each interruption into another continuation. At the terminal boundary, Evan
+must make his own choice without knowing what Tess will do.
 
 ## Arc landmarks
 
@@ -162,8 +163,9 @@ make, substitute, or verify for her.
    stop into the next condition of continued operation.
 3. **Preempted reply:** Tess experiences the same invariant as a response being
    made on her behalf before she can own it.
-4. **Evan-shaped extension:** Evan understands that his own control pattern is
-   a local cross-section of the larger operation.
+4. **Evan-shaped extension:** Evan understands that his own loop of converting
+   grief and uncertainty into work is a local cross-section of the larger
+   operation.
 5. **Flattened Guide:** Movement sheds independent degrees of freedom until
    everything that made its transformations unique returns to the same
    relation. Evan understands it as a sovereign without a subject.

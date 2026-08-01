@@ -71,8 +71,7 @@ now belong to the character summary sheets:
 - [Ruth Hale](../characters/ruth-hale/03-summary-sheet.md), including her work
   in the garage, requested exposures, natural final lucidity, and death.
 - [Esther "Tess" Kertesz](../characters/esther-tess-kertesz/03-summary-sheet.md),
-  including the ferry disaster, causal rarity, relationship rupture, and love
-  story.
+  including the ferry disaster, causal rarity, damage to trust, and love story.
 - [Lena Varga](../characters/lena-varga/03-summary-sheet.md), including her
   scientific role, objections, refusal, and late-story continuity loss.
 - [Mouse](../characters/mouse/03-summary-sheet.md), including her ordinary

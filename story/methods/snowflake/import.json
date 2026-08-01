@@ -2,15 +2,15 @@
   "schema": "causal-projector.snowflake-import/v1",
   "source": {
     "repository": "https://github.com/JoeMattie/causal-projector-snowflake.git",
-    "commit": "2bf7c15948a540ddcd76b15fdeb29bda1b433cf9"
+    "commit": "0bf62ea84b84ee45b0c8487da0964ea177f02239"
   },
   "contractVersion": "causal-projector.snowflake-export/v1",
   "catalogHash": "462ab2f9a7765bb383ce3df98b44eb0fff6247f0f1f06c3b04dd4ec925cadb3b",
   "projectionConfigHash": "32988c9248ec7f73e24d8836d831a18134089c4ecf9b045e69714e46710f88fd",
   "importerVersion": "1.0.0",
   "transaction": {
-    "id": "81893f5a-c909-42fe-a36d-f56bc87f6bb4",
-    "importedAt": "2026-07-30T23:22:57.770Z"
+    "id": "29af17c8-0a88-4e65-bbd2-0826da1d01f1",
+    "importedAt": "2026-08-01T21:48:37.964Z"
   },
   "documents": [
     {
@@ -18,18 +18,18 @@
       "path": "canon/characters/esther-tess-kertesz/03-summary-sheet.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "208d0ce2dd1e98fe94e7e0a9151d3605269eb3ec7100316f995b5512289c3bab",
+      "sourceHash": "fa3fdc2a31c644431e03748d59211c7363efb423ac63f9031c046b44c5ec48c2",
       "projectionTargets": [
         "story/characters/esther-tess-kertesz.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "character:evan-hale:full-character-synopsis",
       "path": "canon/characters/evan-hale/05-full-character-synopsis.md",
       "status": "provisional",
       "visibility": "public",
-      "sourceHash": "492dc6fa25a6aa56a0c6385e41f3ca5ef22516975f804724c85f97ed57d73cb0",
+      "sourceHash": "0999e8ed1c5d20ece73f804573bdfb98a70454a80108e27f0e90f47935fcac7e",
       "projectionTargets": [],
       "result": "modified"
     },
@@ -38,75 +38,75 @@
       "path": "canon/characters/evan-hale/05-supporting-planning.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "f95d4d4b99a8bc312362d736d4398bd55509099f886af2fe364846594a593a7f",
+      "sourceHash": "f7b8bf1b4a0c1c015bf090374f497e9a109ee36a98b8371195f76a5c0dc58475",
       "projectionTargets": [],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "character:evan-hale:summary-sheet",
       "path": "canon/characters/evan-hale/03-summary-sheet.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "573d5b4f42eb2ecbcc7ec38b805d4cebdb483ea38c60e7a764302466ae77de79",
+      "sourceHash": "22a86474cd6dea9d6e4c89e56febe6f72e87907cf911285534343555bfc27711",
       "projectionTargets": [
         "story/characters/evan-hale.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "character:lena-varga:summary-sheet",
       "path": "canon/characters/lena-varga/03-summary-sheet.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "385539864bd511bb9939c7ae12c3596cfd659f36a45595b461141955ce6122f8",
+      "sourceHash": "79ab9923e9fe4d6383679b1066e14c9752e173303efdae4cebbb6d1cb60d5bf0",
       "projectionTargets": [
         "story/characters/lena-varga.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "character:mouse:summary-sheet",
       "path": "canon/characters/mouse/03-summary-sheet.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "201d50326ca6b6142cab27ffdacb7f86585f0aa020845dcc9ac4da0e79fab429",
+      "sourceHash": "5de75599503d677acec1486651d557d54ee2036fc56609d1f7cd11ee76d42074",
       "projectionTargets": [
         "story/characters/mouse.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "character:projector-operation:summary-sheet",
       "path": "canon/characters/projector-operation/03-summary-sheet.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "2d9b2b0c8b2058efccce3b63c0fc2e81cb76e8f8c3364bf1dacb33d1f8da93b2",
+      "sourceHash": "6fcbeaff2fe79b2c2a81a885236a691623e5dbc951353a0b2985fda592904c54",
       "projectionTargets": [
         "story/characters/projector-operation.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "character:ruth-hale:summary-sheet",
       "path": "canon/characters/ruth-hale/03-summary-sheet.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "82ad5ae16eace419ac3f4242c56aa0e99298bdbcecad5e8e4432f6f326e2d6e4",
+      "sourceHash": "b92ea63733941f9c04808aacfc17f5b07cc9d3f08edd8b791396027451fbb707",
       "projectionTargets": [
         "story/characters/ruth-hale.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "entity:ruined-sovereign:summary-sheet",
       "path": "canon/entities/ruined-sovereign/03-summary-sheet.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "7454dbdf43e62cf84fa619e5d744b547ea5e8c97126fc63a684c26e81996b982",
+      "sourceHash": "0ae779ee69734fe08803d25964621c351c251b527d660be9581bb59dc7dfc7a2",
       "projectionTargets": [
         "story/characters/ruined-sovereign.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "entity:turning-knot:summary-sheet",
@@ -124,7 +124,7 @@
       "path": "archive/decision-log.md",
       "status": null,
       "visibility": "internal",
-      "sourceHash": "22b57fcd2b9efc3688f30b03154d45c76585b0bebaf0ef1f1bd01885a9d5d048",
+      "sourceHash": "9bf3e80ae33839d5e5cbbcfc8a9bb15f2cf1769c5ec9b118a89ff59cfcd10200",
       "projectionTargets": [
         "story/decision-log.md"
       ],
@@ -135,22 +135,22 @@
       "path": "mirrors/authorbot/story-graph.yaml",
       "status": null,
       "visibility": "internal",
-      "sourceHash": "22c875464a29b7920146b4e2d8fc9ae7c443be4a9099c873878b9c32a982089e",
+      "sourceHash": "ca153dc2f609f2030c83c966e28d5e2c01d209ad980f62174151701738e589fb",
       "projectionTargets": [
         "story/outline.yml"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "questions:character:esther-tess-kertesz",
       "path": "canon/characters/esther-tess-kertesz/open-questions.md",
       "status": "unresolved",
       "visibility": "internal",
-      "sourceHash": "3da3cebb44ee7088dfa181edd56633df18d72453da54911920356c094636d990",
+      "sourceHash": "4d10ded7a4923fd19d6b04d350fac0a27ae80e04d15642716f3a8f6882ed9103",
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "questions:character:evan-hale",
@@ -190,11 +190,11 @@
       "path": "canon/characters/projector-operation/open-questions.md",
       "status": "unresolved",
       "visibility": "internal",
-      "sourceHash": "6b7b6f6fd93549a025ac41a5f1474e39f49ae6de8533805745759386d9f6fb63",
+      "sourceHash": "eeebc1168b5657fca1a15786672c2f74bafa7905dbf3a04db3f4b5e114bcba3a",
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "questions:character:ruth-hale",
@@ -245,119 +245,119 @@
       "path": "work/open-questions/science.md",
       "status": "unresolved",
       "visibility": "internal",
-      "sourceHash": "783a10ad3da449081e8960d174a661778a6b5d412232866243e6176c187c1424",
+      "sourceHash": "23e6c05ecf41985953a04d125909cd9500fa84ff8eaad5edc892947045ef9e55",
       "projectionTargets": [
         "story/open-questions.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "science:apparatus-and-discovery",
       "path": "canon/science/apparatus-and-discovery.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "5076d6efc978a13573155b406c6c179fb70b78f499a94562455a55861a017291",
+      "sourceHash": "b0598491b4e397f29f41b219dedfc4c9582ed8a5ca699d85f6614cd357db32f0",
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "science:causal-substrate",
       "path": "canon/science/causal-substrate.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "bba326a56b47df937546dc5276af666cb8ce0c36d495c19bf0c450c0ebabf6f6",
+      "sourceHash": "050d60c157ea62e4d9ea2a8bb23a098544c3ac8d7f31a01442ba230af9519b4e",
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "science:contact-model",
       "path": "canon/science/contact-model.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "23f098d678ebcd168643eb96addb53448a4a9f9af2d1d4982cd51bae3ae7fd34",
+      "sourceHash": "d389b53c094c3947121e79c9c88f289034b631fbc3c4f0d3ed678c3135a723f7",
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "science:replication-and-containment",
       "path": "canon/science/replication-and-containment.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "f47814bc1b24b23b95ef0a61b59729cd9d53b885dc44dab21079573df5d06464",
+      "sourceHash": "d00d5a8b4800cb3ec360632cdb5c68f8ee1852b936466bf7d5062d94a41bf89a",
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "story:escalation",
       "path": "canon/story/escalation.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "92f738e9cd78badd794b524f0781e98d521b34cc6d3e46a4f93f2bebb447ffe5",
+      "sourceHash": "78f564f16a8149ffe4d8ed05ec9ad5d81ccb370eecece0b0a9753b90f28507fe",
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "story:expanded-summary",
       "path": "canon/story/04-expanded-summary.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "e2bdea41b06e32ddd9dab64e92ddde1a3e6b91128ad0972c96feeb04c176d6e7",
+      "sourceHash": "5eab5686bde7ca31f532725eb53d5d5783f481acadcf3b94d5c44739f608b43f",
       "projectionTargets": [
         "story/synopsis.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "story:expanded-summary-planning",
       "path": "canon/story/04-supporting-planning.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "90c0d31799c31cf6031b9edc436b52067b56786e37cdc34b04742de603dec6fc",
+      "sourceHash": "244e47774c4bea6b2dfcb61463adec2a0693f98bda12a1f5817d94c1680ae04e",
       "projectionTargets": [],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "story:five-sentence-summary",
       "path": "canon/story/02-five-sentence-summary.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "c8eecad74410eb4acd0af81d3da8b6dcf9bbf7df163b84b761d5791a7a3f8143",
+      "sourceHash": "c2f1202ef31a168eb7ccbf215090bac414f6e5afac535085e8adb92cd42fbf24",
       "projectionTargets": [
         "story/synopsis.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "story:foundation",
       "path": "canon/story/foundation.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "59e8abeb97153d36607e5ae209c5bd89f0707365d4f331088c1950b02b1fc4b1",
+      "sourceHash": "8089bf6b0ea3c0fe4767a30e5e677fc78a2fd8d458886da41e538aa0f403e1d9",
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "story:genesis-boundaries",
       "path": "canon/story/genesis-boundaries.md",
       "status": "accepted",
       "visibility": "public",
-      "sourceHash": "ecca37a50bf3cc7928055fca5ac5c70788b33060e04b2ccc2d8bd239ab6d55a2",
+      "sourceHash": "a719ed208d917516f6c76f708db89b116cbb7a96cd4a8e7f284cabe90a4320f0",
       "projectionTargets": [
         "story/canon.md"
       ],
-      "result": "unchanged"
+      "result": "modified"
     },
     {
       "id": "story:one-sentence-summary",
@@ -373,7 +373,7 @@
       "path": "work/README.md",
       "status": null,
       "visibility": "internal",
-      "sourceHash": "b5c1430ee35195d62ba1751ce6d4260b8255bf663fe60d10664ecc8be2cf59ab",
+      "sourceHash": "b8b26d0962ba222bd523147312647360b73faa975522157945d3da10e9178ecb",
       "projectionTargets": [],
       "result": "modified"
     }
@@ -382,7 +382,7 @@
   "generatedTargets": [
     {
       "path": "story/canon.md",
-      "hash": "329524ee5e8e7f908c975e6d14303cbf21683edef8e32eaa605063359fab3d9e",
+      "hash": "8d0ceb70d4fda721d0da3219d20678d41c9f1f2e68625fb05dd9aa4b8f8adb07",
       "sourceIds": [
         "science:apparatus-and-discovery",
         "science:causal-substrate",
@@ -395,49 +395,49 @@
     },
     {
       "path": "story/characters/esther-tess-kertesz.md",
-      "hash": "3a6681321e97ddf4584cb10a4a83a2ebeecb50f08dc9ce4c8e50a0bd5572cbcb",
+      "hash": "28556327e5c966e7f42951b25675711bbdb008a2ad7c29941518af9bdde71228",
       "sourceIds": [
         "character:esther-tess-kertesz:summary-sheet"
       ]
     },
     {
       "path": "story/characters/evan-hale.md",
-      "hash": "57d26e193bcfe7306b74ba82b696c82d0fd60386a5449b0b6d0445ddbc6d28a2",
+      "hash": "69f7d61ebddd8e2907559bbe023372b56417f74e5f77f4f2a7dac5342249e4e1",
       "sourceIds": [
         "character:evan-hale:summary-sheet"
       ]
     },
     {
       "path": "story/characters/lena-varga.md",
-      "hash": "9929863a6548d62d6f97c9a9f5d5135cc32e393ae28e43af4360f1d729fac556",
+      "hash": "d68440e0f58598283f80d1c25ee387e6626feecbc77262400ffb0b66e4d40d97",
       "sourceIds": [
         "character:lena-varga:summary-sheet"
       ]
     },
     {
       "path": "story/characters/mouse.md",
-      "hash": "64083d85823767452e45f0735504a739c1fbb4ee32c6f05ac4117f915f071b6e",
+      "hash": "c748237afaccd5e6fdd9c5af29ad0f9f025c1447fcaae6a59414ce503f6db928",
       "sourceIds": [
         "character:mouse:summary-sheet"
       ]
     },
     {
       "path": "story/characters/projector-operation.md",
-      "hash": "ab22ad668ed30d0c0f83b19dfdce8f9e54e7944eb271787370ba37752470cc92",
+      "hash": "1774ecfbbe7926c422fa69d3f5c63ad2079dfb759856e9c27548bd22b923d7d9",
       "sourceIds": [
         "character:projector-operation:summary-sheet"
       ]
     },
     {
       "path": "story/characters/ruined-sovereign.md",
-      "hash": "8fc83a7a4b95662dcc4264cde0863047fc4d5343d850a3d48e210c61b1baa937",
+      "hash": "17ff251498579fcfdfdcb902d419fadded215f946a15ea609cbe168d4d455889",
       "sourceIds": [
         "entity:ruined-sovereign:summary-sheet"
       ]
     },
     {
       "path": "story/characters/ruth-hale.md",
-      "hash": "e376c3239ccfff597553adcb2e92816b73856a02255339c2419fd984ca9b3dc2",
+      "hash": "e6564cc3a8d40f1b9fd614b8223fff0229ff83b8bf5382f60e9348da5718604d",
       "sourceIds": [
         "character:ruth-hale:summary-sheet"
       ]
@@ -451,14 +451,14 @@
     },
     {
       "path": "story/decision-log.md",
-      "hash": "22b57fcd2b9efc3688f30b03154d45c76585b0bebaf0ef1f1bd01885a9d5d048",
+      "hash": "9bf3e80ae33839d5e5cbbcfc8a9bb15f2cf1769c5ec9b118a89ff59cfcd10200",
       "sourceIds": [
         "history:decision-log"
       ]
     },
     {
       "path": "story/open-questions.md",
-      "hash": "2105d3c66fc1bd07de2567a5d76a0e056a4f10b3e07774ce09501053e7c28a03",
+      "hash": "20fb599be39454e849de4084566c76fc201cc4d466c575e515e28cfe427c69f3",
       "sourceIds": [
         "questions:character:esther-tess-kertesz",
         "questions:character:evan-hale",
@@ -474,14 +474,14 @@
     },
     {
       "path": "story/outline.yml",
-      "hash": "22c875464a29b7920146b4e2d8fc9ae7c443be4a9099c873878b9c32a982089e",
+      "hash": "ca153dc2f609f2030c83c966e28d5e2c01d209ad980f62174151701738e589fb",
       "sourceIds": [
         "integration:authorbot:story-graph"
       ]
     },
     {
       "path": "story/synopsis.md",
-      "hash": "5fb52cf3f659c25cb52fdab14aa9c8a9cacb74e09dc7695f0ad05b6f68e3f7a2",
+      "hash": "1c5a13b5101c3369b6d517e82949f0561c23573ddabf3fb68d2f19236fed557e",
       "sourceIds": [
         "story:expanded-summary",
         "story:five-sentence-summary"
