@@ -114,8 +114,12 @@ Locked first clarity reward:
 - The parallel between preserving alternatives in the motor controller and
   destroying them through the projector remains visible to the reader but
   unstated by Evan.
-- Employer details, implementation detail beyond the two hypotheses, and the
-  surrounding work scene remain outside the treatment unless later needed.
+- Evan is a mostly remote Controls Engineer at the fictional Alder Motion
+  Controls, a Portland-area maker of industrial motor controllers and
+  servo-drive electronics. He has substantial accrued paid time off and uses
+  it openly for family care. There is no employer conflict or day-job crisis.
+- Implementation detail beyond the two hypotheses and the surrounding work
+  scene remain outside the treatment unless later needed.
 
 Locked pre-hinge balance:
 
@@ -130,6 +134,23 @@ Locked pre-hinge balance:
 - The saved space belongs to Tess's arrival as an independent auditor and to
   Ruth's requested lucid intervals. Evan must experience the team as having
   good reason to continue before the granddaughter contradiction.
+- Ruth enters Tess's audit as a colleague before the lucid intervals. One
+  plain mathematical question exposes a real flaw in Tess's proposed control.
+  Tess revises it and brings the new version back to Ruth before the run. The
+  exact question and flaw remain late-bound.
+- During Ruth's requested repeat runs, late sessions become overnight stays for
+  Tess and Mouse in the spare room. Ruth tells Tess to stop carrying Mouse's
+  supplies home, and the house gradually becomes where they live. Tess keeps
+  her apartment for a while. There is no formal moving day.
+- Tess initiates their first kiss during a long argument over a control, before
+  either of them concedes the technical point. They return to the disagreement
+  later. The ferry conversation deepens the relationship after it has already
+  begun rather than causing the first romantic turn.
+- During that later conversation, Tess's age and account connect her to the
+  child survivor Evan remembers from news coverage when he was thirteen. He
+  tells her immediately, and she corrects the simplified miracle story he
+  remembers. His later secret record search begins only after he suspects her
+  causal rarity may matter.
 - This balance preserves Evan's technical attention without allowing
   laboratory procedure to displace the relationship the treatment is about.
 
@@ -149,9 +170,61 @@ Locked Tess-source hypothesis:
 - After he suspects that possibility, Evan secretly logs her choices, mines
   the records of her family deaths, rescue, and treatment, and keeps her in the
   work while he tries to isolate her resistance as a signal.
+- His questions around small decisions become more particular, and he
+  sometimes records Tess's answers afterward. She notices, but Evan already
+  logs nearly everything, her judgments legitimately affect the work, and they
+  are newly intimate. She reads the attention as ordinary documentation mixed
+  with genuine interest. Evan lets that reasonable interpretation stand.
+- His voluntary admission later gives those moments a second meaning. Tess
+  cannot know which ordinary exchanges were also observations. The affection
+  remains genuine; the violation is that he allowed it to double as
+  undisclosed measurement.
+- Tess's first response is, "What exactly did you use?" She requires Evan to
+  identify what he took from her life before the argument turns to his reasons.
+  Evan starts with the ferry, rescue, and medical records, the facts he took
+  from them, and the rarity estimate he built. Only then does he name the
+  ordinary choices he isolated and which garage observations and runs the
+  analysis affected. He knows which part of the confession cuts deepest and
+  does not make Tess force him past a technical account. The exact documents
+  and details remain late-bound.
+- Evan's copies of the records, his model and calculations, and the
+  Tess-specific choice logs remain on a garage workstation and local storage
+  separate from the apparatus controller. He sends none of it, including any
+  derived Tess-specific conclusion, to Lena or the participating laboratories.
+  It does not enter the proof-to-stop protocol. Evan uses it only to guide his
+  private interpretation and local garage runs before he confesses. The
+  workstation and storage are not part of the active core he later moves.
+- The first record Evan names is the official rescue timeline. It reconstructs
+  the search attempts, failed approaches, the temporary path that let rescuers
+  reach Tess, her extraction, and the attempts to reach the rest of her family.
+  As he begins to recite it, Tess stops him: "I know the timeline. Tell me what
+  you did with it." She has studied the document herself and makes Evan account
+  for his action rather than repeat her history. He tells her that he used the
+  sequence to model the rescue bottleneck that left Tess alive when the others
+  were not. Exact agency, title, timings, access path, and rescue mechanics
+  remain late-bound.
+- Tess then says, "Show me." Evan opens the complete local folder on the garage
+  workstation. She reviews the source records, model, calculations, timestamped
+  choice logs, and notes linking them to particular garage observations and
+  runs. She verifies the scope without moving or copying the folder out of the
+  garage.
+- Evan stays beside Tess, answers every question directly, does not choose the
+  file order, and does not touch the keyboard unless she asks him to open
+  something. His cooperation gives the voluntary confession substance without
+  repairing the breach. The treatment does not need to specify a first file or
+  narrate the review screen by screen.
 - The breach begins with that concealment and continued use after suspicion.
   It is not that Evan knowingly caused her initial participation or made her
   the source of the phenomenon.
+- The independent analogue rules Tess out as necessary for the basic effect,
+  but it cannot settle whether her earlier choices helped this projector
+  lineage become an independent carrier. Evan's records show that he suspected
+  the possibility while Tess could still have withdrawn from live work. By his
+  confession, withdrawal cannot undo her possible contribution.
+- Tess's organizing response is fear that she may have helped the anomaly get
+  out of control, together with upset that Evan withheld the risk and denied
+  her the chance to decide whether to continue. The private use of her survival
+  records deepens the breach, but fury is not its emotional center.
 - Calling their meeting inevitable is a poor attempt to explain himself, but
   it is not the basis of the breach and does not destroy their love.
 
@@ -159,7 +232,9 @@ Locked early contact information boundary:
 
 - During longer runs, Evan retains the impression of a bounded form that
   converts every attempted interruption into its next movement. He privately
-  names it the Guide and connects it to a controlled DMT trial from college.
+  names it the Guide and connects it to controlled DMT trials from college and
+  a few later personal experiments. During the personal sessions, he preferred
+  darkness with music playing.
 - Evan tells Lena about the surviving impression and converted-interruption
   pattern, but not the fuller visions or his DMT comparison. Lena can therefore
   locate the same transformation in cross-site data without accepting his
@@ -179,7 +254,9 @@ Locked post-hinge balance:
 - Paired loss and echo reveals erased histories. Evan admits that, after he
   suspected Tess's decisions might be helping this particular carrier form, he
   measured them and kept using her work without telling her. The breach
-  seriously damages her trust without ending their love.
+  frightens her with the possibility that she helped the anomaly escape the
+  garage and seriously damages her trust because he denied her a chance to
+  withdraw. It does not end their love.
 - Evan moves the original apparatus core away from Ruth and Tess for a remote
   shutdown attempt. His own safety condition makes the ringless garage part of
   the live response. Its destruction triggers a fallback cycle, and he returns
@@ -407,6 +484,9 @@ Locked remote shutdown and local catastrophe:
 - A monitored safety state at the garage and house is part of the precommitted
   decision map. If it disappears, the sites halt decommissioning and enter a
   fallback verification run. Evan adds this condition to protect Ruth and Tess.
+- Before Evan leaves for the remote site, he kisses Ruth on the top of the
+  head, pets Mouse, and says, "Love you, I'll be back." This is their last
+  meaningful exchange.
 - That condition makes the ringless garage causally consequential. Its
   historical importance and physical proximity would not be enough.
 - During the remote procedure, an improbable but physically ordinary
@@ -418,6 +498,17 @@ Locked remote shutdown and local catastrophe:
   or Tess, move energy from the ring to the house, or act from a private wish.
 - Evan aborts the remote procedure and returns. The original apparatus remains
   powered down at the remote site.
+
+Locked public centrality:
+
+- Evan does not receive a conventional fame arc.
+- The world increasingly bends around him because his continued participation
+  is one condition of the final carrier loop. Access, institutional attention,
+  and other people's locally motivated actions converge around his position.
+- This is causal centrality rather than celebrity, destiny, or selection by a
+  private intelligence. The mindless projector operation remains the attractor.
+- His former wife does not appear in the present timeline. She remains part of
+  his remembered history and the pattern he recognizes after Ruth's death.
 
 Locked later understanding of Lena's refusal:
 
@@ -447,15 +538,20 @@ Locked consequence and limit of Ruth's lucid intervals:
   This is the moral consequence of the protocol.
 - Ruth's interior experience remains unavailable to Evan. He never learns what
   the lucid intervals felt like to her, whether she experienced them as rescue,
-  or what she wanted after the granddaughter contradiction.
+  or what private meaning she gave the granddaughter memory and the recovered
+  time. He does know that she rejected autobiographical concordance as the
+  target and expressly requested one final reduced exposure under her terms.
 - Evan can understand what his concordance window would have done. He cannot
-  work backward from that recognition and recover Ruth's unmeasured experience
-  or recover an answer about what she wanted from the later intervals.
+  work backward from that recognition and turn Ruth's stated consent into an
+  account of her unmeasured experience or subjective benefit.
 - Tess's unobserved final choice and the operation's terminal status remain
   real uncertainties, but they do not replace Ruth as the emotional limit of
   his account.
-- The treatment cannot give Ruth a final message, retrospective approval, or
-  cosmological authority to resolve Evan's guilt.
+- Ruth leaves Evan a human message of love through Tess. The treatment cannot
+  turn that message into retrospective approval, cosmological authority, or a
+  resolution of Evan's guilt. Ruth's explanation of his lifelong retreat into
+  work gives Tess context but does not cause the self-recognition Evan reaches
+  through his own conduct after Ruth's death.
 
 Locked return of the original apparatus:
 
@@ -553,8 +649,11 @@ Decisions to make:
    **Locked: her participation predates his suspicion. After he suspects she
    may be shaping this carrier, he secretly measures her choices, searches her
    survival records, and continues using her work. He understands that secrecy
-   as the breach but still reaches for causal explanation. His inevitability
-   remark misses her objection without becoming a separate rupture.**
+   as the breach but still reaches for causal explanation. Tess is frightened
+   that her choices may have helped the anomaly get out of control and upset
+   that he denied her the chance to withdraw while it might still have mattered.
+   His inevitability remark misses her objection without becoming a separate
+   rupture.**
 10. Choose how Evan understands the replica-site death and the survivor's
     selective autobiographical loss while accepting the hold. **Locked: he
     treats the death as an engineering failure and the memory loss as real but
@@ -595,9 +694,10 @@ Decisions to make:
     makes the defense visible to him; presence begins his change; and acting
     without knowing Tess's choice completes it as acceptance of uncertainty.**
 17. Choose what remains outside his understanding even at the end. **Locked:
-    Ruth's interior experience organizes the limit. Evan never learns what the
-    lucid intervals felt like to her, whether she experienced them as rescue,
-    or what she wanted after the granddaughter contradiction. The later
+    Ruth's interior experience organizes the limit. Evan knows that she
+    rejected concordance and requested one final reduced exposure, but never
+    learns what the intervals felt like, whether she experienced them as
+    rescue, or what private meaning she gave the recovered time. The later
     erasure proof does establish that the incompatible memory belonged to a
     real history being stripped away.**
 18. Choose the local shutdown and final-apparatus continuity. **Locked: Evan

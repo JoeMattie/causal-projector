@@ -19,6 +19,7 @@ import {
   parseFrontmatter,
   pathExists,
   projectionTargets,
+  publicDocumentPathAllowed,
   publicSourceDomain,
   resetDirectory,
   resolveInside,
@@ -26,9 +27,17 @@ import {
   stableJson,
   writeFileEnsured,
 } from "./snowflake-common.mjs";
+import {
+  buildTournamentDataset,
+  reviewRequiredTournamentDataset,
+} from "./snowflake-tournament.mjs";
 
 const START_MARKER = "<!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_START -->";
 const END_MARKER = "<!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_END -->";
+const TOURNAMENT_START_MARKER =
+  "<!-- TOURNAMENT_NOSCRIPT_VERSIONS_START -->";
+const TOURNAMENT_END_MARKER =
+  "<!-- TOURNAMENT_NOSCRIPT_VERSIONS_END -->";
 const THEME_IMPORT_START = "/* AUTHORBOT_THEME_IMPORT_START */";
 const THEME_IMPORT_END = "/* AUTHORBOT_THEME_IMPORT_END */";
 const THEME_IMPORT_TARGETS = [
@@ -90,6 +99,7 @@ function safeExternalHref(raw) {
 }
 
 function publicViews(document) {
+  if (document.role === "derived-draft") return [];
   const views = [];
   if (document.step) views.push("step");
   if (document.subject) views.push("subject");
@@ -182,7 +192,14 @@ function renderMarkdown(snapshot, document) {
     async: false,
     renderer,
   });
-  const html = parser.parse(document.content.toString("utf8"));
+  const html = redactPublicText(
+    snapshot,
+    parser.parse(
+      redactPublicText(snapshot, document.content.toString("utf8"), {
+        allTerms: false,
+      }),
+    ),
+  );
   if (
     /<(?:script|style|iframe|object|embed|form|svg|math)\b/i.test(html) ||
     /\son[a-z]+\s*=/i.test(html) ||
@@ -225,7 +242,11 @@ function standaloneDocumentHtml(record, fragment, slugById) {
   <body class="standalone-document">
     <main class="document-viewer">
       <p><a href="../../">← Snowflake library</a></p>
-      <p class="section-kicker">${escapeHtml(record.status)} planning</p>
+      <p class="section-kicker">${escapeHtml(
+        record.role === "derived-draft"
+          ? `Noncanonical derived draft · ${record.status}`
+          : `${record.status} planning`,
+      )}</p>
       <h1>${escapeHtml(record.title)}</h1>
       <div class="document-body">${body}</div>
     </main>
@@ -246,6 +267,20 @@ function publicLeakTerms(snapshot) {
     "story/methods/snowflake",
     "causal-projector-snowflake",
   ].filter((value) => typeof value === "string" && value.length > 0);
+}
+
+function redactPublicText(snapshot, value, { allTerms = true } = {}) {
+  let redacted = String(value).replace(
+    /(?:\/(?:home|Users)\/[^\s`"'<>]+|[A-Za-z]:\\[^\s`"'<>]+)/g,
+    "[local path redacted]",
+  );
+  if (!allTerms) return redacted;
+  for (const term of publicLeakTerms(snapshot).sort(
+    (left, right) => right.length - left.length,
+  )) {
+    redacted = redacted.replaceAll(term, "[private source reference]");
+  }
+  return redacted;
 }
 
 function scanPublicLeakage(snapshot, generated) {
@@ -308,7 +343,7 @@ export function buildPublicDataset(snapshot) {
       role: document.role,
       family: document.family,
       subject: document.subject ?? null,
-      excerpt: document.excerpt,
+      excerpt: redactPublicText(snapshot, document.excerpt),
       url: `documents/${slug}.json`,
       views: publicViews(document),
     };
@@ -378,6 +413,32 @@ ${items}
             </ul>
           </div>
           ${END_MARKER}`;
+}
+
+function tournamentNoscriptMarkup(dataset) {
+  if (dataset.versions.length === 0) {
+    return `${TOURNAMENT_START_MARKER}
+          <div data-tournament-noscript-versions>
+            <h2>Tournament import required</h2>
+            <p>The public tournament snapshot is not available yet.</p>
+          </div>
+          ${TOURNAMENT_END_MARKER}`;
+  }
+  const items = dataset.versions
+    .map(
+      (version) =>
+        `              <li><a href="${escapeHtml(version.standaloneUrl)}">${escapeHtml(version.label)}</a> <span>(${escapeHtml(version.state)})</span></li>`,
+    )
+    .join("\n");
+  return `${TOURNAMENT_START_MARKER}
+          <div data-tournament-noscript-versions>
+            <h2>Tournament versions</h2>
+            <p>The interactive page compares every candidate with the Round 0 seed.</p>
+            <ol>
+${items}
+            </ol>
+          </div>
+          ${TOURNAMENT_END_MARKER}`;
 }
 
 function deploymentOutputRoot(outDir, basePath = "") {
@@ -485,6 +546,34 @@ async function injectNoscriptIndex(deploymentRoot, dataset) {
   await writeFileEnsured(path, next);
 }
 
+async function injectTournamentNoscriptIndex(deploymentRoot, dataset) {
+  const path = join(
+    deploymentRoot,
+    "snowflake/condensed-tournament/index.html",
+  );
+  if (!(await pathExists(path))) {
+    throw new SnowflakeError(
+      "TOURNAMENT_PAGE_MISSING",
+      `${path} does not exist; run the Authorbot build first`,
+    );
+  }
+  const html = await readFile(path, "utf8");
+  const start = html.indexOf(TOURNAMENT_START_MARKER);
+  const end = html.indexOf(TOURNAMENT_END_MARKER);
+  if (start === -1 || end === -1 || end < start) {
+    throw new SnowflakeError(
+      "TOURNAMENT_PAGE_INVALID",
+      "Tournament index is missing no-JavaScript generation markers",
+    );
+  }
+  const replacement = tournamentNoscriptMarkup(dataset);
+  const next =
+    html.slice(0, start) +
+    replacement +
+    html.slice(end + TOURNAMENT_END_MARKER.length);
+  await writeFileEnsured(path, next);
+}
+
 export async function writePublicDataset({
   outDir,
   snapshot = null,
@@ -492,24 +581,48 @@ export async function writePublicDataset({
 }) {
   const deploymentRoot = deploymentOutputRoot(outDir, basePath);
   const dataDir = join(deploymentRoot, "snowflake/data");
+  const tournamentDataDir = join(
+    deploymentRoot,
+    "snowflake/data/tournaments/condensed-tournament",
+  );
   const dataset = snapshot ? buildPublicDataset(snapshot) : reviewRequiredDataset();
+  const tournament = snapshot
+    ? buildTournamentDataset(snapshot, {
+        redact: (value) => redactPublicText(snapshot, value),
+      })
+    : reviewRequiredTournamentDataset();
+  if (snapshot) scanPublicLeakage(snapshot, tournament.generated);
   const themeStylesheet = await injectAuthorbotThemeImport(deploymentRoot);
   await resetDirectory(dataDir);
   for (const [path, value] of dataset.generated) {
     assertSafeRelativePath(path, "generated public path");
     await writeFileEnsured(join(dataDir, path), value);
   }
+  await resetDirectory(tournamentDataDir);
+  for (const [path, value] of tournament.generated) {
+    assertSafeRelativePath(path, "generated tournament path");
+    await writeFileEnsured(join(tournamentDataDir, path), value);
+  }
   await injectNoscriptIndex(deploymentRoot, dataset);
+  await injectTournamentNoscriptIndex(deploymentRoot, tournament);
   return {
     state: snapshot ? "ready" : "review-required",
     records: dataset.records.length,
-    files: dataset.generated.size,
+    files: dataset.generated.size + tournament.generated.size,
+    tournamentVersions: tournament.versions.length,
     deploymentRoot,
     themeStylesheet,
   };
 }
 
-export async function loadImportedSnapshot(repoRoot, { allowMissing = false } = {}) {
+export async function loadImportedSnapshot(
+  repoRoot,
+  {
+    allowMissing = false,
+    allowProjectionConfigDrift = false,
+    allowImporterVersionDrift = false,
+  } = {},
+) {
   const root = join(repoRoot, SNAPSHOT_ROOT);
   const catalogPath = join(root, "catalog.json");
   const ledgerPath = join(root, "import.json");
@@ -539,7 +652,8 @@ export async function loadImportedSnapshot(repoRoot, { allowMissing = false } = 
   }
   if (
     ledger.contractVersion !== CONTRACT_VERSION ||
-    ledger.importerVersion !== IMPORTER_VERSION ||
+    (!allowImporterVersionDrift &&
+      ledger.importerVersion !== IMPORTER_VERSION) ||
     !/^[0-9a-f]{40}$/.test(ledger.source?.commit ?? "") ||
     typeof ledger.source?.repository !== "string" ||
     !Array.isArray(catalog.documents) ||
@@ -561,7 +675,10 @@ export async function loadImportedSnapshot(repoRoot, { allowMissing = false } = 
     );
   }
   const config = await loadProjectionConfig(repoRoot);
-  if (ledger.projectionConfigHash !== sha256(stableJson(config))) {
+  if (
+    !allowProjectionConfigDrift &&
+    ledger.projectionConfigHash !== sha256(stableJson(config))
+  ) {
     throw new SnowflakeError(
       "PROJECTION_CONFIG_DRIFT",
       "Snowflake projection mappings changed after the recorded import",
@@ -672,8 +789,18 @@ export async function loadImportedSnapshot(repoRoot, { allowMissing = false } = 
       );
     }
     if (
+      (entry.path.startsWith("drafts/") ||
+        entry.role === "derived-draft") &&
+      !publicDocumentPathAllowed(entry)
+    ) {
+      throw new SnowflakeError(
+        "DERIVED_DRAFT_INVALID",
+        `${entry.id} is not a public condensed-tournament derived draft`,
+      );
+    }
+    if (
       entry.visibility === "public" &&
-      (publicSourceDomain(entry.path) !== entry.domain ||
+      (!publicDocumentPathAllowed(entry) ||
         /(?:^|\/)(?:research|archive|legacy|prompts?|handoffs?)(?:\/|$)/i.test(
           entry.path,
         ))

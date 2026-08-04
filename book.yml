@@ -43,6 +43,8 @@ publication:
       href: /outline-graph/
     - label: Snowflake
       href: /snowflake/
+    - label: Tournament
+      href: /snowflake/condensed-tournament/
 collaboration:
   annotation_policy: open
 governance:

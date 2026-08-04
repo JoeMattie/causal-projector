@@ -49,12 +49,13 @@ The humans gather around her, excited and careful at once. Later the change
 fades, and Ruth sleeps with Mouse against her. Each time Ruth returns to this
 steadier state, Mouse accepts her. Each time it fades, Mouse accepts her again.
 
-Tess begins staying at the house. The bag is unpacked more often than it is
-carried, and the garage, garden, kitchen, and Ruth's chair become Mouse's
-regular circuit. Tess and Evan begin sleeping in the same room. Evan becomes
-another familiar voice, another hand that knows where she likes to be
-scratched, and another person worth watching from the workbench while he
-forgets the rest of the room.
+Tess begins sleeping in the spare room after late sessions. Each morning she
+packs Mouse's food and litter supplies again until Ruth tells her to leave them.
+The bag is unpacked more often than it is carried, and the garage, garden,
+kitchen, and Ruth's chair become Mouse's regular circuit. Later Tess and Evan
+begin sleeping in the same room. Evan becomes another familiar voice, another
+hand that knows where she likes to be scratched, and another person worth
+watching from the workbench while he forgets the rest of the room.
 
 The apparatus makes the humans behave strangely. Sometimes one of them goes
 still while awake. Sometimes Evan returns from a run moving with unusual
@@ -75,8 +76,9 @@ between her arm and the chair.
 
 After Tess and Evan return from another strange interval, their voices change
 with each other. Tess stays close to Ruth. Evan takes the cold apparatus, its
-ring, and most of its familiar sounds away from the garage. The house becomes
-quieter for a little while.
+ring, and most of its familiar sounds away from the garage. Before he leaves,
+he kisses the top of Ruth's head, runs a hand along Mouse's back, and says,
+"Love you, I'll be back." The house becomes quieter for a little while.
 
 Then light fills the windows. The floor moves hard enough to throw loose
 objects across the room. A blow passes through the house, and the familiar

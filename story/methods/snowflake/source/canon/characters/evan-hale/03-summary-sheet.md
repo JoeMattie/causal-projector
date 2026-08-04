@@ -15,6 +15,17 @@ To protect Ruth from decline and prove that his care can accomplish something co
 
 Understand the garage anomaly and perfect it well enough to restore or stabilize Ruth's mind.
 
+## Day job
+
+Evan is a Controls Engineer at **Alder Motion Controls**, a fictional
+Portland-area company that makes industrial motor controllers and servo-drive
+electronics. He works from Ruth's house most of the time.
+
+He has accumulated substantial paid time off and uses it openly for family
+care as Ruth's needs increase. His employer does not threaten, discipline, or
+otherwise force a day-job crisis. The motor-estimator problem is ordinary work,
+and his employment remains background rather than a competing plot.
+
 ## Fatal flaw / false belief
 
 Evan believes useful work is the highest form of love. When presence cannot
@@ -53,6 +64,13 @@ else converges. He recognizes the statistical violence of her survival without
 calling it destiny, then later violates that understanding by studying her
 possible role in the developing carrier without her knowledge.
 
+When Tess tells him about the ferry after their relationship has begun, her age
+and the outline of the disaster connect her to the child survivor Evan
+remembers from news coverage when he was thirteen. He tells her immediately.
+She explains what that account omitted and how its miracle framing reduced her
+family to background. Only later, after he suspects her causal rarity may
+matter, does he secretly seek the detailed ferry, rescue, and medical records.
+
 As ordinary responses around the apparatus become easier to predict, Evan
 briefly suspects that the improbable chain behind Tess's survival may already
 be shaping the carrier developing around them. Her presence in the work
@@ -62,16 +80,62 @@ the carrier experiment continue without telling her what role he thinks she
 may play. The hardware-independent analogue later reproduces the base effect
 without Evan or Tess present and rules both of them out as necessary for that
 base effect. It does not settle whether Tess helped shape this particular
-carrier loop.
+carrier loop. When Evan finally tells her, the dated records show that his
+suspicion began while she could still have withdrawn from live work. By then,
+the carrier no longer needs the garage, and withdrawal cannot undo her possible
+contribution.
+
+Evan's questions around small decisions become more particular, and he
+sometimes records Tess's answers afterward. She notices the attention but has
+an innocent explanation for it: he already logs nearly everything, her
+judgments belong in the project record, and they are newly intimate. Evan lets
+that reasonable interpretation stand while privately separating her choices
+into a signal.
 
 When paired loss and echo becomes conclusive, Evan voluntarily admits that he
 continued measuring Tess and using her possible influence on the developing
 carrier as experimental data, and that he mined her ferry, rescue, and medical
-records to estimate her rarity. She does not catch him. His admission matters,
-but her trust is seriously damaged. During the argument he says their meeting
-and love may have been inevitable. Tess rejects the claim as an excuse, but the
-claim is not the breach. The breach is what he did after he suspected her
-uniqueness might be active in the experiment.
+records to estimate her rarity. She does not catch him. Her first response is,
+"What exactly did you use?" Evan begins with the ferry, rescue, and medical
+records. He tells her what facts he took from them and how he used them to
+estimate the rarity of her survival. He then names the choices he isolated and
+which garage observations and runs the analysis affected. He understands which
+part of the confession cuts deepest and names it without being forced. His
+admission gives his earlier questions and notes a second meaning because Tess
+cannot know which ordinary moments were also observations. Her trust is
+seriously damaged. Tess is primarily frightened that her choices may have
+helped the anomaly become an independent carrier, and upset that Evan denied
+her the chance to decide whether to continue while withdrawal might still have
+mattered.
+
+Evan's copies of the records, his model and calculations, and the Tess-specific
+choice logs remain on a garage workstation and local storage separate from the
+apparatus controller. Nothing raw or derived leaves the garage or enters the
+proof-to-stop protocol. Evan alone uses the material to guide his private
+interpretation and local runs before he confesses. The workstation and storage
+are not part of the active core he later moves to the remote site.
+
+The first record he names is the official rescue timeline. He begins to recite
+its search attempts, failed approaches, the temporary path that let rescuers
+reach Tess, her extraction, and the attempts to reach the rest of her family.
+Tess stops him: "I know the timeline. Tell me what you did with it."
+
+Evan tells her that he used the sequence to model the rescue bottleneck that
+left her alive when the others were not, then combined it with her medical
+outcome and ordinary choices around the apparatus. Tess already knows the
+history. Evan has to account for what he did with it.
+
+"Show me," Tess says. Evan opens the complete local folder on the garage
+workstation. She reviews the source records, model, calculations, timestamped
+choice logs, and notes linking them to particular garage observations and
+runs. She does not move or copy the folder out of the garage. Evan stays beside
+her, answers every question directly, and does not choose what she opens next
+or touch the keyboard unless she asks.
+
+During the argument he says their meeting and love may have been inevitable.
+Tess rejects the claim as an excuse, but the claim is not the breach. The
+breach is what he did after he suspected her uniqueness might be active in the
+experiment.
 
 ## Relationship with Mouse
 
@@ -162,6 +226,10 @@ garage is destroyed and the signal disappears, that fallback condition closes
 another carrier cycle. Evan returns after Ruth's death and leaves the original
 apparatus powered down at the remote site.
 
+Before leaving for the remote site, Evan kisses Ruth on the top of the head,
+pets Mouse, and says, "Love you, I'll be back." This is his last meaningful
+exchange with Ruth.
+
 ## Connection to the science
 
 Evan is an approximate local eigenpattern because of his behavioral coherence, technical reach, and repeated willingness to continue. He initially thinks he is the dominant attractor. The deeper truth is that the projector operation uses him as a temporary biological bootloader.
@@ -221,6 +289,15 @@ accessed an inhabited history already being stripped from ordinary reality,
 and Evan's proposed protocol would have forced her autobiography back into
 agreement with his own.
 
+## Public centrality
+
+Evan does not receive a conventional fame arc. As the carrier closes, events,
+access, institutional attention, and other people's actions increasingly bend
+around him because his continued participation is part of the final loop. This
+can make him appear important without making him a celebrity or chosen person.
+The projector operation remains the attractor. It is mindless, and Evan is one
+of the human conditions through which the loop closes.
+
 ## Entity contact
 
 Evan reaches projector-linked contact before the other principal characters.
@@ -229,9 +306,10 @@ experience, but not a reliable map of what he encounters.
 
 He tells Lena about the bounded form's surviving impression and the way every
 interruption seems to become its next movement. He does not initially disclose
-the fuller visions or his private comparison to the controlled DMT trial he
-underwent in college. This leaves Lena enough information to find the matching
-pattern in the cross-site data without making her accept his reconstruction.
+the fuller visions or his private comparison to the controlled DMT trials he
+underwent in college and his later personal experiments. This leaves Lena
+enough information to find the matching pattern in the cross-site data without
+making her accept his reconstruction.
 
 Early contact is recovered mainly through inadequate symbols and technical
 notes. As his alignment with the operation deepens, the narrative presents
@@ -288,8 +366,13 @@ operation has not absorbed.
    a surviving granddaughter does not begin an alternate-child quest. The dead
    flowers can return when Evan recognizes that he is repeating the same
    response: working through grief while the person beside him needs presence.
+   His former wife does not appear in the present timeline.
 4. Builds an air liquefier from a salvaged cellular-rack cryocooler.
-5. Has prior DMT experience or participation in a controlled study, giving him a visual reference for the machine's later residual geometry.
+5. Participated in controlled DMT trials while in college, then experimented
+   with it personally a few more times. For the personal sessions, he preferred
+   a dark room with music playing. These experiences give him a visual and
+   experiential reference for the machine's later residual geometry without
+   authenticating his interpretation of it.
 
 ## Arc landmarks
 
@@ -333,8 +416,9 @@ operation has not absorbed.
   live response. Its destruction triggers another carrier cycle.
 - **Epiphany:** He has mistaken reduced uncertainty for rescue throughout his
   life.
-- **Conscious change:** After returning to find Ruth dead, Tess still angry,
-  the garage and neighborhood ruined, and the cat unscathed, he recognizes the
+- **Conscious change:** After returning to find Ruth dead, Tess still frightened
+  by her possible role in the carrier, the garage and neighborhood ruined, and
+  the cat unscathed, he recognizes the
   same motion in the miscarriage planter, his failed marriage, Ruth's lost
   time, and the unfinished shutdown. He sees the fear beneath it: another
   procedure would let him postpone facing Ruth's death and grief he cannot fix.

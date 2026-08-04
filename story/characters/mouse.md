@@ -67,9 +67,11 @@ the Pacific Northwest. Their ten years together make Tess the first durable
 home in Mouse's life.
 
 Mouse belongs to Tess's small, ordinary life before the project. She later
-moves into Evan and Ruth's house with Tess when the research becomes
-intensive. Their bond needs to exist on the page before Mouse carries any
-cosmic function.
+moves into Evan and Ruth's house with Tess when late research sessions become
+overnight stays in the spare room. Tess initially carries Mouse's supplies back
+and forth. Ruth tells her to leave them, and the house gradually becomes their
+home. Their bond needs to exist on the page before Mouse carries any cosmic
+function.
 
 Mouse follows Tess anywhere. She travels curled up in a little bag or perched
 on Tess's shoulder. This is an established habit rather than a convenience
@@ -109,11 +111,11 @@ Mouse survives the compound collapse and explosion miraculously unscathed. Her
 survival is striking and unexplained, but it does not prove that the operation
 protected or selected her.
 
-When Evan returns to find Ruth dead, Tess alive and still angry, the
-neighborhood ruined, and Mouse unharmed, her survival is one unexplained fact in
-the aftermath. Evan recognizes his repeated loop of converting helplessness
-into work, turns toward Tess, and stays with her. Mouse neither causes that
-recognition nor explains it.
+When Evan returns to find Ruth dead, Tess alive and frightened by her possible
+role in the carrier, the neighborhood ruined, and Mouse unharmed, her survival
+is one unexplained fact in the aftermath. Evan recognizes his repeated loop of
+converting helplessness into work, turns toward Tess, and stays with her. Mouse
+neither causes that recognition nor explains it.
 
 ## Ending function
 

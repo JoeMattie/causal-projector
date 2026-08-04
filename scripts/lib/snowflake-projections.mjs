@@ -54,6 +54,12 @@ function requireMapping(snapshot, mapping, role) {
       `${role} mapping names missing document ${mapping.sourceId}`,
     );
   }
+  if (document.role === "derived-draft") {
+    throw new SnowflakeError(
+      "DERIVED_DRAFT_NATIVE_PROJECTION",
+      `${document.id} is noncanonical and cannot update ${role}`,
+    );
+  }
   return document;
 }
 
@@ -137,6 +143,14 @@ export async function buildDeterministicProjections({ repoRoot, snapshot }) {
   const targets = [];
   const seenTargets = new Set();
   const add = (record) => {
+    for (const sourceId of record.sourceIds) {
+      if (snapshot.byId.get(sourceId)?.role === "derived-draft") {
+        throw new SnowflakeError(
+          "DERIVED_DRAFT_NATIVE_PROJECTION",
+          `${sourceId} is noncanonical and cannot update ${record.path}`,
+        );
+      }
+    }
     if (seenTargets.has(record.path)) {
       throw new SnowflakeError(
         "PROJECTION_TARGET_DUPLICATE",
@@ -196,6 +210,12 @@ export async function buildDeterministicProjections({ repoRoot, snapshot }) {
   for (const mapping of config.synopsis.optionalSources ?? []) {
     const source = snapshot.byId.get(mapping.sourceId);
     if (!source) continue;
+    if (source.role === "derived-draft") {
+      throw new SnowflakeError(
+        "DERIVED_DRAFT_NATIVE_PROJECTION",
+        `${source.id} is noncanonical and cannot update ${config.synopsis.target}`,
+      );
+    }
     if (source.status === "accepted") synopsisSources.push(source);
   }
   add(
@@ -523,6 +543,13 @@ function reviewOnlyItems(snapshot, projectedSourceIds) {
   const items = [];
   for (const document of snapshot.documents) {
     if (document.visibility !== "public") continue;
+    if (document.role === "derived-draft") {
+      items.push({
+        id: document.id,
+        reason:
+          "Noncanonical derived drafts are published only in the tournament and labeled Snowflake library views.",
+      });
+    }
     if (document.status === "provisional") {
       items.push({
         id: document.id,

@@ -244,7 +244,10 @@ async function rollbackTargets(targets) {
 
 export async function applyImportPlan(repoRoot, plan) {
   if (plan.previousImport) {
-    await loadImportedSnapshot(repoRoot);
+    await loadImportedSnapshot(repoRoot, {
+      allowProjectionConfigDrift: true,
+      allowImporterVersionDrift: true,
+    });
   }
   const currentConflicts = await detectTargetConflicts(
     repoRoot,

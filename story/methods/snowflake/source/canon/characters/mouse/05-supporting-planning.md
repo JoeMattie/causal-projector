@@ -53,14 +53,17 @@ the geometry.
 1. Birth in the Fairbanks cabin loft, unstable early homes, the Ester woods,
    shelter, adoption at seven, and the move with Tess.
 2. Ten years of ordinary travel with Tess in the little bag or on her shoulder.
-3. Arrival at Evan's garage and Mouse choosing Ruth as her preferred resting
-   companion.
+3. Arrival at Evan's garage, late sessions becoming nights in the spare room,
+   Ruth telling Tess to leave Mouse's supplies, and Mouse choosing Ruth as her
+   preferred resting companion.
 4. Ruth's alternating clarity and decline, experienced through voice, touch,
    sleep, and the familiar single meow.
 5. Tess moving into the house, Evan becoming one of Mouse's people, and Mouse
    watching contact without understanding it.
-6. Evan removing the active core, the local catastrophe, Ruth's final natural
-   lucidity and death, and Mouse's unexplained survival.
+6. Evan kissing Ruth on the top of the head, petting Mouse, saying, "Love you,
+   I'll be back," and removing the active core, followed by the local
+   catastrophe, Ruth's final natural lucidity and death, and Mouse's unexplained
+   survival.
 7. Travel with Tess and Evan through mass speech, the orbital catastrophe,
    communications loss, and the journey to Lena.
 8. Lena's fixed-successor collapse experienced as repeated cadence and action,

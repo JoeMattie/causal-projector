@@ -30,10 +30,6 @@
         "sourcePath": "canon/characters/esther-tess-kertesz/open-questions.md"
       },
       {
-        "sourceId": "questions:character:evan-hale",
-        "sourcePath": "canon/characters/evan-hale/open-questions.md"
-      },
-      {
         "sourceId": "questions:character:lena-varga",
         "sourcePath": "canon/characters/lena-varga/open-questions.md"
       },
@@ -168,6 +164,67 @@
         "sourcePath": "canon/science/replication-and-containment.md"
       }
     ]
+  },
+  "publicPages": {
+    "condensedTournament": {
+      "family": "condensed-tournament",
+      "seedId": "draft:condensed-tournament:round0-base",
+      "logId": "draft:condensed-tournament:tournament-log",
+      "rounds": [
+        {
+          "round": 1,
+          "seedId": "draft:condensed-tournament:round0-base",
+          "candidateIds": [
+            "draft:condensed-tournament:round1-a",
+            "draft:condensed-tournament:round1-b"
+          ],
+          "winnerId": "draft:condensed-tournament:round1-b",
+          "votes": {
+            "A": 0,
+            "B": 2
+          }
+        },
+        {
+          "round": 2,
+          "seedId": "draft:condensed-tournament:round1-b",
+          "candidateIds": [
+            "draft:condensed-tournament:round2-a",
+            "draft:condensed-tournament:round2-b"
+          ],
+          "winnerId": "draft:condensed-tournament:round2-a",
+          "votes": {
+            "A": 2,
+            "B": 1
+          }
+        },
+        {
+          "round": 3,
+          "seedId": "draft:condensed-tournament:round2-a",
+          "candidateIds": [
+            "draft:condensed-tournament:round3-a",
+            "draft:condensed-tournament:round3-b"
+          ],
+          "winnerId": "draft:condensed-tournament:round3-b",
+          "votes": {
+            "A": 0,
+            "B": 2
+          }
+        },
+        {
+          "round": 4,
+          "seedId": "draft:condensed-tournament:round3-b",
+          "candidateIds": [
+            "draft:condensed-tournament:round4-a",
+            "draft:condensed-tournament:round4-b"
+          ],
+          "winnerId": "draft:condensed-tournament:round4-a",
+          "votes": {
+            "A": 2,
+            "B": 0
+          }
+        }
+      ]
+    }
   },
   "reviewOnly": {
     "steps": [

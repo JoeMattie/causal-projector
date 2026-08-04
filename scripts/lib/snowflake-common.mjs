@@ -17,7 +17,7 @@ import { parse as parseYaml } from "yaml";
 export const CONTRACT_VERSION = "causal-projector.snowflake-export/v1";
 export const IMPORT_SCHEMA = "causal-projector.snowflake-import/v1";
 export const PUBLIC_SCHEMA = "causal-projector.snowflake-public/v1";
-export const IMPORTER_VERSION = "1.0.0";
+export const IMPORTER_VERSION = "1.1.0";
 export const CATALOG_SOURCE_PATH = "exports/authorbot.json";
 export const CONTRACT_SOURCE_PATH =
   "contracts/snowflake-export.schema.json";
@@ -28,6 +28,8 @@ const NUMBERED_DELIVERABLE =
   /^canon\/(?:story|characters\/[^/]+|entities\/[^/]+)\/(0[1-9]|10)-[^/]+\.md$/;
 const QUESTION_PATH =
   /^(?:work\/open-questions\/[^/]+|canon\/characters\/[^/]+\/open-questions)\.md$/;
+const CONDENSED_TOURNAMENT_DRAFT =
+  /^drafts\/condensed-tournament\/[a-z0-9]+(?:-[a-z0-9]+)*(?:\.dead)?\.md$/;
 const AUTHORBOT_NODE_ID =
   /^(?:premise|arc|part|chapter|scene|beat|event|character|location|concept|rule|theme|motif|development):[a-z0-9][a-z0-9-]*$/;
 const UUID_V7 =
@@ -141,6 +143,7 @@ export function resolveInside(root, path, label = "path") {
 }
 
 export function publicSourceDomain(path) {
+  if (CONDENSED_TOURNAMENT_DRAFT.test(path)) return "story";
   const match =
     /^canon\/(story|science|characters|entities)\//.exec(path);
   if (!match) return null;
@@ -150,6 +153,20 @@ export function publicSourceDomain(path) {
     characters: "character",
     entities: "entity",
   }[match[1]];
+}
+
+export function publicDocumentPathAllowed(document) {
+  if (publicSourceDomain(document.path) !== document.domain) return false;
+  if (CONDENSED_TOURNAMENT_DRAFT.test(document.path)) {
+    return (
+      document.role === "derived-draft" &&
+      document.family === "condensed-tournament" &&
+      document.visibility === "public" &&
+      document.step === undefined &&
+      document.subject === undefined
+    );
+  }
+  return document.role !== "derived-draft";
 }
 
 export async function readJson(path) {
@@ -305,7 +322,8 @@ export function documentStatus(document, content) {
   if (
     document.role === "deliverable" ||
     document.role === "supporting-planning" ||
-    document.role === "stable-reference"
+    document.role === "stable-reference" ||
+    document.role === "derived-draft"
   ) {
     return metadata.statuses.length === 1 ? metadata.statuses[0] : null;
   }
@@ -591,8 +609,23 @@ async function validateCatalog({
       errors.push(`${document.id} registers excluded path ${document.path}`);
     }
     if (
+      (document.path.startsWith("drafts/") &&
+        document.role !== "derived-draft") ||
+      (document.role === "derived-draft" &&
+        (!CONDENSED_TOURNAMENT_DRAFT.test(document.path) ||
+          document.domain !== "story" ||
+          document.family !== "condensed-tournament" ||
+          document.visibility !== "public" ||
+          document.step !== undefined ||
+          document.subject !== undefined))
+    ) {
+      errors.push(
+        `${document.id} is not a public condensed-tournament derived draft`,
+      );
+    }
+    if (
       document.visibility === "public" &&
-      (publicSourceDomain(document.path) !== document.domain ||
+      (!publicDocumentPathAllowed(document) ||
         /(?:^|\/)(?:research|archive|legacy|prompts?|handoffs?)(?:\/|$)/i.test(
           document.path,
         ) ||
@@ -649,6 +682,12 @@ async function validateCatalog({
       status !== "accepted"
     ) {
       errors.push(`${document.id} exposes provisional supporting planning`);
+    }
+    if (
+      document.role === "derived-draft" &&
+      !["accepted", "provisional"].includes(status)
+    ) {
+      errors.push(`${document.id} has invalid derived-draft Status metadata`);
     }
   }
 

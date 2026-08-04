@@ -49,11 +49,42 @@ the team still supports Ruth's requested repeat runs. Their friendship begins
 before the incompatible granddaughter memory turns Ruth into the center of an
 ethical dispute.
 
-During Ruth's final natural lucid interval, Tess remains with her while still
-angry with Evan. Tess does not turn the interval into another measurement or
-response. When the local catastrophe cuts off communications and emergency
-access, she stays present through Ruth's increasing tiredness, trouble speaking
-and swallowing, intermittent responsiveness, unconsciousness, and death.
+While Tess is drafting her first clean control, Ruth asks a plain mathematical
+question that exposes a real flaw in it. Tess revises the protocol and brings
+it back to Ruth for another look. The exchange lets Ruth correct Tess before
+either woman is responsible for the other's care.
+
+After a long session, Ruth goes to the garden when she loses the thread. Tess
+follows for air rather than to bring her back. Ruth asks her to identify a
+volunteer plant, Tess gets it wrong, and Ruth teases her. Their first ordinary
+time together begins with Ruth knowing something Tess does not.
+
+Before Tess moves in, Ruth notices Tess looking at Evan after he turns back to
+the work. She later catches Evan looking at Tess in the same way. The mutual
+attraction fills Ruth with a private joy that she keeps to herself.
+
+As late sessions become overnight stays, Tess uses the spare room and carries
+Mouse's supplies home each morning. Ruth asks why she keeps doing that and
+tells her to leave them. Tess keeps her apartment for a while, but Ruth is the
+person who first names the house as somewhere Tess and Mouse already belong.
+The invitation is practical and rooted in Ruth's friendship with Tess, but it
+also has a quiet, not-quite-sly pleasure in making room for the relationship
+Ruth has glimpsed.
+
+During Ruth's final natural lucid interval, Tess remains with her while afraid
+that her own choices may have helped the anomaly become an independent carrier
+and upset that Evan denied her the chance to withdraw. Tess does not turn the
+interval into another measurement or response. When the local catastrophe cuts
+off communications and emergency access, she stays present through Ruth's
+increasing tiredness, trouble speaking and swallowing, intermittent
+responsiveness, unconsciousness, and death.
+
+Ruth recognizes Tess and Mouse, knows Evan is away working, and understands
+that her body is failing without recovering her entire autobiography. She asks
+Tess to make sure Evan knows how much she loves him if she dies before he
+returns. Ruth then explains that Evan has always turned to work when loss or
+grief threatens. She gives Tess that understanding without asking her to
+forgive Evan, remain with him, or change him.
 
 ## Relationship with Mouse
 
@@ -92,8 +123,13 @@ Evan responds by defining a concordance window in which her clarity counts as
 successful only while her autobiography agrees with his record family. Lena
 objects that this measures conformity to Evan's records, not restoration,
 safety, or Ruth's wishes. It makes his history the standard for another
-exposure without settling what Ruth wants or what the interval is doing to her.
-Her response to the proposed next run remains open.
+exposure without settling what the interval is doing to her. Ruth rejects
+autobiographical concordance as a definition of success but still requests one
+more reduced exposure. The team removes agreement with Evan's records from the
+target and proceeds under Ruth's terms. The run produces one final temporary
+lucid interval without resolving the granddaughter memory. After the minimum
+safety checks, Ruth ends the testing and spends the remaining clarity with Tess
+and Mouse away from the apparatus.
 
 Later paired loss and echo evidence establishes that Ruth's incompatible
 granddaughter memory gave her access to a real history being stripped away. It
@@ -105,6 +141,14 @@ chooses not to repeat it, turns toward Tess, and remains present without
 claiming that this settles Ruth's experience. Ruth does not return as a message
 or authority who resolves his guilt.
 
+An ordinary mathematical principle from Ruth does survive her treatment. She
+insists that unlike terms or genuinely independent alternatives cannot be
+collapsed merely because someone wants one answer or because they point toward
+the same intended result. Tess later draws on the principle to articulate why
+her terminal choice and Evan's must remain separate and uninspectable. It helps
+Tess name the requirement without supplying hardware instructions, proving the
+cosmology, or giving Ruth foreknowledge of its eventual use.
+
 ## Entity contact
 
 Ruth experiences projector-linked contact as grounding rather than alienating.
@@ -113,8 +157,11 @@ then lost. She may be less frightened by the failure of ordinary continuity
 because continuity already fails her in daily life.
 
 This does not make dementia a mystical gift or give Ruth privileged factual
-knowledge. Her familiarity is phenomenological. What she recognizes in contact
-remains uncertain. Later erasure evidence establishes only that her
+knowledge. A whole relation becomes available without Ruth having to retain
+one term while searching for the next. She recognizes the relief as the
+familiar rhythm of following a proof or teaching, while voices, faces, objects,
+and her own place in the room become easier to locate. Later erasure evidence
+establishes only that her
 incompatible granddaughter memory gave her access to a real history being
 stripped away; it does not make Ruth an oracle or explain her interior
 experience.

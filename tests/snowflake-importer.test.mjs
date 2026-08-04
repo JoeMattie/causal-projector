@@ -8,6 +8,7 @@ import {
   CONTRACT_VERSION,
   IMPORT_SCHEMA,
   SNAPSHOT_ROOT,
+  publicDocumentPathAllowed,
   publicSourceDomain,
   sha256,
   stableJson,
@@ -24,6 +25,10 @@ import {
   buildPublicDataset,
   writePublicDataset,
 } from "../scripts/lib/snowflake-site.mjs";
+import {
+  buildLineDiff,
+  buildTournamentDataset,
+} from "../scripts/lib/snowflake-tournament.mjs";
 
 const DEFAULT_CONTENT = `# Test document
 
@@ -351,6 +356,77 @@ Provisional treatment text.
   );
 });
 
+test("derived tournament drafts are library-only under every native mapping", async () => {
+  const draft = sourceDocument({
+    id: "draft:condensed-tournament:round4-a",
+    path: "drafts/condensed-tournament/round4-a.md",
+    role: "derived-draft",
+    family: "condensed-tournament",
+    step: undefined,
+    status: "accepted",
+    content: `# Condensed tournament champion
+
+Status: accepted
+
+> Derivative experiment file. Not canon.
+
+Draft prose.
+`,
+  });
+  const snapshot = snapshotFor([draft]);
+
+  assert.deepEqual(
+    buildPublicDataset(snapshot).records.map(({ id, role, status }) => ({
+      id,
+      role,
+      status,
+    })),
+    [{ id: draft.id, role: "derived-draft", status: "accepted" }],
+  );
+
+  const mapping = { sourceId: draft.id, sourcePath: draft.path };
+  const configs = [
+    minimalConfig({
+      exactCopies: [{ ...mapping, target: "story/outline.yml" }],
+    }),
+    minimalConfig({
+      synopsis: {
+        target: "story/synopsis.md",
+        sources: [mapping],
+        optionalSources: [],
+      },
+    }),
+    minimalConfig({
+      synopsis: {
+        target: "story/synopsis.md",
+        sources: [],
+        optionalSources: [mapping],
+      },
+    }),
+    minimalConfig({
+      characters: [
+        {
+          ...mapping,
+          target: "story/characters/test.md",
+          authorbotId: "character:test",
+        },
+      ],
+    }),
+  ];
+  for (const config of configs) {
+    await assert.rejects(
+      buildDeterministicProjections({
+        repoRoot: process.cwd(),
+        snapshot: snapshotFor([draft], { config }),
+      }),
+      (error) => {
+        assert.equal(error.code, "DERIVED_DRAFT_NATIVE_PROJECTION");
+        return true;
+      },
+    );
+  }
+});
+
 test("character projection preserves Authorbot identity and image while replacing summary", async (t) => {
   const repoRoot = await temporaryDirectory(t);
   const target = "story/characters/evan-hale.md";
@@ -543,6 +619,104 @@ Private material.
   assert.deepEqual(fragment.sourceLinks, []);
 });
 
+test("tournament data compares every version with Round 0 and reconstructs the candidate", () => {
+  const body = (sentence) => `# Condensed version
+
+Status: provisional
+
+> Derivative experiment file. Not canon.
+
+## 1. The cold notch
+
+${sentence}
+`;
+  const seed = sourceDocument({
+    id: "draft:condensed-tournament:round0-base",
+    path: "drafts/condensed-tournament/round0-base.md",
+    role: "derived-draft",
+    family: "condensed-tournament",
+    step: undefined,
+    status: "provisional",
+    content: body("The machine is cold, loud, and failure-prone."),
+  });
+  const candidateA = sourceDocument({
+    id: "draft:condensed-tournament:round1-a",
+    path: "drafts/condensed-tournament/round1-a.dead.md",
+    role: "derived-draft",
+    family: "condensed-tournament",
+    step: undefined,
+    status: "provisional",
+    content: body("The machine is cold and failure-prone."),
+  });
+  const candidateB = sourceDocument({
+    id: "draft:condensed-tournament:round1-b",
+    path: "drafts/condensed-tournament/round1-b.md",
+    role: "derived-draft",
+    family: "condensed-tournament",
+    step: undefined,
+    status: "provisional",
+    content: body("The machine is loud enough to feel through the floor."),
+  });
+  const log = sourceDocument({
+    id: "draft:condensed-tournament:tournament-log",
+    path: "drafts/condensed-tournament/tournament-log.md",
+    role: "derived-draft",
+    family: "condensed-tournament",
+    step: undefined,
+    status: "provisional",
+    content: "# Tournament log\n\nStatus: provisional\n\nRound 1: B wins.\n",
+  });
+  const config = minimalConfig({
+    publicPages: {
+      condensedTournament: {
+        family: "condensed-tournament",
+        seedId: seed.id,
+        logId: log.id,
+        rounds: [
+          {
+            round: 1,
+            seedId: seed.id,
+            candidateIds: [candidateA.id, candidateB.id],
+            winnerId: candidateB.id,
+            votes: { A: 0, B: 2 },
+          },
+        ],
+      },
+    },
+  });
+  const tournament = buildTournamentDataset(
+    snapshotFor([seed, candidateA, candidateB, log], { config }),
+  );
+  const index = JSON.parse(tournament.generated.get("index.json"));
+  const selected = index.versions.find((version) => version.id === candidateB.id);
+  const comparison = JSON.parse(tournament.generated.get(selected.url));
+
+  assert.equal(index.baselineId, seed.id);
+  assert.equal(index.championId, candidateB.id);
+  assert.equal(index.versions.length, 3);
+  assert.equal(selected.state, "champion");
+  assert.equal(selected.basedOnId, seed.id);
+  assert.equal(selected.votes, 2);
+  assert(comparison.stats.addedWords > 0);
+  assert(comparison.stats.removedWords > 0);
+
+  const reconstructed = comparison.rows
+    .flatMap((row) => {
+      if (row.type === "context") return [row.text];
+      if (!row.right) return [];
+      return [row.right.map((part) => part.text).join("")];
+    })
+    .join("\n");
+  assert.equal(
+    `${reconstructed}\n`,
+    "## 1. The cold notch\n\nThe machine is loud enough to feel through the floor.\n",
+  );
+
+  const direct = buildLineDiff("one two\n", "one bright two\n");
+  assert.equal(direct.stats.addedWords, 1);
+  assert.equal(direct.stats.removedWords, 0);
+});
+
 test("public generation imports the exact content-hashed Astro theme into custom pages", async (t) => {
   const outDir = await temporaryDirectory(t);
   await writeEnsured(
@@ -573,6 +747,15 @@ test("public generation imports the exact content-hashed Astro theme into custom
 <html><body>
 <!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_START -->
 <!-- SNOWFLAKE_NOSCRIPT_DOCUMENTS_END -->
+</body></html>
+`,
+  );
+  await writeEnsured(
+    join(outDir, "snowflake/condensed-tournament/index.html"),
+    `<!doctype html>
+<html><body>
+<!-- TOURNAMENT_NOSCRIPT_VERSIONS_START -->
+<!-- TOURNAMENT_NOSCRIPT_VERSIONS_END -->
 </body></html>
 `,
   );
@@ -643,7 +826,7 @@ links:
   );
 });
 
-test("public source paths use the four explicit canon roots and matching domains", () => {
+test("public source paths use explicit canon roots or the narrow tournament root", () => {
   assert.equal(publicSourceDomain("canon/story/foundation.md"), "story");
   assert.equal(
     publicSourceDomain("canon/characters/evan/03-summary-sheet.md"),
@@ -651,6 +834,43 @@ test("public source paths use the four explicit canon roots and matching domains
   );
   assert.equal(publicSourceDomain("canon/entities/knot/foundation.md"), "entity");
   assert.equal(publicSourceDomain("canon/science/contact.md"), "science");
+  assert.equal(
+    publicSourceDomain("drafts/condensed-tournament/round4-a.md"),
+    "story",
+  );
+  assert.equal(publicSourceDomain("drafts/other/round4-a.md"), null);
   assert.equal(publicSourceDomain("canon/misc/notes.md"), null);
   assert.equal(publicSourceDomain("work/README.md"), null);
+
+  assert.equal(
+    publicDocumentPathAllowed({
+      path: "drafts/condensed-tournament/round4-a.md",
+      domain: "story",
+      role: "derived-draft",
+      family: "condensed-tournament",
+      visibility: "public",
+    }),
+    true,
+  );
+  for (const change of [
+    { role: "stable-reference" },
+    { family: "other" },
+    { domain: "integration" },
+    { visibility: "internal" },
+    { step: "10" },
+    { subject: "book" },
+    { path: "drafts/other/round4-a.md" },
+  ]) {
+    assert.equal(
+      publicDocumentPathAllowed({
+        path: "drafts/condensed-tournament/round4-a.md",
+        domain: "story",
+        role: "derived-draft",
+        family: "condensed-tournament",
+        visibility: "public",
+        ...change,
+      }),
+      false,
+    );
+  }
 });
