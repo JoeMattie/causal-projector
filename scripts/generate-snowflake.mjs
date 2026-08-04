@@ -39,7 +39,8 @@ async function main() {
     basePath: options.basePath,
   });
   console.log(
-    `Snowflake data generated: ${result.state}, ${result.records} records, ${result.files} files` +
+    `Snowflake data generated: ${result.state}, ${result.records} records, ` +
+      `${result.tournamentVersions} tournament versions, ${result.files} files` +
       (options.basePath ? ` (base path ${options.basePath})` : ""),
   );
 }

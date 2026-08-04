@@ -18,15 +18,23 @@ Status: accepted
   statistically rare survival might influence the anomaly or the projector
   lineage forming around it. Without her informed consent, he continues
   running live work in her presence, compares her ordinary choices with active
-  trials, and mines ferry, rescue, and medical records. He folds that analysis
-  into the evidence and design work leading to the proof-to-stop protocol and
-  continues exposing her after he suspects that her presence may matter. This
-  is Evan's hypothesis and violation, not an accepted mechanism.
+  trials, and mines ferry, rescue, and medical records. His copies, model,
+  calculations, and Tess-specific choice logs remain on a garage workstation
+  and local storage separate from the apparatus controller. He sends none of
+  it, including derived Tess-specific conclusions, to Lena or the participating
+  laboratories. It does not enter the proof-to-stop protocol. Evan uses it only
+  to guide his private interpretation and local garage runs, and continues
+  exposing Tess after he suspects that her presence may matter. The workstation
+  and storage are not part of the active core later transported to the remote
+  site. This is Evan's hypothesis and violation, not an accepted mechanism.
 - Lena's group fabricates the first hardware-independent analogue and runs it
   with neither Evan nor Tess present. It reproduces the effect, falsifying
   any claim that Tess or Evan is necessary for the basic apparatus effect. It
   does not establish whether Tess's presence influenced the particular
-  projector lineage before Evan began measuring her. Lena then organizes a
+  projector lineage before Evan began measuring her. When Evan later admits
+  his hypothesis, the carrier is already independent. Tess can no longer
+  withdraw in time to prevent whatever contribution her earlier choices may
+  have made. Lena then organizes a
   small, closed, preregistered study through facilities in her professional
   network. The analogue remains causally descended from the garage discovery
   through the transferred measurements and specification.

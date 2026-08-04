@@ -29,6 +29,7 @@ archive/legacy-authorbot/      collaboration history for the removed chapters
 archive/superseded-planning/   planning documents retained for reference only
 public/outline-graph/          interactive Authorbot story graph
 public/snowflake/              generated-data Snowflake planning library shell
+  condensed-tournament/        noncanonical draft bracket and seed diff viewer
 wrangler.jsonc                 the Cloudflare Worker that serves the site
 ```
 
@@ -65,6 +66,12 @@ upstream retirement records, accepted-to-provisional regressions are blocked,
 and a generated target changed by hand is reported as a conflict instead of
 being overwritten.
 
+Public `derived-draft` records are accepted only from the explicitly mapped
+condensed tournament. They appear in its labeled comparison page and can never
+feed the native outline, synopsis, canon, character, or question projections.
+The page lazily loads build-generated comparisons against the original seed;
+no generated data is committed under `public/`.
+
 ## Local commands
 
 ```sh
@@ -74,10 +81,11 @@ npm run build
 ```
 
 `npm run build` writes the local site to `_site/`, including the public
-Snowflake dataset when an imported snapshot is present. Publishing is handled
-by CI. Before the first approved import, Snowflake validation intentionally
-reports the uninitialized review gate so the publish workflow cannot treat an
-empty placeholder as a completed import.
+Snowflake dataset and condensed-tournament comparisons when an imported
+snapshot is present. Publishing is handled by CI. Before the first approved
+import, Snowflake validation intentionally reports the uninitialized review
+gate so the publish workflow cannot treat an empty placeholder as a completed
+import.
 
 ## License
 

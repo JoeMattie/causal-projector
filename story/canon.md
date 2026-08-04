@@ -273,6 +273,10 @@ The ending is fixed only at the level required by the tragedy:
 - Evan and Tess believe their final independent choices will produce a shared
   ending: the projector operation ends, and they end with it. They do not
   intend, design, or knowingly choose a successor universe.
+- Tess identifies why a shutdown Evan can fully specify, observe, and control
+  would leave the operation another path through him. A real ending requires a
+  second person whose choice he cannot predict or inspect before making his
+  own. Evan determines how the powered-down apparatus can receive both choices.
 - Each receives the full relevant truth before choosing, then has no way to
   inspect, model, coerce, or influence the other's decision. Refusal remains
   real, and neither knows the other's answer before acting.
@@ -717,15 +721,23 @@ Character-specific contact rules belong to [Evan](../characters/evan-hale/03-sum
   statistically rare survival might influence the anomaly or the projector
   lineage forming around it. Without her informed consent, he continues
   running live work in her presence, compares her ordinary choices with active
-  trials, and mines ferry, rescue, and medical records. He folds that analysis
-  into the evidence and design work leading to the proof-to-stop protocol and
-  continues exposing her after he suspects that her presence may matter. This
-  is Evan's hypothesis and violation, not an accepted mechanism.
+  trials, and mines ferry, rescue, and medical records. His copies, model,
+  calculations, and Tess-specific choice logs remain on a garage workstation
+  and local storage separate from the apparatus controller. He sends none of
+  it, including derived Tess-specific conclusions, to Lena or the participating
+  laboratories. It does not enter the proof-to-stop protocol. Evan uses it only
+  to guide his private interpretation and local garage runs, and continues
+  exposing Tess after he suspects that her presence may matter. The workstation
+  and storage are not part of the active core later transported to the remote
+  site. This is Evan's hypothesis and violation, not an accepted mechanism.
 - Lena's group fabricates the first hardware-independent analogue and runs it
   with neither Evan nor Tess present. It reproduces the effect, falsifying
   any claim that Tess or Evan is necessary for the basic apparatus effect. It
   does not establish whether Tess's presence influenced the particular
-  projector lineage before Evan began measuring her. Lena then organizes a
+  projector lineage before Evan began measuring her. When Evan later admits
+  his hypothesis, the carrier is already independent. Tess can no longer
+  withdraw in time to prevent whatever contribution her earlier choices may
+  have made. Lena then organizes a
   small, closed, preregistered study through facilities in her professional
   network. The analogue remains causally descended from the garage discovery
   through the transferred measurements and specification.

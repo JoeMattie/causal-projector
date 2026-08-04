@@ -109,6 +109,10 @@ The ending is fixed only at the level required by the tragedy:
 - Evan and Tess believe their final independent choices will produce a shared
   ending: the projector operation ends, and they end with it. They do not
   intend, design, or knowingly choose a successor universe.
+- Tess identifies why a shutdown Evan can fully specify, observe, and control
+  would leave the operation another path through him. A real ending requires a
+  second person whose choice he cannot predict or inspect before making his
+  own. Evan determines how the powered-down apparatus can receive both choices.
 - Each receives the full relevant truth before choosing, then has no way to
   inspect, model, coerce, or influence the other's decision. Refusal remains
   real, and neither knows the other's answer before acting.

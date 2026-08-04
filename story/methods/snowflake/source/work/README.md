@@ -1,9 +1,9 @@
 ---
 schema: causal-projector.snowflake-work/v1
 activeStep: "05"
-currentDocumentId: character:mouse:full-character-synopsis
-supportingDocumentId: character:mouse:full-character-synopsis-planning
-currentStatus: provisional
+currentDocumentId: character:ruth-hale:full-character-synopsis
+supportingDocumentId: character:ruth-hale:full-character-synopsis-planning
+currentStatus: accepted
 ---
 
 # Current work
@@ -13,29 +13,23 @@ link here instead of repeating current status.
 
 - Active Snowflake step: 05
 - Current deliverable:
-  [`canon/characters/mouse/05-full-character-synopsis.md`](../canon/characters/mouse/05-full-character-synopsis.md)
-- Deliverable status: provisional, awaiting review
+  [`canon/characters/ruth-hale/05-full-character-synopsis.md`](../canon/characters/ruth-hale/05-full-character-synopsis.md)
+- Deliverable status: accepted
 - Supporting planning:
-  [`canon/characters/mouse/05-supporting-planning.md`](../canon/characters/mouse/05-supporting-planning.md)
+  [`canon/characters/ruth-hale/05-supporting-planning.md`](../canon/characters/ruth-hale/05-supporting-planning.md)
 
-## Immediate review decision
+## Immediate decision
 
-Mouse's provisional treatment now opens with her birth in an unknown cabin
-loft in Fairbanks, her unstable first seven years and long outdoor period near
-Ester, Tess's adoption of her from the shelter, and their move to the Pacific
-Northwest. The treatment follows Mouse through the whole story by way of
-familiar people, rooms, voices, surfaces, routines, and immediate sensation.
+Ruth's full Step 5 synopsis is accepted. Its chronology is organized around
+Ruth's own continuity, the garage's failure to wait for her, her relationships
+with Tess and Mouse, and her choice about what recovered time is for. It stays
+within what Ruth experiences or can meaningfully know, includes her private
+joy at recognizing Tess and Evan's mutual attraction, and ends at Ruth's death
+with Tess and Mouse beside her. The accepted supporting planning remains in
+force beside the deliverable.
 
-Its organizing spine is the set of places and people Mouse learns to find.
-Tess becomes her first durable home, Ruth becomes the first person in Evan's
-house whom Mouse chooses for herself, and the final loss of stable location
-tests the same ordinary habit of following local cues. The treatment does not
-give her human understanding or special access to the projector.
-
-Evan's provisional synopsis remains intact for Joe's later full-read feedback.
-
-Does Mouse's draft remain convincingly animal while giving her whole life
-enough shape to earn the final viewpoint?
+Which character or character-like subject should receive the next Step 5
+treatment?
 
 ## Open-question destinations
 

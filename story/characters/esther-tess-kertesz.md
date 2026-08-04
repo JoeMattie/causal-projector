@@ -114,8 +114,11 @@ Tess is a mildly eccentric amateur naturalist.
 - Has a seventeen-year-old, long-haired black-and-brown cat named Mouse. Tess
   adopted Mouse from a Fairbanks-area shelter when the cat was seven, then
   moved with her to the Pacific Northwest. Mouse later moves into Evan and
-  Ruth's house with Tess when the research becomes intensive. She follows Tess
-  anywhere, curled up in a little bag or perched on Tess's shoulder.
+  Ruth's house with Tess when the research becomes intensive. The move begins
+  as overnight stays in the spare room. Ruth eventually asks why Tess keeps
+  carrying Mouse's supplies home and tells her to leave them. Tess keeps her
+  apartment for a while, but the house becomes where she lives. Mouse follows
+  Tess anywhere, curled up in a little bag or perched on Tess's shoulder.
 - Plays pub trivia with Lena.
 - Has a small, ordinary, inhabited life that contrasts with the mythic rarity of her survival.
 
@@ -140,6 +143,17 @@ Lena and Tess are genuine friends on the same pub-trivia league. Lena trusts her
 
 Tess develops an independent friendship with Ruth and spends time with her as she fades.
 
+Their first real exchange begins while Tess is drafting the control that will
+replace the external-anomaly case she dismantled. Ruth asks one plain
+mathematical question and exposes a flaw in the design. Tess corrects the
+protocol and brings it back to Ruth for another look. Ruth enters Tess's work
+as a colleague before the projector's first effect on her cognition.
+
+After a long garage session, Ruth goes out to the garden when she loses the
+thread. Tess follows because she wants air. Ruth asks her to identify a
+volunteer plant, Tess gets it wrong, and Ruth teases her about it. This is the
+first time they spend together without the experiment supplying the subject.
+
 This relationship:
 
 - begins while the team still regards Ruth's requested runs as beneficial;
@@ -156,11 +170,41 @@ looks up at Ruth and meows once to get her attention. This small household
 routine helps place Tess and Mouse in Ruth's ordinary life before the project
 turns catastrophic.
 
+## Moving into the house
+
+As the audit and Ruth's requested repeat runs lengthen, Tess begins sleeping in
+the spare room rather than driving home after every late session. She carries
+Mouse's food, litter supplies, and other necessities back and forth.
+
+Before inviting her to stay, Ruth notices how Tess looks at Evan when she
+thinks he is occupied and then catches Evan looking back the same way. Ruth
+keeps her private joy to herself.
+
+Ruth finally asks why Tess keeps taking everything home and tells her to leave
+it. Tess does. She keeps her apartment for a while, but more of her mornings,
+work, and ordinary life begin at Ruth's house until it has become where she
+lives. There is no formal moving day. The move begins through work and her
+friendship with Ruth. Ruth is not acting as a matchmaker, but the invitation
+also carries her quiet pleasure at the mutual attraction she has seen.
+
 ## Relationship with Evan
 
 First impression: Evan is probably a crazy person with unusually good instrumentation.
 
-Over time, Tess finds his intensity, technical imagination, awkwardness, and obsessive curiosity endearing. He is the first person who describes her survival as a **statistical catastrophe with one living remainder**, not a miracle, destiny, proof of strength, or divine selection.
+Over time, Tess finds his intensity, technical imagination, awkwardness, and obsessive curiosity endearing.
+
+Their first kiss comes during a long argument over one of the controls. Tess
+realizes that the technical point no longer explains why she is enjoying the
+argument so much and kisses Evan before either of them concedes. The kiss does
+not settle the disagreement. Their habit of challenging one another remains
+part of the relationship.
+
+When Tess later tells Evan about the ferry, her age and the outline of the
+disaster connect her to the childhood survivor he remembers from the news. He
+tells her immediately. Tess then tells him what the public version omitted and
+how its miracle framing turned her family into the background of her survival.
+Evan describes what happened as a **statistical catastrophe with one living
+remainder**, not a miracle, destiny, proof of strength, or divine selection.
 
 He gives her the possibility that survival can acquire chosen meaning without that meaning traveling backward to justify the deaths.
 
@@ -169,17 +213,23 @@ She understands why he is obsessed. She is also the person who insists that unde
 ## Entity contact
 
 Tess's first projector-linked trip occurs later than Evan's, after she has
-accumulated exposure through repeated runs of the device. Eventually she and
-Evan undergo simultaneous shared contact. The accumulated runs have thinned
-the causal insulation around her participation. They have not trained her to
-decode the entity.
+accumulated exposure through repeated runs of the device. She encounters the
+Turning Knot and experiences its impossible turn spatio-acoustically. She
+returns certain that the contact is real but without a theory of what the Knot
+is. This occurs after Tess and Evan have become lovers and after Tess and Mouse
+have largely moved into the house, but before the replica-lab disaster. Her
+eventual Step 5 treatment gives the solo contact a full narrative turn before
+she and Evan undergo simultaneous shared contact. The accumulated runs have
+thinned the causal insulation around her participation. They have not trained
+her to decode the entity.
 
 Their agreement concerns the same otherwise impossible perturbation, not a
 shared hallucinated room or identical entity image. Each returns with a
 different symbolic reconstruction. The contact preserves their nonparallel
 relation rather than dissolving it.
 
-Tess's primary Turning Knot rendering is spatio-acoustic. Sound carries
+In both contacts, Tess's primary Turning Knot rendering is spatio-acoustic.
+Sound carries
 adjacency, depth, rotation, and her own orientation within the impossible
 kata-ward turn. She reconstructs a reciprocal relation rather than the bounded
 external object Evan sees. Her rendering is different, not more authoritative.
@@ -240,6 +290,14 @@ and lets the carrier experiment continue while treating her possible influence
 as part of the setup. Her family's deaths and her survival become model
 parameters without her knowledge.
 
+His questions around small decisions become more particular, and he sometimes
+records her answers afterward. Tess notices the added attention. Because Evan
+already logs nearly everything, her judgments legitimately affect the work,
+and they are newly intimate, she reads it as ordinary documentation mixed with
+genuine interest. She has no reason to infer that he has separated her choices
+into a private signal or connected them to records he has not told her he
+obtained.
+
 The later hardware-independent analogue reproduces the base effect without
 Tess or Evan present and rules them out as necessary for that base effect. It
 does not show whether Tess helped shape this particular carrier loop. That
@@ -249,10 +307,53 @@ influence part of the test.
 
 As paired loss and echo becomes conclusive, Evan voluntarily admits the secret
 measurements and the record mining. Tess does not catch him. The admission
-matters, but her trust in him is seriously damaged. She is angry that he kept
-her inside an experiment after he suspected her uniqueness might be integral
-to it, and that he used the private history of her survival without telling
-her.
+matters. Her first response is, "What exactly did you use?" She makes Evan name
+what he used. He begins with the ferry, rescue, and medical records, including
+the facts he took from them and the rarity estimate he built. He then names the
+choices he isolated and which garage observations and runs the analysis
+affected. He understands which part of the confession cuts deepest and does
+not make Tess drag him past the technical work to reach it. Only after the
+scope is concrete does the argument turn to his reasons. Her trust in him is
+seriously damaged.
+
+Evan's copies of the records, his model and calculations, and the Tess-specific
+choice logs remain on a garage workstation and local storage separate from the
+apparatus controller. Nothing raw or derived leaves the garage or enters the
+proof-to-stop protocol. Evan alone uses the material to guide his private
+interpretation and local runs before he confesses. The workstation and storage
+are not part of the active core he later moves to the remote site.
+
+The first record Evan names is the official rescue timeline. He begins to
+recite its search attempts, failed approaches, the temporary path that let
+rescuers reach Tess, her extraction, and the attempts to reach the rest of her
+family. Tess stops him: "I know the timeline. Tell me what you did with it."
+
+She has studied the document herself and does not need Evan to repeat the chain
+by which she lost everyone. Evan tells her that he used the sequence to model
+the bottleneck that left Tess alive when the others were not, then combined it
+with her medical outcome and ordinary choices around the apparatus.
+
+"Show me," Tess says. Evan opens the complete local folder on the garage
+workstation. Tess reviews the source records, model, calculations, timestamped
+choice logs, and notes linking them to particular garage observations and
+runs. She verifies what he used and where he used it without taking a copy out
+of the garage. Evan stays beside her, answers every question directly, and
+does not choose what she opens next or touch the keyboard unless she asks.
+
+The independent analogue has already shown that Tess is not necessary for the
+basic effect. It cannot tell her whether her earlier choices helped the garage
+lineage become the carrier that now operates without them. The dated logs show
+that Evan suspected this while Tess could still have stopped participating in
+live runs. By the time he tells her, withdrawal cannot undo whatever influence
+she may already have had.
+
+Tess is frightened that her participation may have helped the anomaly get out
+of control. She is upset that Evan kept that possibility from her and denied
+her the chance to decide whether to continue. His admission also gives earlier
+questions and notes a second meaning. She can no longer know which ordinary
+moments were also observations. The uncertainty does not make their intimacy
+false, but it changes what she can safely assume about what Evan has shared
+with her.
 
 During the argument, Evan says their meeting and love may have been inevitable
 within the surviving fixed-point history. Tess rejects the claim because it
@@ -260,15 +361,16 @@ tries to make inevitability carry moral weight it cannot bear. It makes his
 explanation worse, but it is not what damaged her trust. Her love for him
 remains. Her trust in him now has to be rebuilt.
 
-Their conflict begins before Ruth's final decline. Tess remains with Ruth while
-angry, and Evan moves the original apparatus core to a remote site for another
-shutdown attempt. The growing chaos cuts through the argument without
-resolving it. Tess recognizes that the system is beyond their control and
-fears for Evan's safety. After Ruth dies and Evan returns, the breach remains
-between them. Evan recognizes that he has again converted helplessness into
-work and consciously chooses not to repeat the loop. He turns toward Tess and
-remains present. She sees the change without pretending it repairs everything,
-and trust begins to grow back through what they do next.
+Their conflict begins before Ruth's final decline. Tess remains with Ruth,
+afraid of what her choices may already have helped set loose, while Evan moves
+the original apparatus core to a remote site for another shutdown attempt. The
+growing chaos cuts through the argument without resolving it and adds fear for
+Evan's safety. After Ruth dies and Evan returns, the breach remains between
+them. Evan recognizes that he has again converted helplessness into work and
+consciously chooses not to repeat the loop. He turns toward Tess and remains
+present. She sees the change without pretending it answers her possible role
+or restores the choice he withheld, and trust begins to grow back through what
+they do next.
 
 ## Why she stays
 
@@ -298,6 +400,18 @@ steps.
 High-level canon:
 
 - Evan cannot create or repair the terminal state alone.
+- Tess recognizes why. Any shutdown Evan can fully specify, observe, and
+  control leaves one Evan-shaped path that the operation can turn into another
+  cycle. A real ending requires a second person whose choice he cannot predict,
+  inspect, or condition before making his own.
+- Evan determines how the powered-down apparatus can receive both choices.
+  Tess supplies the structural requirement, and Evan supplies the physical
+  implementation. Exact mechanics remain late-bound.
+- Tess draws on Ruth's ordinary mathematical insistence that unlike terms or
+  independent alternatives cannot be collapsed merely because they point
+  toward the same intended result. The principle helps her articulate the
+  requirement. It does not solve the terminal mechanics or give Ruth
+  foreknowledge.
 - Tess must remain a genuinely independent, nonparallel causal vector.
 - Their final choices must preserve the real possibility of refusal and cannot be verified or coerced in advance.
 - Tess and Evan believe they are choosing a shared ending for themselves and
@@ -331,9 +445,13 @@ change. Exact execution remains for final-chapter outlining.
 
 - **Starting state:** Grounded, skeptical, and determined not to turn survival into destiny.
 - **Entrance:** Lena brings her to audit Evan's causal coincidence chains.
-- **First reversal:** She proves the global conjunction is anomalous even though each local link is ordinary.
+- **First reversal:** She fully explains the first external chain, then builds
+  a precommitted control whose new chain she cannot explain away.
 - **Personal reversal:** Her own records begin contradicting one another while her identity remains stable.
-- **Domestic deepening:** Tess and her cat move into Evan and Ruth's house; she becomes close to Ruth and falls in love with Evan.
+- **Domestic deepening:** Late sessions become nights in the spare room. Ruth
+  tells Tess to stop carrying Mouse's supplies home, and the house gradually
+  becomes where they live. Tess becomes close to Ruth and falls in love with
+  Evan.
 - **First contact:** Accumulated projector exposure produces her first direct
   encounter later than Evan's.
 - **Shared contact:** She and Evan experience the same perturbation from
@@ -341,7 +459,9 @@ change. Exact execution remains for final-chapter outlining.
 - **Breach:** As paired loss and echo becomes conclusive, Evan admits that he
   measured and continued to use her possible contribution to the developing
   carrier without her knowledge, and converted her survival history into
-  experimental material.
+  experimental material. Tess is frightened that she may have helped the
+  anomaly escape the garage and upset that he waited until withdrawal could no
+  longer undo her participation to tell her.
 - **Argument:** He calls their relationship inevitable. She rejects the claim
   as justification, but the secret experiment remains the reason her trust is
   damaged.
@@ -351,8 +471,9 @@ change. Exact execution remains for final-chapter outlining.
 - **Renewed trust:** Evan returns and recognizes that inspecting, salvaging,
   measuring, or turning the aftermath into another project would repeat the
   loop in which he converts helplessness into work. He consciously chooses not
-  to repeat it, turns toward Tess, and stays present. Tess remains angry and
-  sees him remain present. Trust begins to grow back.
+  to repeat it, turns toward Tess, and stays present. Tess's fear and the
+  unanswered question of her influence remain. She sees him remain present,
+  and trust begins to grow back.
 - **Lena search:** During the several-week escalation, Tess's concrete objective
   is to reach her friend Lena. Evan joins her for Lena's sake rather than to
   recover scientific work or another answer. His choices along the route show

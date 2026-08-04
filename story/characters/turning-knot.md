@@ -93,9 +93,15 @@ four-space. Its exact topology remains open.
 
 ## Evan and Tess: object and reciprocity
 
-During shared contact, Evan's primary rendering is visual. He perceives a
-bounded geometry performing the impossible turn outside himself. This leads him
-to reconstruct the Knot as an object under observation.
+Tess encounters the Knot alone before her later shared contact with Evan. She
+experiences the impossible turn spatio-acoustically and returns certain that
+the contact is real but without a theory of what the Knot is. This first
+contact occurs after Tess and Evan have become lovers and Tess and Mouse have
+largely moved into the house, but before the replica-lab disaster.
+
+During the later shared contact, Evan's primary rendering is visual. He
+perceives a bounded geometry performing the impossible turn outside himself.
+This leads him to reconstruct the Knot as an object under observation.
 
 Tess's primary rendering is spatio-acoustic. Sound carries adjacency, depth,
 rotation, and her own orientation within the change. She does not hear a sound
@@ -104,8 +110,9 @@ structure, so her reconstruction includes observer and observed in one
 reciprocal relation.
 
 Neither modality grants better access to the Knot. Their different renderings
-contain the same kata-ward impossible turn. That agreement establishes common
-contact without giving them the same inner experience.
+contain the same kata-ward impossible turn. Evan's visual recognition of the
+invariant Tess first experienced acoustically establishes common contact
+without giving them the same inner experience.
 
 During the parent universe's geometric collapse, those orientations become
 incompatible local atlases of one damaged reality. Evan continues to perceive

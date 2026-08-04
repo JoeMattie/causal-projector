@@ -13,8 +13,9 @@ Status: unresolved
 
 ## Cross-character beats
 
-- The scenes through which Tess and Ruth become friends.
-- The exact final exchange between Ruth and Tess.
+- Exact dialogue and the concrete memories Ruth uses when she asks Tess to
+  carry her love to Evan and explains his lifelong retreat into work.
+- Tess's immediate response during her final exchange with Ruth.
 - Whether a small, ordinary promise should remain unresolved at the final
   rupture. The [early-source prompt](../research/early-source-story-craft.md#optional-late-emotional-question)
   is noncanonical and should be used only if it grows from the characters

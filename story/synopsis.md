@@ -100,15 +100,19 @@ Generated from accepted book-level Snowflake summaries without added prose.
 > not match his records. He admits that after he began to suspect Tess's rare
 > history might matter to the anomaly, he continued running live work in her
 > presence, compared her ordinary choices with active trials, mined the records
-> of her family's deaths without telling her, and folded the analysis into the
-> program that led to the carrier protocol. Furious that he used the most
-> private fact of her life and continued to expose her after he suspected it
-> mattered, Tess stays with Ruth. The independent analogue has shown that
-> neither of them is required for the basic effect, but it cannot show whether
-> her presence shaped the original lineage before he began measuring it. Evan
-> moves the complete active core of the original apparatus to a remote test
-> site. He tries to stop it by warming the YBCO above
-> Tc so its pinned flux depins and decays, then opening or disabling its live
+> of her family's deaths without telling her, and used the analysis in his
+> garage runs. His copies, calculations, and Tess-specific choice logs never
+> left the garage or entered the carrier protocol. The independent analogue has
+> shown that neither of them is required for the basic effect, but it cannot
+> show whether Tess's earlier choices helped the original lineage become the
+> carrier that now operates without them. Evan's timestamps show that he
+> suspected this while she could still have withdrawn from the live work. By
+> the time he tells her, withdrawal cannot undo her possible contribution.
+> Frightened that she may have helped the anomaly get out of control, and upset
+> that Evan denied her the chance to decide whether to continue, Tess stays
+> with Ruth. Evan moves the complete active core of the original apparatus to a
+> remote test site. He tries to stop it by warming the YBCO above Tc so its
+> pinned flux depins and decays, then opening or disabling its live
 > feedback loop under a precommitted distributed response. To protect Ruth and
 > Tess, Evan makes monitored garage and home safety status an input to that
 > response. Ruth enters a natural final lucidity while an ordinary
@@ -122,8 +126,9 @@ Generated from accepted book-level Snowflake summaries without added prose.
 > unhurt. He recognizes the pattern beneath his work: whenever loss, grief, or
 > even their threat leaves him helpless, he builds a system and disappears into
 > it. He consciously stays with Tess instead of finishing the shutdown or
-> beginning another investigation. Tess is still angry. They leave the ruined
-> neighborhood together while the operation continues without him.
+> beginning another investigation. Her fear and the unanswered question of her
+> influence remain. They leave the ruined neighborhood together while the
+> operation continues without him.
 
 ### Paragraph 5: collapse and genesis
 

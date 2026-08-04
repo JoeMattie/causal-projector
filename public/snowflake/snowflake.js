@@ -459,10 +459,13 @@
     setStageLocation("Workspace overview");
     content.replaceChildren();
 
-    const accepted = state.records.filter(
+    const planningRecords = state.records.filter(
+      (record) => record.role !== "derived-draft",
+    );
+    const accepted = planningRecords.filter(
       (record) => record.status === "accepted",
     ).length;
-    const provisional = state.records.filter(
+    const provisional = planningRecords.filter(
       (record) => record.status === "provisional",
     ).length;
 
@@ -481,7 +484,7 @@
 
     const metrics = element("div", "summary-metrics");
     metrics.append(
-      metricCard(state.records.length, "Public documents"),
+      metricCard(planningRecords.length, "Planning documents"),
       metricCard(accepted, "Accepted"),
       metricCard(provisional, "Provisional"),
     );
@@ -610,6 +613,13 @@
       card.addEventListener("click", () => setView(view, { updateUrl: true }));
       viewCards.append(card);
     }
+    const tournamentCard = element("a", "collection-card view-card tournament-card");
+    tournamentCard.href = "./condensed-tournament/";
+    tournamentCard.append(
+      element("strong", "", "Condensed draft tournament"),
+      element("small", "", "Compare every candidate with the Round 0 seed"),
+    );
+    viewCards.append(tournamentCard);
 
     content.append(header);
     if (reviewRequired) content.append(reviewRequired);

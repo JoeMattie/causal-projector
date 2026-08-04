@@ -10,16 +10,25 @@ Generated deterministically from the internal Snowflake question owners.
   Tess.
 - Exact records that first contradict her survival history, including their
   timing, degree, and visibility.
-- How she moves from professional audit to living in Evan and Ruth's house.
-- The precise trials and carrier-protocol decisions in which Evan continues
-  using Tess's audits after he suspects her choices may be causally active.
-- Exact scene mechanics of Evan's admission, the damage to Tess's trust, and
-  the small choices through which they remain together after Ruth's death
-  without pretending the breach is settled.
-- Whether Tess knows Evan remembers her childhood disaster from the news before
-  he tells her.
+- The precise garage observations and runs in which Evan uses his secret
+  Tess-specific analysis after he suspects her choices may be causally active.
+- The rest of the scene mechanics after Tess first asks, "What exactly did you
+  use?" Evan first names the official rescue timeline. Its exact agency,
+  document title, contents, and access path remain open. When he starts
+  reciting it, Tess stops him with, "I know the timeline. Tell me what you did
+  with it." After his answer she says, "Show me," and reviews the complete
+  local folder on the garage workstation. Evan remains beside her and answers
+  every question without steering the review. The treatment does not need a
+  first-file choice or a screen-by-screen sequence. The exact words through
+  which Tess expresses fear of her possible contribution and distress at the
+  lost chance to withdraw, and the small choices through which they remain
+  together after Ruth's death, remain open.
 - Exact visual and spatio-acoustic symbols Evan and Tess recover after sharing
   the same impossible turn.
+- The exact sensory progression and immediate circumstances of Tess's first
+  solo Turning Knot contact. It occurs after the household and love story are
+  established but before the replica-lab disaster. Tess returns certain that
+  the contact is real but without a theory.
 - Exact wording and image-to-referent mapping in the clinical DMT transcript.
 
 ### Related cross-subject questions
@@ -28,19 +37,6 @@ Generated deterministically from the internal Snowflake question owners.
   friendship sequence and final exchange.
 - [Mouse's questions](../mouse/open-questions.md) own the adoption details and
   Mouse's terminal action.
-
-## Open questions: Evan Hale
-
-
-- Exact employer, company role if applicable, and day-job problem in the
-  revised version.
-- Whether his former wife appears in the present timeline.
-- Exact nature and timing of his prior DMT experience, and how much of it
-  remains in the revised version.
-- How much personal fame or public recognition Evan receives before causal
-  collapse.
-- His last meaningful exchange with Ruth before leaving to follow the
-  proof-to-stop chain.
 
 ## Open questions: Lena Varga
 
@@ -138,22 +134,12 @@ whether that viewpoint is used.
 
 - Exact mathematical career.
 - Exact diagnosis, progression, and pace of decline.
-- What makes her encounters feel like return without turning dementia into
-  privileged cosmological access.
-- How she responds to Evan's concordance window and whether she consents to
-  another run.
 - Her relationship with Evan's former wife.
-- Exact foreshadowing and progression of her worsening fatigue, mobility,
-  eating, and swallowing before terminal lucidity.
-- Whether she knowingly contributes an insight that later becomes part of
-  genesis.
 
 ### Related cross-subject questions
 
-- [Plot questions](../../../work/open-questions/plot.md) own the Tess and Ruth
-  friendship sequence and final exchange.
-- [Evan's questions](../evan-hale/open-questions.md) own his last meaningful
-  exchange with Ruth before he leaves.
+- [Plot questions](../../../work/open-questions/plot.md) own the exact dialogue
+  and supporting memories in Tess and Ruth's final exchange.
 
 ## Motif open questions
 
@@ -212,8 +198,9 @@ whether that viewpoint is used.
 
 ### Cross-character beats
 
-- The scenes through which Tess and Ruth become friends.
-- The exact final exchange between Ruth and Tess.
+- Exact dialogue and the concrete memories Ruth uses when she asks Tess to
+  carry her love to Evan and explains his lifelong retreat into work.
+- Tess's immediate response during her final exchange with Ruth.
 - Whether a small, ordinary promise should remain unresolved at the final
   rupture. The [early-source prompt](../research/early-source-story-craft.md#optional-late-emotional-question)
   is noncanonical and should be used only if it grows from the characters

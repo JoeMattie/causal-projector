@@ -242,8 +242,9 @@ monitored consequence part of the next decision. The fallback response closes
 another cycle while the independent carrier continues elsewhere.
 
 Evan aborts the remote procedure, leaves the original rig powered down at the
-test site, and returns to find Ruth dead, Tess alive and still angry, the
-neighborhood ruined, and the cat unscathed. He recognizes that finishing the
+test site, and returns to find Ruth dead, Tess alive and still frightened by
+her possible role in the carrier, the neighborhood ruined, and the cat
+unscathed. He recognizes that finishing the
 shutdown, investigating the garage, reconstructing the chain, or restarting
 the remote rig would repeat the same conversion of loss into work. He stays
 with Tess.
@@ -301,10 +302,15 @@ Before the first hardware-independent replication, Evan suspects that Tess's
 statistically rare survival might influence the anomaly or the projector
 lineage forming around it. He secretly continues running live work in her
 presence, compares her ordinary choices with active trials, and mines ferry,
-rescue, and medical records without her informed consent. He folds that
-analysis into the work leading to the proof-to-stop protocol and continues
-exposing her after he suspects her presence may matter. This is a hypothesis
-and a violation, not an accepted mechanism. The independently fabricated
+rescue, and medical records without her informed consent. His copies, model,
+calculations, and Tess-specific choice logs remain on a garage workstation and
+local storage separate from the apparatus controller. He sends no raw or
+derived Tess-specific material to Lena or the participating laboratories, and
+none enters the proof-to-stop protocol. He uses it only in his private
+interpretation and local garage runs, and continues exposing her after he
+suspects her presence may matter. The workstation and storage are not part of
+the active core later moved to the remote site. This is a hypothesis and a
+violation, not an accepted mechanism. The independently fabricated
 analogue later reproduces with neither Evan nor Tess present, ruling both of
 them out as necessary for the basic apparatus effect. It cannot show whether
 Tess's presence influenced the particular lineage before Evan began measuring
@@ -312,7 +318,10 @@ her.
 
 Tess's trust is damaged because Evan used the private contingency of her
 survival as experimental material and continued live work in her presence
-without telling her what he suspected. Their love survives the breach.
+without telling her what he suspected. She fears that her choices may have
+helped the garage anomaly become an independent carrier. His secrecy denied
+her the chance to withdraw while withdrawal might still have changed her part
+in that history. Their love survives the breach.
 
 The operation can preserve her substantially intact or remove her. It cannot
 produce an abundant family of nearby versions whose responses freely close the
@@ -551,12 +560,16 @@ their existence they glimpse the universe-that-will-be from the parent side.
 
 Evan and Tess do not set out to create that child. They believe their fully
 informed but mutually unobservable choices will end the operation and
-themselves. Each retains a real possibility of refusal. Evan acts without
-knowing Tess's answer and accepts that no further observation can settle it
-first. Tess accepts the feared possibility that unmatched choices could leave
-her as the sole remainder again. Their shared ending becomes genesis
-unintentionally. Exact controls, outcome states, and failure cases remain
-deferred.
+themselves. Tess identifies why an ending fully specified, observed, and
+controlled by Evan would leave the operation another Evan-shaped path to
+continue through. The attempt requires a second person whose choice he cannot
+predict or inspect before making his own. Evan determines how the powered-down
+apparatus can receive both choices. Each retains a real possibility of refusal.
+Evan acts without knowing Tess's answer and accepts that no further observation
+can settle it first. Tess accepts the feared possibility that unmatched choices
+could leave her as the sole remainder again. Their shared ending becomes
+genesis unintentionally. Exact controls, outcome states, and failure cases
+remain deferred.
 
 Much later, a person in our universe encounters the same invariant during a
 DMT-like state. The raw experience is ungrounded from ordinary place, creature,
